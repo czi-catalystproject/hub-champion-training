@@ -14,8 +14,9 @@ exercises: 0
 
 After completing this episode, learners will be able to...
 
-- produce an image using repo2docker
-- create/maintain/recommend an image environment to community members
+- explain value of reproducibility provided by images
+- describe how software images are integrated with their hub environment
+- evaluate whether an existing image meets users' software needs
 - manage images available on their hub instance
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
