@@ -60,6 +60,7 @@ contact: 'support@2i2c.org'
 # Order of episodes in your lesson
 episodes: 
 - introduction.md
+- hub_administration.md
 
 # Information for Learners
 learners: 
