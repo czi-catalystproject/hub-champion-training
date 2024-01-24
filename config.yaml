@@ -61,6 +61,7 @@ contact: 'support@2i2c.org'
 episodes: 
 - introduction.md
 - image_management.md
+- custom_images.md
 - hub_administration.md
 - troubleshooting.md
 
