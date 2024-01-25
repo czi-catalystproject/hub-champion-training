@@ -485,7 +485,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-image_management"><p>Content from <a href="image_management.html">Managing Software Images</a></p>
 <hr>
-<p>Last updated on 2024-01-24 |
+<p>Last updated on 2024-01-25 |
         
         <a href="https://github.com/czi-catalystproject/hub-champion-training/edit/main/episodes/image_management.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 0 minutes</p>
@@ -515,9 +515,50 @@ any links that you are not going to use.
 <li>describe how software images are integrated with their hub
 environment</li>
 <li>evaluate whether an existing image meets users’ software needs</li>
-<li>manage images available on their hub instance</li>
+<li>pull an image container to make it available on their hub
+instance</li>
 </ul>
 </div>
+</div>
+</div>
+</div>
+</div>
+<div id="specifying-a-custom-image-tag." class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="specifying-a-custom-image-tag." class="callout-inner">
+<h3 class="callout-title">Specifying a custom image tag.<a class="anchor" aria-label="anchor" href="#specifying-a-custom-image-tag."></a>
+</h3>
+<div class="callout-content">
+<p>Which of the following would you paste into the <em>Custom Image</em>
+field to add the latest version of the
+<code>handbook-authoring-image</code> image to your hub?</p>
+<ol style="list-style-type: decimal">
+<li>quay.io/2i2c/handbook-authoring-image:bbe4225a7940</li>
+<li>quay.io/2i2c/handbook-authoring-image</li>
+<li>docker pull quay.io/2i2c/handbook-authoring-image:ad18f6ea575d</li>
+<li>quay.io/2i2c/handbook-authoring-image:ad18f6ea575d</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<ol start="4" style="list-style-type: decimal">
+<li>quay.io/2i2c/handbook-authoring-image:ad18f6ea575d</li>
+</ol>
+<p>Notes on the other answers:</p>
+<ol style="list-style-type: decimal">
+<li>This is using an older version tag and not the latest version.</li>
+<li>This is missing the version tag.</li>
+<li>Need to remove the ‘docker pull’ part.</li>
+</ol>
 </div>
 </div>
 </div>
@@ -559,7 +600,7 @@ environment</li>
 </div>
 </div></section><section id="aio-hub_administration"><p>Content from <a href="hub_administration.html">Administer your hub user community</a></p>
 <hr>
-<p>Last updated on 2024-01-24 |
+<p>Last updated on 2024-01-25 |
         
         <a href="https://github.com/czi-catalystproject/hub-champion-training/edit/main/episodes/hub_administration.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 0 minutes</p>
@@ -590,6 +631,49 @@ environment</li>
 <li>How to stop and restart a server</li>
 </ul>
 </div>
+</div>
+</div>
+</div>
+</div>
+<p>Exercises</p>
+<div id="why-is-my-programme-running-slow" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="why-is-my-programme-running-slow" class="callout-inner">
+<h3 class="callout-title">Why is my programme running slow?<a class="anchor" aria-label="anchor" href="#why-is-my-programme-running-slow"></a>
+</h3>
+<div class="callout-content">
+<p>Suppose a user writes a program to analyze a dataset. On their laptop
+using testing data the program works and is reasonably fast. When the
+user tries to run this same program on a real dataset their JupyterHub
+environment is it frustratingly slow. Why is their interactive computing
+session being so slow?</p>
+<p>What is the solution to this exercise?</p>
+<ol style="list-style-type: lower-alpha">
+<li>It is caused by a poor internet connection between my home computer
+and the cloud.</li>
+<li>Too many other users are using the cloud server at the same
+time.</li>
+<li>I am trying to a computationally intensive task and the cloud
+computer has poor hardware.</li>
+<li>I am accessing a very large file that is not local to the cloud
+server being used.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<ol start="4" style="list-style-type: lower-alpha">
+<li>I am accessing a very large file that is not local to the cloud
+server being used.</li>
+</ol>
 </div>
 </div>
 </div>
@@ -678,8 +762,8 @@ management</li>
   "url": "https://czi-catalystproject.github.io/hub-champion-training/instructor/aio.html",
   "identifier": "https://czi-catalystproject.github.io/hub-champion-training/instructor/aio.html",
   "dateCreated": "2024-01-24",
-  "dateModified": "2024-01-24",
-  "datePublished": "2024-01-24"
+  "dateModified": "2024-01-25",
+  "datePublished": "2024-01-25"
 }
 
   </script><script>

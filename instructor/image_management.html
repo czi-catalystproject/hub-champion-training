@@ -251,7 +251,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Managing Software Images</h1>
-        <p>Last updated on 2024-01-24 |
+        <p>Last updated on 2024-01-25 |
         
         <a href="https://github.com/czi-catalystproject/hub-champion-training/edit/main/episodes/image_management.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
         
@@ -285,9 +285,44 @@
 <li>describe how software images are integrated with their hub
 environment</li>
 <li>evaluate whether an existing image meets users’ software needs</li>
-<li>manage images available on their hub instance</li>
+<li>pull an image container to make it available on their hub
+instance</li>
 </ul></div>
 </div>
+</div>
+</div>
+</div>
+<div id="specifying-a-custom-image-tag." class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="specifying-a-custom-image-tag." class="callout-inner">
+<h3 class="callout-title">Specifying a custom image tag.<a class="anchor" aria-label="anchor" href="#specifying-a-custom-image-tag."></a>
+</h3>
+<div class="callout-content">
+<p>Which of the following would you paste into the <em>Custom Image</em>
+field to add the latest version of the
+<code>handbook-authoring-image</code> image to your hub?</p>
+<ol style="list-style-type: decimal"><li>quay.io/2i2c/handbook-authoring-image:bbe4225a7940</li>
+<li>quay.io/2i2c/handbook-authoring-image</li>
+<li>docker pull quay.io/2i2c/handbook-authoring-image:ad18f6ea575d</li>
+<li>quay.io/2i2c/handbook-authoring-image:ad18f6ea575d</li>
+</ol></div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">Show me the solution</h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div class="accordion-body">
+<ol start="4" style="list-style-type: decimal"><li>quay.io/2i2c/handbook-authoring-image:ad18f6ea575d</li>
+</ol><p>Notes on the other answers:</p>
+<ol style="list-style-type: decimal"><li>This is using an older version tag and not the latest version.</li>
+<li>This is missing the version tag.</li>
+<li>Need to remove the ‘docker pull’ part.</li>
+</ol></div>
 </div>
 </div>
 </div>
@@ -356,8 +391,8 @@ any links that you are not going to use.
   "url": "https://czi-catalystproject.github.io/hub-champion-training/instructor/image_management.html",
   "identifier": "https://czi-catalystproject.github.io/hub-champion-training/instructor/image_management.html",
   "dateCreated": "2024-01-24",
-  "dateModified": "2024-01-24",
-  "datePublished": "2024-01-24"
+  "dateModified": "2024-01-25",
+  "datePublished": "2024-01-25"
 }
 
   </script><script>
