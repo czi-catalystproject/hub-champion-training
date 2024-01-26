@@ -2,4 +2,8 @@
 title: 'Instructor Notes'
 ---
 
-This is a placeholder file. Please add content here. 
+## Instructor setup
+
+- Ask to 2i2c engineering team to schedule re-deploy the Hub for training workshop.
+- Test that it works before the workshop.
+
