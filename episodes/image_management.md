@@ -14,7 +14,7 @@ exercises: 0
 
 After completing this episode, learners will be able to...
 
-- explain value of reproducibility provided by images
+- explain the value of reproducibility provided by images
 - describe how software images are integrated with their hub environment
 - evaluate whether an existing image meets users' software needs
 - pull an image container to make it available on their hub instance
@@ -48,4 +48,10 @@ Notes on the other answers:
 
 ::::::::::::::::::::::::::::::
 
+::::::::::: keypoints
 
+- Container images are useful for reproducing software environments across platforms.
+- Default images are available on the hub
+- Additional images can be pulled to the hub if required
+
+::::::::::::::::::::
