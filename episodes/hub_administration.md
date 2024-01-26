@@ -6,7 +6,9 @@ exercises: 0
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- TODO
+- What is the difference between JupyterHub and JupyterLab?
+- Who has control over acces to a Hub?
+- What's really happening in the cloud when I run a server?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -45,6 +47,13 @@ d. I am accessing a very large file that is not local to the cloud server being 
 
 ::::::::::::::::::::::::::::::
 
+::: keypoints
+
+- As a Hub Champion your main tool is JupyterHub.
+- You have control over who has access to your Hub 
+- A Hub in a cloud is just a computer
+
+:::
 
 
 
