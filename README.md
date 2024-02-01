@@ -41,7 +41,7 @@ After attending this training, Hub Champions will be able to:
    - share learning experiences from self-guided study
    - foster a sustainable support system for your community
 
-(:star: indicates this episode is delivered via a synchronous workshop)
+( :star: indicates this episode is delivered via a synchronous workshop)
 
 ## Prerequisites
 
