@@ -5,7 +5,7 @@ This lesson is aimed at Hub Champions and teaches the fundamentals of hub admini
 > [!WARNING]
 > This lesson is under active development and not ready for teaching yet.  
 
-> [!INFO]
+> [!NOTE]
 > TODO: Link to the Spanish repo.
 
 ## Lesson objectives
