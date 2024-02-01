@@ -29,14 +29,13 @@ After attending this training, Hub Champions will be able to:
    - add users to the hub with GitHub
    - configure server options (CPU, GPU, RAM)
    - stop and restart a server
-   - monitor usage and estimate cloud billing costs
 1. Applying software environments
    - explain the value of reproducibility with containerized software environments
-   - select a pre-configured image container for your hub
-   - pull a custom container to your hub
+   - pull a pre-configured Jupyter or RStudio image container for your hub
 1. Navigating the filesystem and transferring data to and from the hub
-   - locate where to store your datasets (home versus shared directory)
-   - transfer files to and from your hub
+   - recognise and locate your home directory
+   - distribute datasets to all hub users in a shared directory
+   - push and pull GitHub repos with `gh-scoped-creds`
 1. :star: Troubleshooting and providing user support
    - triage common problems and know where to look for help
    - share learning experiences from self-guided study
@@ -48,7 +47,7 @@ After attending this training, Hub Champions will be able to:
 
 Before joining the training, participants should be able to:
 
-- access their hub
+- access the 2i2c training hub
 - login to their GitHub account
 
 ## Authors
