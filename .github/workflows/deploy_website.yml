@@ -44,10 +44,17 @@ jobs:
     #     path: _build/.jupyter_cache
     #     key: jupyter-book-cache-${{ hashFiles('requirements.txt') }}
 
-    # Build the book
-    - name: Build the book
+    #
+
+    # Build the book in English
+    - name: Build the book in English
       run: |
         jupyter-book build .
+        
+    # Build the book in Spanish
+    - name: Build the book in Spanish
+      run: |
+        sphinx-build -b html -D language=es_AR . _build/html/es    
 
     # Upload the book's HTML as an artifact
     - name: Upload artifact
