@@ -44,21 +44,22 @@ We recommend editing the contents of this repo using the 2i2c Community Showcase
 > [!CAUTION]
 > We do not recommend entering your GitHub credentials (GitHub password, personal access tokens or otherwise) on any kind of shared infrastructure (e.g. private and public cloud, HPC, any remote machine) as this information will be at risk. We highly advise using `gh-scoped-creds` for authentication on our hubs. Read [this article](https://blog.jupyter.org/securely-pushing-to-github-from-a-jupyterhub-3ee42dfdc54f) for more information.
 
-### GitHub permissions for 2i2c-org and czi-catalystproject owners
-
+<details>
+<summary>GitHub permissions for 2i2c-org and czi-catalystproject owners</summary>
 These are extra instructions for GitHub [2i2c-org](https://github.com/2i2c-org) and [czi-catalystproject](https://github.com/czi-catalystproject) owners to grant permissions to collaborators when requested.
 
-#### Access to the Community Showcase Hub
+**Access to the Community Showcase Hub**
 
 Add the user to the `2i2c-org/Research-Delight-Team` for access.
 
-#### Add collaborator to [this project repo](https://github.com/czi-catalystproject/website)
+**Add collaborator to [this project repo](https://github.com/czi-catalystproject/website)**
 
 Go to the [GH repo](https://github.com/czi-catalystproject/website), click *Settings -> Access - Collaborators and teams* and add the relevant user or team. Assign the *Write* role in the first instance (this can be upgraded later if needed).
 
-#### `gh-scoped-creds` and GitHub App
+**Info about `gh-scoped-creds` and GitHub App**
 
 The GitHub App [2i2c Community Showcase Hub](https://showcase.2i2c.cloud/) is currently installed on `czi-catalystproject/website` and `czi-catalystproject/hub-champion-training` repos to enable `gh-scoped-creds`.
+</details>
 
 ## Authors
 
