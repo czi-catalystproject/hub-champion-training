@@ -45,7 +45,8 @@ We recommend editing the contents of this repo using the 2i2c Community Showcase
 > We do not recommend entering your GitHub credentials (GitHub password, personal access tokens or otherwise) on any kind of shared infrastructure (e.g. private and public cloud, HPC, any remote machine) as this information will be at risk. We highly advise using `gh-scoped-creds` for authentication on our hubs. Read [this article](https://blog.jupyter.org/securely-pushing-to-github-from-a-jupyterhub-3ee42dfdc54f) for more information.
 
 <details>
-<summary>GitHub permissions for 2i2c-org and czi-catalystproject owners</summary>
+<summary>NOTE: GitHub permissions for 2i2c-org and czi-catalystproject owners</summary>
+
 These are extra instructions for GitHub [2i2c-org](https://github.com/2i2c-org) and [czi-catalystproject](https://github.com/czi-catalystproject) owners to grant permissions to collaborators when requested.
 
 **Access to the Community Showcase Hub**
