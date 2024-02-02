@@ -121,6 +121,10 @@ The following are instructions for localising the Jupyter Book to Spanish, adapt
 > jovyan@jupyter-username:~$ jupyter-book build .
 > ```
 
+## Depolyment
+
+On push to main, the website will be deployed at [https://czi-catalystproject.github.io/hub-champion-training/](https://czi-catalystproject.github.io/hub-champion-training/) via the GitHub actions defined in `.github/workflows`.
+
 ## Authors
 
 - [Toby Hodges](https://github.com/tobyhodges)
