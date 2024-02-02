@@ -13,13 +13,13 @@ OVERVIEW
 :::{grid-item}
 Questions
 
-- Placeholder text
+- TODO
 :::
 
 :::{grid-item}
 Objectives
 
-- Placeholder text
+- TODO
 :::
 
 :::::
@@ -47,7 +47,7 @@ Objectives
 
 ## Introduction
 
-Placeholder text. 
+TODO 
 
 ```
 ::::{dropdown} Challenge Title
@@ -63,7 +63,7 @@ Solution content
 ::::
 ```
 
-::::{dropdown} Challenge Template
+::::{dropdown} Challenge Title
 :open:
 
 Challenge content
@@ -104,7 +104,6 @@ Solution content
 :::
 
 ### Figure
-
 
 ```
 :::{figure} ../media/logo/catalyst-icon-dark.png
@@ -154,7 +153,7 @@ The equation {eq}`mymath2` is also a quadratic equation.
 :::{card} 
 KEY POINTS
 ^^^
-- placeholder text
+- TODO
 :::
 
 ```
@@ -162,5 +161,5 @@ KEY POINTS
 :::{card} 
 KEY POINTS
 ^^^
-- placeholder text
+- TODO
 :::
