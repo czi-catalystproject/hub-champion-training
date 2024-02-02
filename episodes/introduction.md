@@ -83,15 +83,15 @@ Solution content
 ### Inline image
 
 ```
-![Catalyst icon](../media/logo/favicon.ico)
+![Catalyst icon](../media/logos/catalyst/favicon.ico)
 ```
 
-![Catalyst icon](../media/logo/favicon.ico)
+![Catalyst icon](../media/logos/catalyst/favicon.ico)
 
 ### Block-level image
 
 ```
-:::{image} ../media/logo/catalyst-logo-dark.png 
+:::{image} ../media/logos/catalyst/catalyst-logos/catalyst-dark.png 
 :alt: Block-level image
 :width: 200px
 :align: center
@@ -99,7 +99,7 @@ Solution content
 :::
 ```
 
-:::{image} ../media/logo/catalyst-logo-dark.png 
+:::{image} ../media/logos/catalyst/catalyst-logos/catalyst-dark.png 
 :alt: Block-level image
 :width: 200px
 :align: center
@@ -110,17 +110,17 @@ Solution content
 
 
 ```
-:::{figure} ../media/logo/catalyst-icon-dark.png
+:::{figure} ../media/logos/catalyst/catalyst-icon-dark.png
 :scale: 50 %
-:alt: Catalyst Project logo
+:alt: Catalyst Project logos/catalyst
 
 This is the caption of the figure (a simple paragraph).
 :::
 
 ```
-:::{figure} ../media/logo/catalyst-icon-dark.png
+:::{figure} ../media/logos/catalyst/catalyst-icon-dark.png
 :scale: 50 %
-:alt: Catalyst Project logo
+:alt: Catalyst Project logos/catalyst
 
 This is the caption of the figure (a simple paragraph).
 :::
