@@ -13,8 +13,9 @@ parts:
 - caption: Episodes
   chapters:
   - file: episodes/introduction
-  - file: episodes/hub_administration
-  - file: episodes/image_management
+  - file: episodes/administer_hub
+  - file: episodes/manage_images
+  - file: episodes/transfer_data
   - file: episodes/troubleshooting
 
 

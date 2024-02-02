@@ -1,3 +1,4 @@
+(episode-images)=
 # Managing Software Images
 
 teaching: 0

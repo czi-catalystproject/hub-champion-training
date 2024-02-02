@@ -1,6 +1,27 @@
 # JupyterHub Administration to Empower Research Communities
 
-This lesson is aimed at Hub Champions and teaches the fundamentals of hub administration and user support for 2i2c managed JupyterHubs in the cloud. Delivered over two synchronous workshops, two hours in length a week apart. The time in between is dedicated to self-guided study with asynchronous support (via email 2i2c support / online Slack? To be discussed).
+:::::{grid} 2
+:reverse:
+
+::::{grid-item}
+:columns: 4
+
+:::{image} media/logo/catalyst-logo-dark-bg-white.png
+:alt: Catalyst Project logo
+:width: 100%
+:::
+
+::::
+
+::::{grid-item}
+:columns: 8
+
+This lesson is aimed at Hub Champions in charge of 2i2c managed JupyterHubs in the cloud. Learn the fundamentals of adminstering your hub and providing user support to your research and education communities.  
+
+Training is delivered over two synchronous workshops, each two hours in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors.
+::::
+
+:::::
 
 :::{attention}
 This lesson is under active development and not ready for teaching yet.  
@@ -21,51 +42,15 @@ After attending this training, Hub Champions will be able to:
 - navigate the filesystem and transfer data to and from the hub
 - provide user support and troubleshoot common issues
 
-## Episode objectives
+## Episodes
 
-1. :star: Recognising the benefits your hub can provide for your user community
-   - identify use cases of your user community
-   - distinguish which hub features can support these use cases
-   - understand your role and capacity as a Hub Champion to administer and support your hub
-1. Administering your hub
-   - add users to the hub with GitHub
-   - configure server options (CPU, GPU, RAM)
-   - stop and restart a server
-1. Applying software environments
-   - explain the value of reproducibility with containerized software environments
-   - pull a pre-configured Jupyter or RStudio image container for your hub
-1. Navigating the filesystem and transferring data to and from the hub
-   - recognise and locate your home directory
-   - distribute datasets to all hub users in a shared directory
-   - push and pull GitHub repos with `gh-scoped-creds`
-1. :star: Troubleshooting and providing user support
-   - triage common problems and know where to look for help
-   - share learning experiences from self-guided study
-   - foster a sustainable support system for your community
+1. ⭐ {ref}`episode-intro`
+1. {ref}`episode-admin`
+1. {ref}`episode-images`
+1. {ref}`episode-data`
+1. ⭐ {ref}`episode-troubleshoot`
 
-( :star: indicates this episode is delivered via a synchronous workshop)
-
-## Prerequisites
-
-Before joining the training, participants should be able to:
-
-- access the 2i2c training hub
-- login to their GitHub account
-
-## Authors
-
-- [Toby Hodges](https://github.com/tobyhodges)
-- [Sabrina Lopez](https://github.com/SLLDeC)
-- [James Munroe](https://github.com/jmunroe)
-- [Jenny Wong](https://github.com/jnywong)
-
-## Contributing
-
-See [CONTRIBUTING.md](./CONTRIBUTING.md).
-
-## License
-
-See [LICENSE.md](./LICENSE.md)
+( ⭐ indicates this episode is delivered via a synchronous workshop)
 
 ## Acknowledgements and Funding
 

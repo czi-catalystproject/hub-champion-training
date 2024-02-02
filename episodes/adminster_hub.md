@@ -1,3 +1,4 @@
+(episode-admin)=
 # Administering your hub
 
 teaching: 0

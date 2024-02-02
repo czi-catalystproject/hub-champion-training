@@ -1,3 +1,4 @@
+(episode-troubleshoot)=
 # Troubleshooting and providing user support
 
 teaching: 0
