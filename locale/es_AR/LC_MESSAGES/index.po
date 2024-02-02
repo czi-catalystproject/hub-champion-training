@@ -1,0 +1,130 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-02 14:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es_AR\n"
+"Language-Team: es_AR <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.0\n"
+
+msgid "About"
+msgstr ""
+
+msgid "Episodes"
+msgstr ""
+
+msgid "JupyterHub Administration to Empower Research Communities"
+msgstr "Gestión de JupyterHub para empoderar a las comunidades de investigación"
+
+msgid "Catalyst Project logo"
+msgstr ""
+
+msgid ""
+"This lesson is aimed at Hub Champions in charge of 2i2c managed "
+"JupyterHubs in the cloud. Learn the fundamentals of adminstering your hub"
+" and providing user support to your research and education communities."
+msgstr ""
+
+msgid ""
+"Training is delivered over two synchronous workshops, each two hours in "
+"length a week apart. The week in between is dedicated to self-guided "
+"study with asynchronous support provided by the instructors."
+msgstr ""
+
+msgid "This lesson is under active development and not ready for teaching yet."
+msgstr ""
+
+msgid "TODO: Link to the Spanish repo."
+msgstr ""
+
+msgid "Lesson objectives"
+msgstr ""
+
+msgid "After attending this training, Hub Champions will be able to:"
+msgstr ""
+
+msgid "explain how interactive cloud computing can empower your user community"
+msgstr ""
+
+msgid "control user authentication and access to your hub"
+msgstr ""
+
+msgid "monitor usage and cloud billing costs"
+msgstr ""
+
+msgid "apply software environments through containerization"
+msgstr ""
+
+msgid "navigate the filesystem and transfer data to and from the hub"
+msgstr ""
+
+msgid "provide user support and troubleshoot common issues"
+msgstr ""
+
+msgid "⭐ {ref}`episode-intro`"
+msgstr ""
+
+msgid "{ref}`episode-admin`"
+msgstr ""
+
+msgid "{ref}`episode-images`"
+msgstr ""
+
+msgid "{ref}`episode-data`"
+msgstr ""
+
+msgid "⭐ {ref}`episode-troubleshoot`"
+msgstr ""
+
+msgid "( ⭐ indicates this episode is delivered via a synchronous workshop)"
+msgstr ""
+
+msgid "Acknowledgements and Funding"
+msgstr ""
+
+msgid ""
+"We would like to acknowledge Chan Zuckerberg Initiative funding for the "
+"\"A Collaborative Interactive Computing Service Model for Global "
+"Communities\" project and our partner organisations:"
+msgstr ""
+
+msgid "[2i2c](https://2i2c.org/)"
+msgstr ""
+
+msgid "[The Carpentries](https://carpentries.org/about/)"
+msgstr ""
+
+msgid ""
+"[Center for Scientific Collaboration and Community "
+"Engagement](https://www.cscce.org/)"
+msgstr ""
+
+msgid "[Invest in Open Infrastructure](https://investinopen.org/)"
+msgstr ""
+
+msgid "[MetaDocencia](https://www.metadocencia.org/)"
+msgstr ""
+
+msgid "[Open Life Science](https://openlifesci.org/)"
+msgstr ""
+
+msgid "Contacting us"
+msgstr ""
+
+msgid ""
+"If you would like to get in touch with us, then please email "
+"[support@2i2c.org](mailto:support@2i2c.org)."
+msgstr ""
+

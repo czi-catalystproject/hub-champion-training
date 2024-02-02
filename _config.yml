@@ -1,0 +1,70 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: Hub Champion Training
+author: The Catalyst Project Team
+email: catalyst-project-core-team@googlegroups.com
+logo: media/logos/hub-champion-training/text_es.svg
+copyright: '2024'
+description: >-
+   Lessons for JupyterHub Administration to Empower Research Communities.
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: force
+
+# Define the name of the latex output file for PDF builds
+# latex:
+#   latex_documents:
+#     targetname: book.tex
+
+# Add a bibtex file so that we can create citations
+# bibtex_bibfiles:
+#   - references.bib
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/czi-catalystproject/hub-champion-training  # Online location of your book
+#   path_to_book: .  # Optional path to your book, relative to the repository root
+  branch: main  # Which branch of the repository should be used when creating links (optional)
+
+# Add GitHub buttons to your book
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  use_issues_button: true
+  use_repository_button: true
+  home_page_in_navbar: false
+  favicon: images/logos/2i2c/favicon.ico
+
+parse:
+  myst_enable_extensions:  # default extensions to enable in the myst parser. See https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html
+    - amsmath
+    - colon_fence
+    - deflist
+    - dollarmath
+    - html_admonition
+    - html_image
+    - linkify
+    - replacements
+    - smartquotes
+    - substitution
+    
+sphinx:
+  extra_extensions:
+   - sphinx_design
+  config:
+    language: en
+    html_last_updated_fmt: '%b %d, %Y'
+    html_show_copyright: true
+    html_css_files: ["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"]    # for FontAwesome 6.1 icons (the defaults are version 5)
+        # see https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html
+    html_theme_options:
+      toc_title: Table of contents.
+    # i18n
+    nb_render_priority:
+      gettext: {}
+    locale_dirs: ['locale/']
+    gettext_compact: false
+    gettext_additional_targets: ['literal-block']
+    gettext_location: false    

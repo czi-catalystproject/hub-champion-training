@@ -1,6 +1,5 @@
----
-title: "Licenses"
----
+# Licenses
+
 
 ## Instructional Material
 

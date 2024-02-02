@@ -1,6 +1,4 @@
----
-title: 'Instructor Notes'
----
+# Instructor Notes
 
 ## Instructor setup
 
