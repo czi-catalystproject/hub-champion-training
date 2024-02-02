@@ -1,6 +1,12 @@
 # JupyterHub Administration to Empower Research Communities
 
-Delivered over two synchronous workshops, each two hours in length a week apart. The time in between is dedicated to self-guided study with asynchronous support provided by the instructors (via email 2i2c support / online Slack? To be discussed).
+This repo contains the Jupyter Book source files for the Hub Champion Training.
+
+## About
+
+This lesson is aimed at Hub Champions in charge of 2i2c managed JupyterHubs in the cloud. Learn the fundamentals of adminstering your hub and providing user support to your research and education communities.  
+
+Training is delivered over two synchronous workshops, each two hours in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors.
 
 > [!WARNING]
 > This lesson is under active development and not ready for teaching yet.  
@@ -8,47 +14,51 @@ Delivered over two synchronous workshops, each two hours in length a week apart.
 > [!NOTE]
 > TODO: Link to the Spanish repo.
 
-## Lesson objectives
+## Getting Started
 
-After attending this training, Hub Champions will be able to:
+We recommend editing the contents of this repo using the 2i2c Community Showcase Hub.
 
-- explain how interactive cloud computing can empower your user community
-- control user authentication and access to your hub
-- monitor usage and cloud billing costs
-- apply software environments through containerization
-- navigate the filesystem and transfer data to and from the hub
-- provide user support and troubleshoot common issues
+> [!NOTE]
+> If you require collaborator access to this repo, please [Get in Touch](#get-in-touch).
 
-## Episode objectives
+1. Access the 2i2c Community Showcase Hub at [https://showcase.2i2c.cloud/](https://showcase.2i2c.cloud/). If you require authorisation to access this hub, please [Get in Touch](#get-in-touch).
 
-1. :star: Recognising the benefits your hub can provide for your user community
-   - identify use cases of your user community
-   - distinguish which hub features can support these use cases
-   - understand your role and capacity as a Hub Champion to administer and support your hub
-1. Administering your hub
-   - add users to the hub with GitHub
-   - configure server options (CPU, GPU, RAM)
-   - stop and restart a server
-1. Applying software environments
-   - explain the value of reproducibility with containerized software environments
-   - pull a pre-configured Jupyter or RStudio image container for your hub
-1. Navigating the filesystem and transferring data to and from the hub
-   - recognise and locate your home directory
-   - distribute datasets to all hub users in a shared directory
-   - push and pull GitHub repos with `gh-scoped-creds`
-1. :star: Troubleshooting and providing user support
-   - triage common problems and know where to look for help
-   - share learning experiences from self-guided study
-   - foster a sustainable support system for your community
+1. Select the *Shared Small: 1-4 CPU, 8-32 GB* server option and in the *Image* dropdown box select *Handbook Authoring*.
 
-( :star: indicates this episode is delivered via a synchronous workshop)
+1. Once the JupyterLab interface has loaded, set up GitHub authentication with `gh-scoped-creds`. This allows you to pull and push to GitHub repos. To enable this, open a terminal, run the command
 
-## Prerequisites
+   ```shell
+   jovyan@jupyter-user:~$ gh-scoped-creds
+   ```
+   
+   and follow the prompts to enter your code at [https://github.com/login/device](https://github.com/login/device)
 
-Before joining the training, participants should be able to:
+1. Git clone [this project repo](https://github.com/czi-catalystproject/website) using the Terminal with the command
 
-- access the 2i2c training hub
-- login to their GitHub account
+   ```shell
+   jovyan@jupyter-user:~$ git clone https://github.com/czi-catalystproject/website.git
+   ```
+   
+1. Follow the [how-to-guide](https://2i2c.org/community-showcase/community/content/authoring.html) for authoring and previewing content using Jupyter Book.
+
+> [!CAUTION]
+> We do not recommend entering your GitHub credentials (GitHub password, personal access tokens or otherwise) on any kind of shared infrastructure (e.g. private and public cloud, HPC, any remote machine) as this information will be at risk. We highly advise using `gh-scoped-creds` for authentication on our hubs. Read [this article](https://blog.jupyter.org/securely-pushing-to-github-from-a-jupyterhub-3ee42dfdc54f) for more information.
+
+### GitHub permissions for 2i2c-org and czi-catalystproject owners
+
+These are extra instructions for GitHub [2i2c-org](https://github.com/2i2c-org) and [czi-catalystproject](https://github.com/czi-catalystproject) owners to grant permissions to collaborators when requested.
+
+#### Access to the Community Showcase Hub
+
+Add the user to the `2i2c-org/Research-Delight-Team` for access.
+
+#### Add collaborator to [this project repo](https://github.com/czi-catalystproject/website)
+
+Go to the [GH repo](https://github.com/czi-catalystproject/website), click *Settings -> Access - Collaborators and teams* and add the relevant user or team. Assign the *Write* role in the first instance (this can be upgraded later if needed).
+
+#### `gh-scoped-creds` and GitHub App
+
+The GitHub App [2i2c Community Showcase Hub](https://showcase.2i2c.cloud/) is currently installed on `czi-catalystproject/website` and `czi-catalystproject/hub-champion-training` repos to enable `gh-scoped-creds`.
 
 ## Authors
 
@@ -78,4 +88,4 @@ We would like to acknowledge Chan Zuckerberg Initiative funding for the "A Colla
 
 ## Contacting us
 
-If you would like to get in touch with us, then please email [support@2i2c.org](mailto:support@2i2c.org).
+If you would like to get in touch with us, then please open an [issue](https://github.com/czi-catalystproject/hub-champion-training/issues) or email [support@2i2c.org](mailto:support@2i2c.org).
