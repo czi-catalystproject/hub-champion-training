@@ -1,0 +1,20 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+- caption: About
+  chapters:
+  - file: learners/setup
+  - file: profiles/learner-profiles
+  - file: instructors/instructor-notes
+  - file: learners/reference
+- caption: Episodes
+  chapters:
+  - file: episodes/introduction
+  - file: episodes/hub_administration
+  - file: episodes/image_management
+  - file: episodes/troubleshooting
+
+

@@ -2,11 +2,13 @@
 
 This lesson is aimed at Hub Champions and teaches the fundamentals of hub administration and user support for 2i2c managed JupyterHubs in the cloud. Delivered over two synchronous workshops, two hours in length a week apart. The time in between is dedicated to self-guided study with asynchronous support (via email 2i2c support / online Slack? To be discussed).
 
-> [!WARNING]
-> This lesson is under active development and not ready for teaching yet.  
+:::{attention}
+This lesson is under active development and not ready for teaching yet.  
+:::
 
-> [!NOTE]
-> TODO: Link to the Spanish repo.
+:::{seealso}
+TODO: Link to the Spanish repo.
+:::
 
 ## Lesson objectives
 

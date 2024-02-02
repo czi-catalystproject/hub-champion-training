@@ -1,29 +1,35 @@
----
-title: "Managing Software Images"
+# Managing Software Images
+
 teaching: 0
 exercises: 0
----
 
-:::::::::::::::::::::::::::::::::::::: questions 
+:::::{card} 
+OVERVIEW
+^^^
 
-- TODO
+::::{grid}
+:gutter: 2
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+:::{grid-item}
+Questions
 
-::::::::::::::::::::::::::::::::::::: objectives
+- TODO 
 
-After completing this episode, learners will be able to...
+:::
 
-- explain the value of reproducibility provided by images
-- describe how software images are integrated with their hub environment
-- evaluate whether an existing image meets users' software needs
-- pull an image container to make it available on their hub instance
+:::{grid-item}
+Objectives
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+- explain the value of reproducibility with containerized software environments
+- pull a pre-configured Jupyter or RStudio image container for your hub
+:::
 
-:::::::::::::::::::: challenge
+:::::
 
-### Specifying a custom image tag.
+## Exercises
+
+::::{dropdown} Specifying a custom image tag.
+:open:
 
 Which of the following would you paste into the _Custom Image_ field to add the latest version of the `handbook-authoring-image` image to your hub?
 
@@ -32,9 +38,7 @@ Which of the following would you paste into the _Custom Image_ field to add the 
 1. docker pull quay.io/2i2c/handbook-authoring-image:ad18f6ea575d
 1. quay.io/2i2c/handbook-authoring-image:ad18f6ea575d
 
-
-::::::::::: solution
-
+:::{dropdown} Solution
 4. quay.io/2i2c/handbook-authoring-image:ad18f6ea575d
 
 Notes on the other answers:
@@ -42,16 +46,14 @@ Notes on the other answers:
 1. This is using an older version tag and not the latest version.
 2. This is missing the version tag.
 3. Need to remove the 'docker pull' part.
+:::
 
+::::
 
-::::::::::::::::::::
-
-::::::::::::::::::::::::::::::
-
-::::::::::: keypoints
-
+:::{card} 
+KEY POINTS
+^^^
 - Container images are useful for reproducing software environments across platforms.
 - Default images are available on the hub
 - Additional images can be pulled to the hub if required
-
-::::::::::::::::::::
+:::

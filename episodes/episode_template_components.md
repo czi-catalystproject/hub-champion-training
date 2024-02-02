@@ -14,14 +14,12 @@ OVERVIEW
 Questions
 
 - Placeholder text
-
 :::
 
 :::{grid-item}
 Objectives
 
 - Placeholder text
-
 :::
 
 :::::
@@ -65,7 +63,7 @@ Solution content
 ::::
 ```
 
-::::{dropdown} Challenge Title
+::::{dropdown} Challenge Template
 :open:
 
 Challenge content
