@@ -62,6 +62,65 @@ Go to the [GH repo](https://github.com/czi-catalystproject/website), click *Sett
 The GitHub App [2i2c Community Showcase Hub](https://showcase.2i2c.cloud/) is currently installed on `czi-catalystproject/website` and `czi-catalystproject/hub-champion-training` repos to enable `gh-scoped-creds`.
 </details>
 
+## Localisation to Spanish
+
+The following are instructions for localising the Jupyter Book to Spanish, adapted from the [Sphinx documentation](https://www.sphinx-doc.org/en/master/usage/advanced/intl.html).
+
+1. Open a terminal and navigate to the `hub-champion-training` folder
+
+   ```shell
+   jovyan@jupyter-username:~$ cd hub-champion-training/
+   ```
+   
+1. If a `config.py` file does not exist in this folder, **or** if you have made changes to `_config.yml`, then automatically generate this from the `_config.yml` with
+
+   ```shell 
+   jupyter-book config sphinx .
+   ```
+   
+   (See [Jupyter Book docs](https://jupyterbook.org/en/stable/explain/sphinx.html#jupyter-book-is-a-distribution-of-sphinx))
+
+1. Generate `gettext` files
+
+   ```shell
+   jovyan@jupyter-username:~$ jupyter-book build --builder custom --custom-builder gettext .
+   ```
+
+1. Create `.po` files in the `locale` folder in the `es_AR` target language (ensure that `locale` matches the `locale_dirs` setting in `_config.yml`)
+
+   ```shell
+   jovyan@jupyter-username:~$ sphinx-intl update -p _build/gettext -d locale -l es_AR
+   ```
+   
+1. Translate the `.po` files located inside the `locale/es_AR/LC_MESSAGES` folder as required, e.g. with human translation services, machine translation with [Crowdin](https://crowdin.com/).
+
+1. Build the HTML files in English (the source language)
+
+   ```shell
+   jovyan@jupyter-username:~$ jupyter-book build .
+   ```
+   
+1. Build the HTML files in Spanish (the target language)
+
+   ```shell
+   jovyan@jupyter-username:~$ jupyter-book config sphinx .
+   jovyan@jupyter-username:~$ sphinx-build -b html -D language=es_AR . _build/html/es
+   ```
+1. Follow this [how-to guide](https://2i2c.org/community-showcase/community/content/authoring.html#build-and-preview-your-jupyter-book) for previewing your local Jupyter Book. The Spanish version of the website can be found at the following URL
+
+   ```shell 
+   https://<your-hub-url>/user/<your-username>/proxy/8000/es/index.html
+   ```
+
+> [!TIP]
+> If you run into the following error
+> `sphinx.errors.SphinxError: This environment is incompatible with the selected builder, please choose another doctree directory.`
+> try cleaning the build outputs first before building again
+> ```shell
+> jovyan@jupyter-username:~$ jupyter-book clean .
+> jovyan@jupyter-username:~$ jupyter-book build .
+> ```
+
 ## Authors
 
 - [Toby Hodges](https://github.com/tobyhodges)
