@@ -12,7 +12,7 @@ Training is delivered over two synchronous workshops, each two hours in length a
 > This lesson is under active development and not ready for teaching yet.  
 
 > [!NOTE]
-> TODO: Link to the Spanish repo.
+> [Versión española](https://czi-catalystproject.github.io/hub-champion-training/es/)
 
 ## Getting Started
 
