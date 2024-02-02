@@ -4,7 +4,7 @@
 title: Hub Champion Training
 author: The Catalyst Project Team
 email: catalyst-project-core-team@googlegroups.com
-logo: images/logo/catalyst-text-dark-rectangle.png
+logo: media/logos/hub-champion-training/text_es.svg
 copyright: '2024'
 description: >-
    Lessons for JupyterHub Administration to Empower Research Communities.
@@ -35,7 +35,7 @@ html:
   use_issues_button: true
   use_repository_button: true
   home_page_in_navbar: false
-  favicon: images/logo/favicon.ico
+  favicon: images/logos/2i2c/favicon.ico
 
 parse:
   myst_enable_extensions:  # default extensions to enable in the myst parser. See https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html

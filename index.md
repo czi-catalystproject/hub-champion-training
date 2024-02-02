@@ -6,7 +6,7 @@
 ::::{grid-item}
 :columns: 4
 
-:::{image} media/logo/catalyst-logo-dark-bg-white.png
+:::{image} media/logos/hub-champion-training/logo.svg
 :alt: Catalyst Project logo
 :width: 100%
 :::
@@ -16,7 +16,7 @@
 ::::{grid-item}
 :columns: 8
 
-This lesson is aimed at Hub Champions in charge of 2i2c managed JupyterHubs in the cloud. Learn the fundamentals of adminstering your hub and providing user support to your research and education communities.  
+This lesson is aimed at Hub Champions in charge of 2i2c managed JupyterHubs in the cloud. Learn the fundamentals of administering your hub and providing user support to your research and education communities.  
 
 Training is delivered over two synchronous workshops, each two hours in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors.
 ::::
@@ -24,6 +24,7 @@ Training is delivered over two synchronous workshops, each two hours in length a
 :::::
 
 :::{attention}
+{bdg-danger}`pre-alpha`
 This lesson is under active development and not ready for teaching yet.  
 :::
 
@@ -54,7 +55,7 @@ After attending this training, Hub Champions will be able to:
 
 ## Acknowledgements and Funding
 
-We would like to acknowledge Chan Zuckerberg Initiative funding for the "A Collaborative Interactive Computing Service Model for Global Communities" project and our partner organisations:
+We would like to acknowledge Chan Zuckerberg Initiative funding for The Catalyst Project "A Collaborative Interactive Computing Service Model for Global Communities" and our partner organisations:
 
 - [2i2c](https://2i2c.org/)
 - [The Carpentries](https://carpentries.org/about/)

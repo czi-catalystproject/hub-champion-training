@@ -80,15 +80,15 @@ Solution content
 ### Inline image
 
 ```
-![Catalyst icon](../media/logo/favicon.ico)
+![Catalyst icon](../media/logos/catalyst/favicon.ico)
 ```
 
-![Catalyst icon](../media/logo/favicon.ico)
+![Catalyst icon](../media/logos/catalyst/favicon.ico)
 
 ### Block-level image
 
 ```
-:::{image} ../media/logo/catalyst-logo-dark.png 
+:::{image} ../media/logos/catalyst/catalyst-dark.png 
 :alt: Block-level image
 :width: 200px
 :align: center
@@ -96,7 +96,7 @@ Solution content
 :::
 ```
 
-:::{image} ../media/logo/catalyst-logo-dark.png 
+:::{image} ../media/logos/catalyst/catalyst-dark.png 
 :alt: Block-level image
 :width: 200px
 :align: center
@@ -106,17 +106,17 @@ Solution content
 ### Figure
 
 ```
-:::{figure} ../media/logo/catalyst-icon-dark.png
+:::{figure} ../media/logos/catalyst/catalyst-icon-dark.png
 :scale: 50 %
-:alt: Catalyst Project logo
+:alt: Catalyst Project logos/catalyst
 
 This is the caption of the figure (a simple paragraph).
 :::
 
 ```
-:::{figure} ../media/logo/catalyst-icon-dark.png
+:::{figure} ../media/logos/catalyst/catalyst-icon-dark.png
 :scale: 50 %
-:alt: Catalyst Project logo
+:alt: Catalyst Project logos/catalyst
 
 This is the caption of the figure (a simple paragraph).
 :::
@@ -137,15 +137,15 @@ $\alpha = \dfrac{1}{(1 - \beta)^2}$
 $$
 (a + b)^2  &=  (a + b)(a + b) \\
            &=  a^2 + 2ab + b^2
-$$ (mymath2)
+$$ (mymath1)
 
-The equation {eq}`mymath2` is also a quadratic equation.
+The equation {eq}`mymath1` is also a quadratic equation.
 ```
 
 $$
 (a + b)^2  &=  (a + b)(a + b) \\
            &=  a^2 + 2ab + b^2
-$$ (mymath2)
+$$ (mymath1)
 
 The equation {eq}`mymath2` is also a quadratic equation.
 
