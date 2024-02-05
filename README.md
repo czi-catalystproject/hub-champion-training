@@ -51,7 +51,7 @@ These are extra instructions for GitHub [2i2c-org](https://github.com/2i2c-org) 
 
 **Access to the Community Showcase Hub**
 
-Add the user to the `2i2c-org/Research-Delight-Team` for access.
+Add the Hub Champion to the `2i2c-community-showcase/access-2i2c-showcase` team with maintainer rights, and community/test users as a general member of `2i2c-community-showcase`. This is so that Hub Admins can then add community users/test users to the `access-2i2c-showcase` team using their maintainer rights to *practise* granting access to the Showcase Hub as part of their hub champion training.
 
 **Add collaborator to [this project repo](https://github.com/czi-catalystproject/website)**
 
@@ -121,7 +121,7 @@ The following are instructions for localising the Jupyter Book to Spanish, adapt
 > jovyan@jupyter-username:~$ jupyter-book build .
 > ```
 
-## Depolyment
+## Deployment
 
 On push to main, the website will be deployed at [https://czi-catalystproject.github.io/hub-champion-training/](https://czi-catalystproject.github.io/hub-champion-training/) via the GitHub actions defined in `.github/workflows`.
 
