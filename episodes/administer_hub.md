@@ -23,8 +23,8 @@ Questions
 :::{grid-item}
 Objectives
 
-- control user access to your hub via GitHub Organisations and Teams
-- select the appropriate server resources for your computational work (CPU, GPU, RAM)
+- control user access to their hub via GitHub Organisations and Teams
+- select the appropriate server resources for their computational work (CPU, RAM)
 - stop and restart a server
 
 :::
