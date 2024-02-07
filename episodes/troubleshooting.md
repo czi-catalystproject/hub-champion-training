@@ -23,8 +23,8 @@ Questions
 Objectives
 
 - triage common problems and know where to look for help
-- share learning experiences from self-guided study
-- foster a sustainable support system for your community
+- share learning experiences from their self-guided study
+- plan a sustainable support strategy for their community
 
 :::
 
