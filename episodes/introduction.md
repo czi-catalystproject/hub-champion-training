@@ -21,9 +21,9 @@ Questions
 :::{grid-item}
 Objectives
 
-- identify the benefits a hub for interactive cloud computing provides
-- determine use cases for interactive cloud computing in your user community
-- understand your role and capacity as a Hub Champion to administer and support your hub
+- identify the benefits provided by a hub for interactive cloud computing
+- recognise use cases for interactive cloud computing in their user community
+- describe their role and capacity as a Hub Champion to administer and support their hub
 :::
 
 :::::
