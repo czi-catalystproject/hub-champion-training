@@ -20,7 +20,7 @@ Questions
 :::{grid-item}
 Objectives
 
-- recognise and locate your home directory
+- recognise and locate your home directory in JupyterLab/RStudio and in the Terminal
 - distribute datasets to all hub users in a shared directory
 - push and pull GitHub repos with `gh-scoped-creds`
 :::

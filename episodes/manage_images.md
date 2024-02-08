@@ -22,7 +22,8 @@ Questions
 Objectives
 
 - explain the value of reproducibility with containerized software environments
-- pull a pre-configured Jupyter or RStudio image container for your hub
+- select pre-configured JupyterLab or RStudio image containers for their hub
+- pull a custom image container for their hub
 :::
 
 :::::
