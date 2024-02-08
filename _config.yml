@@ -8,6 +8,10 @@ logo: media/logos/hub-champion-training/text.svg
 copyright: '2024'
 description: >-
    Lessons for JupyterHub Administration to Empower Research Communities.
+# Patterns to skip when building the book. Can be glob-style (e.g. "*skip.ipynb")
+exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
+# Auto-exclude files not in the toc
+only_build_toc_files: true
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -35,7 +39,7 @@ html:
   use_issues_button: true
   use_repository_button: true
   home_page_in_navbar: false
-  favicon: images/logos/2i2c/favicon.ico
+  favicon: media/logos/catalyst/favicon.ico
 
 parse:
   myst_enable_extensions:  # default extensions to enable in the myst parser. See https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html
