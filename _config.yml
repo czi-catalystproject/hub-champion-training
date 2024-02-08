@@ -53,6 +53,7 @@ parse:
     - replacements
     - smartquotes
     - substitution
+    - tasklist
     
 sphinx:
   extra_extensions:
