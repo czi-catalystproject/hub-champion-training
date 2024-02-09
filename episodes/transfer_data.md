@@ -58,13 +58,28 @@ Select all that apply:
 
 ::::
 
-::::{dropdown} Challenge Title
+:::{dropdown} Data requirements
 :open:
 
-Challenge content
+Think about the data that you or your community require for your/their work.
+
+- What type of data is it? E.g. tabular data (.csv, .xls), images (.png, .jpg, .bmp), other scientific data formats (.h5, .nc, .fastq)
+- How large is the dataset?
+- Where is the data stored?
+- Is the same dataset used by a group of collaborators?
+
+Write up your thoughts in our shared collaborative document.
+
+:::
+
+::::{dropdown} Push GitHub code
+:open:
+
+Text.
 
 :::{dropdown} Solution
-Solution content
+
+Text.
 
 :::
 
