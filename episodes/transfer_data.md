@@ -75,11 +75,25 @@ Write up your thoughts in our shared collaborative document.
 ::::{dropdown} Push GitHub code
 :open:
 
-Text.
+You use the Git JupyterLab extension to push code to a remote repository on GitHub and the following box opens:
+
+:::{image} ../media/episodes/transfer_data/gh-credentials.png
+:alt: Information box asking for GitHub credentials such as username and Personal Access Token.
+:width: 80%
+:align: center
+
+:::  
+
+<br>
+
+What do you do?
+
+1. Enter your GitHub username and Personal Access Token as requested, then click *Save my login temporarily*
+1. Click *Cancel*, open a Terminal, enter the command `gh-scoped-creds` and follow the prompt
 
 :::{dropdown} Solution
 
-Text.
+The correct answer is 2.  
 
 :::
 
