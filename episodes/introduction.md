@@ -58,6 +58,10 @@ d. True – 2i2c engineers maintain service availability, uptime and operational
 
 ::::
 
+:::{dropdown} What are the needs of your user community?
+:open:
+
+In pairs, discuss and share the following points:
 - What domain of expertise does your community have?
 - How large is your community? Do they work alone or do they need to collaborate together?
 - Does your community work with large datasets?
