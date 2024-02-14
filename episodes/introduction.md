@@ -22,7 +22,7 @@ Questions
 Objectives
 
 - identify the benefits provided by a hub for interactive cloud computing
-- recognise use cases for interactive cloud computing in their user community
+- recognise use cases for interactive cloud computing in a Hub Champion's user community
 - describe their role and capacity as a Hub Champion to administer and support their hub
 :::
 
@@ -30,13 +30,44 @@ Objectives
 
 ## Introduction
 
-Placeholder text.
+This episode introduces the concept of a hub for interactive cloud computing and how a hub in the cloud can benefit the user communities a hub champion supports. 
+
+### JupyterHubs in the Cloud
+
+In this lesson, our definition of the word *hub* refers to JupyterHubs that are hosted on cloud infrastructure and managed by [2i2c](https://2i2c.org/).
 
 :::{image} ../media/episodes/introduction/hub-overview.png
 :width: 100%
-:alt: Diagram showing an overview of a 2i2c Hub, including authentication, online content, custom environments, the community hub, cloud infrastructure, support and services.
+:alt: Diagram showing an overview of a 2i2c hub, including authentication, online content, custom environments, the community hub, cloud infrastructure, support and services.
 
 :::
+
+### Community Hub
+
+A hub provides an access point to interactive computing on cloud infrastructure for a user community. Access to the hub is via a URL of the following form
+
+```shell
+<hub-name>.<community-name>.2i2c.cloud
+```
+
+and the customisable landing page contains a *Log in to continue* button (see example screenshot)
+
+:::{image} ../media/episodes/introduction/community-hub.png
+:width: 100%
+:alt: Screenshot of a hub landing page with a 'Log in to continue' button.
+
+:::
+
+### Authentication
+
+Access to the hub is controlled by Hub Champions and granted by using GitHub to add permitted individual accounts to a GitHub team. A permitted user enters their GitHub credentials to log into the hub (see example screenshot)
+
+:::{image} ../media/episodes/introduction/authentication.png
+:width: 100%
+:alt: Screenshot of a hub login page using GitHub for authentication.
+
+:::
+
 
 ## Exercises
 
