@@ -50,7 +50,7 @@ Fill in the blanks with the following words: *organization, team, maintainers, o
 ::::{dropdown} Optimise server resources for your work
 :open:
 
-In each scenario, select the most suitable option that makes best use out of the following server resources: *Shared Small: 1–4 CPU, 8–32 GB, Small: 4 CPU, 32 GB, Medium: 16 CPU, 128 GB, Large: 64 CPU, 512 GB*.
+In each scenario, select the option that makes best use out of the following server resources: *Shared Small: 1–4 CPU, 8–32 GB RAM, Small: 4 CPU, 32 GB RAM, Medium: 16 CPU, 128 GB RAM, Large: 64 CPU, 512 GB RAM*.
 
 a. Run a software pipeline that has a single-thread task requiring 2GB of RAM and 60 tasks in total.
 
@@ -76,7 +76,7 @@ d. *Large: 64 CPU, 512 GB* – the total dataset size is $10000 \times 16 \, \ma
 ::::{dropdown} User server management
 :open:
 
-Which of the following statements are *True* or *False*?
+Are the following statements *True* or *False*?
 
 a. Closing the browser window is enough to stop a server.
 
