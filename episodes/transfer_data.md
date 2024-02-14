@@ -64,7 +64,7 @@ Select all that apply:
 Think about the data that you or your community require for your/their work.
 
 - What type of data is it? E.g. tabular data (.csv, .xls), images (.png, .jpg, .bmp), other scientific data formats (.h5, .nc, .fastq)
-- How large is the dataset?
+- How large is a typical dataset?
 - Where is the data stored?
 - Is the same dataset used by a group of collaborators?
 
@@ -86,14 +86,14 @@ You use the Git JupyterLab extension to push code to a remote repository on GitH
 
 <br>
 
-What do you do?
+What should you do?
 
 1. Enter your GitHub username and Personal Access Token as requested, then click *Save my login temporarily*
 1. Click *Cancel*, open a Terminal, enter the command `gh-scoped-creds` and follow the prompt
 
 :::{dropdown} Solution
 
-The correct answer is 2.  
+The correct answer is 2 – never enter your GitHub credentials (GitHub password, personal access tokens or otherwise) on any kind of shared infrastructure (e.g. private and public cloud, HPC, any remote machine) as this information will be at risk.
 
 :::
 
