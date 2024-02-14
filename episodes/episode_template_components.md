@@ -88,7 +88,7 @@ Solution content
 ### Block-level image
 
 ```
-:::{image} ../media/logos/catalyst/catalyst-dark.png 
+:::{image} ../media/logos/catalyst/catalyst-logo-dark.png 
 :alt: Block-level image
 :width: 200px
 :align: center
@@ -96,7 +96,7 @@ Solution content
 :::
 ```
 
-:::{image} ../media/logos/catalyst/catalyst-dark.png 
+:::{image} ../media/logos/catalyst/catalyst-logo-dark.png 
 :alt: Block-level image
 :width: 200px
 :align: center
@@ -147,7 +147,7 @@ $$
            &=  a^2 + 2ab + b^2
 $$ (mymath1)
 
-The equation {eq}`mymath2` is also a quadratic equation.
+The equation {eq}`mymath1` is also a quadratic equation.
 
 ```
 :::{card} 

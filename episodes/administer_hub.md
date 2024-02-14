@@ -23,9 +23,9 @@ Questions
 :::{grid-item}
 Objectives
 
-- Add users to the hub with GitHub
-- Configure server options (CPU, GPU, RAM)
-- Stop and restart a server
+- control user access to their hub via GitHub Organisations and Teams
+- select the appropriate server resources for their computational work (CPU, RAM)
+- stop and restart a server
 
 :::
 
