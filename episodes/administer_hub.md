@@ -61,13 +61,13 @@ c. Compile a software program that ran out of memory and failed after initially 
 d. Preprocess a dataset consisting of 10,000 images, where each image is 16 MB in size.
 
 :::{dropdown} Solution
-a. *Medium: 16 CPU, 128 GB* – the memory required is $ 60 \times 2 \, \mathrm{GB} = 120 \, \mathrm{GB}$, therefore the RAM on a *Medium* machine is sufficient.
+a. *Medium: 16 CPU, 128 GB RAM* – the memory required is $ 60 \times 2 \, \mathrm{GB} = 120 \, \mathrm{GB}$, therefore the RAM on a *Medium* machine is sufficient.
 
-b. *Shared Small: 1–4 CPU* – this is not a computationally intensive task so a machine shared with other users is sufficient.
+b. *Shared Small: 1–4 CPU, 8–32 GB RAM* – this is not a computationally intensive task so a machine shared with other users is sufficient.
 
-c. *Small: 4 CPU, 32 GB* – the task failed on a *Shared Small* machine and we recommend sizing up incrementally if you are unsure of the server resources you need.
+c. *Small: 4 CPU, 32 GB RAM* – the task failed on a *Shared Small* machine and we recommend sizing up incrementally if you are unsure of the server resources you need.
 
-d. *Large: 64 CPU, 512 GB* – the total dataset size is $10000 \times 16 \, \mathrm{MB} = 160 000 \, \mathrm{MB} = 160 \, \mathrm{GB}$, which is too large for the *Medium* machine to hold in memory at once. Alternatively, you could chunk up your dataset and preprocess each batch on a smaller machine, which would be slower. Image preprocessing is often a CPU bound process in deep learning workflows, so a *Large* machine with more CPU cores is best for performance.
+d. *Large: 64 CPU, 512 GB RAM* – the total dataset size is $10000 \times 16 \, \mathrm{MB} = 160 000 \, \mathrm{MB} = 160 \, \mathrm{GB}$, which is too large for the *Medium* machine to hold in memory at once. Alternatively, you could chunk up your dataset and preprocess each batch on a smaller machine, which would be slower. Image preprocessing is often a CPU bound process in deep learning workflows, so a *Large* machine with more CPU cores is best for performance.
 
 :::
 
