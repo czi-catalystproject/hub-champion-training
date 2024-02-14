@@ -33,10 +33,11 @@ Objectives
 ::::{dropdown} How did it go?
 :open:
 
-In pairs, discuss the following points:
+Take a few minutes to reflect on your experience following the training on your own then, in pairs, discuss the following points:
 
 - What did you learn that was new to you?
-- Are there any points that were unclear?
+- What was confusing about the training?
+- What questions do you have about hub management?
 - Which areas would you like to explore further?
 - Do you think your users would benefit from this lesson?
 
@@ -50,8 +51,8 @@ Prepare to summarise and share with the rest of the workshop.
 A user wants to use a software application that is not currently available on the hub. Rearrange the following statements in the order of action you would escalate support for this person:
 
 1. Contact the 2i2c technical support desk for assistance
-1. Signpost the user to the relevant documentation in the 2i2c Service Guide
-1. Arrange one-to-one support to guide the user through the process of pulling a custom container to the hub
+1. Direct the user to the relevant documentation in the 2i2c Service Guide
+1. Provide one-to-one support to guide the user through the process of pulling a custom container to the hub
 1. Find a custom container that includes the requested software application and provide the information needed to pull this container to the hub to the user
 
 :::{dropdown} Solution
@@ -65,7 +66,7 @@ There are different ways in which you can approach this support request dependin
 ::::{dropdown} Plan your support process
 :open:
 
-Build a plan for how you will support the use of your hub amongst your community. Here are some things to consider:
+Build a plan for how you will support the use of your hub amongst your community. Begin by trying to answer the following questions:
 
 - How will you communicate with your users?
 - Where will your users report issues?
@@ -74,6 +75,15 @@ Build a plan for how you will support the use of your hub amongst your community
 - What resources are available to help you when you need help?
 - When should you ask for technical assistance from 2i2c?
 - How much time can you commit to support activities?
+
+Considering your responses to the prompts above, identify which of the following resources you already have access to and which you would need to create/obtain:
+
+- communications platforms and channels
+- tools for tracking issues/support requests
+- documentation
+- training
+
+Is there anything else you need, to support hub users?
 
 ::::
 
