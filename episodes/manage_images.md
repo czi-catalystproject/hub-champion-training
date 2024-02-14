@@ -75,13 +75,16 @@ Which of the following statements are *True* or *False*?
 
 Which of the following would you paste into the _Custom Image_ field to add the latest version of the `handbook-authoring-image` image to your hub?
 
+<!-- IMPORTANT: If you are editing this exercise, please do not change the "LATEST" placeholders below as they are automatically updated with the latest tag using the helper.sh script in the GitHub action .github/workflows/deploy_website.yml -->
+
 1. quay.io/2i2c/handbook-authoring-image:bbe4225a7940
 1. quay.io/2i2c/handbook-authoring-image
-1. `docker pull` quay.io/2i2c/handbook-authoring-image:b5b2c88daa24
-1. quay.io/2i2c/handbook-authoring-image:b5b2c88daa24
+
+1. docker pull quay.io/2i2c/handbook-authoring-image:LATEST
+1. quay.io/2i2c/handbook-authoring-image:LATEST
 
 :::{dropdown} Solution
-4. quay.io/2i2c/handbook-authoring-image:b5b2c88daa24
+4. quay.io/2i2c/handbook-authoring-image:LATEST
 
 Notes on the other answers:
 

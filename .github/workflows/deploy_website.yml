@@ -12,7 +12,7 @@ on:
     # paths:
     # - path/to/subfolder
   # Trigger the workflow manually
-  workflow_dispatch:    
+  workflow_dispatch:
 
 # This job installs dependencies, builds the book, and pushes it to `gh-pages`
 jobs:
@@ -45,7 +45,10 @@ jobs:
     #     path: _build/.jupyter_cache
     #     key: jupyter-book-cache-${{ hashFiles('requirements.txt') }}
 
-    #
+    # Update exercise in episodes/manage_images.md with latest handbook-authoring-image tag
+    - name: Run helper script
+      run: |
+        ./helper.sh ${{ secrets.QUAY_ROBOT }}
 
     # Build the book in English
     - name: Build the book in English
