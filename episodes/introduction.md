@@ -107,7 +107,7 @@ Hubs are deployed on AWS, Google Cloud or Microsoft Azure commercial cloud provi
 - upstreaming open source developments
 - operating Kubernetes clusters.
 
-Hub Champions are the first point of contact for their user community to provide support. Hub Champions may then represent and escalate support requests to 2i2c for more technical issues. 
+Hub Champions are the first point of contact for their user community to provide support and guiding users to make the best use out of the hub. Hub Champions may then represent and escalate support requests to 2i2c for more technical issues. 
 
 <br>
 
@@ -129,14 +129,31 @@ d. True – 2i2c engineers maintain service availability, uptime and operational
 
 ::::
 
+## Define success for your user community
+
+As a Hub Champion your main goal is to empower your community to make best use out of the hub service. You represent the interests of your community and are familiar with their computational workflows and data needs.
+
+To ensure that the hub serves the interests of your community, Hub Champions may perform common administrative tasks such as
+
+- controlling user access policy to the hub
+- stopping and restarting servers for users
+- guiding users to selecting the appropriate server options and images for their use case
+- transferring and distributing data on the hub
+- representing and escalating support requests to 2i2c for technical issues
+- facilitate knowledge transfer within the community, e.g. training events, documentation, communication channels
+
+<br>
+
 :::{dropdown} What are the needs of your user community?
 :open:
+
+Lets take some time to reflect and assess the needs of your user community.
 
 In pairs, discuss and share the following points:
 - What domain of expertise does your community have?
 - How large is your community? Do they work alone or do they need to collaborate together?
 - Does your community work with large datasets?
-- Does your community need access to intense computational power?
+- Does your community need access to intensive computational power?
 - Where applicable, are the needs for collaboration, large datasets, and/or computational power consistent across your whole community?
 - What are the main software applications your community uses to conduct their work? 
 - How familiar is your user community with version control using git/GitHub?
