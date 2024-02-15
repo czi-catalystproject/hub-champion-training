@@ -44,13 +44,13 @@ In this lesson, our definition of the word *hub* refers to JupyterHubs that are 
 
 ### Community Hub
 
-A hub provides an access point to interactive computing on cloud infrastructure for a user community. Access to the hub is via a URL of the following form
+A hub provides an access point to interactive computing in the cloud for a user community. Access to the hub is via a URL of the following form
 
 ```shell
 <hub-name>.<community-name>.2i2c.cloud
 ```
 
-and the customisable landing page contains a *Log in to continue* button (see example screenshot)
+and the landing page contains a *Log in to continue* button (see example screenshot)
 
 :::{image} ../media/episodes/introduction/community-hub.png
 :width: 100%
@@ -60,16 +60,56 @@ and the customisable landing page contains a *Log in to continue* button (see ex
 
 ### Authentication
 
-Access to the hub is controlled by Hub Champions and granted by using GitHub to add permitted individual accounts to a GitHub team. A permitted user enters their GitHub credentials to log into the hub (see example screenshot)
+Access to the hub is controlled by Hub Champions and granted by adding a user's GitHub account to a special GitHub Team associated with the hub. A permitted user enters their GitHub credentials to log into the hub (see example screenshot)
 
 :::{image} ../media/episodes/introduction/authentication.png
 :width: 100%
-:alt: Screenshot of a hub login page using GitHub for authentication.
+:alt: Screenshot of a Server Options page. Available machine types include Shared Small: 1-4 CPU, 8-32 GB, 
 
 :::
 
+### Custom environments
 
-## Exercises
+Users can choose from several machine types with varying numbers of CPU cores and RAM available, and select their desired software environment using images.
+
+:::{image} ../media/episodes/introduction/custom-env-1.png
+:width: 100%
+:alt: Screenshot of a hub login page using GitHub for authentication. Server options available include Shared Small: 1-4 CPU, 8-32 GB RAM, Small: 4 CPU, 32 GB RAM, Medium: 16 CPU, 128 GB RAM and Large: 64 CPU, 512 GB RAM.
+
+:::
+
+Images available by default include
+
+- Handbook Authoring (JupyterLab user interface) – installed Python packages include `jupyter-book, jupyterlab_myst, ghp-import, numpy, matplotlib`
+- [Jupyter DataScience](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-datascience-notebook) (JupyterLab user interface) – installed Python packages include `dask, h5py, pandas, scikit-learn, scipy, sympy`
+- [Rocker Geospatial](https://rocker-project.org/images/versioned/rstudio.html) (RStudio user interface) – installed R packages include `ncdf4, proj4, raster, rgdal, rgeos, sf, sp`
+- Other... – specify a custom JupyterLab/RStudio image
+
+### Online Content
+
+There are many ways to manage online content on the hub. For example 
+
+- users have access to their own filesystem and a home directory of up to 20 GB
+- Hub Champions can distribute data to all hub users in a shared directory
+- users can securely pull and push code to and from the hub using `gh-scoped-creds`.
+
+### Cloud infrastructure
+
+Hubs are deployed on AWS, Google Cloud or Microsoft Azure commercial cloud providers. Code for 2i2c hub configuration and deployment follows best practices and is open and transparent to all. 2i2c hubs are designed with the [Right to Replicate](https://2i2c.org/right-to-replicate/) by anybody on their own cloud infrastructure.
+
+### Support and Services
+
+2i2c provides dedicated operations support for the hub, such as
+
+- continuously monitoring the infrastructure
+- responding to incidents
+- deploying hub environments
+- upstreaming open source developments
+- operating Kubernetes clusters.
+
+Hub Champions are the first point of contact for their user community to provide support. Hub Champions may then represent and escalate support requests to 2i2c for more technical issues. 
+
+<br>
 
 ::::{dropdown} Which of the following statements are True/False?
 :open:
