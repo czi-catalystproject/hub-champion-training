@@ -14,18 +14,18 @@ OVERVIEW
 :::{grid-item}
 Questions
 
-- What is the difference between JupyterHub and JupyterLab?
-- Who has control over access to a Hub?
-- What's really happening in the cloud when I run a server?
+- Who has control over access to a hub?
+- What cloud computing resources can be acquired?
+- What's happening in the cloud when running a server?
 
 :::
 
 :::{grid-item}
 Objectives
 
-- control user access to their hub via GitHub Organisations and Teams
-- select the appropriate server resources for their computational work (CPU, RAM)
-- stop and restart a server
+- Control user access to their hub via GitHub Organisations and Teams
+- Select the appropriate server resources for computational work (CPU, RAM)
+- Stop and restart a server
 
 :::
 
