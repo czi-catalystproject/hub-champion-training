@@ -38,10 +38,18 @@ Hub Champions can control access to the hub by adding users to their {ref}`GitHu
 A Hub Champion should have Owner permissions for their GitHub Organization in order to invite non-members to it. This does not automatically grant the user access to a hub. A member of a GitHub Organization can be added to a GitHub Team associated with the hub in order to log into the hub with their GitHub credentials.
 
 :::{note}
-Your GitHub Team is defined and associated with your hub when the hub was initally deployed. This information should be known to Hub Champions. If not, please contact your community representative who deployed the hub.
+Your GitHub Team is defined and specially linked to your hub when the hub was initally deployed. This information should be known to Hub Champions. If not, please contact your community representative who deployed the hub.
 :::
 
-Follow the steps below to practise adding users to a GitHub Organization and Team to grant user access to the [Community Showcase Hub](https://showcase.2i2c.cloud/).
+Follow the guidance below to practise granting user access to the [Community Showcase Hub](https://showcase.2i2c.cloud/), specifically
+
+- *adding* (but *not* removing for now) users to a GitHub Organization
+- adding and removing users to and from a GitHub Team.
+
+:::{danger}
+Please refrain from removing other users from the GitHub Organization during the training! The steps in {ref}`Removing members from the organization <org-remove>` are for completeness when it comes to administering your own hub outside of the training.
+
+:::
 
 ### Managing your GitHub Organization
 
@@ -63,18 +71,18 @@ Screenshot showing an example list of GitHub Organizations on [https://github.co
 :width: 100%
 :alt: Screenshot showing a list of members of the 2i2c-community-showcase GitHub Organization.
 
-Screenshot showing a list of members of the [2i2c-community-showcase](https://github.com/orgs/2i2c-community-showcase/people) GitHub Organization. The *People* tab menu is located at the top; the green *Invite member* button is located in the top right; the *Failed invitations* tab is located in the left sidebar and the *Member settings* ![member settings button](../media/episodes/administer_hub/gh-org-3.png) icon is located next to each member account.
+Screenshot showing a list of [2i2c-community-showcase](https://github.com/orgs/2i2c-community-showcase/people) GitHub Organization members. The *People* tab menu is located at the top; the green *Invite member* button is located in the top right; the *Failed invitations* tab is located in the left sidebar and the *Member settings* ![member settings button](../media/episodes/administer_hub/gh-org-3.png) icon is located next to each member account.
 
 :::
 
-#### Invite non-members to the Organization
+#### Invite non-members to the organization
 
-- Check that you have *Owner* permissions for this organization to invite non-members to it. If not, contact an owner of the organization who can give you *Owner* permissions.
+Check that you have *Owner* permissions for this organization to invite non-members to it. If not, contact an owner of the organization who can give you *Owner* permissions.
 
 - Invite a non-member to the organization by clicking the green *Invite member* button and searching by username, full name or email address.
 
   :::{tip}
-  We recommend adding and searching for the `jnywong-test` username for the purposes of this training.
+  We recommend searching for and adding the `jnywong-test` username for the purposes of this training.
   
   :::
 
@@ -87,7 +95,12 @@ Screenshot showing a list of members of the [2i2c-community-showcase](https://gi
 
 - Once the user has accepted, they will become visible in the list of Organization members in the *People* menu tab.
 
-#### Removing members from the Organization
+::::{dropdown} Removing members from the organization
+
+:::{danger} 
+Please refrain from removing other users from the GitHub Organization during the training! The steps in this section are for completeness when it comes to administering your own hub outside of the training.
+
+:::
 
 Members can be removed from the organization by going to the *People* menu tab (see {ref}`screenshot <gh-org-people>`).
 
@@ -96,6 +109,7 @@ Members can be removed from the organization by going to the *People* menu tab (
 - Select the *Remove from organization...* option.
 
   :::{figure} ../media/episodes/administer_hub/gh-org-4.png
+  :name: org-remove
   :width: 40%
   :alt: Screenshot showing the *Remove from organization...* option.
   
@@ -112,21 +126,64 @@ Members can be removed from the organization by going to the *People* menu tab (
   Screenshot showing the confirmation to *Remove members*.
   
   :::
+::::
   
 ### Managing your GitHub Team
 
+Add members to the GitHub Team associated with the hub so that users can log into the hub with their GitHub credentials.
+
+- From the 2i2c-community-showcase [GitHub Organization page](https://github.com/2i2c-community-showcase/), click on the *Teams* menu tab.
+- The GitHub Team that authorises access to the Community Showcase Hub is called [access-2i2c-showcase](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase). Click on it to see a list of members.
+
+  :::{figure} ../media/episodes/administer_hub/gh-team-1.png
+  :width: 100%
+  :alt: Screenshot showing a list of members of the access-2i2c-showcase GitHub Team.
+  
+  Screenshot showing a list of [access-2i2c-showcase](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase) GitHub Team members.
+  
+  :::
+  
+- Invite a member of the organization to join the team by clicking the green *Add a member* button and searching by username, full name or email address.
+
+  :::{tip}
+  We recommend searching for and adding the `jmunroe-testuser` username for the purposes of this training. If they are already a member of the team, remove the account by following the steps in {ref}`Removing members from the team<team-remove>` and then add `jmunroe-testuser` back into the team again.
+  
+  :::
+  
+- The account will instantly appear in the list of team members and the user does not need to accept an invitation to join. The user may choose to leave the team by clicking the ![Leave team](../media/episodes/administer_hub/gh-team-2.png) button on the same page.
+
+- The user can now log into the [Community Showcase Hub](https://showcase.2i2c.cloud) using their GitHub credentials 🎉
+
+(team-remove)=
+### Removing members from the team
+
+Hub Champions can remove user access to a hub by removing their account from the GitHub Team.
+
+  :::{figure} ../media/episodes/administer_hub/gh-team-3.png
+  :width: 100%
+  :alt: Screenshot showing how to remove a member from the access-2i2c-showcase GitHub Team.
+  
+  Screenshot showing how to remove a member from the [access-2i2c-showcase](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase) GitHub Team.
+  
+  :::
+
+- From the [access-2i2c-showcase](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase) teams page, check the box next to the member account you wish to remove (in this case, `jmunroe-testuser` for the purposes of this training).
+- Click the tab at the top of the list labelled *1 member selected*.
+- Select *Remove from team* from the dropdown menu.
+- Confirm your choice in the pop up by clicking *Remove members*.
+- The account will instantly disappear in the list of team members and the user will not be notified.
 
 ## Exercises
 
 ::::{dropdown} GitHub Organizations and Teams
 :open:
 
-Fill in the blanks with the following words: *organization, team, maintainers, owners, non-members, existing members* (you may use one word more than once).
+Fill in the blanks with the following words: *organization, team, owners, non-members, existing members* (you may use one word more than once).
 
-"___s are groups of ___ members that reflect your group's structure with cascading access permissions. ___ have permission to invite ___ to the organisation, whereas ___ and ___ have the permission to invite ___ of the organisation to a ___."
+"___s are groups of ___ members that reflect your group's structure and controls access permissions. ___ have permission to invite ___ to the organisation and invite ___ of the organisation to a ___."
 
 :::{dropdown} Solution
-"**Team**s are groups of **organization** members that reflect your group's structure with cascading access permissions. **Owners** have permission to invite **non-members** to the organization, whereas **Owners** and **Maintainers** have permission to invite **existing members** of the organisation to a **team**."
+"**Team**s are groups of **organization** members that reflect your group's structure and controls access permissions. **Owners** have permission to invite **non-members** to the organization and invite **existing members** of the organisation to a **team**."
 
 :::
 
