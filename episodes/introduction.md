@@ -1,8 +1,8 @@
 (episode-intro)=
 # Recognising the benefits your hub can provide for your user community 
 
-teaching: 10
-exercises: 2
+<!-- teaching: 30
+exercises: 30 -->
 
 :::::{card} 
 OVERVIEW
@@ -14,16 +14,18 @@ OVERVIEW
 :::{grid-item}
 Questions
 
-- Placeholder text
+- What is interactive computing in the cloud?
+- How can interactive computing in the cloud serve hub communities in research and/or education?
+- What is the role of a Hub Champion?
 
 :::
 
 :::{grid-item}
 Objectives
 
-- identify the benefits provided by a hub for interactive cloud computing
-- recognise use cases for interactive cloud computing in a Hub Champion's user community
-- describe their role and capacity as a Hub Champion to administer and support their hub
+- Identify the benefits provided by a hub for interactive cloud computing
+- Recognise use cases for interactive cloud computing in a Hub Champion's user community
+- Describe their role and capacity as a Hub Champion to administer and support their hub
 :::
 
 :::::
@@ -181,6 +183,8 @@ All of the above are things a Hub Champion should do to enable their community t
 KEY POINTS
 ^^^
 
-- placeholder text
+- A hub is a 2i2c-managed JupyterHub in the cloud that provides a interactive computing service to users
+- Hub Champions empower hub users to make best use of the service and are the first point of contact for user support
+- Hub Champions may perform common administrative tasks and configure the hub to set their community up for success
 
 :::
