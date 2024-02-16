@@ -123,10 +123,10 @@ Members can be removed from the organization by going to the *People* menu tab (
 
 Fill in the blanks with the following words: *organization, team, maintainers, owners, non-members, existing members* (you may use one word more than once).
 
-"___s are groups of ___ members that reflect your group's structure with cascading access permissions. ___ have permission to invite ___ to the organisation, whereas ___ and ___ have the permission to invite ___ of the organisation to a ___."
+"___s are groups of ___ members that reflect your group's structure and controls access permissions. ___ have permission to invite ___ to the organisation and invite ___ of the organisation to a ___."
 
 :::{dropdown} Solution
-"**Team**s are groups of **organization** members that reflect your group's structure with cascading access permissions. **Owners** have permission to invite **non-members** to the organization, whereas **Owners** and **Maintainers** have permission to invite **existing members** of the organisation to a **team**."
+"**Team**s are groups of **organization** members that reflect your group's structure and controls access permissions. **Owners** have permission to invite **non-members** to the organization and invite **existing members** of the organisation to a **team**."
 
 :::
 
