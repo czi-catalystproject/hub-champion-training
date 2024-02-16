@@ -23,7 +23,7 @@ Questions
 :::{grid-item}
 Objectives
 
-- Control user access to their hub via GitHub Organisations and Teams
+- Control user access to a hub via GitHub Organisations and Teams
 - Select the appropriate server resources for computational work (CPU, RAM)
 - Stop and restart a server
 
@@ -31,17 +31,102 @@ Objectives
 
 :::::
 
+## Accessing the hub
+
+Hub Champions can control access to the hub by adding users to their {ref}`GitHub Organization <glossary:github-org>` and {ref}`Team<glossary:github-team>`. Each hub user needs to [sign up](https://github.com/signup) for an individual account on GitHub.
+
+A Hub Champion should have Owner permissions for their GitHub Organization in order to invite non-members to it. This does not automatically grant the user access to a hub. A member of a GitHub Organization can be added to a GitHub Team associated with the hub in order to log into the hub with their GitHub credentials.
+
+:::{note}
+Your GitHub Team is defined and associated with your hub when the hub was initally deployed. This information should be known to Hub Champions. If not, please contact your community representative who deployed the hub.
+:::
+
+Follow the steps below to practise adding users to a GitHub Organization and Team to grant user access to the [Community Showcase Hub](https://showcase.2i2c.cloud/).
+
+### Managing your GitHub Organization
+
+- View a list of all of the GitHub Organizations that you are a member of by visiting [https://github.com/settings/organizations](https://github.com/settings/organizations).
+
+:::{figure} ../media/episodes/administer_hub/gh-org-1.png
+:width: 100%
+:alt: Screenshot showing a list of GitHub Organizations on https://github.com/settings/organizations.
+
+Screenshot showing an example list of GitHub Organizations on [https://github.com/settings/organizations](https://github.com/settings/organizations).
+:::
+
+- Click on the link to the [2i2c-community-showcase](https://github.com/2i2c-community-showcase) GitHub Organization (if you cannot see this link then please contact your instructor for access).
+
+- Click on the *People* menu tab to view a list of current Organization members.
+
+:::{figure} ../media/episodes/administer_hub/gh-org-2.png
+:name: gh-org-people
+:width: 100%
+:alt: Screenshot showing a list of members of the 2i2c-community-showcase GitHub Organization.
+
+Screenshot showing a list of members of the [2i2c-community-showcase](https://github.com/orgs/2i2c-community-showcase/people) GitHub Organization. The *People* tab menu is located at the top; the green *Invite member* button is located in the top right; the *Failed invitations* tab is located in the left sidebar and the *Member settings* ![member settings button](../media/episodes/administer_hub/gh-org-3.png) icon is located next to each member account.
+
+:::
+
+#### Invite non-members to the Organization
+
+- Check that you have *Owner* permissions for this organization to invite non-members to it. If not, contact an owner of the organization who can give you *Owner* permissions.
+
+- Invite a non-member to the organization by clicking the green *Invite member* button and searching by username, full name or email address.
+
+  :::{tip}
+  We recommend adding and searching for the `jnywong-test` username for the purposes of this training.
+  
+  :::
+
+- The invited user will receive an email and GitHub notification inviting them to join the GitHub Organization.
+
+  :::{warning}
+  Invitations to join a GitHub Organization will expire after 7 days, after which you can retry or cancel the invitation by clicking the *Failed invitations* tab in the left sidebar (see screenshot above).
+  
+  :::
+
+- Once the user has accepted, they will become visible in the list of Organization members in the *People* menu tab.
+
+#### Removing members from the Organization
+
+Members can be removed from the organization by going to the *People* menu tab (see {ref}`screenshot <gh-org-people>`).
+
+- Click the ![member settings button](../media/episodes/administer_hub/gh-org-3.png) icon next to the member account you wish to remove.
+
+- Select the *Remove from organization...* option.
+
+  :::{figure} ../media/episodes/administer_hub/gh-org-4.png
+  :width: 40%
+  :alt: Screenshot showing the *Remove from organization...* option.
+  
+  Screenshot showing the *Remove from organization...* option.
+  
+  :::
+
+- Confirm removal by clicking the *Remove members* button.
+
+  :::{figure} ../media/episodes/administer_hub/gh-org-5.png
+  :width: 80%
+  :alt: Screenshot showing the confirmation to *Remove members*.
+  
+  Screenshot showing the confirmation to *Remove members*.
+  
+  :::
+  
+### Managing your GitHub Team
+
+
 ## Exercises
 
-::::{dropdown} GitHub Organisations and Teams
+::::{dropdown} GitHub Organizations and Teams
 :open:
 
 Fill in the blanks with the following words: *organization, team, maintainers, owners, non-members, existing members* (you may use one word more than once).
 
-"___s are groups of ___ members that reflect your group's structure with cascading access permissions. ___ have permission to invite ___ to the organisation, whereas ___ have the permission to invite ___ of the organisation to a ___."
+"___s are groups of ___ members that reflect your group's structure with cascading access permissions. ___ have permission to invite ___ to the organisation, whereas ___ and ___ have the permission to invite ___ of the organisation to a ___."
 
 :::{dropdown} Solution
-"**Team**s are groups of **organization** members that reflect your group's structure with cascading access permissions. **Owners** have permission to invite **non-members** to the organization, whereas **Maintainers** have permission to invite **existing members** of the organisation to a **team**."
+"**Team**s are groups of **organization** members that reflect your group's structure with cascading access permissions. **Owners** have permission to invite **non-members** to the organization, whereas **Owners** and **Maintainers** have permission to invite **existing members** of the organisation to a **team**."
 
 :::
 
