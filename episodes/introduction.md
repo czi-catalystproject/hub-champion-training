@@ -179,6 +179,18 @@ All of the above are things a Hub Champion should do to enable their community t
 
 ::::
 
+## Next Steps
+
+The next part of the training is a self-guided study of the following episodes
+
+-. {ref}`episode-admin`
+-. {ref}`episode-images`
+-. {ref}`episode-data`.
+
+and concludes with an in-person episode covering {ref}`episode-troubleshoot`.
+
+To complete the self-study portion of the workshop, check that you can access the [2i2c Community Showcase Hub](https://showcase.2i2c.cloud) and write your answers to the exercises in our [collaborative note-taking document](#).
+
 :::{card}
 KEY POINTS
 ^^^
