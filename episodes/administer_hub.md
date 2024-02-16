@@ -180,10 +180,10 @@ Hub Champions can remove user access to a hub by removing their account from the
 
 Fill in the blanks with the following words: *organization, team, owners, non-members, existing members* (you may use one word more than once).
 
-"___s are groups of ___ members that reflect your group's structure and controls access permissions. ___ have permission to invite ___ to the organisation and invite ___ of the organisation to a ___."
+"___s are groups of ___ members that reflect your group's structure and controls access permissions. ___ have permission to invite ___ to the organisation and invite ___ of the organization to a ___."
 
 :::{dropdown} Solution
-"**Team**s are groups of **organization** members that reflect your group's structure and controls access permissions. **Owners** have permission to invite **non-members** to the organization and invite **existing members** of the organisation to a **team**."
+"**Team**s are groups of **organization** members that reflect your group's structure and controls access permissions. **Owners** have permission to invite **non-members** to the organization and invite **existing members** of the organization to a **team**."
 
 :::
 
