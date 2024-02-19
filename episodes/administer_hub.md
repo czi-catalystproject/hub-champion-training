@@ -173,8 +173,6 @@ Hub Champions can remove user access to a hub by removing their account from the
 - Confirm your choice in the pop up by clicking *Remove members*.
 - The account will instantly disappear in the list of team members and the user will not be notified.
 
-## Exercises
-
 ::::{dropdown} GitHub Organizations and Teams
 :open:
 
@@ -189,12 +187,47 @@ Fill in the blanks with the following words: *organization, team, owners, non-me
 
 ::::
 
+## Selecting the optimum server resources for your computational work
+
+A hub provides interactive computing in the cloud to support research and education workflows for your community. Computational resources, such as the number of {ref}`CPU<glossary:cpu>` cores and {ref}`RAM<glossary:ram>`, can be provisioned on-demand and therefore allows users to scale up or scale down their work as needed.
+
+### JupyterHub server options
+
+Once a user is logged into the hub, they can launch a server configured with a number of {ref}`CPU<glossary:cpu>` cores and {ref}`RAM<glossary:ram>`.
+
+In this example, we will look at the server options available on the [Community Showcase Hub](https://showcase.2i2c.cloud).
+
+:::{note}
+Server options presented can vary for different hubs. Nevertheless, the number of CPU cores and RAM available is always clearly stated and the principles for selecting the optimum server resources for your computational work described in this section can still be applied.
+
+:::
+
+:::{figure} ../media/episodes/administer_hub/server-options.png
+:width: 100%
+:alt: Screenshot showing a list of server options available on the Community Showcase Hub.
+
+Screenshot showing a list of server options available on the [Community Showcase Hub](https://showcase.2i2c.cloud).
+
+:::
+
+Here, there are four server options presented
+
+- Shared Small: 1–4 CPU, 8–32 GB RAM
+- Small: 4 CPU, 32 GB RAM
+- Medium: 16 CPU, 128 GB RAM
+- Large: 64 CPU, 512 GB RAM.
+
+How does the number of CPUs and RAM available on the hub compare with your personal computer? What impact does access to these cloud resources have on your user's work?
+
+In general, more CPU cores allows for more work to be done in *parallel* and reduces time to solution (a CPU bound program). Parallel computing is where multiple CPU cores can be used simultaneously to solve a computational problem, e.g. running the same processing task on several different datasets. However, using more CPU cores does not automatically improve performance since the rate at which information is accessed in RAM can become a limiting factor (a memory bound program), or simply the program is designed to be executed in *serial* and not in parallel.
+
+
 ::::{dropdown} Optimize server resources for your work
 :open:
 
 In each scenario, select the option that makes best use out of the following server resources: *Shared Small: 1–4 CPU, 8–32 GB RAM, Small: 4 CPU, 32 GB RAM, Medium: 16 CPU, 128 GB RAM, Large: 64 CPU, 512 GB RAM*.
 
-a. Run a software pipeline that has a single-thread task requiring 2GB of RAM and 60 tasks in total.
+a. Run a software pipeline where each task requires 2GB of RAM and 60 tasks in total.
 
 b. Create documentation and edit text files.
 
