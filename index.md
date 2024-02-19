@@ -46,7 +46,7 @@ After attending this training, Hub Champions will be able to:
 ## Episodes
 
 1. ⭐ {ref}`episode-intro`
-1. {ref}`episode-admin`
+1. {ref}`episode-access`
 1. {ref}`episode-images`
 1. {ref}`episode-data`
 1. ⭐ {ref}`episode-troubleshoot`

@@ -1,8 +1,8 @@
-(episode-admin)=
-# Administering your hub
+(episode-access)=
+# Controlling access to your hub
 
-teaching: 0
-exercises: 0
+teaching: 15
+exercises: 15
 
 :::::{card} 
 OVERVIEW
@@ -15,27 +15,27 @@ OVERVIEW
 Questions
 
 - Who has control over access to a hub?
-- What cloud computing resources can be acquired?
-- What's happening in the cloud when running a server?
+- How do I invite members to a GitHub Organization?
+- How do I grant access to a hub with GitHub Teams?
 
 :::
 
 :::{grid-item}
 Objectives
 
-- Control user access to a hub via GitHub Organisations and Teams
-- Select the appropriate server resources for computational work (CPU, RAM)
-- Stop and restart a server
+- Control user access to a hub via GitHub Organizations and Teams
+- Add users to a GitHub Organization
+- Add and remove users from a GitHub Team to grant access to a hub
 
 :::
 
 :::::
 
-## Accessing the hub
+## Who decides which users can access a hub?
 
 Hub Champions can control access to the hub by adding users to their {ref}`GitHub Organization <glossary:github-org>` and {ref}`Team<glossary:github-team>`. Each hub user needs to [sign up](https://github.com/signup) for an individual account on GitHub.
 
-A Hub Champion should have Owner permissions for their GitHub Organization in order to invite non-members to it. This does not automatically grant the user access to a hub. A member of a GitHub Organization can be added to a GitHub Team associated with the hub in order to log into the hub with their GitHub credentials.
+A Hub Champion should have Owner permissions for their GitHub Organization in order to invite non-members to it. Inviting a user to the organization does not automatically grant the user access to a hub. A member of a GitHub Organization must be added to a GitHub Team associated with the hub in order to log into the hub with their GitHub credentials.
 
 :::{note}
 Your GitHub Team is defined and specially linked to your hub when the hub was initally deployed. This information should be known to Hub Champions. If not, please contact your community representative who deployed the hub.
@@ -43,7 +43,7 @@ Your GitHub Team is defined and specially linked to your hub when the hub was in
 
 Follow the guidance below to practise granting user access to the [Community Showcase Hub](https://showcase.2i2c.cloud/), specifically
 
-- *adding* (but *not* removing for now) users to a GitHub Organization
+- adding (but *not* removing for now) users to a GitHub Organization
 - adding and removing users to and from a GitHub Team.
 
 :::{danger}
@@ -51,7 +51,7 @@ Please refrain from removing other users from the GitHub Organization during the
 
 :::
 
-### Managing your GitHub Organization
+## Managing your GitHub Organization
 
 - View a list of all of the GitHub Organizations that you are a member of by visiting [https://github.com/settings/organizations](https://github.com/settings/organizations).
 
@@ -75,7 +75,8 @@ Screenshot showing a list of [2i2c-community-showcase](https://github.com/orgs/2
 
 :::
 
-#### Invite non-members to the organization
+::::{dropdown} Exercise: Invite non-members to the organization
+:open:
 
 Check that you have *Owner* permissions for this organization to invite non-members to it. If not, contact an owner of the organization who can give you *Owner* permissions.
 
@@ -94,6 +95,8 @@ Check that you have *Owner* permissions for this organization to invite non-memb
   :::
 
 - Once the user has accepted, they will become visible in the list of Organization members in the *People* menu tab.
+
+::::
 
 ::::{dropdown} Removing members from the organization
 
@@ -128,7 +131,7 @@ Members can be removed from the organization by going to the *People* menu tab (
   :::
 ::::
   
-### Managing your GitHub Team
+## Managing your GitHub Team
 
 Add members to the GitHub Team associated with the hub so that users can log into the hub with their GitHub credentials.
 
@@ -142,7 +145,9 @@ Add members to the GitHub Team associated with the hub so that users can log int
   Screenshot showing a list of [access-2i2c-showcase](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase) GitHub Team members.
   
   :::
-  
+
+::::{dropdown} Exercise: Add a member of the organization to join the team
+:open:
 - Invite a member of the organization to join the team by clicking the green *Add a member* button and searching by username, full name or email address.
 
   :::{tip}
@@ -153,6 +158,8 @@ Add members to the GitHub Team associated with the hub so that users can log int
 - The account will instantly appear in the list of team members and the user does not need to accept an invitation to join. The user may choose to leave the team by clicking the ![Leave team](../media/episodes/administer_hub/gh-team-2.png) button on the same page.
 
 - The user can now log into the [Community Showcase Hub](https://showcase.2i2c.cloud) using their GitHub credentials 🎉
+
+::::
 
 (team-remove)=
 ### Removing members from the team
@@ -173,7 +180,7 @@ Hub Champions can remove user access to a hub by removing their account from the
 - Confirm your choice in the pop up by clicking *Remove members*.
 - The account will instantly disappear in the list of team members and the user will not be notified.
 
-::::{dropdown} GitHub Organizations and Teams
+::::{dropdown} Exercise: GitHub Organizations and Teams
 :open:
 
 Fill in the blanks with the following words: *organization, team, owners, non-members, existing members* (you may use one word more than once).
@@ -190,8 +197,8 @@ Fill in the blanks with the following words: *organization, team, owners, non-me
 :::{card} 
 KEY POINTS
 ^^^
-- As a Hub Champion your main tool is JupyterHub.
-- You have control over who has access to your Hub 
-- A Hub in a cloud is just a computer
+- A Hub Champion decides who has access to the hub.
+- Hub access is controlled with GitHub Organizations and Teams.
+- Owners of GitHub Organizations can invite users to it, as well as add and remove users to and from a special GitHub Team to grant access.
 
 :::
