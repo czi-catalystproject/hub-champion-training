@@ -14,6 +14,7 @@ parts:
   chapters:
   - file: episodes/introduction
   - file: episodes/administer_hub
+  - file: episodes/server_resources
   - file: episodes/manage_images
   - file: episodes/transfer_data
   - file: episodes/troubleshooting
