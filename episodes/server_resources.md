@@ -39,15 +39,13 @@ Once a user is logged into the hub, they can launch a server configured with a n
 In this example, we will look at the server options available on the [Community Showcase Hub](https://showcase.2i2c.cloud).
 
 :::{note}
-Server options presented can vary for different hubs. Nevertheless, the number of CPU cores and RAM available is always clearly stated and the principles for selecting the optimum server resources for your computational work described in this section can still be applied.
+Server options presented can vary for different hubs. Nevertheless, the number of CPU cores and RAM available is always clearly stated and the principles for selecting the optimal server resources for your computational work described in this section can still be applied.
 
 :::
 
-:::{figure} ../media/episodes/server_resources/server_options.png
+:::{image} ../media/episodes/server_resources/server_options.png
 :width: 100%
 :alt: Screenshot showing a list of server options available on the Community Showcase Hub.
-
-Screenshot showing a list of server options available on the [Community Showcase Hub](https://showcase.2i2c.cloud).
 
 :::
 
@@ -57,6 +55,8 @@ Here, there are four server options presented
 - Small: 4 CPU, 32 GB RAM
 - Medium: 16 CPU, 128 GB RAM
 - Large: 64 CPU, 512 GB RAM.
+
+We shall explore the *Image* dropdown box further in the next episode, {ref}`episode-images`.
 
 ::::{dropdown} Exercise: Local versus Cloud computing – What's the difference?
 :open:
@@ -72,6 +72,15 @@ However, using more CPU cores does not automatically improve performance since t
 
 ::::
 
+## Using cloud resources responsibly
+
+By selecting a server option, a user is remotely launching a server that is provided by a commercial vendor, such as Google Cloud, AWS or Microsoft Azure. Selecting a larger server incurs a larger financial cost, as well as environmental cost! Therefore it is important to use cloud resources responsibly to maximize efficiency and minimize carbon emissions. 
+
+Best practices for using cloud resources responsibly include
+
+- {ref}`shutting down<episode-server:shutdown-server>` a cloud server as soon as you are finished with your work
+- selecting the server option with the minimum number of CPU cores and RAM needed to carry out your work
+- running code efficiently and developing sustainable research software where possible, e.g. test your program first before scaling to a larger job.
 
 ::::{dropdown} Exercise: Optimize server resources for your work
 :open:
@@ -104,7 +113,60 @@ Sofía wants to run a new program but does not know its maximum memory requireme
 
 ::::
 
-::::{dropdown} User server management
+## Automatic server culling
+
+Hubs automatically cull servers after a period of inactivity in order to improve resource utlization and safeguard against excessive cloud costs. 
+
+(episode-server:shutdown-server)=
+## Shutting down a server as a user
+
+A user should shut down their own server on the hub once they are finished with their work. This can be done manually by applying the following steps.
+
+1. (JupyterLab) Navigate to *File > Hub Control Panel*, or alternatively (JupyterLab and RStudio) navigate to the URL `https://<your-hub-url>.2i2c.cloud/hub/home`
+1. In the Hub Control Panel, click on the ![Stop My Server](../media/episodes/server_resources/shutdown-2.png) button
+
+:::{image} ../media/episodes/server_resources/shutdown-1.png
+:width: 100%
+:alt: Screenshot showing the File > Hub Control Panel menu option in the JupyterLab user interface.
+
+:::
+
+## Managing another user's server as a Hub Champion
+
+Hub Champions have access to an Admin panel from the Hub Control Panel (or the URL `https://<your-hub-url>.2i2c.cloud/hub/admin`).
+
+:::{image} ../media/episodes/server_resources/manage-1.png
+:width: 100%
+:alt: Screenshot showing the Admin panel available to Hub Champions.
+
+:::
+
+::::{caution}
+:::{epigraph}
+With great power comes great responsibility.
+
+-- Spiderman
+:::
+Performing administrative actions as a Hub Champion should be done with great care. Respect the privacy of others and think before you act.
+
+::::
+
+### Stop and restart a user's server
+
+A user's server may sometimes become unresponsive, e.g. issues stemming from self-installed software via `pip` and/or `conda`. Hub Champions can restore user servers to their default environment by stopping and restarting their server by clicking the ![Stop Server](../media/episodes/server_resources/manage-2.png) followed by the ![Start Server](../media/episodes/server_resources/manage-3.png) button next  to the user's name from the Admin panel.
+
+:::{note}
+Self-installed software packages on the hub are temporary and are removed each time a server is shut down to maintain a clean default software environment. Software is persisted between sessions by {ref}`episode-images`, which is covered in the next episode.
+
+:::
+
+### Access a user's server
+
+Hub Champions's can gain control of a user's server that is currently running by clicking the ![Access Server](../media/episodes/server_resources/manage-4.png) button next to the user's name from the Admin panel.
+
+From here a Hub Champion can navigate the server *as if they are the user themselves*, which is useful for reproducing and debugging issues.
+
+::::{dropdown} Exercise: User server management
 :open:
 
 Are the following statements *True* or *False*?
