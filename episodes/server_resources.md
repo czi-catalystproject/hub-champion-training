@@ -1,5 +1,5 @@
 (episode-server)=
-# Selecting the optimal server resources for your computational work
+# Selecting the optimal server resources for your computational work responsibly
 
 teaching: 15
 exercises: 15
@@ -16,7 +16,8 @@ Questions
 
 - What's really happening in the cloud when I run a server?
 - How many CPU cores and RAM do I need?
-- How can I stop and restart a user's server?
+- How can I reinstate the default environment of a user's server?
+- How can I gain control of user's server for troubleshooting purposes?
 
 :::
 
@@ -24,7 +25,8 @@ Questions
 Objectives
 
 - Select the most appropriate server resources for computational work
-- Stop and restart a server
+- Stop and restart a user's server
+- Support a hub user by gaining control of their server
 
 :::
 
@@ -113,9 +115,16 @@ Sofía wants to run a new program but does not know its maximum memory requireme
 
 ::::
 
-## Automatic server culling
+### Automatic server culling
 
-Hubs automatically cull servers after a period of inactivity in order to improve resource utlization and safeguard against excessive cloud costs. 
+Hubs automatically cull servers after a period of inactivity in order to improve resource utlization and safeguard against excessive cloud costs. This occurs after **1 hour** of user inactivity.
+
+:::{tip}
+Executing a piece of long-running code with a running kernel is not recognised as user activity on the server and so the process is killed after 1 hour. This is a rare use case of interactive computing on a hub, but this limit can be reconfigured for a particular hub upon request by contacting [2i2c support](#). 
+
+<!-- TODO: Add internal reference for contacting 2i2c support when written up. -->
+:::
+
 
 (episode-server:shutdown-server)=
 ## Shutting down a server as a user
@@ -156,7 +165,7 @@ Performing administrative actions as a Hub Champion should be done with great ca
 A user's server may sometimes become unresponsive, e.g. issues stemming from self-installed software via `pip` and/or `conda`. Hub Champions can restore user servers to their default environment by stopping and restarting their server by clicking the ![Stop Server](../media/episodes/server_resources/manage-2.png) followed by the ![Start Server](../media/episodes/server_resources/manage-3.png) button next  to the user's name from the Admin panel.
 
 :::{note}
-Self-installed software packages on the hub are temporary and are removed each time a server is shut down to maintain a clean default software environment. Software is persisted between sessions by {ref}`episode-images`, which is covered in the next episode.
+Self-installed software packages on the hub are *temporary* and are removed each time a server is shut down to maintain a clean default software environment. Software is persisted between sessions by {ref}`episode-images`, which is covered in the next episode.
 
 :::
 
@@ -195,5 +204,8 @@ d. *False* – servers are culled after 1 hour of inactivity by default. If a us
 :::{card} 
 KEY POINTS
 ^^^
-- TODO
+- Users can launch servers with a variety of resources available, namely number of CPU cores and RAM.
+- It is important to use cloud resources responsibly to maximize efficiency and minimize carbon emissions. 
+- Hub Champions can stop, restart and gain control of a user's server for troubleshooting purposes.
+
 :::
