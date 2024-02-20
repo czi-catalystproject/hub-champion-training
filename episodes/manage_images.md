@@ -38,7 +38,7 @@ Hub users more than likely require specific software packages to carry out their
 
 Due to these factors a software installation on a user's local machine is difficult to reproduce and the installation process is often poorly documented and out of date. 
 
-::::{dropdown} Software Challenges
+::::{dropdown} Exercise: Software Challenges
 :open:
 
 Think about the challenges that you may have faced with using software for your work.
@@ -55,7 +55,32 @@ Write up your thoughts in our shared collaborative document.
 
 Containers are a useful technology for overcoming software challenges in reproduciblity, portability and scalability. A container, much like a real-world shipping container, bundles up the software application and its dependencies into a lightweight and standalone package that can be run on any infrastructure.
 
-::::{dropdown} Reasons to use containers
+:::{mermaid}
+:align: center
+:alt: Diagram of how a layer of many user software container environments shares the hub's underlying operating system and server infrastructure.
+:caption: Diagram of how a layer of many user software container environments shares the hub's underlying operating system and server infrastructure.
+
+block-beta
+  columns 3
+  id0{{"Containerized Software Applications"}}:3
+  block:apps:3
+    %% columns auto (default)
+    A["App A"] B["App B"] C["App C"] D["App D"] E["App E"] F["App F"]
+  end
+  id1["Container Host"]:3
+  id2["Operating System"]:3
+  id3["Infrastructure"]:3
+
+:::
+
+### Reproducibility
+
+### Portability
+
+### Scalability
+
+
+::::{dropdown} Exercise: Reasons to use containers
 :open:
 
 Which of the following statements are *True* or *False*?
@@ -82,7 +107,7 @@ Which of the following statements are *True* or *False*?
 
 ::::
 
-::::{dropdown} Specifying a custom image tag
+::::{dropdown} Exercise: Specifying a custom image tag
 :open:
 
 Which of the following would you paste into the _Custom Image_ field to add the latest version of the `handbook-authoring-image` image to your hub?
