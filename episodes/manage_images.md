@@ -28,7 +28,15 @@ Objectives
 
 :::::
 
-## Exercises
+## Software for research and education
+
+Hub users more than likely require specific software packages to carry out their work. Installing software on a laptop significantly differs from installing software on a shared resource such as a hub in the cloud, largely because of different
+
+- operating systems, e.g. Linux, macOS, Windows
+- system libraries
+- filesystems.
+
+Due to these factors a software installation on a user's local machine is difficult to reproduce and the installation process is often poorly documented and out of date. 
 
 ::::{dropdown} Software Challenges
 :open:
@@ -42,6 +50,10 @@ Think about the challenges that you may have faced with using software for your 
 Write up your thoughts in our shared collaborative document.
 
 ::::
+
+## Reproduce software environments with containers
+
+Containers are a useful technology for overcoming software challenges in reproduciblity, portability and scalability. A container, much like a real-world shipping container, bundles up the software application and its dependencies into a lightweight and standalone package that can be run on any infrastructure.
 
 ::::{dropdown} Reasons to use containers
 :open:
@@ -98,7 +110,7 @@ Notes on the other answers:
 :::{card} 
 KEY POINTS
 ^^^
-- Container images are useful for reproducing software environments across platforms.
-- Default images are available on the hub
-- Additional images can be pulled to the hub if required
+- Images are useful for reproducing software environments across platforms.
+- Default containers are available on the hub
+- Additional custom containers can be pulled to the hub if required
 :::
