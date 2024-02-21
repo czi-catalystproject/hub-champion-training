@@ -86,13 +86,6 @@ Scalability
 ::::{dropdown} Exercise: Reasons to use containers
 :open:
 
-## Selecting pre-configured containers on the hub
-
-As seen in the previous episode, [Selecting the optimal server resources for your computational work responsibly](#), a hub user is presented with a list of server options once logged into a hub.
-
-
-
-
 Which of the following statements are *True* or *False*?
 
 1. Containers are lightweight, portable and isolated units of software that can be used on any computer and operating system. 
@@ -117,10 +110,83 @@ Which of the following statements are *True* or *False*?
 
 ::::
 
+## Selecting pre-configured containers on the hub
+
+As seen in the previous episode, [](episode-server), a user is presented with a list of server options once logged into a hub and each option has an *Image* dropdown box.
+
+:::{image} ../media/episodes/server_resources/server_options.png
+:width: 100%
+:alt: Screenshot showing a list of server options available on the Community Showcase Hub.
+
+:::
+
+On the [Community Showcase Hub](https://showcase.2i2c.cloud), the default list of images available include
+
+- [Jupyter DataScience](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-datascience-notebook) - launches a JupyterLab interface with various Python[^ds-python], R[^ds-r] and Julia[^ds-julia] packages installed
+- [Rocker Geospatial](https://rocker-project.org/images/versioned/binder.html) – launches an RStudio interface with R packages[^ds-r] and geospatial toolkits installed
+- [Handbook Authoring](https://github.com/2i2c-org/community-showcase/tree/main/images/handbook-authoring-image) – a 2i2c-maintained image containing Python packages[^ha-python] for authoring documentation in Jupyter Book and MystMD
+- [Other...](episode-images:other) – allows a user to self-serve a JupyterHub-compatible custom image (see section below).
+
+[^ds-python]: such as `dask, h5py, matplotlib, pandas, scikit-learn, scipy, sympy`
+[^ds-r]: such as `caret, forecast, randomforest, rmarkdown, shiny, tidymodels, tidyverse`
+[^ds-julia]: such as `pluto` and `HDF5`
+[^gs-r]: such as `PROJ, GDAL` and `GEOS`
+[^ha-python]: such as `jupyter-book` and `sphinx-intl`
+
+:::{note}
+The list of image options presented can vary for different hubs. Hub Champions can build their own non-default environment and open a support ticket with 2i2c to modify this list to include non-default options – this is beyond the scope of this training although further details can be found in the [Hub Service Guide](https://docs.2i2c.org/admin/howto/environment/).
+
+:::
+
+(episode-images:other)=
+### Choosing a custom image with the "Other..." option
+
+The "Other..." option allows a user to specify a custom image container to pull into the hub. There are a number of container registries online that host containerized applications, such as Docker Hub, GitHub, Azure, Amazon and Google Container Registries, Red Hat Quay, etc.
+
+**Only containers that are compatible with JupyterHub can be pulled into a hub**. To find JupyterHub-compatible containers you can, e.g.
+
+- browse the list of 2i2c-maintained hub images on [Red Hat Quay](https://quay.io/organization/2i2c)
+- take a look at [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)
+- take a look at the [Rocker Project](https://rocker-project.org/images/) for R Docker containers (note only the `binder` image is JupyterHub-compatible)
+- search Docker Hub for the term "jupyterhub".
+
+:::{caution}
+Anyone can create a container and publicly share it online, therefore it is important to be cautious about downloading this software onto your machine. A few good indicators to look for are
+
+- the image is updated regularly
+- the image is authored and maintained by a well-known company or community
+- the container is used by many people
+- there is an image file provided or metadata listing the exact contents of the container
+- documentation is provided on how to use the image.
+
+:::
+
+An image listed on a container registry may have many different versions associated with it. A `TAG` is used to distinguish these different versions. The name of the container image can also include the `OWNER` (this ). The general format for specifying an image is
+
+```shell
+OWNER/IMAGE_NAME:TAG
+```
+
+If a user wanted to pull the [Rocker binder](https://hub.docker.com/r/rocker/binder/tags) container from Docker Hub, for example, then they could enter `rocker/binder:4.3` into the *Custom image* field.
+
+:::{image} ../media/episodes/manage_images/custom.png
+:width: 100%
+:alt: Screenshot showing where to specify a custom image rocker/binder:4.3 in the server options page on a hub.
+
+:::
+
+:::{tip}
+We recommend always explicitly specifying a version number in the `TAG` field rather than using the generic `latest` tag. Providing the version number in the tag is useful for producing informative server logs for debugging purposes and allows you to check whether the correct version of the image is loaded into the hub by running the command
+
+```shell
+jovyan@user:~$ echo $JUPYTER_IMAGE
+```
+:::
+
 ::::{dropdown} Exercise: Specifying a custom image tag
 :open:
 
-Which of the following would you paste into the _Custom Image_ field to add the latest version of the `handbook-authoring-image` image to your hub?
+Which of the following would you paste into the _Custom Image_ field to pull the latest version of the `handbook-authoring-image` from the list of 2i2c-maintained hub images on [Red Hat Quay](https://quay.io/organization/2i2c) to your hub?
 
 <!-- IMPORTANT: If you are editing this exercise, please do not change the "LATEST" placeholders below as they are automatically updated with the latest tag using the helper.sh script in the GitHub action .github/workflows/deploy_website.yml -->
 
