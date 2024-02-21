@@ -22,8 +22,8 @@ Questions
 Objectives
 
 - explain the value of reproducibility with containerized software environments
-- select pre-configured JupyterLab or RStudio image containers for their hub
-- pull a custom image container for their hub
+- select pre-configured JupyterLab or RStudio containers for their hub
+- pull a custom container for their hub
 :::
 
 :::::
@@ -34,7 +34,8 @@ Hub users more than likely require specific software packages to carry out their
 
 - operating systems, e.g. Linux, macOS, Windows
 - system libraries
-- filesystems.
+- filesystems
+- hardware.
 
 Due to these factors a software installation on a user's local machine is difficult to reproduce and the installation process is often poorly documented and out of date. 
 
@@ -73,15 +74,24 @@ block-beta
 
 :::
 
-### Reproducibility
+Reproducibility
+: An *image* is a reusable and shareable file that outlines the "recipe" needed to create a container. This is useful for reproducing a software environment since you can tag and keep track of the different versions of the image.
 
-### Portability
+Portability
+: A container can run on different target systems, such as a laptop, supercomputer or cloud server.
 
-### Scalability
-
+Scalability
+: Containers can be scaled up or down to take advantage of the system resources available (i.e. CPUs and RAM).
 
 ::::{dropdown} Exercise: Reasons to use containers
 :open:
+
+## Selecting pre-configured containers on the hub
+
+As seen in the previous episode, [Selecting the optimal server resources for your computational work responsibly](#), a hub user is presented with a list of server options once logged into a hub.
+
+
+
 
 Which of the following statements are *True* or *False*?
 
