@@ -1,8 +1,8 @@
 (episode-images)=
 # Managing Software Images
 
-teaching: 0
-exercises: 0
+teaching: 30
+exercises: 15
 
 :::::{card} 
 OVERVIEW
@@ -14,16 +14,18 @@ OVERVIEW
 :::{grid-item}
 Questions
 
-- TODO 
+- What software environments are available on the hub?
+- How is containerization helpful for my work?
+- Is there a way to customise my software environment?
 
 :::
 
 :::{grid-item}
 Objectives
 
-- explain the value of reproducibility with containerized software environments
-- select pre-configured JupyterLab or RStudio containers for their hub
-- pull a custom container for their hub
+- Explain the value of reproducibility with containerized software environments
+- Select pre-configured JupyterLab or RStudio containers for their hub
+- Pull a custom container for their hub
 :::
 
 :::::
@@ -141,14 +143,14 @@ The list of image options presented can vary for different hubs. Hub Champions c
 (episode-images:other)=
 ### Choosing a custom image with the "Other..." option
 
-The "Other..." option allows a user to specify a custom image container to pull into the hub. There are a number of container registries online that host containerized applications, such as Docker Hub, GitHub, Azure, Amazon and Google Container Registries, Red Hat Quay, etc.
+The *Other...* option allows a user to specify a custom image container to pull into the hub. There are a number of container registries online that host containerized applications, such as Docker Hub, GitHub, Azure, Amazon and Google Container Registries, Red Hat Quay, etc.
 
 **Only containers that are compatible with JupyterHub can be pulled into a hub**. To find JupyterHub-compatible containers you can, e.g.
 
 - browse the list of 2i2c-maintained hub images on [Red Hat Quay](https://quay.io/organization/2i2c)
 - take a look at [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)
 - take a look at the [Rocker Project](https://rocker-project.org/images/) for R Docker containers (note only the `binder` image is JupyterHub-compatible)
-- search Docker Hub for the term "jupyterhub".
+- search Docker Hub for the term "jupyter".
 
 :::{caution}
 Anyone can create a container and publicly share it online, therefore it is important to be cautious about downloading this software onto your machine. A few good indicators to look for are
@@ -167,11 +169,11 @@ An image listed on a container registry may have many different versions associa
 OWNER/IMAGE_NAME:TAG
 ```
 
-If a user wanted to pull the [Rocker binder](https://hub.docker.com/r/rocker/binder/tags) container from Docker Hub, for example, then they could enter `rocker/binder:4.3` into the *Custom image* field.
+For example, if a user wanted to pull the [Jupyter PyTorch notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-pytorch-notebook) container, then they would enter `quay.io/jupyter/pytorch-notebook:x86_64-pytorch-2.2.0` into the *Custom image* field.
 
 :::{image} ../media/episodes/manage_images/custom.png
 :width: 100%
-:alt: Screenshot showing where to specify a custom image rocker/binder:4.3 in the server options page on a hub.
+:alt: Screenshot showing where to specify a custom image quay.io/jupyter/pytorch-notebook:x86_64-pytorch-2.2.0 in the server options page on a hub.
 
 :::
 
@@ -211,7 +213,7 @@ Notes on the other answers:
 :::{card} 
 KEY POINTS
 ^^^
-- Images are useful for reproducing software environments across platforms.
+- Images are useful for reproducing software environments across platforms
 - Default containers are available on the hub
 - Additional custom containers can be pulled to the hub if required
 :::
