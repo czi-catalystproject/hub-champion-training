@@ -1,8 +1,8 @@
 (episode-data)=
 # Navigating the filesystem and transferring data to and from the hub
 
-teaching: 0
-exercises: 0
+teaching: 30
+exercises: 20
 
 :::::{card} 
 OVERVIEW
@@ -14,15 +14,17 @@ OVERVIEW
 :::{grid-item}
 Questions
 
-- TODO
+- Where do I store files on the hub?
+- How do I transfer data to and from the hub?
+- How do I authorise GitHub to push and pull code to the hub?
 :::
 
 :::{grid-item}
 Objectives
 
-- recognise and locate your home directory in JupyterLab/RStudio and in the Terminal
-- distribute datasets to all hub users in a shared directory
-- push and pull GitHub repos with `gh-scoped-creds`
+- Recognise and locate your home directory in the JupyterLab and RStudio user interface
+- Distribute read-only datasets to all hub users in a shared directory
+- Push and pull GitHub repos with `gh-scoped-creds`
 :::
 
 :::::
@@ -100,7 +102,20 @@ All hub users have a access to a *shared* directory from their home directory. T
 Only Hub Champions can populate the *shared directory* by placing files in the *shared-readwrite* directory that appears in the home directory of Hub Champions only.
 
 :::{tip}
-Upload files to the hub by clicking the ![*upload*](../media/episodes/transfer_data/jlab-upload.png) button at the top of the file explorer in JupyterLab or clicking the ![*upload*](../media/episodes/transfer_data/rstudio-upload.png) button at the top of the file explorer in RStudio.
+**Upload data to the hub**
+
+Upload files to the hub by
+
+- (JupyterLab) clicking the ![*upload*](../media/episodes/transfer_data/jlab-upload.png) button at the top of the file explorer
+- (RStudio) clicking the ![*upload*](../media/episodes/transfer_data/rstudio-upload.png) button at the top of the file explorer.
+
+**Download data from the hub**
+
+Download files from the hub by
+
+- (JupyterLab) right-clicking on the target file/folder and clicking the ![*download*](../media/episodes/transfer_data/jlab-download.png) button
+- (RStudio) checking the box next to the target file/folder, clicking the ![*settings*](../media/episodes/transfer_data/rstudio-cog.png) button, choosing the *Export...* option and confirming the filename in the following dialog box.
+
 :::
 
 :::{dropdown} Exercise: Data requirements
@@ -132,7 +147,7 @@ When a user pulls and pushes code to a remote repository on GitHub, they will be
 
 For JupyterLab, we highly advise using `gh-scoped-creds` for authentication on our hubs.
 
-For RStudio, we recommend...
+<!-- TODO: For RStudio, we recommend...  -->
 :::
 
 ### Using `gh-scoped-creds`
@@ -221,5 +236,7 @@ The correct answer is 2 – never enter your GitHub credentials (GitHub password
 :::{card} 
 KEY POINTS
 ^^^
-- TODO
+- Users can store small files and datasets in their home directory that will persist between sessions.
+- Hub Champions can distribute large datasets in a read-only *shared* directory.
+- Use `gh-scoped-creds` to push and pull code to GitHub.
 :::
