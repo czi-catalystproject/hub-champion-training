@@ -15,22 +15,37 @@ OVERVIEW
 :::{grid-item}
 Questions
 
-- TODO
+- How did you find the training?
+- Where can you look for further help?
+- How can you prepare to support your community after this training?
 
 :::
 
 :::{grid-item}
 Objectives
 
-- share learning experiences from their self-guided study
-- triage common problems and know where to look for help
-- plan a sustainable support strategy for their community
+- Share learning experiences from their self-guided study
+- Triage common problems and know where to look for help
+- Plan a sustainable support strategy for their community
 
 :::
 
 :::::
 
-::::{dropdown} How did it go?
+## Looking back
+
+Congratulations! You have completed the training on
+
+<!-- TODO: Add episodes/server_resources -->
+
+- {ref}`episode-intro`
+- {ref}`episode-admin`
+- {ref}`episode-images`
+- {ref}`episode-data`
+
+and you now possess the skills and knowledge to successfully serve the needs of your community as a Hub Champion 🎉
+
+::::{dropdown} Exercise: How did it go?
 :open:
 
 Take a few minutes to reflect on your experience following the training on your own then, in pairs, discuss the following points:
@@ -45,7 +60,27 @@ Prepare to summarise and share with the rest of the workshop.
 
 ::::
 
-::::{dropdown} Where to go for help?
+The workshop instructor will now take some time to address a few of the common points that emerged from the discussion in the above exercise. During this time, note down how the instructor is troubleshooting and providing support to resolve an issue. Pay attention to
+
+- whether the issue was already covered in the Hub Champion Training
+- any further resources that were referenced
+- the level of detail in the response
+- their use of language and communication skills.
+
+:::{tip}
+:class: dropdown
+
+Nobody is perfect – there is no perfect way for troubleshooting and providing user support! Prior skills and support requirements can vary significantly and part of your role as Hub Champion is to facilitate knowledge transfer within the community, as well as representing and escalating support requests to 2i2c for more technical issues.
+
+Here are some tips for success:
+
+- avoid dismissive language ("you *just* need to do this...", "*obviously* you have to...")
+- admit what you don't know – it's also useful for learners to watch a Hub Champion use problem-solving skills and seek out [](ref:resources) to find the answer
+- if you need to request technical support from 2i2c, then follow the support process and open a ticket [here](https://docs.2i2c.org/support/).
+
+:::
+
+::::{dropdown} Exercise: Where to go for help?
 :open:
 
 A user wants to use a software application that is not currently available on the hub. Rearrange the following statements in the order of action you would escalate support for this person:
@@ -57,13 +92,34 @@ A user wants to use a software application that is not currently available on th
 
 :::{dropdown} Solution
 
-There are different ways in which you can approach this support request depending on your technical capacity and your own judgement. However we recommend that you *Contact the 2i2c technical support desk for assistance* as a last resort.
+There are different ways in which you can approach this support request depending on your technical capacity and your own judgement. However we recommend that you *Contact the 2i2c technical support desk for assistance* as a last resort, since there are plenty of [further resources](ref:resources) to help you before you get to this point.
 
 :::
 
 ::::
 
-::::{dropdown} Plan your support process
+## Looking forward
+
+Let's take the time to prepare a strategy for how you would like to guide and support your community after this training. Writing a plan will help provide clarity in your approach. Use the **SMART** method to write your objectives and keep your goals realistic and achievable:
+
+Specific
+: Clearly describe what needs to be done
+
+Measurable
+: It should be possible to determine whether the specified goal has been achieved
+
+Attainable
+: What are you realistically capable of?
+
+Relevant
+: Make sure that what you commit to is within the scope of your role
+
+Time-bound
+: Set a timeframe for your goal to be reached 
+
+<!-- TODO: is there an equivalent approach in Spanish? -->
+
+::::{dropdown} Exercise: Plan your support process
 :open:
 
 Build a plan for how you will support the use of your hub amongst your community. Begin by trying to answer the following questions:
@@ -71,10 +127,12 @@ Build a plan for how you will support the use of your hub amongst your community
 - How will you communicate with your users?
 - Where will your users report issues?
 - What needs do you anticipate from your users? How can you set them up for success?
-- How will you track whether an issue gets resolved?
+- How will you track whether an issue gets resolved in a a timely manner?
 - What resources are available to help you when you need help?
 - When should you ask for technical assistance from 2i2c?
 - How much time can you commit to support activities?
+- Will you define a Code of Conduct for your community?
+- How will you gather feedback to improve your support process?
 
 Considering your responses to the prompts above, identify which of the following resources you already have access to and which you would need to create/obtain:
 
@@ -83,15 +141,24 @@ Considering your responses to the prompts above, identify which of the following
 - documentation
 - training
 
-Is there anything else you need, to support hub users?
+Is there anything else you need to support hub users?
 
 ::::
+
+## Wrap-up
+
+Thank you for following the Hub Champion Training! 🏅
+
+We hope you found it useful for building your skills and confidence as a Hub Champion to empower your community to make best use out of the hub service.
+
+We're always looking to improve our lesson and welcome your feedback.
 
 :::{card} 
 KEY POINTS
 ^^^
-After following this episode, learners will be able to...
+After following this episode, Hub Champions will be able to...
 
-- triage problems encountered by hub users
-- choose the most appropriate place to look or ask for help with hub management
+- Choose the best place to look or ask for help with hub management
+- Formulate a plan to support their community
+
 :::
