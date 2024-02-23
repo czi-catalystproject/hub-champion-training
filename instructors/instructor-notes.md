@@ -91,3 +91,4 @@ Best wishes,
 - [ ] Email learners one week before the workshop
 - [ ] Share a calendar invitation for Part 1 and Part 2 with links to the videoconference call and CodiMD document
 - [ ] Prepare the Community Showcase Hub
+- [ ] Email learners two days after the workshop
