@@ -23,7 +23,7 @@ During the self-guided study portion of the workshop, make sure to check the Cod
 
 You may use the following email template to communicate with learners 1 week before the workshop.
 
-:::{dropdown} Email template
+:::{dropdown} Pre-workshop email template
 
 Dear all,
 
@@ -65,6 +65,25 @@ To grant access to this hub, instructors will need to add learners to this [GitH
 
 During the lesson, [](episode-access), Hub Champions will be asked to invite the user `jnywong-test` to the [GitHub Organization](https://github.com/2i2c-community-showcase). Please ensure this account is removed from the organization prior to the workshop. Similarly, Hub Champions will be asked to add and remove `jmunroe-testuser` from the [GitHub Team](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase).
 
+## Post-workshop tasks
+    
+Follow up with an email 2 days after the workshop to thank learners for their time and encourage them to complete the [post-training feedback form](https://forms.gle/XK1rtVypGWxMki3BA). You may use the follow email template.
+   
+:::{dropdown} Post-workshop email template
+    
+Dear all,
+
+Thank you for attending the recent Hub Champion Training workshop. We hope you left your workshop with skills and knowledge needed to empower your communities to make best use out of the hub. We would like to capture your thoughts about what was covered and your perception of the workshop overall. Please complete the post-workshop survey at [https://forms.gle/XK1rtVypGWxMki3BA](https://forms.gle/XK1rtVypGWxMki3BA) as soon as possible.
+
+If you have any questions and would like to contact us, feel free to email us at [support@2i2c.org](mailto:support@2i2c.org). We are excited about your continued involvement with our community!
+
+Best wishes,
+    
+*<insert instructor names here>*
+    
+:::
+    
+    
 ## Tasklist
 
 - [ ] Copy the CodiMD template
