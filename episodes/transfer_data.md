@@ -170,7 +170,7 @@ Authorisation will automatically expire after 8 hours (or when your JupyterHub s
 to renew.
 
 :::{hint}
-If you receive a `Permission denied` error after following these steps, then `gh-scoped-creds` has not been enabled for your hub. Please contact your hub administrator to request this feature.
+If you receive a `Permission denied` error after following these steps, then `gh-scoped-creds` has not been enabled for your hub. Please contact your Hub Champion to request this feature.
 :::
 
 ### Enabling `gh-scoped-creds` for your hub
