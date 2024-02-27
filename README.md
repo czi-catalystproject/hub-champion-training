@@ -12,7 +12,7 @@ Training is delivered over two synchronous workshops, each two hours in length a
 > This lesson is under active development and not ready for teaching yet.  
 
 > [!NOTE]
-> [Versión española](https://czi-catalystproject.github.io/hub-champion-training/es/)
+> [Versión en español](https://czi-catalystproject.github.io/hub-champion-training/es/)
 
 ## Getting Started
 
@@ -27,16 +27,16 @@ We recommend editing the contents of this repo using the 2i2c Community Showcase
 
 1. Once the JupyterLab interface has loaded, set up GitHub authentication with `gh-scoped-creds`. This allows you to pull and push to GitHub repos. To enable this, open a terminal, run the command
 
-   ```shell
-   jovyan@jupyter-user:~$ gh-scoped-creds
+   ```bash
+   gh-scoped-creds
    ```
    
    and follow the prompts to enter your code at [https://github.com/login/device](https://github.com/login/device)
 
-1. Git clone [this project repo](https://github.com/czi-catalystproject/website) using the Terminal with the command
+1. Git clone [this project repo](https://github.com/czi-catalystproject/hub-champion-training) using the Terminal with the command
 
-   ```shell
-   jovyan@jupyter-user:~$ git clone https://github.com/czi-catalystproject/website.git
+   ```bash
+   git clone https://github.com/czi-catalystproject/hub-champion-training.git
    ```
    
 1. Follow the [how-to-guide](https://2i2c.org/community-showcase/community/content/authoring.html) for authoring and previewing content using Jupyter Book.
@@ -53,9 +53,9 @@ These are extra instructions for GitHub [2i2c-org](https://github.com/2i2c-org) 
 
 Add the Hub Champion to the `2i2c-community-showcase/access-2i2c-showcase` team with maintainer rights, and community/test users as a general member of `2i2c-community-showcase`. This is so that Hub Admins can then add community users/test users to the `access-2i2c-showcase` team using their maintainer rights to *practise* granting access to the Showcase Hub as part of their hub champion training.
 
-**Add collaborator to [this project repo](https://github.com/czi-catalystproject/website)**
+**Add collaborator to [this project repo](https://github.com/czi-catalystproject/hub-champion-training)**
 
-Go to the [GH repo](https://github.com/czi-catalystproject/website), click *Settings -> Access - Collaborators and teams* and add the relevant user or team. Assign the *Write* role in the first instance (this can be upgraded later if needed).
+Go to the [GH repo](https://github.com/czi-catalystproject/hub-champion-training), click *Settings -> Access - Collaborators and teams* and add the relevant user or team. Assign the *Write* role in the first instance (this can be upgraded later if needed).
 
 **Info about `gh-scoped-creds` and GitHub App**
 
@@ -68,13 +68,13 @@ The following are instructions for localising the Jupyter Book to Spanish, adapt
 
 1. Open a terminal and navigate to the `hub-champion-training` folder
 
-   ```shell
-   jovyan@jupyter-username:~$ cd hub-champion-training/
+   ```bash
+   cd hub-champion-training/
    ```
    
 1. If a `config.py` file does not exist in this folder, **or** if you have made changes to `_config.yml`, then automatically generate this from the `_config.yml` with
 
-   ```shell 
+   ```bash 
    jupyter-book config sphinx .
    ```
    
@@ -82,33 +82,46 @@ The following are instructions for localising the Jupyter Book to Spanish, adapt
 
 1. Generate `gettext` files
 
-   ```shell
-   jovyan@jupyter-username:~$ jupyter-book build --builder custom --custom-builder gettext .
+   ```bash
+   jupyter-book build --builder custom --custom-builder gettext .
    ```
 
 1. Create `.po` files in the `locale` folder in the `es_AR` target language (ensure that `locale` matches the `locale_dirs` setting in `_config.yml`)
 
-   ```shell
-   jovyan@jupyter-username:~$ sphinx-intl update -p _build/gettext -d locale -l es_AR
+   ```bash
+   sphinx-intl update -p _build/gettext -d locale -l es_AR
    ```
    
 1. Translate the `.po` files located inside the `locale/es_AR/LC_MESSAGES` folder as required, e.g. with human translation services, machine translation with [Crowdin](https://crowdin.com/).
 
 1. Build the HTML files in English (the source language)
 
-   ```shell
-   jovyan@jupyter-username:~$ jupyter-book build .
+   ```bash
+   jupyter-book build .
    ```
    
 1. Build the HTML files in Spanish (the target language)
 
-   ```shell
-   jovyan@jupyter-username:~$ jupyter-book config sphinx .
-   jovyan@jupyter-username:~$ sphinx-build -b html -D language=es_AR . _build/html/es
+   ```bash
+   jupyter-book config sphinx .
+   sphinx-build -b html -D language=es_AR . _build/html/es
    ```
-1. Follow this [how-to guide](https://2i2c.org/community-showcase/community/content/authoring.html#build-and-preview-your-jupyter-book) for previewing your local Jupyter Book. The Spanish version of the website can be found at the following URL
+   
+1. Open a **new** Terminal and navigate to the HTML folder using the command
 
-   ```shell 
+   ```bash
+   cd hub-champion-training/_build/html/
+   ```
+
+1. Run a simple Python webserver with the command
+
+   ```bash
+   python -m http.server
+   ```
+
+1. Open a new browser tab and preview the Spanish version of the website by opening the following URL
+
+   ```bash 
    https://<your-hub-url>/user/<your-username>/proxy/8000/es/index.html
    ```
 
@@ -116,14 +129,14 @@ The following are instructions for localising the Jupyter Book to Spanish, adapt
 > If you run into the following error
 > `sphinx.errors.SphinxError: This environment is incompatible with the selected builder, please choose another doctree directory.`
 > try cleaning the build outputs first before building again
-> ```shell
-> jovyan@jupyter-username:~$ jupyter-book clean .
-> jovyan@jupyter-username:~$ jupyter-book build .
+> ```bash
+> jupyter-book clean .
+> jupyter-book build .
 > ```
 
 ## Deployment
 
-On push to main, the website will be deployed at [https://czi-catalystproject.github.io/hub-champion-training/](https://czi-catalystproject.github.io/hub-champion-training/) via the GitHub actions defined in `.github/workflows`.
+On push to main, the Hub Champion Training website will be deployed at [https://czi-catalystproject.github.io/hub-champion-training/](https://czi-catalystproject.github.io/hub-champion-training/) via the GitHub actions defined in `.github/workflows`.
 
 ## Authors
 
@@ -146,6 +159,7 @@ We would like to acknowledge Chan Zuckerberg Initiative funding for the "A Colla
 
 - [2i2c](https://2i2c.org/)
 - [The Carpentries](https://carpentries.org/about/)
+- [Centro de Computación de Alto Desempeño](https://ccad.unc.edu.ar/)
 - [Center for Scientific Collaboration and Community Engagement](https://www.cscce.org/)
 - [Invest in Open Infrastructure](https://investinopen.org/)
 - [MetaDocencia](https://www.metadocencia.org/)
