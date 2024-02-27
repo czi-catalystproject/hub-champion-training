@@ -33,10 +33,10 @@ We recommend editing the contents of this repo using the 2i2c Community Showcase
    
    and follow the prompts to enter your code at [https://github.com/login/device](https://github.com/login/device)
 
-1. Git clone [this project repo](https://github.com/czi-catalystproject/website) using the Terminal with the command
+1. Git clone [this project repo](https://github.com/czi-catalystproject/hub-champion-training) using the Terminal with the command
 
    ```shell
-   jovyan@jupyter-user:~$ git clone https://github.com/czi-catalystproject/website.git
+   jovyan@jupyter-user:~$ git clone https://github.com/czi-catalystproject/hub-champion-training.git
    ```
    
 1. Follow the [how-to-guide](https://2i2c.org/community-showcase/community/content/authoring.html) for authoring and previewing content using Jupyter Book.
@@ -53,9 +53,9 @@ These are extra instructions for GitHub [2i2c-org](https://github.com/2i2c-org) 
 
 Add the Hub Champion to the `2i2c-community-showcase/access-2i2c-showcase` team with maintainer rights, and community/test users as a general member of `2i2c-community-showcase`. This is so that Hub Admins can then add community users/test users to the `access-2i2c-showcase` team using their maintainer rights to *practise* granting access to the Showcase Hub as part of their hub champion training.
 
-**Add collaborator to [this project repo](https://github.com/czi-catalystproject/website)**
+**Add collaborator to [this project repo](https://github.com/czi-catalystproject/hub-champion-training)**
 
-Go to the [GH repo](https://github.com/czi-catalystproject/website), click *Settings -> Access - Collaborators and teams* and add the relevant user or team. Assign the *Write* role in the first instance (this can be upgraded later if needed).
+Go to the [GH repo](https://github.com/czi-catalystproject/hub-champion-training), click *Settings -> Access - Collaborators and teams* and add the relevant user or team. Assign the *Write* role in the first instance (this can be upgraded later if needed).
 
 **Info about `gh-scoped-creds` and GitHub App**
 
@@ -106,7 +106,20 @@ The following are instructions for localising the Jupyter Book to Spanish, adapt
    jovyan@jupyter-username:~$ jupyter-book config sphinx .
    jovyan@jupyter-username:~$ sphinx-build -b html -D language=es_AR . _build/html/es
    ```
-1. Follow this [how-to guide](https://2i2c.org/community-showcase/community/content/authoring.html#build-and-preview-your-jupyter-book) for previewing your local Jupyter Book. The Spanish version of the website can be found at the following URL
+   
+1. Open a **new** Terminal and navigate to the HTML folder using the command
+
+   ```shell
+   cd hub-champion-training/_build/html/
+   ```
+
+1. Run a simple Python webserver with the command
+
+   ```shell
+   python -m http.server
+   ```
+
+1. Open a new browser tab and preview the Spanish version of the website by opening the following URL
 
    ```shell 
    https://<your-hub-url>/user/<your-username>/proxy/8000/es/index.html
@@ -123,7 +136,7 @@ The following are instructions for localising the Jupyter Book to Spanish, adapt
 
 ## Deployment
 
-On push to main, the website will be deployed at [https://czi-catalystproject.github.io/hub-champion-training/](https://czi-catalystproject.github.io/hub-champion-training/) via the GitHub actions defined in `.github/workflows`.
+On push to main, the Hub Champion Training website will be deployed at [https://czi-catalystproject.github.io/hub-champion-training/](https://czi-catalystproject.github.io/hub-champion-training/) via the GitHub actions defined in `.github/workflows`.
 
 ## Authors
 
