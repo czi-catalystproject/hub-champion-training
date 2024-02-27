@@ -152,6 +152,7 @@ To ensure that the hub serves the interests of your community, Hub Champions may
 Lets take some time to reflect and assess the needs of your user community.
 
 In pairs, discuss and share the following points:
+
 - What domain of expertise does your community have?
 - How large is your community? Do they work alone or do they need to collaborate together?
 - Does your community work with large datasets?
@@ -159,6 +160,7 @@ In pairs, discuss and share the following points:
 - Where applicable, are the needs for collaboration, large datasets, and/or computational power consistent across your whole community?
 - What are the main software applications your community uses to conduct their work? 
 - How familiar is your user community with version control using git/GitHub?
+- How can a hub address the challenges your community faces?
 
 Prepare to summarise and share with the rest of the workshop.
 :::
