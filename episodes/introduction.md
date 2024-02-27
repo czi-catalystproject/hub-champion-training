@@ -183,9 +183,10 @@ All of the above are things a Hub Champion should do to enable their community t
 
 The next part of the training is a self-guided study of the following episodes
 
--. {ref}`episode-admin`
--. {ref}`episode-images`
--. {ref}`episode-data`.
+- {ref}`episode-access`
+- {ref}`episode-server`
+- {ref}`episode-images`
+- {ref}`episode-data`.
 
 and concludes with a synchronous session covering the episode {ref}`episode-troubleshoot`.
 
