@@ -23,11 +23,11 @@ msgid "JupyterHub Administration to Empower Research Communities"
 msgstr ""
 
 msgid ""
-"This repo contains the Jupyter Book source files for the Hub Champion "
-"Training."
+"Este repo contiene los archivos fuente de Jupyter Book para el Entrenamiento"
+"para Hub Champion."
 msgstr ""
 
-msgid "About"
+msgid "Acerca de"
 msgstr ""
 
 msgid ""
@@ -43,8 +43,8 @@ msgid ""
 msgstr ""
 
 msgid ""
-"[!WARNING] This lesson is under active development and not ready for "
-"teaching yet."
+"[!PRECAUCION] Esta lección está bajo desarrollo activo y no está lista para "
+"ser utilizada aún."
 msgstr ""
 
 msgid "[!NOTE] TODO: Link to the Spanish repo."

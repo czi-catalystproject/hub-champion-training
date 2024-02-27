@@ -29,7 +29,7 @@ This lesson is under active development and not ready for teaching yet.
 :::
 
 :::{seealso}
-[Versión española](https://czi-catalystproject.github.io/hub-champion-training/es/)
+[Versión en español](https://czi-catalystproject.github.io/hub-champion-training/es/)
 :::
 
 ## Lesson objectives
