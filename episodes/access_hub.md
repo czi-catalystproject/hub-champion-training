@@ -38,7 +38,7 @@ Hub Champions can control access to the hub by adding users to their {ref}`GitHu
 A Hub Champion should have Owner permissions for their GitHub Organization in order to invite non-members to it. Inviting a user to the organization does not automatically grant the user access to a hub. A member of a GitHub Organization must be added to a GitHub Team associated with the hub in order to log into the hub with their GitHub credentials.
 
 :::{note}
-Your GitHub Team is defined and specially linked to your hub when the hub was initally deployed. This information should be known to Hub Champions. If not, please contact your community representative who deployed the hub.
+Your GitHub Team was defined and specially linked to your hub when the hub was initially deployed. This information should be known to Hub Champions. If not, please contact your community representative who deployed the hub.
 :::
 
 Follow the guidance below to practise granting user access to the [Community Showcase Hub](https://showcase.2i2c.cloud/), specifically
@@ -62,7 +62,7 @@ Please refrain from removing other users from the GitHub Organization during the
 Screenshot showing an example list of GitHub Organizations on [https://github.com/settings/organizations](https://github.com/settings/organizations).
 :::
 
-- Click on the link to the [2i2c-community-showcase](https://github.com/2i2c-community-showcase) GitHub Organization (if you cannot see this link then please contact your instructor for access).
+- Click on the link to the [2i2c-community-showcase](https://github.com/2i2c-community-showcase) GitHub Organization (if you cannot access the page at this link then please contact your instructor for access).
 
 - Click on the *People* menu tab to view a list of current Organization members.
 
@@ -83,7 +83,7 @@ Check that you have *Owner* permissions for this organization to invite non-memb
 - Invite a non-member to the organization by clicking the green *Invite member* button and searching by username, full name or email address.
 
   :::{tip}
-  We recommend searching for and adding the `jnywong-test` username for the purposes of this training.
+  We recommend searching for and adding the `jnywong-test` username for the purposes of this training. Since this account may receive multiple invitations during this workshop, you can click a green **Update invitation** button instead.
   
   :::
 
