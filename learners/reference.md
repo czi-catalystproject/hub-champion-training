@@ -1,6 +1,10 @@
 # Reference
 
+(glossary)=
 ## Glossary
 
-This is a placeholder file. Please add content here. 
+(glossary:jupyterhub)=
+JupyterHub
+:  A multi-user hub that spawns, manages and proxies multiple instances of the single-user Jupyter notebook server.
+
 

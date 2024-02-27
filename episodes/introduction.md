@@ -32,11 +32,42 @@ Objectives
 
 ## Introduction
 
-This episode introduces the concept of a hub for interactive cloud computing and how a hub in the cloud can benefit the user communities a hub champion supports. 
+This episode introduces the concept of a hub for interactive cloud computing and how a hub in the cloud can benefit the user communities a hub champion supports.
+
+### How can interactive computing in the cloud benefit my community?
+
+Interactive computing is a fundamental way in which researchers and educators use a computer program to perform tasks that include (but are not limited to)
+
+- generating data from experiments or simulations, or gathering data from secondary sources
+- processing and analysing data using statistical techniques and algorithms
+- developing data-driven and/or mechanistic predictive models
+- visualising results to graphically reveal insights.
+
+Real-time interactivity helps information flow back and forth between the user and their work, creating a dynamic and productive environment for research and educational activity. Project Jupyter is an ecosystem of open-source tools that can provide a web-based interactive computational environment, in the form of "notebooks", for several languages, namely **Ju**lia, **Py**thon and **R** (hence the name Project **Jupy**te**r**). 
+
+:::{image} ../media/episodes/introduction/interactive-computing.png
+:width: 100%
+:alt: Cartoon depicting common computing use cases such as data collection, data processing and analysis, predictive modelling and data visualization.
+
+:::
+
+With the advent of "big data", many researchers and educators encounter limitations with using traditional methods for handling data on a local machine or laptop. The size and number of datasets prevalent in disciplines such as genomics, meteorology, healthcare, and environmental sciences, to name a few, are growing at an exponential rate, and consequently, the need for large-scale infrastructure to support continually intensive computational workflows also grows.
+
+:::{image} ../media/episodes/introduction/cloud-computing.png
+:width: 30%
+:align: right
+:alt: Icon depicting a cloud computing.
+
+:::
+
+Cloud computing is one way of provisioning the system resources needed to meet this demand. This relies on the sharing of on-demand services usually provided by commercial entities such as AWS, Google Cloud and Microsoft Azure. Academics in research and education are often limited in their capacity to sustainably administrate cloud infrastructure at scale and may also wish to support open-source tools and vendor-agnostic infrastructure. 
+
+
+This is where a non-profit initiative such as [2i2c](https://2i2c.org/) can help. 2i2c specialises in managing open Jupyter architecture in the cloud specially designed for communities of practice in research and education using open-source tools that allow them to reproduce environments, code and data on different machines. Users can access large-scale compute and storage as needed and workflows are entirely reproducible and supported by using open-source technologies. 
 
 ### JupyterHubs in the Cloud
 
-In this lesson, our definition of the word *hub* refers to JupyterHubs that are hosted on cloud infrastructure and managed by [2i2c](https://2i2c.org/).
+In this lesson, our definition of the word *hub* refers to a {ref}`JupyterHub <glossary:jupyterhub>` that is hosted on cloud infrastructure and managed by [2i2c](https://2i2c.org/).
 
 :::{image} ../media/episodes/introduction/hub-overview.png
 :width: 100%
@@ -44,7 +75,7 @@ In this lesson, our definition of the word *hub* refers to JupyterHubs that are 
 
 :::
 
-### Community Hub
+#### Community Hub
 
 A hub provides an access point to interactive computing in the cloud for a user community. Access to the hub is via a URL of the following form
 
@@ -60,7 +91,7 @@ and the landing page contains a *Log in to continue* button (see example screens
 
 :::
 
-### Authentication
+#### Authentication
 
 Access to the hub is controlled by Hub Champions and granted by adding a user's GitHub account to a special GitHub Team associated with the hub. A permitted user enters their GitHub credentials to log into the hub (see example screenshot)
 
@@ -70,7 +101,7 @@ Access to the hub is controlled by Hub Champions and granted by adding a user's 
 
 :::
 
-### Custom environments
+#### Custom environments
 
 Users can choose from several machine types with varying numbers of CPU cores and RAM available, and select their desired software environment using images.
 
@@ -87,7 +118,7 @@ Images available by default include
 - [Rocker Geospatial](https://rocker-project.org/images/versioned/rstudio.html) (RStudio user interface) – installed R packages include `ncdf4, proj4, raster, rgdal, rgeos, sf, sp`
 - Other... – specify a custom JupyterLab/RStudio image
 
-### Online Content
+#### Online Content
 
 There are many ways to manage online content on the hub. For example 
 
@@ -95,7 +126,7 @@ There are many ways to manage online content on the hub. For example
 - Hub Champions can distribute data to all hub users in a shared directory
 - users can securely pull and push code to and from the hub using GitHub.
 
-### Cloud infrastructure
+#### Cloud infrastructure
 
 Hubs are deployed on AWS, Google Cloud or Microsoft Azure commercial cloud providers. Code for 2i2c hub configuration and deployment follows best practices and is open and transparent to all. 2i2c hubs are designed with the [Right to Replicate](https://2i2c.org/right-to-replicate/) by anybody on their own cloud infrastructure.
 
@@ -106,10 +137,10 @@ Hubs are deployed on AWS, Google Cloud or Microsoft Azure commercial cloud provi
 - continuously monitoring the infrastructure
 - responding to incidents
 - deploying hub environments
-- upstreaming open source developments
+- upstreaming open-source developments
 - operating Kubernetes clusters.
 
-Hub Champions are the first point of contact for their user community to provide support and guiding users to make the best use out of the hub. Hub Champions may then represent and escalate support requests to 2i2c for more technical issues. 
+Hub Champions are the first point of contact for their user community to provide support and guide users to make the best use of the hub. Hub Champions may then represent and escalate support requests to 2i2c for more technical issues. 
 
 <br>
 
@@ -122,7 +153,7 @@ c. Software environments are inflexible and irreproducible.
 d. 2i2c provides operations support for your hub.
 
 :::{dropdown} Solution
-a. False – Hubs are built entirely with open source and community-driven tooling. The Right to Replicate gives communities the right to replicate their infrastructure in its entirety elsewhere.  
+a. False – Hubs are built entirely with open-source and community-driven tooling. The Right to Replicate gives communities the right to replicate their infrastructure in its entirety elsewhere.  
 b. False – Hub Champions can control who can access the hub through GitHub or other authentication methods.  
 c. False – Software environments are managed by Hub Champions and automatically deployed with containerisation, allowing for scalability across the cloud and reproducible user environments.  
 d. True – 2i2c engineers maintain service availability, uptime and operational upgrades. Hub Champions are responsible for hub configuration and management to support their user community.
@@ -133,7 +164,7 @@ d. True – 2i2c engineers maintain service availability, uptime and operational
 
 ## Define success for your user community
 
-As a Hub Champion your main goal is to empower your community to make best use out of the hub service. You represent the interests of your community and are familiar with their computational workflows and data needs.
+As a Hub Champion, your main goal is to empower your community to make the best use of the Hub service. You represent the interests of your community and are familiar with their computational workflows and data needs.
 
 To ensure that the hub serves the interests of your community, Hub Champions may perform common administrative tasks such as
 
@@ -142,14 +173,14 @@ To ensure that the hub serves the interests of your community, Hub Champions may
 - guiding users to selecting the appropriate server options and images for their use case
 - transferring and distributing data on the hub
 - representing and escalating support requests to 2i2c for technical issues
-- facilitate knowledge transfer within the community, e.g. training events, documentation, communication channels
+- facilitate knowledge transfer within the community, e.g. training events, documentation, and communication channels
 
 <br>
 
 :::{dropdown} What are the needs of your user community?
 :open:
 
-Lets take some time to reflect and assess the needs of your user community.
+Let us take some time to reflect and assess the needs of your user community.
 
 In pairs, discuss and share the following points:
 
@@ -175,7 +206,7 @@ d. Overseeing user access policy to the hub.
 
 :::{dropdown} Solution
 
-All of the above are things a Hub Champion should do to enable their community to make best use of a hub.
+All of the above are things a Hub Champion should do to enable their community to make the best use of a hub.
 
 :::
 
@@ -203,7 +234,7 @@ KEY POINTS
 ^^^
 
 - A hub is a 2i2c-managed JupyterHub in the cloud that provides an interactive computing service to users
-- Hub Champions empower hub users to make best use of the service and are the first point of contact for user support
+- Hub Champions empower hub users to make the best use of the service and are the first point of contact for user support
 - Hub Champions may perform common administrative tasks and configure the hub to set their community up for success
 
 :::
