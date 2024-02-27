@@ -1,7 +1,7 @@
 (episode-intro)=
 # Recognising the benefits your hub can provide for your user community 
 
-<!-- teaching: 30
+<!-- teaching: 40
 exercises: 30 -->
 
 :::::{card} 
