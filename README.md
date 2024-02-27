@@ -28,7 +28,7 @@ We recommend editing the contents of this repo using the 2i2c Community Showcase
 1. Once the JupyterLab interface has loaded, set up GitHub authentication with `gh-scoped-creds`. This allows you to pull and push to GitHub repos. To enable this, open a terminal, run the command
 
    ```bash
-   jovyan@jupyter-user:~$ gh-scoped-creds
+   $ gh-scoped-creds
    ```
    
    and follow the prompts to enter your code at [https://github.com/login/device](https://github.com/login/device)
