@@ -27,7 +27,7 @@ We recommend editing the contents of this repo using the 2i2c Community Showcase
 
 1. Once the JupyterLab interface has loaded, set up GitHub authentication with `gh-scoped-creds`. This allows you to pull and push to GitHub repos. To enable this, open a terminal, run the command
 
-   ```shell
+   ```bash
    jovyan@jupyter-user:~$ gh-scoped-creds
    ```
    
@@ -35,7 +35,7 @@ We recommend editing the contents of this repo using the 2i2c Community Showcase
 
 1. Git clone [this project repo](https://github.com/czi-catalystproject/hub-champion-training) using the Terminal with the command
 
-   ```shell
+   ```bash
    jovyan@jupyter-user:~$ git clone https://github.com/czi-catalystproject/hub-champion-training.git
    ```
    
@@ -68,13 +68,13 @@ The following are instructions for localising the Jupyter Book to Spanish, adapt
 
 1. Open a terminal and navigate to the `hub-champion-training` folder
 
-   ```shell
+   ```bash
    jovyan@jupyter-username:~$ cd hub-champion-training/
    ```
    
 1. If a `config.py` file does not exist in this folder, **or** if you have made changes to `_config.yml`, then automatically generate this from the `_config.yml` with
 
-   ```shell 
+   ```bash 
    jupyter-book config sphinx .
    ```
    
@@ -82,13 +82,13 @@ The following are instructions for localising the Jupyter Book to Spanish, adapt
 
 1. Generate `gettext` files
 
-   ```shell
+   ```bash
    jovyan@jupyter-username:~$ jupyter-book build --builder custom --custom-builder gettext .
    ```
 
 1. Create `.po` files in the `locale` folder in the `es_AR` target language (ensure that `locale` matches the `locale_dirs` setting in `_config.yml`)
 
-   ```shell
+   ```bash
    jovyan@jupyter-username:~$ sphinx-intl update -p _build/gettext -d locale -l es_AR
    ```
    
@@ -96,32 +96,32 @@ The following are instructions for localising the Jupyter Book to Spanish, adapt
 
 1. Build the HTML files in English (the source language)
 
-   ```shell
+   ```bash
    jovyan@jupyter-username:~$ jupyter-book build .
    ```
    
 1. Build the HTML files in Spanish (the target language)
 
-   ```shell
+   ```bash
    jovyan@jupyter-username:~$ jupyter-book config sphinx .
    jovyan@jupyter-username:~$ sphinx-build -b html -D language=es_AR . _build/html/es
    ```
    
 1. Open a **new** Terminal and navigate to the HTML folder using the command
 
-   ```shell
+   ```bash
    cd hub-champion-training/_build/html/
    ```
 
 1. Run a simple Python webserver with the command
 
-   ```shell
+   ```bash
    python -m http.server
    ```
 
 1. Open a new browser tab and preview the Spanish version of the website by opening the following URL
 
-   ```shell 
+   ```bash 
    https://<your-hub-url>/user/<your-username>/proxy/8000/es/index.html
    ```
 
@@ -129,7 +129,7 @@ The following are instructions for localising the Jupyter Book to Spanish, adapt
 > If you run into the following error
 > `sphinx.errors.SphinxError: This environment is incompatible with the selected builder, please choose another doctree directory.`
 > try cleaning the build outputs first before building again
-> ```shell
+> ```bash
 > jovyan@jupyter-username:~$ jupyter-book clean .
 > jovyan@jupyter-username:~$ jupyter-book build .
 > ```
@@ -159,6 +159,7 @@ We would like to acknowledge Chan Zuckerberg Initiative funding for the "A Colla
 
 - [2i2c](https://2i2c.org/)
 - [The Carpentries](https://carpentries.org/about/)
+- [Centro de Computación de Alto Desempeño](https://ccad.unc.edu.ar/)
 - [Center for Scientific Collaboration and Community Engagement](https://www.cscce.org/)
 - [Invest in Open Infrastructure](https://investinopen.org/)
 - [MetaDocencia](https://www.metadocencia.org/)
