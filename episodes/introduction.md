@@ -91,9 +91,9 @@ Images available by default include
 
 There are many ways to manage online content on the hub. For example 
 
-- users have access to their own filesystem and a home directory of up to 20 GB
+- users have access to their own filesystem and a home directory of up to 10 GB
 - Hub Champions can distribute data to all hub users in a shared directory
-- users can securely pull and push code to and from the hub using `gh-scoped-creds`.
+- users can securely pull and push code to and from the hub using GitHub.
 
 ### Cloud infrastructure
 
@@ -187,15 +187,19 @@ The next part of the training is a self-guided study of the following episodes
 -. {ref}`episode-images`
 -. {ref}`episode-data`.
 
-and concludes with an in-person episode covering {ref}`episode-troubleshoot`.
+and concludes with a synchronous session covering the episode {ref}`episode-troubleshoot`.
 
-To complete the self-study portion of the workshop, check that you can access the [2i2c Community Showcase Hub](https://showcase.2i2c.cloud) and write your answers to the exercises in our [collaborative note-taking document](#).
+To complete the self-study portion of the workshop, you will need to be able to access the [2i2c Community Showcase Hub](https://showcase.2i2c.cloud). When working through the self-study sections of the workshop, write your answers to the exercises in our [collaborative note-taking document](#).
+
+:::important
+If you cannot access the hub, please contact the training instructor.
+:::
 
 :::{card}
 KEY POINTS
 ^^^
 
-- A hub is a 2i2c-managed JupyterHub in the cloud that provides a interactive computing service to users
+- A hub is a 2i2c-managed JupyterHub in the cloud that provides an interactive computing service to users
 - Hub Champions empower hub users to make best use of the service and are the first point of contact for user support
 - Hub Champions may perform common administrative tasks and configure the hub to set their community up for success
 
