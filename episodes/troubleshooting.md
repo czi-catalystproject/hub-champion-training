@@ -5,15 +5,17 @@
 exercises: 20 -->
 
 
-:::::{card} 
-OVERVIEW
+:::::{card}
+:class-header: sd-font-weight-bold, sd-bg-primary, sd-text-white
+
+🔍 OVERVIEW
 ^^^
 
 ::::{grid}
 :gutter: 2
 
 :::{grid-item}
-Questions
+**Questions**
 
 - What feedback do you have about the training?
 - Where can you look for further help?
@@ -22,7 +24,7 @@ Questions
 :::
 
 :::{grid-item}
-Objectives
+**Objectives**
 
 - Share learning experiences from their self-guided study
 - Triage common problems and know where to look for help
@@ -154,7 +156,9 @@ We hope you found it useful for building your skills and confidence as a Hub Cha
 We're always looking to improve our lesson and welcome your feedback.
 
 :::{card} 
-KEY POINTS
+:class-header: sd-font-weight-bold, sd-bg-secondary, sd-text-white
+
+🔑 KEY POINTS
 ^^^
 
 - Part of your role as Hub Champion is to adapt and respond to the specific needs of your community
