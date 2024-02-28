@@ -15,7 +15,7 @@ OVERVIEW
 :::{grid-item}
 Questions
 
-- How did you find the training?
+- What feedback do you have about the training?
 - Where can you look for further help?
 - How can you prepare to support your community after this training?
 
@@ -70,7 +70,7 @@ The workshop instructor will now take some time to address a few of the common p
 :::{tip}
 :class: dropdown
 
-Nobody is perfect – there is no perfect way for troubleshooting and providing user support! Prior skills and support requirements can vary significantly and part of your role as Hub Champion is to facilitate knowledge transfer within the community, as well as representing and escalating support requests to 2i2c for more technical issues.
+Nobody is perfect – there is no perfect way for troubleshooting and providing user support! Prior skills and support requirements can vary significantly and part of your role as Hub Champion is helping users to help each other, as well as representing and escalating support requests to 2i2c for more technical issues.
 
 Here are some tips for success:
 
@@ -131,7 +131,7 @@ Build a plan for how you will support the use of your hub amongst your community
 - What resources are available to help you when you need help?
 - When should you ask for technical assistance from 2i2c?
 - How much time can you commit to support activities?
-- Will you define a Code of Conduct for your community?
+- Will you set expectations of users' conduct and interactions?
 - How will you gather feedback to improve your support process?
 
 Considering your responses to the prompts above, identify which of the following resources you already have access to and which you would need to create/obtain:
