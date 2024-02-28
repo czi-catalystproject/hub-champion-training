@@ -156,7 +156,6 @@ We're always looking to improve our lesson and welcome your feedback.
 :::{card} 
 KEY POINTS
 ^^^
-After following this episode, Hub Champions will be able to...
 
 - Part of your role as Hub Champion is to adapt and respond to the specific needs of your community
 - Consult [further resources](ref:resources) may help you troubleshoot some common issues
