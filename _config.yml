@@ -3,7 +3,7 @@
 
 title: Hub Champion Training
 author: The Catalyst Project Team
-email: support@2i2c.org
+email: catalyst-project-core-team@googlegroups.com
 logo: media/logos/hub-champion-training/text.svg
 copyright: '2024'
 description: >-
@@ -26,10 +26,6 @@ execute:
 # Add a bibtex file so that we can create citations
 # bibtex_bibfiles:
 #   - references.bib
-
-# Launch button settings
-launch_buttons:
-  jupyterhub_url: https://showcase.2i2c.cloud
 
 # Information about where the book exists on the web
 repository:
