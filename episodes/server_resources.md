@@ -66,6 +66,7 @@ We shall explore the *Image* dropdown box further in the next episode, {ref}`epi
 How does the number of CPUs and RAM available on the hub compare with your personal computer? What impact does access to these cloud resources have on your user's work?
 
 :::{dropdown} Solution
+
 In general, more CPU cores available in the cloud allow for more work to be done in *parallel* and reduce time to solution (a CPU-bound program). Parallel computing is where multiple CPU cores can be used simultaneously to solve a computational problem, e.g. running the same processing task on several different datasets.  
 
 However, using more CPU cores does not automatically improve performance since the rate at which information is accessed in RAM can become a limiting factor (a memory-bound program), or simply the program is designed to be executed in *serial* and not in parallel.
