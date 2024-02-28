@@ -1,8 +1,8 @@
 (episode-data)=
 # Navigating the filesystem and transferring data to and from the hub
 
-teaching: 30
-exercises: 20
+<!-- teaching: 30
+exercises: 20 -->
 
 :::::{card} 
 OVERVIEW
@@ -24,7 +24,7 @@ Objectives
 
 - Recognise and locate your home directory in the JupyterLab and RStudio user interface
 - Distribute read-only datasets to all hub users in a shared directory
-- Push and pull GitHub repos with `gh-scoped-creds`
+- Push and pull GitHub repositories with `gh-scoped-creds`
 :::
 
 :::::
@@ -97,9 +97,9 @@ Select all that apply:
 The *shared-readwrite* folder appears for Hub Champions only.
 :::
 
-All hub users have a access to a *shared* directory from their home directory. This is a read-only directory where users can access large files or datasets for their work and its contents cannot be accidentally modified or deleted.
+All hub users have access to a common *shared* directory from their home directory. This is a read-only directory where users can access large files or datasets for their work and its contents cannot be accidentally modified or deleted.
 
-Only Hub Champions can populate the *shared directory* by placing files in the *shared-readwrite* directory that appears in the home directory of Hub Champions only.
+Hub Champions can populate the *shared directory* by placing files in the *shared-readwrite* directory that appears only in their home directory.
 
 :::{tip}
 **Upload data to the hub**
