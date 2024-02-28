@@ -1,18 +1,20 @@
 (episode-access)=
 # Controlling access to your hub
 
-teaching: 15
-exercises: 15
+<!-- teaching: 15
+exercises: 15 -->
 
-:::::{card} 
-OVERVIEW
+:::::{card}
+:class-header: sd-font-weight-bold, sd-bg-primary, sd-text-white
+
+🔍 OVERVIEW
 ^^^
 
 ::::{grid}
 :gutter: 2
 
 :::{grid-item}
-Questions
+**Questions**
 
 - Who has control over access to a hub?
 - How do I invite members to a GitHub Organization?
@@ -21,7 +23,7 @@ Questions
 :::
 
 :::{grid-item}
-Objectives
+**Objectives**
 
 - Control user access to a hub via GitHub Organizations and Teams
 - Add users to a GitHub Organization
@@ -75,8 +77,8 @@ Screenshot showing a list of [2i2c-community-showcase](https://github.com/orgs/2
 
 :::
 
-::::{dropdown} Exercise: Invite non-members to the organization
-:open:
+::::{admonition} Exercise: Invite non-members to the organization
+:class: exercise
 
 Check that you have *Owner* permissions for this organization to invite non-members to it. If not, contact an owner of the organization who can give you *Owner* permissions.
 
@@ -146,8 +148,8 @@ Add members to the GitHub Team associated with the hub so that users can log int
   
   :::
 
-::::{dropdown} Exercise: Add a member of the organization to join the team
-:open:
+::::{admonition} Exercise: Add a member of the organization to join the team
+:class: exercise
 - Invite a member of the organization to join the team by clicking the green *Add a member* button and searching by username, full name or email address.
 
   :::{tip}
@@ -180,14 +182,16 @@ Hub Champions can remove user access to a hub by removing their account from the
 - Confirm your choice in the pop up by clicking *Remove members*.
 - The account will instantly disappear in the list of team members and the user will not be notified.
 
-::::{dropdown} Exercise: GitHub Organizations and Teams
-:open:
+::::{admonition} Exercise: GitHub Organizations and Teams
+:class: exercise
 
 Fill in the blanks with the following words: *organization, team, owners, non-members, existing members* (you may use one word more than once).
 
 "___s are groups of ___ members that reflect your group's structure and controls access permissions. ___ have permission to invite ___ to the organisation and invite ___ of the organization to a ___."
 
-:::{dropdown} Solution
+:::{admonition} Solution
+:class: solution, dropdown
+
 "**Team**s are groups of **organization** members that reflect your group's structure and controls access permissions. **Owners** have permission to invite **non-members** to the organization and invite **existing members** of the organization to a **team**."
 
 :::
@@ -195,7 +199,9 @@ Fill in the blanks with the following words: *organization, team, owners, non-me
 ::::
 
 :::{card} 
-KEY POINTS
+:class-header: sd-font-weight-bold, sd-bg-secondary, sd-text-white
+
+🔑 KEY POINTS
 ^^^
 - A Hub Champion decides who has access to the hub.
 - Hub access is controlled with GitHub Organizations and Teams.

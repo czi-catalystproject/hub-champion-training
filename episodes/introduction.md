@@ -4,15 +4,17 @@
 <!-- teaching: 40
 exercises: 30 -->
 
-:::::{card} 
-OVERVIEW
+:::::{card}
+:class-header: sd-font-weight-bold, sd-bg-primary, sd-text-white
+
+🔍 OVERVIEW
 ^^^
 
 ::::{grid}
 :gutter: 2
 
 :::{grid-item}
-Questions
+**Questions**
 
 - What is interactive computing in the cloud?
 - How can interactive computing in the cloud serve hub communities in research and/or education?
@@ -21,7 +23,7 @@ Questions
 :::
 
 :::{grid-item}
-Objectives
+**Objectives**
 
 - Identify the benefits provided by a hub for interactive cloud computing
 - Recognise use cases for interactive cloud computing in a Hub Champion's user community
@@ -96,8 +98,8 @@ and the landing page contains a *Log in to continue* button (see example screens
 Access to the hub is controlled by Hub Champions and granted by adding a user's GitHub account to a special GitHub Team associated with the hub. A permitted user enters their GitHub credentials to log into the hub (see example screenshot)
 
 :::{image} ../media/episodes/introduction/authentication.png
+:alt: Screenshot of a hub login page using GitHub for authentication.
 :width: 100%
-:alt: Screenshot of a Server Options page. Available machine types include Shared Small: 1-4 CPU, 8-32 GB, 
 
 :::
 
@@ -107,7 +109,8 @@ Users can choose from several machine types with varying numbers of CPU cores an
 
 :::{image} ../media/episodes/introduction/custom-env-1.png
 :width: 100%
-:alt: Screenshot of a hub login page using GitHub for authentication. Server options available include Shared Small: 1-4 CPU, 8-32 GB RAM, Small: 4 CPU, 32 GB RAM, Medium: 16 CPU, 128 GB RAM and Large: 64 CPU, 512 GB RAM.
+:align: center
+:alt: Screenshot of a Server Options page. Available machine types include Shared Small, 1-4 CPU, 8-32 GB, Small, 4 CPU, 32 GB RAM, Medium, 16 CPU, 128 GB RAM and Large: 64 CPU, 512 GB RAM.
 
 :::
 
@@ -144,15 +147,17 @@ Hub Champions are the first point of contact for their user community to provide
 
 <br>
 
-::::{dropdown} Which of the following statements are True/False?
-:open:
+::::{admonition} Which of the following statements are True/False?
+:class: exercise
 
 a. 2i2c-managed hubs are only available via a single cloud provider.  
 b. A hub can be accessed and used by anyone who knows its URL.  
 c. Software environments are inflexible and irreproducible.  
 d. 2i2c provides operations support for your hub.
 
-:::{dropdown} Solution
+:::{admonition} Solution
+:class: solution, dropdown
+
 a. False – Hubs are built entirely with open-source and community-driven tooling. The Right to Replicate gives communities the right to replicate their infrastructure in its entirety elsewhere.  
 b. False – Hub Champions can control who can access the hub through GitHub or other authentication methods.  
 c. False – Software environments are managed by Hub Champions and automatically deployed with containerisation, allowing for scalability across the cloud and reproducible user environments.  
@@ -177,8 +182,8 @@ To ensure that the hub serves the interests of your community, Hub Champions may
 
 <br>
 
-:::{dropdown} What are the needs of your user community?
-:open:
+:::{admonition} Exercise: What are the needs of your user community?
+:class: exercise
 
 Let us take some time to reflect and assess the needs of your user community.
 
@@ -196,15 +201,16 @@ In pairs, discuss and share the following points:
 Prepare to summarise and share with the rest of the workshop.
 :::
 
-::::{dropdown} In which of the following ways should a Hub Champion support their users?
-:open:
+::::{admonition} Exercise: In which of the following ways should a Hub Champion support their users?
+:class: exercise
 
 a. Providing community guidance on best research software practices for users of your hub.  
 b. Troubleshooting and supporting common user issues.  
 c. Communicating infrastructure level requests and incidents to 2i2c.  
 d. Overseeing user access policy to the hub.
 
-:::{dropdown} Solution
+:::{admonition} Solution
+:class: solution, dropdown
 
 All of the above are things a Hub Champion should do to enable their community to make the best use of a hub.
 
@@ -223,14 +229,16 @@ The next part of the training is a self-guided study of the following episodes
 
 and concludes with a synchronous session covering the episode {ref}`episode-troubleshoot`.
 
-To complete the self-study portion of the workshop, you will need to be able to access the [2i2c Community Showcase Hub](https://showcase.2i2c.cloud). When working through the self-study sections of the workshop, write your answers to the exercises in our [collaborative note-taking document](#).
+To complete the self-study portion of the workshop, you will need to be able to access the [2i2c Community Showcase Hub](https://showcase.2i2c.cloud). When working through the self-study sections of the workshop, write your answers to the exercises in our collaborative note-taking document.
 
 :::important
 If you cannot access the hub, please contact the training instructor.
 :::
 
 :::{card}
-KEY POINTS
+:class-header: sd-font-weight-bold, sd-bg-secondary, sd-text-white
+
+🔑 KEY POINTS
 ^^^
 
 - A hub is a 2i2c-managed JupyterHub in the cloud that provides an interactive computing service to users
