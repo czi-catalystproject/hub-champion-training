@@ -41,8 +41,8 @@ Hub users usually require specific software packages to carry out their work. In
 
 Due to these factors, a software installation on a user's local machine is difficult to reproduce and the installation process is often poorly documented and out of date. 
 
-::::{dropdown} Exercise: Software Challenges
-:open:
+::::{admonition} Exercise: Software Challenges
+:class: exercise
 
 Think about the challenges that you may have faced with using software for your work.
 
@@ -85,8 +85,8 @@ Portability
 Scalability
 : Containers can be scaled up or down to take advantage of the system resources available (i.e. CPUs and RAM).
 
-::::{dropdown} Exercise: Reasons to use containers
-:open:
+::::{admonition} Exercise: Reasons to use containers
+:class: exercise
 
 Which of the following statements are *True* or *False*?
 
@@ -98,7 +98,8 @@ Which of the following statements are *True* or *False*?
 
 1. Containers are easily scalable and can be deployed on many machines to distribute work.
 
-:::{dropdown} Solution
+:::{admonition} Solution
+:class: solution, dropdown
 
 1. *True*
 
@@ -185,8 +186,8 @@ jovyan@user:~$ echo $JUPYTER_IMAGE
 ```
 :::
 
-::::{dropdown} Exercise: Specifying a custom image tag
-:open:
+::::{admonition} Exercise: Specifying a custom image tag
+:class: exercise
 
 Which of the following would you paste into the _Custom Image_ field to pull the latest version of the `handbook-authoring-image` from the list of 2i2c-maintained hub images on [Red Hat Quay](https://quay.io/organization/2i2c) to your hub?
 
@@ -198,7 +199,9 @@ Which of the following would you paste into the _Custom Image_ field to pull the
 1. docker pull quay.io/2i2c/handbook-authoring-image:LATEST
 1. quay.io/2i2c/handbook-authoring-image:LATEST
 
-:::{dropdown} Solution
+:::{admonition} Solution
+:class: solution, dropdown
+
 4. quay.io/2i2c/handbook-authoring-image:LATEST
 
 Notes on the other answers:
