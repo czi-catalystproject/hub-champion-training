@@ -51,9 +51,9 @@ jobs:
         ./helper.sh ${{ secrets.QUAY_ROBOT }}
 
     # Build the book in English
-    - name: Build the book in English
+    - name: Build the book in English and check external links
       run: |
-        jupyter-book build .
+        jupyter-book build . --builder linkcheck
         
     # Build the book in Spanish
     - name: Build the book in Spanish
