@@ -58,6 +58,7 @@ parse:
 sphinx:
   extra_extensions:
    - sphinx_design
+   - sphinxcontrib.mermaid
   config:
     language: en
     html_last_updated_fmt: '%b %d, %Y'
@@ -72,4 +73,5 @@ sphinx:
     locale_dirs: ['locale/']
     gettext_compact: false
     gettext_additional_targets: ['literal-block']
-    gettext_location: false    
+    gettext_location: false
+    mermaid_version: "10.8.0"
