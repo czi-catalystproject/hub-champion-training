@@ -134,7 +134,10 @@ Write up your thoughts in our shared collaborative document.
 
 ## Share and manage code with GitHub
 
-GitHub is a popular platform for creating, storing, managing and sharing code with collaborators. For general guides for using the Git extensions for JupyterLab and RStudio, please refer to [here](https://blog.reviewnb.com/jupyterlab-git-extension/#git-workflow) and [here](https://docs.posit.co/ide/user/ide/guide/tools/version-control.html#integrations), respectively.
+GitHub is a popular *hosting platform* for creating, storing, managing and sharing code with collaborators. Code developed on a hub can be synchronised with a remote repository on GitHub, and changes are tracked in a process known as version control. This allows users to compare and even restore different versions of the code and facilitates collaborative work across different machines. Git is a *version control tool* that enables the synchronisation of code with GitHub. On a hub, version control of code is possible with using Git extensions to the user interface. Learn more about how to use these:
+
+ - [Git extension for JupyterLab](https://blog.reviewnb.com/jupyterlab-git-extension/#git-workflow)
+ - [Git extension for RStudio](https://docs.posit.co/ide/user/ide/guide/tools/version-control.html#integrations).
 
 :::{note}
 We recommend performing git operations using the HTTPS protocol and not SSH, since on the hub HTTPS will always work behind a firewall or proxy.
