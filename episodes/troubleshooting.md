@@ -161,6 +161,5 @@ KEY POINTS
 - Consult [further resources](ref:resources) may help you troubleshoot some common issues
 - If you are stuck and require technical help on behalf of your users, then you can contact 2i2c through their support desk
 - Make a plan for your support process to set yourself up for success as a Hub Champion
-- Formulate a plan to support their community
 
 :::
