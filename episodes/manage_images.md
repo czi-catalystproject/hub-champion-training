@@ -39,7 +39,7 @@ Hub users usually require specific software packages to carry out their work. In
 - filesystems
 - hardware.
 
-Due to these factors a software installation on a user's local machine is difficult to reproduce and the installation process is often poorly documented and out of date. 
+Due to these factors, a software installation on a user's local machine is difficult to reproduce and the installation process is often poorly documented and out of date. 
 
 ::::{dropdown} Exercise: Software Challenges
 :open:
@@ -56,7 +56,7 @@ Write up your thoughts in our shared collaborative document.
 
 ## Reproduce software environments with containers
 
-Containers are a useful technology for overcoming software challenges in reproduciblity, portability and scalability. A container bundles up the software application and its dependencies into a lightweight and standalone package that can be run on any infrastructure.
+Containers are a useful technology for overcoming software challenges in reproducibility, portability and scalability. A container bundles up the software application and its dependencies into a lightweight and standalone package that can be run on any infrastructure.
 
 :::{mermaid}
 :align: center
@@ -92,7 +92,7 @@ Which of the following statements are *True* or *False*?
 
 1. Containers are lightweight, portable and isolated units of software that can be used on any computer and operating system. 
 
-1. An image is a runnable, self-contained software environment and created from a container. A container is a shareable "recipe" used to create images.
+1. An image is a runnable, self-contained software environment created from a container. A container is a shareable "recipe" used to create images.
 
 1. A container enables reproducible modelling or analyses to be carried out on your laptop or in the cloud.
 
@@ -102,7 +102,7 @@ Which of the following statements are *True* or *False*?
 
 1. *True*
 
-1. *False* – A *container* is a runnable, self-contained software environment or service and created from an *image*. An *image* is a shareable "recipe" used to create *containers*.
+1. *False* – A *container* is a runnable, self-contained software environment or service created from an *image*. An *image* is a shareable "recipe" used to create *containers*.
 
 1. *True*
 
@@ -143,7 +143,7 @@ The list of image options presented can vary for different hubs. Hub Champions c
 (episode-images:other)=
 ### Choosing a custom image with the "Other..." option
 
-The *Other...* option allows a user to specify a custom image container to pull into the hub. There are a number of container registries online that host containerized applications, such as Docker Hub, GitHub, Azure, Amazon and Google Container Registries, Red Hat Quay, etc.
+The *Other...* option allows a user to specify a custom image container to pull into the hub. There are many container registries online that host containerized applications, such as Docker Hub, GitHub, Azure, Amazon and Google Container Registries, Red Hat Quay, etc.
 
 **Only containers that are compatible with JupyterHub can be pulled into a hub**. To find JupyterHub-compatible containers you can, e.g.
 
