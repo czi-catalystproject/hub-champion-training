@@ -24,8 +24,8 @@ Training is delivered over two synchronous workshops, each two hours in length a
 :::::
 
 :::{attention}
-{bdg-danger}`pre-alpha`
-This lesson is under active development and not ready for teaching yet.  
+{bdg-danger}`alpha`
+This lesson is a first draft and under iterative development.  
 :::
 
 :::{seealso}
@@ -36,20 +36,55 @@ This lesson is under active development and not ready for teaching yet.
 
 After attending this training, Hub Champions will be able to:
 
-- explain how interactive cloud computing can empower your user community
-- control user authentication and access to your hub
-- monitor usage and cloud billing costs
+- explain how interactive cloud computing can empower their user community
+- control user authentication and access to their hub
+- promote the use of cloud resources responsibly to maximize efficiency and minimize carbon emissions
 - apply software environments through containerization
-- navigate the filesystem and transfer data to and from the hub
+- navigate the filesystem and transfer data and code to and from the hub
 - provide user support and troubleshoot common issues
 
 ## Episodes
 
-1. ⭐ {ref}`episode-intro`
-1. {ref}`episode-access`
-1. {ref}`episode-images`
-1. {ref}`episode-data`
-1. ⭐ {ref}`episode-troubleshoot`
+::::{grid} 2
+:gutter: 2
+
+:::{grid-item-card}
+Episode 1
+^^^
+⭐ {ref}`episode-intro`
+:::
+
+:::{grid-item-card}
+Episode 2
+^^^
+{ref}`episode-access`
+:::
+
+:::{grid-item-card}
+Episode 3
+^^^
+{ref}`episode-server`
+:::
+
+:::{grid-item-card}
+Episode 4
+^^^
+{ref}`episode-images`
+:::
+
+:::{grid-item-card}
+Episode 5
+^^^
+{ref}`episode-data`
+:::
+
+:::{grid-item-card}
+Episode 6
+^^^
+⭐ {ref}`episode-troubleshoot`
+:::
+
+::::
 
 ( ⭐ indicates this episode is delivered via a synchronous workshop)
 
@@ -59,6 +94,7 @@ We would like to acknowledge Chan Zuckerberg Initiative funding for The Catalyst
 
 - [2i2c](https://2i2c.org/)
 - [The Carpentries](https://carpentries.org/about/)
+- [Centro de Computación de Alto Desempeño](https://ccad.unc.edu.ar/)
 - [Center for Scientific Collaboration and Community Engagement](https://www.cscce.org/)
 - [Invest in Open Infrastructure](https://investinopen.org/)
 - [MetaDocencia](https://www.metadocencia.org/)
