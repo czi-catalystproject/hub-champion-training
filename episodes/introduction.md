@@ -47,7 +47,7 @@ Real-time interactivity helps information flow back and forth between the user a
 
 :::{image} ../media/episodes/introduction/interactive-computing.png
 :width: 100%
-:alt: Cartoon depicting common computing use cases such as data collection, data processing and analysis, predictive modelling and data visualization.
+:alt: Cartoon depicting common interactive computing use cases such as data collection, data processing and analysis, predictive modelling and data visualization.
 
 :::
 
@@ -56,14 +56,14 @@ With the advent of "big data", many researchers and educators encounter limitati
 :::{image} ../media/episodes/introduction/cloud-computing.png
 :width: 30%
 :align: right
-:alt: Icon depicting a cloud computing.
+:alt: Cloud computing icon.
 
 :::
 
-Cloud computing is one way of provisioning the system resources needed to meet this demand. This relies on the sharing of on-demand services usually provided by commercial entities such as AWS, Google Cloud and Microsoft Azure. Academics in research and education are often limited in their capacity to sustainably administrate cloud infrastructure at scale and may also wish to support open-source tools and vendor-agnostic infrastructure. 
+Cloud computing is one way of provisioning the system resources needed to meet this demand. This relies on the sharing of on-demand services usually provided by commercial entities such as AWS, Google Cloud and Microsoft Azure. Academics in research and education are often limited in their capacity to sustainably administrate cloud infrastructure at scale and may also wish to support open-source tools and vendor-agnostic infrastructure to protect scientific reproducibility and encourage effective collaboration. 
 
 
-This is where a non-profit initiative such as [2i2c](https://2i2c.org/) can help. 2i2c specialises in managing open Jupyter architecture in the cloud specially designed for communities of practice in research and education using open-source tools that allow them to reproduce environments, code and data on different machines. Users can access large-scale compute and storage as needed and workflows are entirely reproducible and supported by using open-source technologies. 
+This is where a non-profit initiative such as [2i2c](https://2i2c.org/) can help. 2i2c specialises in managing open Jupyter architecture in the cloud specially designed for communities of practice in research and education using open-source tools that allow them to reproduce environments, code and data on different machines. Users can access large-scale compute and storage as needed and workflows are entirely reproducible and supported by using community-driven, open-source technologies. 
 
 ### JupyterHubs in the Cloud
 
