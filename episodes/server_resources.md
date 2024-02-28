@@ -34,9 +34,9 @@ Objectives
 
 ## JupyterHub server options
 
-A hub provides interactive computing in the cloud to support research and education workflows for your community. Computational resources, such as the number of {ref}`CPU<glossary:cpu>` cores and {ref}`RAM<glossary:ram>`, can be provisioned on-demand and therefore allows users to scale up or scale down their work as needed.
+A hub provides interactive computing in the cloud to support research and education workflows for your community. Computational resources, such as the number of {ref}`CPU<glossary:cpu>` cores and {ref}`RAM<glossary:ram>`, can be provisioned on-demand to allow users to scale up or scale down their work as needed.
 
-Once a user is logged into the hub, they can launch a server configured with a number of {ref}`CPU<glossary:cpu>` cores and {ref}`RAM<glossary:ram>`.
+Once a user is logged into the hub, they can launch a server configured with a number of CPU cores and RAM.
 
 In this example, we will look at the server options available on the [Community Showcase Hub](https://showcase.2i2c.cloud).
 
@@ -165,13 +165,13 @@ Performing administrative actions as a Hub Champion should be done with great ca
 A user's server may sometimes become unresponsive, e.g. issues stemming from self-installed software via `pip` and/or `conda`. Hub Champions can restore user servers to their default environment by stopping and restarting their server by clicking the ![Stop Server](../media/episodes/server_resources/manage-2.png) followed by the ![Start Server](../media/episodes/server_resources/manage-3.png) button next  to the user's name from the Admin panel.
 
 :::{note}
-Self-installed software packages on the hub are *temporary* and are removed each time a server is shut down to maintain a clean default software environment. Software is persisted between sessions by {ref}`episode-images`, which is covered in the next episode.
+Self-installed software packages on the hub are *temporary* and are removed each time a server is shut down to maintain a clean default software environment. Software is provided between sessions by {ref}`episode-images`, which is covered in the next episode.
 
 :::
 
 ### Access a user's server
 
-Hub Champions's can gain control of a user's server that is currently running by clicking the ![Access Server](../media/episodes/server_resources/manage-4.png) button next to the user's name from the Admin panel.
+Hub Champions can gain control of a user's server that is currently running by clicking the ![Access Server](../media/episodes/server_resources/manage-4.png) button next to the user's name from the Admin panel.
 
 From here a Hub Champion can navigate the server *as if they are the user themselves*, which is useful for reproducing and debugging issues.
 
@@ -195,7 +195,7 @@ b. *True* – running a server utilises computational resources that are billed 
 
 c. *True* – sometimes user-installed packages can introduce software dependency conflicts that can be removed by restarting the server.  
 
-d. *False* – servers are culled after 1 hour of inactivity by default. If a user requires a long-running process exceeding this time period, then they should request this through their Hub Champion.
+d. *False* – servers are culled after 1 hour of inactivity by default. If a user requires a long-running process exceeding this time period, then they should request an extension to this limit through their Hub Champion.
 
 :::
 
