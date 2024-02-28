@@ -31,7 +31,7 @@ Objectives
 
 ## Home directory
 
-A hub server comes with its own filesystem that is private to the user and not shared with other hub users. Every user on the hub is given the username `jovyan`[^jovyan] and the filepath where their home directory is located at
+A hub server comes with its own filesystem that is private to the user and not shared with other hub users. Every user on the hub is given the username `jovyan`[^jovyan] and the file path where their home directory is located at
 
 ```shell
 /home/jovyan
@@ -134,7 +134,7 @@ Write up your thoughts in our shared collaborative document.
 
 ## Share and manage code with GitHub
 
-GitHub is a popular *hosting platform* for creating, storing, managing and sharing code with collaborators. Code developed on a hub can be synchronised with a remote repository on GitHub, and changes are tracked in a process known as version control. This allows users to compare and even restore different versions of the code and facilitates collaborative work across different machines. Git is a *version control tool* that enables the synchronisation of code with GitHub. On a hub, version control of code is possible with using Git extensions to the user interface. Learn more about how to use these:
+GitHub is a popular *hosting platform* for creating, storing, managing and sharing code with collaborators. Code developed on a hub can be synchronised with a remote repository on GitHub, and changes are tracked in a process known as version control. This allows users to compare and even restore different versions of the code and facilitates collaborative work across different machines. Git is a *version control tool* that enables the synchronisation of code with GitHub. On a hub, version control of code is possible by using Git extensions to the user interface. Learn more about how to use these:
 
  - [Git extension for JupyterLab](https://blog.reviewnb.com/jupyterlab-git-extension/#git-workflow)
  - [Git extension for RStudio](https://docs.posit.co/ide/user/ide/guide/tools/version-control.html#integrations).
@@ -165,7 +165,7 @@ Authorisation to pull and push to GitHub is handled with [`gh-scoped-creds`](htt
    You have 15 minutes to go to https://github.com/login/device and enter the code: XXXX-XXXX
    Waiting....
    ```
-   Copy the code from the prompt and paste into [https://github.com/login/device](https://github.com/login/device) as instructed.
+   Copy the code from the prompt and paste it into [https://github.com/login/device](https://github.com/login/device) as instructed.
 1. Authorise the hub to access GitHub by clicking the green button with the label *Authorize <name of hub>*.
 1. You should now be able to pull and push to GitHub from the hub without entering your credentials.
 
@@ -196,7 +196,7 @@ There are some extra steps for Hub Champions to enable `gh-scoped-creds` for the
      :align: center
      :alt: Screenshot of the page to install a GitHub App showing how you can select the organisation to enable `gh-scoped-creds` for.
      ```
-   - Choose whether to enable `gh-scoped-creds` for all repositories in your organisation or for only specific repositories, and check that `Read and write access to code` is enabled.
+   - Choose whether to enable `gh-scoped-creds` for all repositories in your organisation or for only specific repositories and check that `Read and write access to code` is enabled.
      ```{image} ../media/episodes/transfer_data/git-install-app-2.png
      :width: 50%
      :align: center
