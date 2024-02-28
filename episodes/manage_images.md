@@ -1,8 +1,8 @@
 (episode-images)=
 # Managing Software Images
 
-teaching: 30
-exercises: 15
+<!-- teaching: 30
+exercises: 20 -->
 
 :::::{card} 
 OVERVIEW
@@ -32,7 +32,7 @@ Objectives
 
 ## Software for research and education
 
-Hub users more than likely require specific software packages to carry out their work. Installing software on a laptop significantly differs from installing software on a shared resource such as a hub in the cloud, largely because of different
+Hub users usually require specific software packages to carry out their work. Installing software on a laptop significantly differs from installing software on a shared resource such as a hub in the cloud, largely because of different
 
 - operating systems, e.g. Linux, macOS, Windows
 - system libraries
@@ -56,7 +56,7 @@ Write up your thoughts in our shared collaborative document.
 
 ## Reproduce software environments with containers
 
-Containers are a useful technology for overcoming software challenges in reproduciblity, portability and scalability. A container, much like a real-world shipping container, bundles up the software application and its dependencies into a lightweight and standalone package that can be run on any infrastructure.
+Containers are a useful technology for overcoming software challenges in reproduciblity, portability and scalability. A container bundles up the software application and its dependencies into a lightweight and standalone package that can be run on any infrastructure.
 
 :::{mermaid}
 :align: center
@@ -163,7 +163,7 @@ Anyone can create a container and publicly share it online, therefore it is impo
 
 :::
 
-An image listed on a container registry may have many different versions associated with it. A `TAG` is used to distinguish these different versions. The name of the container image can also include the `OWNER` (this ). The general format for specifying an image is
+An image listed on a container registry may have many different versions associated with it. A `TAG` is used to distinguish these different versions. The name of the container image can also include the `OWNER`. The general format for specifying an image is
 
 ```shell
 OWNER/IMAGE_NAME:TAG
