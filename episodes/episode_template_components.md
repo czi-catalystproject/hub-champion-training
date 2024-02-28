@@ -1,23 +1,25 @@
-# Recognising the benefits your hub can provide for your user community 
+# Episode Template Components
 
 teaching: 10
 exercises: 2
 
-:::::{card} 
-OVERVIEW
+:::::{card}
+:class-header: sd-font-weight-bold, sd-bg-primary, sd-text-white
+
+🔍 OVERVIEW
 ^^^
 
 ::::{grid}
 :gutter: 2
 
 :::{grid-item}
-Questions
+**Questions**
 
 - TODO
 :::
 
 :::{grid-item}
-Objectives
+**Objectives**
 
 - TODO
 :::
@@ -25,21 +27,25 @@ Objectives
 :::::
 
 ```
-:::::{card} 
-OVERVIEW
+:::::{card}
+:class-header: sd-font-weight-bold, sd-bg-primary, sd-text-white
+
+🔍 OVERVIEW
 ^^^
 
 ::::{grid}
 :gutter: 2
 
 :::{grid-item}
-Questions
+**Questions**
 
+- TODO
 :::
 
 :::{grid-item}
-Objectives
+**Objectives**
 
+- TODO
 :::
 
 :::::
@@ -50,12 +56,14 @@ Objectives
 TODO 
 
 ```
-::::{dropdown} Challenge Title
-:open:
+::::{admonition} Exercise: Title
+:class: exercise
 
-Challenge content
+Exercise content
 
-:::{dropdown} Solution
+:::{admonition} Solution
+:class: solution, dropdown
+
 Solution content
 
 :::
@@ -63,12 +71,14 @@ Solution content
 ::::
 ```
 
-::::{dropdown} Challenge Title
-:open:
+::::{admonition} Exercise: Title
+:class: exercise
 
-Challenge content
+Exercise content
 
-:::{dropdown} Solution
+:::{admonition} Solution
+:class: solution, dropdown
+
 Solution content
 
 :::
@@ -151,7 +161,9 @@ The equation {eq}`mymath1` is also a quadratic equation.
 
 ```
 :::{card} 
-KEY POINTS
+:class-header: sd-font-weight-bold, sd-bg-secondary, sd-text-white
+
+🔑 KEY POINTS
 ^^^
 - TODO
 :::
@@ -159,7 +171,9 @@ KEY POINTS
 ```
 
 :::{card} 
-KEY POINTS
+:class-header: sd-font-weight-bold, sd-bg-secondary, sd-text-white
+
+🔑 KEY POINTS
 ^^^
 - TODO
 :::
