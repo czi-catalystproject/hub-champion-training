@@ -37,6 +37,7 @@ Before joining the training, participants should be able to:
 
 - Access the 2i2c [Community Showcase Hub](https://showcase.2i2c.cloud) using their GitHub account
     - If you cannot access the hub, please contact the training instructor
+- Know basic Git, such as pushing and pulling to a remote GitHub repository
 - Find the shared collaborative note-taking document
 - Access a stable internet connection
 - Use a web browser and video conferencing, e.g. Zoom.
@@ -55,7 +56,7 @@ Best wishes,
 
 :::
 
-After sending the email, create the videoconferencing call and share a calendar invitation with the connection details, and a link to the CodiMD document.  
+After sending the email, create the videoconferencing call for Part 1 and Part 2 of the training, then share a calendar invitation with the connection details and a link to the CodiMD document.  
 
 ## Community Showcase Hub setup
 
