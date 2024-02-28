@@ -38,7 +38,7 @@ Congratulations! You have completed the training on
 
 - {ref}`episode-intro`
 - {ref}`episode-access`
-- {ref}`episodes/server_resources`
+- {ref}`episode-server`
 - {ref}`episode-images`
 - {ref}`episode-data`
 
