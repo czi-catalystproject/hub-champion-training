@@ -36,10 +36,9 @@ Objectives
 
 Congratulations! You have completed the training on
 
-<!-- TODO: Add episodes/server_resources -->
-
 - {ref}`episode-intro`
-- {ref}`episode-admin`
+- {ref}`episode-access`
+- {ref}`episodes/server_resources`
 - {ref}`episode-images`
 - {ref}`episode-data`
 
