@@ -1,8 +1,8 @@
 (episode-server)=
 # Selecting the optimal server resources for your computational work responsibly
 
-teaching: 15
-exercises: 15
+<!-- teaching: 30
+exercises: 20 -->
 
 :::::{card} 
 OVERVIEW
