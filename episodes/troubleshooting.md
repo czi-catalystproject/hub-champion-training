@@ -158,7 +158,10 @@ KEY POINTS
 ^^^
 After following this episode, Hub Champions will be able to...
 
-- Choose the best place to look or ask for help with hub management
+- Part of your role as Hub Champion is to adapt and respond to the specific needs of your community
+- Consult [further resources](ref:resources) may help you troubleshoot some common issues
+- If you are stuck and require technical help on behalf of your users, then you can contact 2i2c through their support desk
+- Make a plan for your support process to set yourself up for success as a Hub Champion
 - Formulate a plan to support their community
 
 :::
