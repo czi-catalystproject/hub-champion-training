@@ -139,9 +139,11 @@ GitHub is a popular *hosting platform* for creating, storing, managing and shari
  - [Git extension for JupyterLab](https://blog.reviewnb.com/jupyterlab-git-extension/#git-workflow)
  - [Git extension for RStudio](https://docs.posit.co/ide/user/ide/guide/tools/version-control.html#integrations).
 
+::::{margin}::::
 :::{note}
 We recommend performing git operations using the HTTPS protocol and not SSH, since on the hub HTTPS will always work behind a firewall or proxy.
 :::
+::::
 
 When a user pulls and pushes code to a remote repository on GitHub, they will be prompted to provide their GitHub credentials.
 
