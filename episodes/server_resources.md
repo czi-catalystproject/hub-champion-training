@@ -5,16 +5,14 @@
 exercises: 20 -->
 
 :::::{card} 
-:class-header: sd-font-weight-bold, sd-bg-primary, sd-text-white
-
-🔍 OVERVIEW
+OVERVIEW
 ^^^
 
 ::::{grid}
 :gutter: 2
 
 :::{grid-item}
-**Questions**
+Questions
 
 - What's happening in the cloud when I run a server?
 - How many CPU cores and RAM do I need?
@@ -24,7 +22,7 @@ exercises: 20 -->
 :::
 
 :::{grid-item}
-**Objectives**
+Objectives
 
 - Select the most appropriate server resources for computational work
 - Stop and restart a user's server
@@ -62,13 +60,12 @@ Here, there are four server options presented
 
 We shall explore the *Image* dropdown box further in the next episode, {ref}`episode-images`.
 
-::::{admonition} Exercise: Local versus Cloud computing – What's the difference?
-:class: exercise
+::::{dropdown} Exercise: Local versus Cloud computing – What's the difference?
+:open:
 
 How does the number of CPUs and RAM available on the hub compare with your personal computer? What impact does access to these cloud resources have on your user's work?
 
-:::{admonition} Solution
-:class: solution, dropdown
+:::{dropdown} Solution
 
 In general, more CPU cores available in the cloud allow for more work to be done in *parallel* and reduce time to solution (a CPU-bound program). Parallel computing is where multiple CPU cores can be used simultaneously to solve a computational problem, e.g. running the same processing task on several different datasets.  
 
@@ -88,8 +85,8 @@ Best practices for using cloud resources responsibly include
 - selecting the server option with the minimum number of CPU cores and RAM needed to carry out your work
 - running code efficiently and developing sustainable research software where possible, e.g. test your program first before scaling to a larger job.
 
-::::{admonition} Exercise: Optimize server resources for your work
-:class: exercise
+::::{dropdown} Exercise: Optimize server resources for your work
+:open:
 
 In each scenario, select the option that makes the best use of the following server resources: *Shared Small: 1–4 CPU, 8–32 GB RAM, Small: 4 CPU, 32 GB RAM, Medium: 16 CPU, 128 GB RAM, Large: 64 CPU, 512 GB RAM*.
 
@@ -99,9 +96,7 @@ b. Create documentation and edit text files.
 
 c. Preprocess a dataset consisting of 10,000 images, where each image is 16 MB in size.
 
-:::{admonition} Solution
-:class: solution, dropdown
-
+:::{dropdown} Solution
 a. *Medium: 16 CPU, 128 GB RAM* – the memory required is $ 60 \times 2 \, \mathrm{GB} = 120 \, \mathrm{GB}$, therefore the RAM on a *Medium* machine is sufficient.
 
 b. *Shared Small: 1–4 CPU, 8–32 GB RAM* – this is not a computationally intensive task so a machine shared with other users is sufficient.
@@ -114,9 +109,7 @@ c. *Large: 64 CPU, 512 GB RAM* – the total dataset size is $10000 \times 16 \,
 
 Sofía wants to run a new program but does not know its maximum memory requirement. She tried compiling it on a Shared Small machine, where it was initially built but then ran out of memory and failed on execution. Which server configuration should Sofía choose to try to run the program again?
 
-:::{admonition} Solution
-:class: solution, dropdown
-
+:::{dropdown} Solution
 *Small: 4 CPU, 32 GB RAM* – the task failed on a *Shared Small* machine and we recommend sizing up incrementally if you are unsure of the server resources you need.
 
 :::
@@ -128,7 +121,7 @@ Sofía wants to run a new program but does not know its maximum memory requireme
 Hubs automatically cull servers after a period of inactivity to improve resource utilization and safeguard against excessive cloud costs. This occurs after **1 hour** of user inactivity.
 
 :::{tip}
-Executing a piece of long-running code with a running kernel is not recognised as user activity on the server and so the process is killed after 1 hour. This is a rare use case of interactive computing on a hub, but this limit can be reconfigured for a particular hub upon request by contacting [2i2c support](https://docs.2i2c.org/support/). 
+Executing a piece of long-running code with a running kernel is not recognised as user activity on the server and so the process is killed after 1 hour. This is a rare use case of interactive computing on a hub, but this limit can be reconfigured for a particular hub upon request by contacting [2i2c support](#). 
 
 <!-- TODO: Add internal reference for contacting 2i2c support when written up. -->
 :::
@@ -183,8 +176,8 @@ Hub Champions can gain control of a user's server that is currently running by c
 
 From here a Hub Champion can navigate the server *as if they are the user themselves*, which is useful for reproducing and debugging issues.
 
-::::{admonition} Exercise: User server management
-:class: exercise
+::::{dropdown} Exercise: User server management
+:open:
 
 Are the following statements *True* or *False*?
 
@@ -196,9 +189,7 @@ c. Stopping and restarting a server removes `pip` and `conda` user-installed pac
 
 d. A user server will continue to run indefinitely unless stopped.
 
-:::{admonition} Solution
-:class: solution, dropdown
-
+:::{dropdown} Solution
 a. *False* – the server will continue to run unless the *Stop my Server* button is clicked or will be automatically culled after 1 hour of inactivity by default.  
 
 b. *True* – running a server utilises computational resources that are billed by the cloud provider and consumes energy.  
@@ -212,9 +203,7 @@ d. *False* – servers are culled after 1 hour of inactivity by default. If a us
 ::::
 
 :::{card} 
-:class-header: sd-font-weight-bold, sd-bg-secondary, sd-text-white
-
-🔑 KEY POINTS
+KEY POINTS
 ^^^
 - Users can launch servers with a variety of resources available, namely the number of CPU cores and RAM.
 - It is important to use cloud resources responsibly to maximize efficiency and minimize carbon emissions. 

@@ -4,17 +4,15 @@
 <!-- teaching: 30
 exercises: 20 -->
 
-:::::{card}
-:class-header: sd-font-weight-bold, sd-bg-primary, sd-text-white
-
-🔍 OVERVIEW
+:::::{card} 
+OVERVIEW
 ^^^
 
 ::::{grid}
 :gutter: 2
 
 :::{grid-item}
-**Questions**
+Questions
 
 - Where do I store files on the hub?
 - How do I transfer data to and from the hub?
@@ -22,7 +20,7 @@ exercises: 20 -->
 :::
 
 :::{grid-item}
-**Objectives**
+Objectives
 
 - Recognise and locate your home directory in the JupyterLab and RStudio user interface
 - Distribute read-only datasets to all hub users in a shared directory
@@ -61,8 +59,8 @@ The file explorer (highlighted with a blue box) in the RStudio user interface.
 
 The storage quota for home directories is **limited to 10 GB**, therefore this space is suitable for small files and datasets and not suitable for storing large datasets. 
 
-::::{admonition} Exercise: What can you store in your home directory?
-:class: exercise
+::::{dropdown} Exercise: What can you store in your home directory?
+:open:
 
 Select all that apply:
 
@@ -75,8 +73,7 @@ Select all that apply:
 - [ ] Read-only datasets, e.g for teaching
 - [ ] Temporary data, e.g. intermediate results from a calculation
 
-:::{admonition} Solution
-:class: solution, dropdown
+:::{dropdown} Solution
 
 - [x] Notebooks
 - [x] Code
@@ -121,8 +118,8 @@ Download files from the hub by
 
 :::
 
-:::{admonition} Exercise: Data requirements
-:class: exercise
+:::{dropdown} Exercise: Data requirements
+:open:
 
 Think about the data that you or your community require for your/their work.
 
@@ -212,8 +209,8 @@ There are some extra steps for Hub Champions to enable `gh-scoped-creds` for the
 If you wish to review the GitHub App settings, then you can locate your organization's installed apps at `https://github.com/organizations/<your-org-name>/settings/installations`.
 :::
 
-::::{admonition} Exercise: Push GitHub code
-:class: exercise
+::::{dropdown} Exercise: Push GitHub code
+:open:
 
 You use the Git JupyterLab extension to push code to a remote repository on GitHub and the following box opens:
 
@@ -231,8 +228,7 @@ What should you do?
 1. Enter your GitHub username and Personal Access Token as requested, then click *Save my login temporarily*
 1. Click *Cancel*, open a Terminal, enter the command `gh-scoped-creds` and follow the prompt
 
-:::{admonition} Solution
-:class: solution, dropdown
+:::{dropdown} Solution
 
 The correct answer is 2 – never enter your GitHub credentials (GitHub password, personal access tokens or otherwise) on any kind of shared infrastructure (e.g. private and public cloud, HPC, any remote machine) as this information will be at risk.
 
@@ -241,9 +237,7 @@ The correct answer is 2 – never enter your GitHub credentials (GitHub password
 ::::
 
 :::{card} 
-:class-header: sd-font-weight-bold, sd-bg-secondary, sd-text-white
-
-🔑 KEY POINTS
+KEY POINTS
 ^^^
 - Users can store small files and datasets in their home directory that will persist between sessions.
 - Hub Champions can distribute large datasets in a read-only *shared* directory.
