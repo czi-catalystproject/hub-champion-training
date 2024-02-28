@@ -92,7 +92,7 @@ A user wants to use a software application that is not currently available on th
 
 :::{dropdown} Solution
 
-There are different ways in which you can approach this support request depending on your technical capacity and your own judgement. However we recommend that you *Contact the 2i2c technical support desk for assistance* as a last resort, since there are plenty of [further resources](ref:resources) to help you before you get to this point.
+There are different ways in which you can approach this support request depending on your technical capacity and your own judgment. However, we recommend that you *Contact the 2i2c technical support desk for assistance* as a last resort, since there are plenty of [further resources](ref:resources) to help you before you get to this point.
 
 :::
 
@@ -127,7 +127,7 @@ Build a plan for how you will support the use of your hub amongst your community
 - How will you communicate with your users?
 - Where will your users report issues?
 - What needs do you anticipate from your users? How can you set them up for success?
-- How will you track whether an issue gets resolved in a a timely manner?
+- How will you track whether an issue gets resolved promptly?
 - What resources are available to help you when you need help?
 - When should you ask for technical assistance from 2i2c?
 - How much time can you commit to support activities?
@@ -149,7 +149,7 @@ Is there anything else you need to support hub users?
 
 Thank you for following the Hub Champion Training! 🏅
 
-We hope you found it useful for building your skills and confidence as a Hub Champion to empower your community to make best use out of the hub service.
+We hope you found it useful for building your skills and confidence as a Hub Champion to empower your community to make the best use of the hub service.
 
 We're always looking to improve our lesson and welcome your feedback.
 
