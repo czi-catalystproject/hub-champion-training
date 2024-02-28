@@ -4,15 +4,17 @@
 <!-- teaching: 40
 exercises: 30 -->
 
-:::::{card} 
-OVERVIEW
+:::::{card}
+:class-header: sd-font-weight-bold, sd-bg-primary, sd-text-white
+
+🔍 OVERVIEW
 ^^^
 
 ::::{grid}
 :gutter: 2
 
 :::{grid-item}
-Questions
+**Questions**
 
 - What is interactive computing in the cloud?
 - How can interactive computing in the cloud serve hub communities in research and/or education?
@@ -21,7 +23,7 @@ Questions
 :::
 
 :::{grid-item}
-Objectives
+**Objectives**
 
 - Identify the benefits provided by a hub for interactive cloud computing
 - Recognise use cases for interactive cloud computing in a Hub Champion's user community
@@ -233,7 +235,9 @@ If you cannot access the hub, please contact the training instructor.
 :::
 
 :::{card}
-KEY POINTS
+:class-header: sd-font-weight-bold, sd-bg-secondary, sd-text-white
+
+🔑 KEY POINTS
 ^^^
 
 - A hub is a 2i2c-managed JupyterHub in the cloud that provides an interactive computing service to users

@@ -4,15 +4,17 @@
 <!-- teaching: 30
 exercises: 20 -->
 
-:::::{card} 
-OVERVIEW
+:::::{card}
+:class-header: sd-font-weight-bold, sd-bg-primary, sd-text-white
+
+🔍 OVERVIEW
 ^^^
 
 ::::{grid}
 :gutter: 2
 
 :::{grid-item}
-Questions
+**Questions**
 
 - Where do I store files on the hub?
 - How do I transfer data to and from the hub?
@@ -20,7 +22,7 @@ Questions
 :::
 
 :::{grid-item}
-Objectives
+**Objectives**
 
 - Recognise and locate your home directory in the JupyterLab and RStudio user interface
 - Distribute read-only datasets to all hub users in a shared directory
@@ -239,7 +241,9 @@ The correct answer is 2 – never enter your GitHub credentials (GitHub password
 ::::
 
 :::{card} 
-KEY POINTS
+:class-header: sd-font-weight-bold, sd-bg-secondary, sd-text-white
+
+🔑 KEY POINTS
 ^^^
 - Users can store small files and datasets in their home directory that will persist between sessions.
 - Hub Champions can distribute large datasets in a read-only *shared* directory.
