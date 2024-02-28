@@ -2,11 +2,9 @@
 
 Before joining the training, participants should be able to:
 
-- Access the 2i2c training hub
-- GitHub account – Create an account on the [GitHub Sign Up page](https://github.com/signup). We recommend you to check [GitHub Documentation on two factor authentication](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa) for secure access
+- Access the 2i2c [Community Showcase Hub](https://showcase.2i2c.cloud) using their GitHub account
+    - If you cannot access the hub, please contact the training instructor
+- Know basic Git, such as pushing and pulling to a remote GitHub repository.
+- Find the shared collaborative note-taking document
 - Access a stable internet connection
-- Use a web browser
-
-
-
-
+- Use a web browser.
