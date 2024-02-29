@@ -4,15 +4,17 @@
 <!-- teaching: 15
 exercises: 15 -->
 
-:::::{card} 
-OVERVIEW
+:::::{card}
+:class-header: sd-font-weight-bold, sd-bg-primary, sd-text-white
+
+🔍 OVERVIEW
 ^^^
 
 ::::{grid}
 :gutter: 2
 
 :::{grid-item}
-Questions
+**Questions**
 
 - Who has control over access to a hub?
 - How do I invite members to a GitHub Organization?
@@ -21,7 +23,7 @@ Questions
 :::
 
 :::{grid-item}
-Objectives
+**Objectives**
 
 - Control user access to a hub via GitHub Organizations and Teams
 - Add users to a GitHub Organization
@@ -189,6 +191,7 @@ Fill in the blanks with the following words: *organization, team, owners, non-me
 
 :::{admonition} Solution
 :class: solution, dropdown
+
 "**Team**s are groups of **organization** members that reflect your group's structure and controls access permissions. **Owners** have permission to invite **non-members** to the organization and invite **existing members** of the organization to a **team**."
 
 :::
@@ -196,7 +199,9 @@ Fill in the blanks with the following words: *organization, team, owners, non-me
 ::::
 
 :::{card} 
-KEY POINTS
+:class-header: sd-font-weight-bold, sd-bg-secondary, sd-text-white
+
+🔑 KEY POINTS
 ^^^
 - A Hub Champion decides who has access to the hub.
 - Hub access is controlled with GitHub Organizations and Teams.
