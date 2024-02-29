@@ -27,6 +27,10 @@ execute:
 # bibtex_bibfiles:
 #   - references.bib
 
+# Launch button settings
+launch_buttons:
+  jupyterhub_url: https://showcase.2i2c.cloud
+
 # Information about where the book exists on the web
 repository:
   url: https://github.com/czi-catalystproject/hub-champion-training  # Online location of your book
