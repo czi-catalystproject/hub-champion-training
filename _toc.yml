@@ -7,6 +7,8 @@ parts:
 - caption: About
   chapters:
   - file: learners/setup
+  - url: https://compass.2i2c.org/code-of-conduct/
+    title: Code of Conduct
   - file: profiles/learner-profiles
   - file: instructors/instructor-notes
   - file: learners/reference
