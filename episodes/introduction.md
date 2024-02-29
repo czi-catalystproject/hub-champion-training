@@ -144,15 +144,17 @@ Hub Champions are the first point of contact for their user community to provide
 
 <br>
 
-::::{dropdown} Which of the following statements are True/False?
-:open:
+::::{admonition} Which of the following statements are True/False?
+:class: exercise
 
 a. 2i2c-managed hubs are only available via a single cloud provider.  
 b. A hub can be accessed and used by anyone who knows its URL.  
 c. Software environments are inflexible and irreproducible.  
 d. 2i2c provides operations support for your hub.
 
-:::{dropdown} Solution
+:::{admonition} Solution
+:class: solution, dropdown
+
 a. False – Hubs are built entirely with open-source and community-driven tooling. The Right to Replicate gives communities the right to replicate their infrastructure in its entirety elsewhere.  
 b. False – Hub Champions can control who can access the hub through GitHub or other authentication methods.  
 c. False – Software environments are managed by Hub Champions and automatically deployed with containerisation, allowing for scalability across the cloud and reproducible user environments.  
@@ -177,8 +179,8 @@ To ensure that the hub serves the interests of your community, Hub Champions may
 
 <br>
 
-:::{dropdown} What are the needs of your user community?
-:open:
+:::{admonition} Exercise: What are the needs of your user community?
+:class: exercise
 
 Let us take some time to reflect and assess the needs of your user community.
 
@@ -196,15 +198,16 @@ In pairs, discuss and share the following points:
 Prepare to summarise and share with the rest of the workshop.
 :::
 
-::::{dropdown} In which of the following ways should a Hub Champion support their users?
-:open:
+::::{admonition} Exercise: In which of the following ways should a Hub Champion support their users?
+:class: exercise
 
 a. Providing community guidance on best research software practices for users of your hub.  
 b. Troubleshooting and supporting common user issues.  
 c. Communicating infrastructure level requests and incidents to 2i2c.  
 d. Overseeing user access policy to the hub.
 
-:::{dropdown} Solution
+:::{admonition} Solution
+:class: solution, dropdown
 
 All of the above are things a Hub Champion should do to enable their community to make the best use of a hub.
 

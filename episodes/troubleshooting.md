@@ -1,8 +1,8 @@
 (episode-troubleshoot)=
 # Troubleshooting and providing user support
 
-teaching: 0
-exercises: 0
+<!-- teaching: 40
+exercises: 20 -->
 
 
 :::::{card} 
@@ -44,8 +44,8 @@ Congratulations! You have completed the training on
 
 and you now possess the skills and knowledge to successfully serve the needs of your community as a Hub Champion 🎉
 
-::::{dropdown} Exercise: How did it go?
-:open:
+::::{admonition} Exercise: How did it go?
+:class: exercise
 
 Take a few minutes to reflect on your experience following the training on your own then, in pairs, discuss the following points:
 
@@ -79,8 +79,8 @@ Here are some tips for success:
 
 :::
 
-::::{dropdown} Exercise: Where to go for help?
-:open:
+::::{admonition} Exercise: Where to go for help?
+:class: exercise
 
 A user wants to use a software application that is not currently available on the hub. Rearrange the following statements in the order of action you would escalate support for this person:
 
@@ -89,7 +89,8 @@ A user wants to use a software application that is not currently available on th
 1. Provide one-to-one support to guide the user through the process of pulling a custom container to the hub
 1. Find a custom container that includes the requested software application and provide the information needed to pull this container to the hub to the user
 
-:::{dropdown} Solution
+:::{admonition} Solution
+:class: solution, dropdown
 
 There are different ways in which you can approach this support request depending on your technical capacity and your own judgment. However, we recommend that you *Contact the 2i2c technical support desk for assistance* as a last resort, since there are plenty of [further resources](ref:resources) to help you before you get to this point.
 
@@ -118,8 +119,8 @@ Time-bound
 
 <!-- TODO: is there an equivalent approach in Spanish? -->
 
-::::{dropdown} Exercise: Plan your support process
-:open:
+::::{admonition} Exercise: Plan your support process
+:class: exercise
 
 Build a plan for how you will support the use of your hub amongst your community. Begin by trying to answer the following questions:
 
@@ -157,7 +158,7 @@ KEY POINTS
 ^^^
 
 - Part of your role as Hub Champion is to adapt and respond to the specific needs of your community
-- Consult [further resources](ref:resources) may help you troubleshoot some common issues
+- Consulting [further resources](ref:resources) may help you troubleshoot some common issues
 - If you are stuck and require technical help on behalf of your users, then you can contact 2i2c through their support desk
 - Make a plan for your support process to set yourself up for success as a Hub Champion
 
