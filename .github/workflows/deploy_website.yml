@@ -50,6 +50,11 @@ jobs:
       run: |
         ./helper.sh ${{ secrets.QUAY_ROBOT }}
 
+    # Check external links
+    - name: Check external links
+      run: |
+        jupyter-book build . --builder linkcheck
+        
     # Build the book in English
     - name: Build the book in English
       run: |
