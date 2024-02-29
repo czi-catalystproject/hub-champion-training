@@ -4,15 +4,17 @@
 <!-- teaching: 30
 exercises: 20 -->
 
-:::::{card} 
-OVERVIEW
+:::::{card}
+:class-header: sd-font-weight-bold, sd-bg-primary, sd-text-white
+
+🔍 OVERVIEW
 ^^^
 
 ::::{grid}
 :gutter: 2
 
 :::{grid-item}
-Questions
+**Questions**
 
 - What software environments are available on the hub?
 - How is containerization helpful for my work?
@@ -21,7 +23,7 @@ Questions
 :::
 
 :::{grid-item}
-Objectives
+**Objectives**
 
 - Explain the value of reproducibility with containerized software environments
 - Select pre-configured JupyterLab or RStudio containers for their hub
@@ -214,7 +216,9 @@ Notes on the other answers:
 ::::
 
 :::{card} 
-KEY POINTS
+:class-header: sd-font-weight-bold, sd-bg-secondary, sd-text-white
+
+🔑 KEY POINTS
 ^^^
 - Images are useful for reproducing software environments across platforms
 - Default containers are available on the hub

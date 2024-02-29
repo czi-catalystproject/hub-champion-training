@@ -5,14 +5,16 @@
 exercises: 20 -->
 
 :::::{card} 
-OVERVIEW
+:class-header: sd-font-weight-bold, sd-bg-primary, sd-text-white
+
+🔍 OVERVIEW
 ^^^
 
 ::::{grid}
 :gutter: 2
 
 :::{grid-item}
-Questions
+**Questions**
 
 - What's happening in the cloud when I run a server?
 - How many CPU cores and RAM do I need?
@@ -22,7 +24,7 @@ Questions
 :::
 
 :::{grid-item}
-Objectives
+**Objectives**
 
 - Select the most appropriate server resources for computational work
 - Stop and restart a user's server
@@ -210,7 +212,9 @@ d. *False* – servers are culled after 1 hour of inactivity by default. If a us
 ::::
 
 :::{card} 
-KEY POINTS
+:class-header: sd-font-weight-bold, sd-bg-secondary, sd-text-white
+
+🔑 KEY POINTS
 ^^^
 - Users can launch servers with a variety of resources available, namely the number of CPU cores and RAM.
 - It is important to use cloud resources responsibly to maximize efficiency and minimize carbon emissions. 
