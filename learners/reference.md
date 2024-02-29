@@ -7,6 +7,7 @@
 
 - [Hub Service Guide](https://docs.2i2c.org/) – comprehensive documentation for Hub Champions
 - [Infrastructure Guide](https://infrastructure.2i2c.org/) – technical guide for 2i2c engineers
+- [Code of Conduct](https://compass.2i2c.org/code-of-conduct/) – expected behavior and guidelines for 2i2c communities
 - [Technical Support](https://docs.2i2c.org/support/) – request technical support
 - [GitHub Organization](https://github.com/2i2c-org) – all of 2i2c's work is open source and there are many insightful discussions found in repository issues
 - Slack channel – contact the workshop instructor for access
