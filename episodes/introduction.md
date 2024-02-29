@@ -98,8 +98,8 @@ and the landing page contains a *Log in to continue* button (see example screens
 Access to the hub is controlled by Hub Champions and granted by adding a user's GitHub account to a special GitHub Team associated with the hub. A permitted user enters their GitHub credentials to log into the hub (see example screenshot)
 
 :::{image} ../media/episodes/introduction/authentication.png
-:alt: Screenshot of a hub login page using GitHub for authentication.
 :width: 100%
+:alt: Screenshot of a Server Options page. Available machine types include Shared Small: 1-4 CPU, 8-32 GB, 
 
 :::
 
@@ -109,8 +109,7 @@ Users can choose from several machine types with varying numbers of CPU cores an
 
 :::{image} ../media/episodes/introduction/custom-env-1.png
 :width: 100%
-:align: center
-:alt: Screenshot of a Server Options page. Available machine types include Shared Small, 1-4 CPU, 8-32 GB, Small, 4 CPU, 32 GB RAM, Medium, 16 CPU, 128 GB RAM and Large: 64 CPU, 512 GB RAM.
+:alt: Screenshot of a hub login page using GitHub for authentication. Server options available include Shared Small: 1-4 CPU, 8-32 GB RAM, Small: 4 CPU, 32 GB RAM, Medium: 16 CPU, 128 GB RAM and Large: 64 CPU, 512 GB RAM.
 
 :::
 
@@ -229,7 +228,7 @@ The next part of the training is a self-guided study of the following episodes
 
 and concludes with a synchronous session covering the episode {ref}`episode-troubleshoot`.
 
-To complete the self-study portion of the workshop, you will need to be able to access the [2i2c Community Showcase Hub](https://showcase.2i2c.cloud). When working through the self-study sections of the workshop, write your answers to the exercises in our collaborative note-taking document.
+To complete the self-study portion of the workshop, you will need to be able to access the [2i2c Community Showcase Hub](https://showcase.2i2c.cloud). When working through the self-study sections of the workshop, write your answers to the exercises in our [collaborative note-taking document](#).
 
 :::important
 If you cannot access the hub, please contact the training instructor.
