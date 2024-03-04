@@ -6,7 +6,7 @@ This repo contains the Jupyter Book source files for the Hub Champion Training.
 
 This lesson is aimed at Hub Champions in charge of 2i2c managed JupyterHubs in the cloud. Learn the fundamentals of adminstering your hub and providing user support to your research and education communities.  
 
-Training is delivered over two synchronous workshops, each two hours in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors.
+Training is delivered over two synchronous workshops, each one hour in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors.
 
 > [!WARNING]
 > This lesson is under active development and not ready for teaching yet.  
