@@ -1,7 +1,7 @@
 (episode-intro)=
 # Recognising the benefits your hub can provide for your user community 
 
-<!-- teaching: 40
+<!-- teaching: 30
 exercises: 30
 word count: 1718 -->
 

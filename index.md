@@ -20,7 +20,7 @@
 
 This lesson is aimed at Hub Champions in charge of 2i2c managed JupyterHubs in the cloud. Learn the fundamentals of administering your hub and providing user support to your research and education communities.  
 
-Training is delivered over two synchronous workshops, each two hours in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors.
+Training is delivered over two synchronous workshops, each one hour in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors.
 ::::
 
 :::::
@@ -104,4 +104,4 @@ We would like to acknowledge Chan Zuckerberg Initiative funding for The Catalyst
 
 ## Contacting us
 
-If you would like to get in touch with us, then please email [support@2i2c.org](mailto:support@2i2c.org).
+If you would like to get in touch with us, then please open an [issue](https://github.com/czi-catalystproject/hub-champion-training/issues) or email [support@2i2c.org](mailto:support@2i2c.org).
