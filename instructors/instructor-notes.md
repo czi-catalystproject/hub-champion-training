@@ -2,7 +2,7 @@
 
 ## Schedule
 
-Training is delivered over two synchronous workshops, each two hours in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors.
+Training is delivered over two synchronous workshops, each one hour in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors.
 
 1. ⭐ {ref}`episode-intro`
 1. {ref}`episode-access`
@@ -17,7 +17,18 @@ Training is delivered over two synchronous workshops, each two hours in length a
 
 We will use a collaborative note-taking document, to share answers to exercises during this workshop. A CodiMD template can be found [here](https://codimd.carpentries.org/PJguPN3MQmetgJil9YrDaA). Make sure you generate a fresh copy before the workshop and share this with your learners.
 
-During the self-guided study portion of the workshop, make sure to check the CodiMD regularly to assess progress and respond to any questions.
+Set up a Slack channel, or equivalent, where learners ask for help and support during the training.
+
+During the self-guided study portion of the workshop, make sure to check the CodiMD and Slack channel regularly to assess progress and respond to any questions.
+
+### Notes for helpers
+
+Helpers support workshop instructors with tasks such as
+
+- helping learners with lesson setup problems
+- populating the CodiMD with episode questions, objectives, exercises and feedback forms
+- monitoring the Slack channel
+- keeping the instructor on track and on time.
 
 ## Pre-workshop tasks
 
@@ -36,18 +47,17 @@ Before the training, please complete our [pre-training survey](https://forms.gle
 Before joining the training, participants should be able to:
 
 - Access the 2i2c [Community Showcase Hub](https://showcase.2i2c.cloud) using their GitHub account
-    - If you cannot access the hub, please contact the training instructor
 - Know basic Git, such as pushing and pulling to a remote GitHub repository
 - Find the shared collaborative note-taking document
-- Access a stable internet connection
+- Access the Slack Channel for asynchronous support
 - Use a web browser and video conferencing, e.g. Zoom
-- Read the [2i2c Code of Conduct](https://compass.2i2c.org/code-of-conduct/)..
+- Read the [2i2c Code of Conduct](https://compass.2i2c.org/code-of-conduct/).
 
 **When and where?**
 
-Training is delivered over two synchronous workshops, each two hours in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors.
+Training is delivered over two synchronous workshops, each one hour in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors in a Slack channel you have been invited to.
 
-Part 1 is scheduled to take place *<insert time (including timezone) and date>* and the Part 2 is scheduled to take place *<insert time (including timezone) and date>*. You should have received a calendar invitation including videoconferencing connection details, and a URL for the collaborative notes document we will use during the training.
+Part One is scheduled to take place *<insert time (including timezone) and date>* and the Part Two is scheduled to take place *<insert time (including timezone) and date>*. You should have received a calendar invitation including videoconferencing connection details and a URL for the collaborative notes document we will use during the training.
 
 We look forward to seeing you and please get in touch with any questions you have beforehand.
 
@@ -57,7 +67,7 @@ Best wishes,
 
 :::
 
-After sending the email, create the videoconferencing call for Part 1 and Part 2 of the training, then share a calendar invitation with the connection details and a link to the CodiMD document.  
+After sending the email, create the videoconferencing call for Part One and Part Two of the training, then share a calendar invitation with the connection details and a link to the CodiMD document.  
 
 ## Community Showcase Hub setup
 
@@ -69,7 +79,7 @@ During the lesson, [](episode-access), Hub Champions will be asked to invite the
 
 ## Post-workshop tasks
     
-Follow up with an email 2 days after the workshop to thank learners for their time and encourage them to complete the [post-training feedback form](https://forms.gle/XK1rtVypGWxMki3BA). You may use the follow email template.
+Follow up with an email 2 days after the workshop to thank learners for their time and encourage them to complete the [post-training survey](https://forms.gle/XK1rtVypGWxMki3BA). You may use the follow email template.
    
 :::{dropdown} Post-workshop email template
     
@@ -84,13 +94,23 @@ Best wishes,
 *<insert instructor names here>*
     
 :::
+
+Restore the Community Showcase Hub by removing the user `jnywong-test` from the [GitHub Organization](https://github.com/2i2c-community-showcase) and removing `jmunroe-testuser` from the [GitHub Team](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase). Adjust the permissions of learners from *Owner* to *Member*.
     
     
 ## Tasklist
 
 - [ ] Copy the CodiMD template
-- [ ] Set up the videoconferencing call
+- [ ] Set up a Slack channel, or equivalent
+- [ ] Schedule the videoconferencing calls for Part One and Part Two
 - [ ] Email learners one week before the workshop
-- [ ] Share a calendar invitation for Part 1 and Part 2 with links to the videoconference call and CodiMD document
+- [ ] Share a calendar invitation for Part One and Part Two with links to the videoconference call, CodiMD document and Slack channel
 - [ ] Prepare the Community Showcase Hub
-- [ ] Email learners two days after the workshop
+- [ ] Email learners two days after the workshop to complete feedback
+- [ ] Restore the Community Showcase Hub.
+
+## Resource list
+    
+- [CodiMD template](https://codimd.carpentries.org/PJguPN3MQmetgJil9YrDaA)
+- [Pre-training survey](https://forms.gle/xRkGDfNaePUB12Ka6)
+- [Post-training survey](https://forms.gle/XK1rtVypGWxMki3BA)
