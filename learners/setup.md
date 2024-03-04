@@ -1,5 +1,7 @@
 # Setup
 
+<!-- word count: 83 -->
+
 Before joining the training, participants should be able to:
 
 - Access the 2i2c [Community Showcase Hub](https://showcase.2i2c.cloud) using their GitHub account

@@ -2,7 +2,8 @@
 # Controlling access to your hub
 
 <!-- teaching: 15
-exercises: 15 -->
+exercises: 15
+word count: 1445 -->
 
 :::::{card}
 :class-header: sd-font-weight-bold, sd-bg-primary, sd-text-white

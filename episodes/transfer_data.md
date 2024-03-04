@@ -2,7 +2,8 @@
 # Navigating the filesystem and transferring data to and from the hub
 
 <!-- teaching: 30
-exercises: 20 -->
+exercises: 20
+word count: 1504 -->
 
 :::::{card}
 :class-header: sd-font-weight-bold, sd-bg-primary, sd-text-white

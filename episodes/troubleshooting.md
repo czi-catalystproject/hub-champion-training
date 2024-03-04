@@ -2,7 +2,8 @@
 # Troubleshooting and providing user support
 
 <!-- teaching: 40
-exercises: 20 -->
+exercises: 20
+word count: 980 -->
 
 
 :::::{card}
