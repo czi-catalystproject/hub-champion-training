@@ -2,7 +2,7 @@
 
 ## Schedule
 
-Training is delivered over two synchronous workshops, each two hours in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors.
+Training is delivered over two synchronous workshops, each one hour in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors.
 
 1. ⭐ {ref}`episode-intro`
 1. {ref}`episode-access`
