@@ -2,7 +2,8 @@
 # Selecting the optimal server resources for your computational work responsibly
 
 <!-- teaching: 30
-exercises: 20 -->
+exercises: 20
+word count: 1594 -->
 
 :::::{card} 
 :class-header: sd-font-weight-bold, sd-bg-primary, sd-text-white

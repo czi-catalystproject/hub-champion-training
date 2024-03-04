@@ -2,6 +2,8 @@
 title: "Contributor Code of Conduct"
 ---
 
+<!-- word count: 60 -->
+
 As contributors and maintainers of this project,
 we pledge to follow the [The Carpentries Code of Conduct][coc].
 

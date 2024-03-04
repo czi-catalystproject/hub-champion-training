@@ -2,7 +2,8 @@
 # Managing Software Images
 
 <!-- teaching: 30
-exercises: 20 -->
+exercises: 20
+word count: 1412 -->
 
 :::::{card}
 :class-header: sd-font-weight-bold, sd-bg-primary, sd-text-white

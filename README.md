@@ -1,5 +1,7 @@
 # JupyterHub Administration to Empower Research Communities
 
+<!-- word count: 926 -->
+
 This repo contains the Jupyter Book source files for the Hub Champion Training.
 
 ## About

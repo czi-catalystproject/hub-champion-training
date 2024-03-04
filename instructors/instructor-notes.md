@@ -1,5 +1,7 @@
 # Instructor Notes
 
+<!-- word count: 751 -->
+
 ## Schedule
 
 Training is delivered over two synchronous workshops, each two hours in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors.

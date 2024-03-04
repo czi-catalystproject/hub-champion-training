@@ -1,5 +1,7 @@
 # JupyterHub Administration to Empower Research Communities
 
+<!-- word count: 346 -->
+
 :::::{grid} 2
 :reverse:
 

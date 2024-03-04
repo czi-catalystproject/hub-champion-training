@@ -1,5 +1,7 @@
 # Reference
 
+<!-- word count: 331 -->
+
 (ref:resources)=
 ## Further resources
 
