@@ -26,7 +26,7 @@ During the self-guided study portion of the workshop, make sure to check the Cod
 Helpers support workshop instructors with tasks such as
 
 - helping learners with lesson setup problems
-- populating the CodiMD with episode questions, objectives and exercises
+- populating the CodiMD with episode questions, objectives, exercises and feedback forms
 - monitoring the Slack channel
 - keeping the instructor on track and on time.
 
@@ -47,18 +47,17 @@ Before the training, please complete our [pre-training survey](https://forms.gle
 Before joining the training, participants should be able to:
 
 - Access the 2i2c [Community Showcase Hub](https://showcase.2i2c.cloud) using their GitHub account
-    - If you cannot access the hub, please contact the training instructor
 - Know basic Git, such as pushing and pulling to a remote GitHub repository
-- Find the shared collaborative note-taking document and Slack channel
-- Access a stable internet connection
+- Find the shared collaborative note-taking document
+- Access the Slack Channel for asynchronous support
 - Use a web browser and video conferencing, e.g. Zoom
-- Read the [2i2c Code of Conduct](https://compass.2i2c.org/code-of-conduct/)..
+- Read the [2i2c Code of Conduct](https://compass.2i2c.org/code-of-conduct/).
 
 **When and where?**
 
-Training is delivered over two synchronous workshops, each one hour in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors.
+Training is delivered over two synchronous workshops, each one hour in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors in a Slack channel you have been invited to.
 
-Part One is scheduled to take place *<insert time (including timezone) and date>* and the Part Two is scheduled to take place *<insert time (including timezone) and date>*. You should have received a calendar invitation including videoconferencing connection details, Slack channel and a URL for the collaborative notes document we will use during the training.
+Part One is scheduled to take place *<insert time (including timezone) and date>* and the Part Two is scheduled to take place *<insert time (including timezone) and date>*. You should have received a calendar invitation including videoconferencing connection details and a URL for the collaborative notes document we will use during the training.
 
 We look forward to seeing you and please get in touch with any questions you have beforehand.
 
@@ -80,7 +79,7 @@ During the lesson, [](episode-access), Hub Champions will be asked to invite the
 
 ## Post-workshop tasks
     
-Follow up with an email 2 days after the workshop to thank learners for their time and encourage them to complete the [post-training feedback form](https://forms.gle/XK1rtVypGWxMki3BA). You may use the follow email template.
+Follow up with an email 2 days after the workshop to thank learners for their time and encourage them to complete the [post-training survey](https://forms.gle/XK1rtVypGWxMki3BA). You may use the follow email template.
    
 :::{dropdown} Post-workshop email template
     
@@ -98,8 +97,6 @@ Best wishes,
 
 Restore the Community Showcase Hub by removing the user `jnywong-test` from the [GitHub Organization](https://github.com/2i2c-community-showcase) and removing `jmunroe-testuser` from the [GitHub Team](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase). Adjust the permissions of learners from *Owner* to *Member*.
     
-
-    
     
 ## Tasklist
 
@@ -111,3 +108,9 @@ Restore the Community Showcase Hub by removing the user `jnywong-test` from the 
 - [ ] Prepare the Community Showcase Hub
 - [ ] Email learners two days after the workshop to complete feedback
 - [ ] Restore the Community Showcase Hub.
+
+## Resource list
+    
+- [CodiMD template](https://codimd.carpentries.org/PJguPN3MQmetgJil9YrDaA)
+- [Pre-training survey](https://forms.gle/xRkGDfNaePUB12Ka6)
+- [Post-training survey](https://forms.gle/XK1rtVypGWxMki3BA)
