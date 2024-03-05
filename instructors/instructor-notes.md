@@ -26,7 +26,7 @@ During the self-guided study portion of the workshop, make sure to check the Cod
 Helpers support workshop instructors with tasks such as
 
 - helping learners with lesson setup problems
-- populating the CodiMD with episode questions, objectives, exercises and feedback forms
+- populating the CodiMD with episode questions, objectives, exercises and minute card feedback forms (see [Resource list](#resource-list)).
 - monitoring the Slack channel
 - keeping the instructor on track and on time.
 
@@ -71,15 +71,17 @@ After sending the email, create the videoconferencing call for Part One and Part
 
 ## Community Showcase Hub setup
 
-Hub Champions will need access to the 2i2c [Community Showcase Hub](https://showcase.2i2c.cloud) to complete this training.
+Hub Champions will need access to the 2i2c [Community Showcase Hub](https://showcase.2i2c.cloud) and hub administrator privileges to complete this training.
 
 To grant access to this hub, instructors will need to add learners to this [GitHub Team](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase). Adding members to this team requires Owner/Maintainer permissions – if you have trouble then please send an email to [support@2i2c.org](mailto:support@2i2c.org).
+    
+To grant administrator privileges on the hub, open a [2i2c support ticket](https://docs.2i2c.org/support/) to provide the Community Showcase Hub URL (`https://showcase.2i2c.cloud`), ask for administrator status and provide a list of Hub Champion GitHub usernames that require it.
 
 During the lesson, [](episode-access), Hub Champions will be asked to invite the user `jnywong-test` to the [GitHub Organization](https://github.com/2i2c-community-showcase). Please ensure this account is removed from the organization prior to the workshop. Similarly, Hub Champions will be asked to add and remove `jmunroe-testuser` from the [GitHub Team](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase).
 
 ## Post-workshop tasks
     
-Follow up with an email 2 days after the workshop to thank learners for their time and encourage them to complete the [post-training survey](https://forms.gle/XK1rtVypGWxMki3BA). You may use the follow email template.
+Follow up with an email two days after the workshop to thank learners for their time and encourage them to complete the [post-training survey](https://forms.gle/XK1rtVypGWxMki3BA). You may use the follow email template.
    
 :::{dropdown} Post-workshop email template
     
@@ -97,7 +99,8 @@ Best wishes,
 
 Restore the Community Showcase Hub by removing the user `jnywong-test` from the [GitHub Organization](https://github.com/2i2c-community-showcase) and removing `jmunroe-testuser` from the [GitHub Team](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase). Adjust the permissions of learners from *Owner* to *Member*.
     
-    
+Remove administrator privileges on the hub by opening a [2i2c support ticket](https://docs.2i2c.org/support/) to provide the Community Showcase Hub URL (`https://showcase.2i2c.cloud`) and a list of Hub Champion GitHub usernames that require administrator status removing.
+
 ## Tasklist
 
 - [ ] Copy the CodiMD template
