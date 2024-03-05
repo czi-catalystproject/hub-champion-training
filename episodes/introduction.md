@@ -2,7 +2,8 @@
 # Recognising the benefits your hub can provide for your user community 
 
 <!-- teaching: 30
-exercises: 30 -->
+exercises: 30
+word count: 1718 -->
 
 :::::{card}
 :class-header: sd-font-weight-bold, sd-bg-primary, sd-text-white

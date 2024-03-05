@@ -1,5 +1,6 @@
 # Licenses
 
+<!-- word count: 505 -->
 
 ## Instructional Material
 
