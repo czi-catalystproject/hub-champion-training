@@ -26,7 +26,7 @@ During the self-guided study portion of the workshop, make sure to check the Cod
 Helpers support workshop instructors with tasks such as
 
 - helping learners with lesson setup problems
-- populating the CodiMD with episode questions, objectives, exercises and minute card feedback forms (see [Resource list](#resource-list)).
+- populating the CodiMD with episode questions, objectives, exercises and minute card feedback forms
 - monitoring the Slack channel
 - keeping the instructor on track and on time.
 
@@ -42,7 +42,7 @@ Thanks for registering to attend The Hub Champion Training. This message contain
 
 **What do I need to do before the training?**
 
-Before the training, please complete our [pre-training survey](https://forms.gle/xRkGDfNaePUB12Ka6).
+Before the training, please complete our [pre-training survey](#).
 
 Before joining the training, participants should be able to:
 
@@ -87,7 +87,7 @@ Follow up with an email two days after the workshop to thank learners for their 
     
 Dear all,
 
-Thank you for attending the recent Hub Champion Training workshop. We hope you left your workshop with skills and knowledge needed to empower your communities to make best use out of the hub. We would like to capture your thoughts about what was covered and your perception of the workshop overall. Please complete the post-workshop survey at [https://forms.gle/XK1rtVypGWxMki3BA](https://forms.gle/XK1rtVypGWxMki3BA) as soon as possible.
+Thank you for attending the recent Hub Champion Training workshop. We hope you left your workshop with skills and knowledge needed to empower your communities to make best use out of the hub. We would like to capture your thoughts about what was covered and your perception of the workshop overall. Please complete the [post-workshop survey](#) as soon as possible.
 
 If you have any questions and would like to contact us, feel free to email us at [support@2i2c.org](mailto:support@2i2c.org). We are excited about your continued involvement with our community!
 
@@ -111,9 +111,3 @@ Remove administrator privileges on the hub by opening a [2i2c support ticket](ht
 - [ ] Prepare the Community Showcase Hub
 - [ ] Email learners two days after the workshop to complete feedback
 - [ ] Restore the Community Showcase Hub.
-
-## Resource list
-    
-- [CodiMD template](https://codimd.carpentries.org/PJguPN3MQmetgJil9YrDaA)
-- [Pre-training survey](https://forms.gle/xRkGDfNaePUB12Ka6)
-- [Post-training survey](https://forms.gle/XK1rtVypGWxMki3BA)
