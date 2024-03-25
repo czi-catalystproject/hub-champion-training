@@ -17,7 +17,7 @@ Training is delivered over two synchronous workshops, each one hour in length a 
 
 ## Asynchronous support during self-study
 
-We will use a collaborative note-taking document, to share answers to exercises during this workshop. A CodiMD template can be found [here](https://codimd.carpentries.org/PJguPN3MQmetgJil9YrDaA). Make sure you generate a fresh copy before the workshop and share this with your learners.
+We will use a collaborative note-taking document, to share answers to exercises during this workshop. A CodiMD template is available for you to use in the lesson repository. Make sure you generate a fresh copy before the workshop and share this with your learners.
 
 Set up a Slack channel, or equivalent, where learners ask for help and support during the training.
 
@@ -30,6 +30,8 @@ Helpers support workshop instructors with tasks such as
 - helping learners with lesson setup problems
 - populating the CodiMD with lesson content, e.g. episode questions, objectives, exercises and minute card feedback forms
 - monitoring the Slack channel
+- grant administrator privileges to users on the Community Showcase Hub for users who have not logged into the hub before the lesson (see [Community Showcase Hub setup
+](#community-showcase-hub-setup))
 - keeping the instructor on track and on time
 - reminding participants to complete feedback forms.
 
@@ -118,9 +120,9 @@ For each Google Form that you copy from the template, make sure that *Settings >
 
 Hub Champions will need access to the 2i2c [Community Showcase Hub](https://showcase.2i2c.cloud) and hub administrator privileges to complete this training.
 
-To grant access to this hub, instructors will need to add learners to this [GitHub Team](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase). Adding members to this team requires Owner/Maintainer permissions – if you have trouble then please send an email to [support@2i2c.org](mailto:support@2i2c.org).
+To grant access to this hub, instructors will need to add learners to this [GitHub Team](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase) and grant them Owner status. Adding members to this team requires Owner/Maintainer permissions – if you have trouble then please send an email to [support@2i2c.org](mailto:support@2i2c.org).
     
-To grant administrator privileges on the hub, open a [2i2c support ticket](https://docs.2i2c.org/support/) to provide the Community Showcase Hub URL (`https://showcase.2i2c.cloud`), ask for administrator status and provide a list of Hub Champion GitHub usernames that require it.
+To grant administrator privileges on the hub, go to the [Community Showcase Hub home](https://showcase.2i2c.cloud/hub/home) and click the *Admin* sub-menu in the navbar. You will see a table of users who have access to the hub. Click *Edit User* of the user you would like to grant admin access to. In the next screen, check the *Admin* box and click *Apply* to grant administrator privileges.
 
 During the lesson, [](episode-access), Hub Champions will be asked to invite the user `jnywong-test` to the [GitHub Organization](https://github.com/2i2c-community-showcase). Please ensure this account is removed from the organization prior to the workshop. Similarly, Hub Champions will be asked to add and remove `jmunroe-testuser` from the [GitHub Team](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase).
 
@@ -155,5 +157,9 @@ Remove administrator privileges on the hub by opening a [2i2c support ticket](ht
 - [ ] Email learners one week before the workshop
 - [ ] Share a calendar invitation for Part One and Part Two with links to the videoconference call, CodiMD document and Slack channel
 - [ ] Prepare the Community Showcase Hub
+  - [ ] Add learners to GitHub team **and** grant them Owner status
+  - [ ] Grant *Admin* privileges to learners on the Community Showcase Hub
 - [ ] Email learners two days after the workshop to complete feedback
-- [ ] Restore the Community Showcase Hub.
+- [ ] Restore the Community Showcase Hub
+  - [ ] Remove Owner status from the GitHub team
+  - [ ] Remove *Admin* privileges from learners on the Community Showcase Hub    
