@@ -28,9 +28,10 @@ During the self-guided study portion of the workshop, make sure to check the Cod
 Helpers support workshop instructors with tasks such as
 
 - helping learners with lesson setup problems
-- populating the CodiMD with episode questions, objectives, exercises and minute card feedback forms
+- populating the CodiMD with lesson content, e.g. episode questions, objectives, exercises and minute card feedback forms
 - monitoring the Slack channel
-- keeping the instructor on track and on time.
+- keeping the instructor on track and on time
+- reminding participants to complete feedback forms.
 
 ## Pre-workshop tasks
 
@@ -68,8 +69,50 @@ Best wishes,
 *<insert instructor names here>*
 
 :::
+    
+After sending the email, create the videoconferencing call for Part One and Part Two of the training, then share a calendar invitation with the connection details and a link to the CodiMD document.
+   
+:::{figure} ../media/instructor-notes/codimd.png
+:alt: Screenshot of setting editing rights on CodiMD to "Freely".
+:width: 100%
+:figclass: margin    
+    
+:::
+    
+::::{admonition} Set editing rights on CodiMD to "Freely"
+:class: tip
+Allow anyone to edit the CodiMD document without signing in by clicking the dropdown in the top-right of the document in *Read Mode* and selecting "Freely".
+    
+::::
+    
+## Feedback collection
 
-After sending the email, create the videoconferencing call for Part One and Part Two of the training, then share a calendar invitation with the connection details and a link to the CodiMD document.  
+:::{figure}  ../media/instructor-notes/google-form.png
+:name: google-form
+:alt: Screenshot of Settings > Responses > Restrict to users in 2i2c.org and its trusted organisations switched to Off.
+:width: 100%
+:figclass: margin
+:::
+
+There are a number of [template Google Forms](https://drive.google.com/drive/folders/1K16xUpvuoMN9YrDiajgt3a6WF8HyYvse?usp=drive_link) available to collect feedback from your lesson. This feedback is important for iterative lesson development – during teaching, enlist your lesson helper to keep you accountable for this!
+
+:::{admonition} Allow access outside of your organisation
+:class: tip
+For each Google Form that you copy from the template, make sure that *Settings > Responses > Restrict to users in `2i2c.org` and its trusted organisations* is switched to *Off* (click the screenshot in the margin). This enables respondants to access to the form from outside of your organisation.
+:::
+
+**Template forms**
+
+- [ ] Registration
+- [ ] Pre-Training Survey
+- [ ] Post-Training Survey
+- [ ] Episode 1: Minute Card Feedback
+- [ ] Episode 2: Minute Card Feedback
+- [ ] Episode 3: Minute Card Feedback
+- [ ] Episode 4: Minute Card Feedback
+- [ ] Episode 5: Minute Card Feedback
+- [ ] Episode 6: Minute Card Feedback    
+
 
 ## Community Showcase Hub setup
 
@@ -105,7 +148,8 @@ Remove administrator privileges on the hub by opening a [2i2c support ticket](ht
 
 ## Tasklist
 
-- [ ] Copy the CodiMD template
+- [ ] Copy the CodiMD template and set editing rights to *Freely*
+- [ ] Copy feedback forms and check access permissions
 - [ ] Set up a Slack channel, or equivalent
 - [ ] Schedule the videoconferencing calls for Part One and Part Two
 - [ ] Email learners one week before the workshop
