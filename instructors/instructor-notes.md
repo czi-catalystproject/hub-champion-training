@@ -34,8 +34,7 @@ Helpers support workshop instructors with tasks such as
 - helping learners with lesson setup problems
 - populating the CodiMD with lesson content, e.g. episode questions, objectives, exercises and minute card feedback forms
 - monitoring the Slack channel
-- grant administrator privileges to users on the Community Showcase Hub for users who have not logged into the hub before the lesson (see [Community Showcase Hub setup
-](#community-showcase-hub-setup))
+- grant administrator privileges to users on the Community Showcase Hub for users who have not logged into the hub before the lesson (see {ref}`Community Showcase Hub setup<community-showcase-hub-setup>`)
 - keeping the instructor on track and on time
 - reminding participants to complete feedback forms.
 
@@ -67,9 +66,9 @@ Thanks for registering to attend The Hub Champion Training. This message contain
 
 **What do I need to do before the training?**
 
-Before the training, please complete our [pre-training survey](#).
+Before the training, please complete our pre-training survey.
 
-Before joining the training, participants should be able to:
+Participants should be able to:
 
 - Access the 2i2c [Community Showcase Hub](https://showcase.2i2c.cloud) using their GitHub account
 - Know basic Git, such as pushing and pulling to a remote GitHub repository
@@ -135,7 +134,7 @@ For each Google Form that you copy from the template, make sure that *Settings >
 - [ ] Episode 5: Minute Card Feedback
 - [ ] Episode 6: Minute Card Feedback    
 
-
+(community-showcase-hub-setup)=
 ## Community Showcase Hub setup
 
 Hub Champions will need access to the 2i2c [Community Showcase Hub](https://showcase.2i2c.cloud) and hub administrator privileges to complete this training.
@@ -148,13 +147,13 @@ During the lesson, [](episode-access), Hub Champions will be asked to invite the
 
 ## Post-workshop tasks
     
-Follow up with an email two days after the workshop to thank learners for their time and encourage them to complete the [post-training survey](#). You may use the follow email template.
+Follow up with an email two days after the workshop to thank learners for their time and encourage them to complete the post-training survey. You may use the follow email template.
    
 :::{dropdown} Post-workshop email template
     
 Dear all,
 
-Thank you for attending the recent Hub Champion Training workshop. We hope you left your workshop with skills and knowledge needed to empower your communities to make best use out of the hub. We would like to capture your thoughts about what was covered and your perception of the workshop overall. Please complete the [post-workshop survey](#) as soon as possible.
+Thank you for attending the recent Hub Champion Training workshop. We hope you left your workshop with skills and knowledge needed to empower your communities to make best use out of the hub. We would like to capture your thoughts about what was covered and your perception of the workshop overall. Please complete the post-workshop survey as soon as possible.
 
 If you have any questions and would like to contact us, feel free to email us at [support@2i2c.org](mailto:support@2i2c.org). We are excited about your continued involvement with our community!
 
@@ -170,6 +169,8 @@ Remove administrator privileges on the hub by opening a [2i2c support ticket](ht
 
 ## Tasklist
 
+**One week before the workshop**
+    
 - [ ] Copy the CodiMD template, remove the episode section content and set editing rights to *Freely*
 - [ ] Copy feedback form templates and check access permissions
 - [ ] Set up a Slack channel, or equivalent
@@ -179,8 +180,15 @@ Remove administrator privileges on the hub by opening a [2i2c support ticket](ht
 - [ ] Prepare the Community Showcase Hub
   - [ ] Add learners to GitHub team **and** grant them Owner status
   - [ ] Grant *Admin* privileges to learners on the Community Showcase Hub
+    
+**After Part One**
+    
 - [ ] Populate the CodiMD for the self-guided study
+    
+**After Part Two**
+
 - [ ] Email learners two days after the workshop to complete feedback
 - [ ] Restore the Community Showcase Hub
   - [ ] Remove Owner status from the GitHub team
-  - [ ] Remove *Admin* privileges from learners on the Community Showcase Hub    
+  - [ ] Remove *Admin* privileges from learners on the Community Showcase Hub
+- [ ] Evaluate feedback
