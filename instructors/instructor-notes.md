@@ -42,6 +42,10 @@ Helpers support workshop instructors with tasks such as
 
 We will primarily use Slack for communications with learners to encourage a "cohort" effect and capture discussions that would otherwise disappear from Zoom/Google Meet chat. However, we recognise that learners may join the synchronous sessions on their phones and therefore the Zoom/Google Meet chat is useful in this case. 
 
+:::{tip}
+Consider recording your workshop so that learners can refer back to this for later viewing.
+:::
+
 ### Hidden curriculum
 
 #### Time management
@@ -180,6 +184,9 @@ Remove administrator privileges on the hub by opening a [2i2c support ticket](ht
 - [ ] Prepare the Community Showcase Hub
   - [ ] Add learners to GitHub team **and** grant them Owner status
   - [ ] Grant *Admin* privileges to learners on the Community Showcase Hub
+
+**During the workshop**
+- [ ] Consider recording your workshop so that learners can refer back to this for later viewing
     
 **After Part One**
     
