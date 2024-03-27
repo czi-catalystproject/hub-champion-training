@@ -117,6 +117,8 @@ a. b. c. d.
 - Hub Champions empower hub users to make the best use of the service and are the first point of contact for user support
 - Hub Champions may perform common administrative tasks and configure the hub to set their community up for success
 
+[Episode 1: Minute Card Feedback](#)
+
 ## :two: Controlling access to your hub
 
 ### Questions
@@ -148,7 +150,9 @@ ___s are groups of ___ members that reflect your group's structure and controls 
 - A Hub Champion decides who has access to the hub.
 - Hub access is controlled with GitHub Organizations and Teams.
 - Owners of GitHub Organizations can invite users to it, as well as add and remove users to and from a special GitHub Team to grant access.
-- 
+
+[Episode 2: Minute Card Feedback](#)
+
 ## :three: Selecting the optimal server resources for your computational work responsibly
 
 ### Questions
@@ -223,7 +227,9 @@ d. True/False
 - Users can launch servers with a variety of resources available, namely the number of CPU cores and RAM.
 - It is important to use cloud resources responsibly to maximize efficiency and minimize carbon emissions. 
 - Hub Champions can stop, restart and gain control of a user's server for troubleshooting purposes.
-- 
+
+[Episode 3: Minute Card Feedback](#)
+
 ## :four: Managing Software Images
 
 ### Questions
@@ -295,6 +301,8 @@ Which of the following would you paste into the _Custom Image_ field to pull the
 - Images are useful for reproducing software environments across platforms
 - Default containers are available on the hub
 - Additional custom containers can be pulled to the hub if required
+
+[Episode 4: Minute Card Feedback](#)
 
 ## :five: Navigating the filesystem and transferring data to and from the hub
 
@@ -376,6 +384,8 @@ What should you do?
 - Users can store small files and datasets in their home directory that will persist between sessions.
 - Hub Champions can distribute large datasets in a read-only *shared* directory.
 - Use `gh-scoped-creds` to push and pull code to GitHub.
+
+[Episode 5: Minute Card Feedback](#)
 
 ## :six: Troubleshooting and providing user support
 
@@ -462,8 +472,9 @@ These are my notes.
 - If you are stuck and require technical help on behalf of your users, then you can contact 2i2c through their support desk
 - Make a plan for your support process to set yourself up for success as a Hub Champion
 
-## Post-Training Survey
+[Episode 6: Minute Card Feedback](#)
 
+## Post-Training Survey
 
 Thank you for following the Hub Champion Training! 🏅
 
