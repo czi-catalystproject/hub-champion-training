@@ -67,10 +67,6 @@ sphinx:
     language: en
     html_last_updated_fmt: '%b %d, %Y'
     html_show_copyright: true
-    html_css_files: ["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"]    # for FontAwesome 6.1 icons (the defaults are version 5)
-        # see https://sphinx-design.readthedocs.io/en/latest/badges_buttons.html
-    html_theme_options:
-      toc_title: Table of contents.
     # i18n
     nb_render_priority:
       gettext: {}
