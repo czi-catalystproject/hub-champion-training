@@ -17,7 +17,11 @@ Training is delivered over two synchronous workshops, each one hour in length a 
 
 ## Asynchronous support during self-study
 
-We will use a collaborative note-taking document, to share answers to exercises during this workshop. A CodiMD template is available for you to use in the lesson repository. Make sure you generate a fresh copy before the workshop and share this with your learners.
+```{margin}
+Your helper will populate the CodiMD with lesson content during the sync sessions. Make sure to paste the episode content ready for the self-paced study.
+```
+
+We will use a collaborative note-taking document, to share answers to exercises during this workshop. A CodiMD template is available for you to use in the lesson repository under the *instructors* folder. Make sure you generate a fresh copy and remove the contents of each episode section before the workshop and share this with your learners. 
 
 Set up a Slack channel, or equivalent, where learners ask for help and support during the training.
 
@@ -35,6 +39,22 @@ Helpers support workshop instructors with tasks such as
 - keeping the instructor on track and on time
 - reminding participants to complete feedback forms.
 
+### Communication channels
+
+We will primarily use Slack for communications with learners to encourage a "cohort" effect and capture discussions that would otherwise disappear from Zoom/Google Meet chat. However, we recognise that learners may join the synchronous sessions on their phones and therefore the Zoom/Google Meet chat is useful in this case. 
+
+### Hidden curriculum
+
+#### Time management
+
+For the exercises, we encourage instructors not to read out answers already entered into the CodiMD and instead to ask learners more targeted follow up questions.
+
+#### Extra resources
+
+Template [Google Slides](https://docs.google.com/presentation/d/1hrI70StR2ghGAIj-qxk06bxttWX7ff3yNQOM25HcBnQ/edit?usp=sharing) to supplement Episode 1 are available for you to use.
+
+(For internal use by the Catalyst Project team) A folder containing template feedback forms and a workshop folder for each training event can be found in the team [Google Drive](https://drive.google.com/drive/folders/1cElP_O-FdkM1-BbH6jO111M4mUVvU7H0?usp=drive_link).
+
 ## Pre-workshop tasks
 
 You may use the following email template to communicate with learners 1 week before the workshop.
@@ -43,7 +63,7 @@ You may use the following email template to communicate with learners 1 week bef
 
 Dear all,
 
-Thanks for registering to attend The Hub Champion Training. This message contains all of the information you need to prepare for and join the training.
+Thanks for registering to attend The Hub Champion Training. This message contains all of the information you need to prepare for and join the workshop.
 
 **What do I need to do before the training?**
 
@@ -53,8 +73,8 @@ Before joining the training, participants should be able to:
 
 - Access the 2i2c [Community Showcase Hub](https://showcase.2i2c.cloud) using their GitHub account
 - Know basic Git, such as pushing and pulling to a remote GitHub repository
-- Find the shared collaborative note-taking document
-- Access the Slack Channel for asynchronous support
+- Find the shared collaborative note-taking document (shared in the calendar invite)
+- Access the 2i2c Slack #hub-champion-training channel for asynchronous support (Slack invite to be shared in the calendar invitate)
 - Use a web browser and video conferencing, e.g. Zoom
 - Read the [2i2c Code of Conduct](https://compass.2i2c.org/code-of-conduct/).
 
@@ -62,7 +82,7 @@ Before joining the training, participants should be able to:
 
 Training is delivered over two synchronous workshops, each one hour in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors in a Slack channel you have been invited to.
 
-Part One is scheduled to take place *<insert time (including timezone) and date>* and the Part Two is scheduled to take place *<insert time (including timezone) and date>*. You should have received a calendar invitation including videoconferencing connection details and a URL for the collaborative notes document we will use during the training.
+Part One is scheduled to take place *<insert time (including timezone) and date>* and the Part Two is scheduled to take place *<insert time (including timezone) and date>*. You should have received a calendar invitation including videoconferencing connection details, a Slack invite and a URL for the collaborative notes document we will use during the training.
 
 We look forward to seeing you and please get in touch with any questions you have beforehand.
 
@@ -128,7 +148,7 @@ During the lesson, [](episode-access), Hub Champions will be asked to invite the
 
 ## Post-workshop tasks
     
-Follow up with an email two days after the workshop to thank learners for their time and encourage them to complete the [post-training survey](https://forms.gle/XK1rtVypGWxMki3BA). You may use the follow email template.
+Follow up with an email two days after the workshop to thank learners for their time and encourage them to complete the [post-training survey](#). You may use the follow email template.
    
 :::{dropdown} Post-workshop email template
     
@@ -150,8 +170,8 @@ Remove administrator privileges on the hub by opening a [2i2c support ticket](ht
 
 ## Tasklist
 
-- [ ] Copy the CodiMD template and set editing rights to *Freely*
-- [ ] Copy feedback forms and check access permissions
+- [ ] Copy the CodiMD template, remove the episode section content and set editing rights to *Freely*
+- [ ] Copy feedback form templates and check access permissions
 - [ ] Set up a Slack channel, or equivalent
 - [ ] Schedule the videoconferencing calls for Part One and Part Two
 - [ ] Email learners one week before the workshop
@@ -159,6 +179,7 @@ Remove administrator privileges on the hub by opening a [2i2c support ticket](ht
 - [ ] Prepare the Community Showcase Hub
   - [ ] Add learners to GitHub team **and** grant them Owner status
   - [ ] Grant *Admin* privileges to learners on the Community Showcase Hub
+- [ ] Populate the CodiMD for the self-guided study
 - [ ] Email learners two days after the workshop to complete feedback
 - [ ] Restore the Community Showcase Hub
   - [ ] Remove Owner status from the GitHub team
