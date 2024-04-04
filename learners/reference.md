@@ -16,8 +16,8 @@
 
 ### [Managing Software Images](episode-images)
 
-- [Reproducible Computational Environments Using Containers: Introduction to Docker](https://carpentries-incubator.github.io/docker-introduction/) – a lesson developed by The Carpentries community
 - [Guide for Reproducible Research – Containers](https://book.the-turing-way.org/reproducible-research/renv/renv-containers) – guidance on reproducible research environments using containers by The Turing Way
+- [Reproducible Computational Environments Using Containers: Introduction to Docker](https://carpentries-incubator.github.io/docker-introduction/) – a lesson developed by The Carpentries community
 - [Red Hat Quay](https://quay.io/organization/2i2c) – browse the list of 2i2c-maintained hub images
 - [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html) – JupyterHub compatible Docker images
 - [Rocker Project](https://rocker-project.org/images/) – for R Docker containers (note only the `binder` image is JupyterHub-compatible)
