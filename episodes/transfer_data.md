@@ -280,3 +280,7 @@ The correct answer is 2 – never enter your GitHub credentials (GitHub password
 - Hub Champions can distribute large datasets in a read-only *shared* directory.
 - Use `gh-scoped-creds` to push and pull code to GitHub.
 :::
+
+:::{attention}
+Please prepare for the Part Two of the workshop by completing Exercise 1 of the next episode *before* the synchronous session.
+:::

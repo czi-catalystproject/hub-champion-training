@@ -58,9 +58,13 @@ Take a few minutes to reflect on your experience following the training on your 
 - Which areas would you like to explore further?
 - Do you think your users would benefit from this lesson?
 
-Prepare to summarise and share with the rest of the workshop.
+Please write your answers in the collaborative note-taking document *before* the synchronous session for Part Two of the workshop.
 
 ::::
+
+:::{attention}
+Your self-guided study ends here. The following will be covered in the synchronous session for Part Two of the workshop.
+:::
 
 The workshop instructor will now take some time to address a few of the common points that emerged from the discussion in the above exercise. During this time, note down how the instructor is troubleshooting and providing support to resolve an issue. Pay attention to
 
