@@ -116,6 +116,10 @@ Which of the following statements are *True* or *False*?
 
 ::::
 
+:::{tip}
+For further resources on containerisation, please see {ref}`Further Resources<ref:resources>`.
+:::
+
 ## Selecting pre-configured containers on the hub
 
 As seen in the previous episode, [](episode-server), a user is presented with a list of server options once logged into a hub and each option has an *Image* dropdown box.
