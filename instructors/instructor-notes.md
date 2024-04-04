@@ -48,6 +48,10 @@ Consider recording your workshop so that learners can refer back to this for lat
 
 ### Hidden curriculum
 
+#### Episode 6, Exercise 1
+
+In Part One of the workshop, please notify learners that the self-study portion of the lesson ends *after* the completion of Episode 6, Exercise 1. The result of this exercise allows the instructor to ascertain the most common support issue raised by the learners in preparation for the "flipped classroom" experience in Part Two of the workshop, where the instructor live demonstrates the problem-solving skills required to troubleshoot and provide user support. 
+
 #### Time management
 
 For the exercises, we encourage instructors not to read out answers already entered into the CodiMD and instead to ask learners more targeted follow up questions.
