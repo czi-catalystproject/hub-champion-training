@@ -157,12 +157,20 @@ For JupyterLab, we highly advise using `gh-scoped-creds` for authentication on o
 <!-- TODO: For RStudio, we recommend...  -->
 :::
 
+(episode-data:using-gh-scoped-creds)=
 ### Using `gh-scoped-creds`
 
+```{margin}
+This feature may not be enabled for all hub configurations. Hub Champions may refer to {ref}`Enabling gh-scoped-creds for your hub<episode-data:enable-gh-scoped-creds>` for more details.
+```
 Authorisation to pull and push to GitHub is handled with [`gh-scoped-creds`](https://github.com/yuvipanda/gh-scoped-creds/).
 
 1. Open a Terminal.
 1. Run the command `gh-scoped-creds`.
+```{margin}
+If the prompt does not appear and you see `bash: gh-scoped-creds: command not found` instead, then gh-scoped-creds is not installed in the image selected for your server. See the [Hub Service Guide - Add packages to a community-maintained upstream image](https://docs.2i2c.org/how-to-guides/add-packages-to-image/) to  add packages to a community-maintained upstream image.
+```
+
 1. The following prompt will appear
    ```shell
    jovyan@jupyter-username:~/my-repo$ gh-scoped-creds
@@ -177,41 +185,63 @@ Authorisation will automatically expire after 8 hours (or when your JupyterHub s
 to renew.
 
 :::{hint}
-If you receive a `Permission denied` error after following these steps, then `gh-scoped-creds` has not been enabled for your hub. Please contact your Hub Champion to request this feature.
+If you receive a `Permission denied` error after following these steps, then `gh-scoped-creds` has not been enabled for your hub. Please contact your Hub Champion to request this feature and refer them to the steps in {ref}`Enabling gh-scoped-creds for your hub<episode-data:enable-gh-scoped-creds>`.
 :::
 
+(episode-data:enable-gh-scoped-creds)=
 ### Enabling `gh-scoped-creds` for your hub
 
-There are some extra steps for Hub Champions to enable `gh-scoped-creds` for their hub (requires GitHub organisation owner permissions).
+If this is not already enabled for your hub, then there are some extra steps for Hub Champions to enable `gh-scoped-creds` (requires GitHub Organization owner permissions).
 
 1. Check that `gh-scoped-creds` is not already enabled for your hub by opening a Terminal and running
    ```shell
    jovyan@jupyter-username:~$ echo $GH_SCOPED_CREDS_CLIENT_ID
    ```
    
-   If this returns nothing, then follow the next step. If this returns a client ID of the form `Iv1.xxxxxxxxxxxxxxxx`, then go to Step 3.
-1. Send a ticket to the [2i2c support desk](https://docs.2i2c.org/support/) and log a feature request for `gh-scoped-creds`. 2i2c will create a GitHub App and update the hub configuration to make the `GH_SCOPED_CREDS_CLIENT_ID` and `GH_SCOPED_CREDS_APP_URL` environment variables available in your hub.
-1. [Install the GitHub App](https://docs.github.com/en/apps/using-github-apps/installing-a-github-app-from-a-third-party) to your GitHub organisation (requires GitHub organisation owner permissions).
-   - Navigate to the GitHub App URL provided by 2i2c, which looks like `https://github.com/apps/<gh-app-name>`.
+   - If this returns nothing, then follow the next step.
+   - If this returns a client ID of the form `Iv1.xxxxxxxxxxxxxxxx`, then go to Step 3.
+   ```{margin}
+   A GitHub App URL is of the form `https://github.com/apps/<gh-app-name>`.
+   ```
+1. Send a ticket to the [2i2c support desk](https://docs.2i2c.org/support/) and log a feature request for `gh-scoped-creds`. 2i2c will create a GitHub App, provide a public URL of the GitHub App and update the hub configuration to make the `GH_SCOPED_CREDS_CLIENT_ID` and `GH_SCOPED_CREDS_APP_URL` environment variables available in your hub.
+1. Check that the GitHub App is installed to your GitHub Organization/GitHub personal account that owns the repositories you would like access to.
+   - **GitHub Organization:** Navigate to the GitHub Organization used to manage access to your hub. In this lesson we are using the [2i2c-community-showcase](https://github.com/2i2c-community-showcase) GitHub Organization to manage access to the Community Showcase Hub.
+   - **GitHub personal account:** Navigate to your personal GitHub repository that you would like access to on the hub.
+   - Click on *{octicon}`gear` Settings > {octicon}`hubot` GitHub Apps*.
+   - Under *Installed GitHub Apps*, check whether the GitHub App URL provided by 2i2c matches an app in the list. In the screenshot below, the example GitHub App is called [2i2c Community Showcase Hub GitHub](https://github.com/apps/2i2c-community-showcase-hub).
+   ```{image} ../media/episodes/transfer_data/git-check-app.png
+   :align: center
+   :alt: Screenshot of the Installed GitHub Apps section showing a list of installed apps, namely the 2i2c Community Showcase Hub GitHub App.   
+   
+   ```
+   
+   - If the GitHub App is not installed, then follow the next step.
+   - If the GitHub App is installed, then go to Step 5.
+1. [Install the GitHub App](https://docs.github.com/en/apps/using-github-apps/installing-a-github-app-from-a-third-party) to your GitHub Organization (requires GitHub Organization owner permissions) or personal GitHub account.
+   - Navigate to the GitHub App URL provided by 2i2c.
    - Click on the grey *Configure* button to install the GitHub app.
-   - Select the GitHub organisation that you would like to enable `gh-scoped-creds` for
+   - Select the GitHub Organization/personal account that you would like to enable `gh-scoped-creds` for.
      ```{image} ../media/episodes/transfer_data/git-install-app-1.png
      :width: 50%
      :align: center
      :alt: Screenshot of the page to install a GitHub App showing how you can select the organisation to enable `gh-scoped-creds` for.
      ```
-   - Choose whether to enable `gh-scoped-creds` for all repositories in your organisation or for only specific repositories and check that `Read and write access to code` is enabled.
+     ```{margin}
+     We highly recommend allowing access only to selected repositories for fine-grained access control. This can be re-configured again later if you wish.
+     ```
+   - Choose whether to enable `gh-scoped-creds` for all repositories or for only specific repositories and check that `Read and write access to code` is enabled.
      ```{image} ../media/episodes/transfer_data/git-install-app-2.png
      :width: 50%
      :align: center
      :alt: Screenshot of the page to install a GitHub App showing where to select the repositories you want to enable `gh-scoped-creds` for and check for which read-write permissions there are.
      ```
    - Click the green button labelled *Install*.
-1. `gh-scoped-creds` is now enabled for your hub.
-
-:::{note}
-If you wish to review the GitHub App settings, then you can locate your organization's installed apps at `https://github.com/organizations/<your-org-name>/settings/installations`.
-:::
+1. Check that the `gh-scoped-creds` package is installed in your image on the hub.
+   - Launch a server with your desired image.
+   - Open a Terminal.
+   - Run the command `gh-scoped-creds`.
+     - Continue with {ref}`Using gh-scoped-creds<episode-data:using-gh-scoped-creds>` as normal.
+     - If you see `bash: gh-scoped-creds: command not found`, then the `gh-scoped-creds` package is not installed in the image selected for your server. See the [Hub Service Guide - Add packages to a community-maintained upstream image](https://docs.2i2c.org/how-to-guides/add-packages-to-image/) to  add packages to a community-maintained upstream image.
 
 ::::{admonition} Exercise: Push GitHub code
 :class: exercise
