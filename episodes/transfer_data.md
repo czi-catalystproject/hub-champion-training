@@ -60,7 +60,7 @@ The file explorer (highlighted with a blue box) in the JupyterLab user interface
 The file explorer (highlighted with a blue box) in the RStudio user interface.
 :::
 
-The storage quota for home directories is **limited to 10 GB**, therefore this space is suitable for small files and datasets and not suitable for storing large datasets. 
+The storage quota for home directories is **limited to 10 GB** per user, therefore this space is suitable for small files and datasets and not suitable for storing large datasets. 
 
 ::::{admonition} Exercise: What can you store in your home directory?
 :class: exercise
