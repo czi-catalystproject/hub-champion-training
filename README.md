@@ -82,17 +82,21 @@ The following are instructions for localising the Jupyter Book to Spanish, adapt
    
    (See [Jupyter Book docs](https://jupyterbook.org/en/stable/explain/sphinx.html#jupyter-book-is-a-distribution-of-sphinx))
 
-1. Generate `gettext` files
+1. Generate `.pot` files with `gettext` to extract all translatable strings from the doctree
 
    ```bash
    jupyter-book build --builder custom --custom-builder gettext .
    ```
+   
+   The generated `.pot` files will be placed in the `_build/gettext` directory. The `.pot` files are empty template files and need to be updated if the source content changes. The `msgid` line contains the source text. The empty `msgstr` line will eventually contain the actual translation in the `.po` file.
 
 1. Create `.po` files in the `locale` folder in the `es_AR` target language (ensure that `locale` matches the `locale_dirs` setting in `_config.yml`)
 
    ```bash
    sphinx-intl update -p _build/gettext -d locale -l es_AR
    ```
+   
+   The generated `.po` files are the files that will contain the actual translations in the `msgstr` lines.
    
 1. Translate the `.po` files located inside the `locale/es_AR/LC_MESSAGES` folder as required, e.g. with human translation services, machine translation with [Crowdin](https://crowdin.com/).
 
