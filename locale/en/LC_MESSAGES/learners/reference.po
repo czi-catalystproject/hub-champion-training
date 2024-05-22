@@ -1,0 +1,148 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-22 10:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.0\n"
+
+msgid "Reference"
+msgstr ""
+
+msgid "Further resources"
+msgstr ""
+
+msgid "[2i2c](https://2i2c.org/)"
+msgstr ""
+
+msgid ""
+"[Hub Service Guide](https://docs.2i2c.org/) – comprehensive documentation"
+" for Hub Champions"
+msgstr ""
+
+msgid ""
+"[Infrastructure Guide](https://infrastructure.2i2c.org/) – technical "
+"guide for 2i2c engineers"
+msgstr ""
+
+msgid ""
+"[Code of Conduct](https://compass.2i2c.org/code-of-conduct/) – expected "
+"behavior and guidelines for 2i2c communities"
+msgstr ""
+
+msgid ""
+"[Technical Support](https://docs.2i2c.org/support/) – request technical "
+"support"
+msgstr ""
+
+msgid ""
+"[GitHub Organization](https://github.com/2i2c-org) – all of 2i2c's work "
+"is open source and there are many insightful discussions found in "
+"repository issues"
+msgstr ""
+
+msgid "Slack channel – contact the workshop instructor for access"
+msgstr ""
+
+msgid "[Managing Software Images](episode-images)"
+msgstr ""
+
+msgid ""
+"[Guide for Reproducible Research – Containers](https://book.the-turing-"
+"way.org/reproducible-research/renv/renv-containers) – guidance on "
+"reproducible research environments using containers by The Turing Way"
+msgstr ""
+
+msgid ""
+"[Reproducible Computational Environments Using Containers: Introduction "
+"to Docker](https://carpentries-incubator.github.io/docker-introduction/) "
+"– a lesson developed by The Carpentries community"
+msgstr ""
+
+msgid ""
+"[Red Hat Quay](https://quay.io/organization/2i2c) – browse the list of "
+"2i2c-maintained hub images"
+msgstr ""
+
+msgid ""
+"[Jupyter Docker Stacks](https://jupyter-docker-"
+"stacks.readthedocs.io/en/latest/using/selecting.html) – JupyterHub "
+"compatible Docker images"
+msgstr ""
+
+msgid ""
+"[Rocker Project](https://rocker-project.org/images/) – for R Docker "
+"containers (note only the `binder` image is JupyterHub-compatible)"
+msgstr ""
+
+msgid "Glossary"
+msgstr ""
+
+msgid "CPU"
+msgstr ""
+
+msgid ""
+"Central Processing Unit – executes computational work. The number of CPU "
+"cores needed for a job depends on how scalable the computational work is,"
+" the type and amount of work to be processed."
+msgstr ""
+
+msgid ""
+"[GitHub Organization](https://docs.github.com/en/organizations"
+"/collaborating-with-groups-in-organizations/about-organizations)"
+msgstr ""
+
+msgid ""
+"An umbrella account that contains a collection of individual member "
+"accounts under one common Organization."
+msgstr ""
+
+msgid ""
+"[GitHub Team](https://docs.github.com/en/organizations/organizing-"
+"members-into-teams/about-teams)"
+msgstr ""
+
+msgid ""
+"A subgroup of a GitHub Organization with more fine-grained control over "
+"access permissions and notifications."
+msgstr ""
+
+msgid "Hub"
+msgstr ""
+
+msgid ""
+"In the context of this lesson, a hub is a "
+"[JupyterHub](https://jupyter.org/hub) hosted in the cloud and managed by "
+"[2i2c](https://2i2c.org/)."
+msgstr ""
+
+msgid "JupyterHub"
+msgstr ""
+
+msgid ""
+"A multi-user hub that spawns, manages and proxies multiple instances of "
+"the single-user Jupyter notebook server."
+msgstr ""
+
+msgid "RAM"
+msgstr ""
+
+msgid ""
+"Random Access Memory – a computer's \"short-term memory\". The amount of "
+"RAM needed for a job depends on the size of the data structures to be "
+"processed."
+msgstr ""
+

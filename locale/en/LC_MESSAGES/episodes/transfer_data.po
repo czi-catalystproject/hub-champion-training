@@ -1,0 +1,548 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-22 10:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.0\n"
+
+msgid "Navigating the filesystem and transferring data to and from the hub"
+msgstr ""
+
+msgid "🔍 OVERVIEW"
+msgstr ""
+
+msgid "**Questions**"
+msgstr ""
+
+msgid "Where do I store files on the hub?"
+msgstr ""
+
+msgid "How do I transfer data to and from the hub?"
+msgstr ""
+
+msgid "How do I authorise GitHub to push and pull code to the hub?"
+msgstr ""
+
+msgid "**Objectives**"
+msgstr ""
+
+msgid ""
+"Recognise and locate your home directory in the JupyterLab and RStudio "
+"user interface"
+msgstr ""
+
+msgid "Distribute read-only datasets to all hub users in a shared directory"
+msgstr ""
+
+msgid "Push and pull GitHub repositories with `gh-scoped-creds`"
+msgstr ""
+
+msgid "Home directory"
+msgstr ""
+
+msgid ""
+"A hub server comes with its own filesystem that is private to the user "
+"and not shared with other hub users. Every user on the hub is given the "
+"username `jovyan`[^jovyan] and the file path where their home directory "
+"is located at"
+msgstr ""
+
+msgid "/home/jovyan\n"
+msgstr ""
+
+msgid ""
+"Both the JupyterLab and RStudio user interfaces will automatically open "
+"the file explorer in the user's home directory in the first instance when"
+" a server is launched (see {numref}`fig-jupyterlab` and {numref}`fig-"
+"rstudio`)."
+msgstr ""
+
+msgid ""
+"Files saved in the home directory are persistent and are available on the"
+" hub each time a user shuts down and starts a server."
+msgstr ""
+
+msgid ""
+"The file explorer (highlighted with a blue box) in the JupyterLab user "
+"interface."
+msgstr ""
+
+msgid ""
+"The file explorer (highlighted with a blue box) in the RStudio user "
+"interface."
+msgstr ""
+
+msgid ""
+"The storage quota for home directories is **limited to 10 GB** per user, "
+"therefore this space is suitable for small files and datasets and not "
+"suitable for storing large datasets."
+msgstr ""
+
+msgid "Exercise: What can you store in your home directory?"
+msgstr ""
+
+msgid "Select all that apply:"
+msgstr ""
+
+msgid "Notebooks"
+msgstr ""
+
+msgid "Code"
+msgstr ""
+
+msgid "Large and/or shared datasets with read-write permissions"
+msgstr ""
+
+msgid "Text files"
+msgstr ""
+
+msgid "Small datasets"
+msgstr ""
+
+msgid "Configuration files"
+msgstr ""
+
+msgid "Read-only datasets, e.g for teaching"
+msgstr ""
+
+msgid "Temporary data, e.g. intermediate results from a calculation"
+msgstr ""
+
+msgid "Solution"
+msgstr ""
+
+msgid ""
+"Large and/or shared datasets with read-write permissions – *consider "
+"using Cloud Object Storage or other cloud-native storage solutions*"
+msgstr ""
+
+msgid ""
+"Read-only datasets, e.g for teaching – *consider placing these files in "
+"the `~/shared` directory*"
+msgstr ""
+
+msgid ""
+"Temporary data, e.g. intermediate results from a calculation – *consider "
+"using the `/tmp` directory*"
+msgstr ""
+
+msgid "Shared directory"
+msgstr ""
+
+msgid "The shared-readwrite folder appears for Hub Champions only."
+msgstr ""
+
+msgid "The *shared-readwrite* folder appears for Hub Champions only."
+msgstr ""
+
+msgid ""
+"All hub users have access to a common *shared* directory from their home "
+"directory. This is a read-only directory where users can access large "
+"files or datasets for their work and its contents cannot be accidentally "
+"modified or deleted."
+msgstr ""
+
+msgid ""
+"Hub Champions can populate the *shared directory* by placing files in the"
+" *shared-readwrite* directory that appears only in their home directory."
+msgstr ""
+
+msgid "**Upload data to the hub**"
+msgstr ""
+
+msgid "Upload files to the hub by"
+msgstr ""
+
+msgid ""
+"(JupyterLab) clicking the ![*upload*](../media/episodes/transfer_data"
+"/jlab-upload.png) button at the top of the file explorer"
+msgstr ""
+
+msgid "upload"
+msgstr ""
+
+msgid ""
+"(RStudio) clicking the ![*upload*](../media/episodes/transfer_data"
+"/rstudio-upload.png) button at the top of the file explorer."
+msgstr ""
+
+msgid "**Download data from the hub**"
+msgstr ""
+
+msgid "Download files from the hub by"
+msgstr ""
+
+msgid ""
+"(JupyterLab) right-clicking on the target file/folder and clicking the "
+"![*download*](../media/episodes/transfer_data/jlab-download.png) button"
+msgstr ""
+
+msgid "download"
+msgstr ""
+
+msgid ""
+"(RStudio) checking the box next to the target file/folder, clicking the "
+"![*settings*](../media/episodes/transfer_data/rstudio-cog.png) button, "
+"choosing the *Export...* option and confirming the filename in the "
+"following dialog box."
+msgstr ""
+
+msgid "settings"
+msgstr ""
+
+msgid "Exercise: Data requirements"
+msgstr ""
+
+msgid ""
+"Think about the data that you or your community require for your/their "
+"work."
+msgstr ""
+
+msgid ""
+"What type of data is it? E.g. tabular data (.csv, .xls), images (.png, "
+".jpg, .bmp), other scientific data formats (.h5, .nc, .fastq)"
+msgstr ""
+
+msgid "How large is a typical dataset?"
+msgstr ""
+
+msgid "Where is the data stored?"
+msgstr ""
+
+msgid "Is the same dataset used by a group of collaborators?"
+msgstr ""
+
+msgid "Write up your thoughts in our shared collaborative document."
+msgstr ""
+
+msgid "Share and manage code with GitHub"
+msgstr ""
+
+msgid ""
+"GitHub is a popular *hosting platform* for creating, storing, managing "
+"and sharing code with collaborators. Code developed on a hub can be "
+"synchronised with a remote repository on GitHub, and changes are tracked "
+"in a process known as version control. This allows users to compare and "
+"even restore different versions of the code and facilitates collaborative"
+" work across different machines. Git is a *version control tool* that "
+"enables the synchronisation of code with GitHub. On a hub, version "
+"control of code is possible by using Git extensions to the user "
+"interface. Learn more about how to use these:"
+msgstr ""
+
+msgid ""
+"[Git extension for JupyterLab](https://blog.reviewnb.com/jupyterlab-git-"
+"extension/#git-workflow)"
+msgstr ""
+
+msgid ""
+"[Git extension for "
+"RStudio](https://docs.posit.co/ide/user/ide/guide/tools/version-"
+"control.html#integrations)."
+msgstr ""
+
+msgid ""
+"We recommend performing git operations using the HTTPS protocol and not "
+"SSH, since on the hub HTTPS will always work behind a firewall or proxy."
+msgstr ""
+
+msgid ""
+"When a user pulls and pushes code to a remote repository on GitHub, they "
+"will be prompted to provide their GitHub credentials."
+msgstr ""
+
+msgid ""
+"*We do not recommend entering your GitHub credentials (GitHub password, "
+"personal access tokens or otherwise) on any kind of shared infrastructure"
+" (e.g. private and public cloud, HPC, any remote machine)* as this "
+"information will be at risk."
+msgstr ""
+
+msgid ""
+"For JupyterLab, we highly advise using `gh-scoped-creds` for "
+"authentication on our hubs."
+msgstr ""
+
+msgid "Using `gh-scoped-creds`"
+msgstr ""
+
+msgid ""
+"This feature may not be enabled for all hub configurations. Hub Champions"
+" may refer to {ref}`Enabling gh-scoped-creds for your hub<episode-data"
+":enable-gh-scoped-creds>` for more details."
+msgstr ""
+
+msgid ""
+"Authorisation to pull and push to GitHub is handled with [`gh-scoped-"
+"creds`](https://github.com/yuvipanda/gh-scoped-creds/)."
+msgstr ""
+
+msgid "Open a Terminal."
+msgstr ""
+
+msgid "Run the command `gh-scoped-creds`."
+msgstr ""
+
+msgid ""
+"If the prompt does not appear and you see `bash: gh-scoped-creds: command"
+" not found` instead, then gh-scoped-creds is not installed in the image "
+"selected for your server. See the [Hub Service Guide - Add packages to a "
+"community-maintained upstream image](https://docs.2i2c.org/how-to-guides"
+"/add-packages-to-image/) to  add packages to a community-maintained "
+"upstream image."
+msgstr ""
+
+msgid "The following prompt will appear"
+msgstr ""
+
+msgid ""
+"jovyan@jupyter-username:~/my-repo$ gh-scoped-creds\n"
+"You have 15 minutes to go to https://github.com/login/device and enter "
+"the code: XXXX-XXXX\n"
+"Waiting....\n"
+msgstr ""
+
+msgid ""
+"Copy the code from the prompt and paste it into "
+"[https://github.com/login/device](https://github.com/login/device) as "
+"instructed."
+msgstr ""
+
+msgid ""
+"Authorise the hub to access GitHub by clicking the green button with the "
+"label *Authorize <name of hub>*."
+msgstr ""
+
+msgid ""
+"You should now be able to pull and push to GitHub from the hub without "
+"entering your credentials."
+msgstr ""
+
+msgid ""
+"Authorisation will automatically expire after 8 hours (or when your "
+"JupyterHub server stops), and you'll have to repeat these steps to renew."
+msgstr ""
+
+msgid ""
+"If you receive a `Permission denied` error after following these steps, "
+"then `gh-scoped-creds` has not been enabled for your hub. Please contact "
+"your Hub Champion to request this feature and refer them to the steps in "
+"{ref}`Enabling gh-scoped-creds for your hub<episode-data:enable-gh-"
+"scoped-creds>`."
+msgstr ""
+
+msgid "Enabling `gh-scoped-creds` for your hub"
+msgstr ""
+
+msgid ""
+"If this is not already enabled for your hub, then there are some extra "
+"steps for Hub Champions to enable `gh-scoped-creds` (requires GitHub "
+"Organization owner permissions)."
+msgstr ""
+
+msgid ""
+"Check that `gh-scoped-creds` is not already enabled for your hub by "
+"opening a Terminal and running"
+msgstr ""
+
+msgid "jovyan@jupyter-username:~$ echo $GH_SCOPED_CREDS_CLIENT_ID\n"
+msgstr ""
+
+msgid "If this returns nothing, then follow the next step."
+msgstr ""
+
+msgid ""
+"If this returns a client ID of the form `Iv1.xxxxxxxxxxxxxxxx`, then go "
+"to Step 3."
+msgstr ""
+
+msgid "A GitHub App URL is of the form `https://github.com/apps/<gh-app-name>`."
+msgstr ""
+
+msgid ""
+"Send a ticket to the [2i2c support desk](https://docs.2i2c.org/support/) "
+"and log a feature request for `gh-scoped-creds`. 2i2c will create a "
+"GitHub App, provide a public URL of the GitHub App and update the hub "
+"configuration to make the `GH_SCOPED_CREDS_CLIENT_ID` and "
+"`GH_SCOPED_CREDS_APP_URL` environment variables available in your hub."
+msgstr ""
+
+msgid ""
+"Check that the GitHub App is installed to your GitHub Organization/GitHub"
+" personal account that owns the repositories you would like access to."
+msgstr ""
+
+msgid ""
+"**GitHub Organization:** Navigate to the GitHub Organization used to "
+"manage access to your hub. In this lesson we are using the [2i2c-"
+"community-showcase](https://github.com/2i2c-community-showcase) GitHub "
+"Organization to manage access to the Community Showcase Hub."
+msgstr ""
+
+msgid ""
+"**GitHub personal account:** Navigate to your personal GitHub repository "
+"that you would like access to on the hub."
+msgstr ""
+
+msgid "Click on *{octicon}`gear` Settings > {octicon}`hubot` GitHub Apps*."
+msgstr ""
+
+msgid ""
+"Under *Installed GitHub Apps*, check whether the GitHub App URL provided "
+"by 2i2c matches an app in the list. In the screenshot below, the example "
+"GitHub App is called [2i2c Community Showcase Hub "
+"GitHub](https://github.com/apps/2i2c-community-showcase-hub)."
+msgstr ""
+
+msgid ""
+"Screenshot of the Installed GitHub Apps section showing a list of "
+"installed apps, namely the 2i2c Community Showcase Hub GitHub App."
+msgstr ""
+
+msgid "If the GitHub App is not installed, then follow the next step."
+msgstr ""
+
+msgid "If the GitHub App is installed, then go to Step 5."
+msgstr ""
+
+msgid ""
+"[Install the GitHub App](https://docs.github.com/en/apps/using-github-"
+"apps/installing-a-github-app-from-a-third-party) to your GitHub "
+"Organization (requires GitHub Organization owner permissions) or personal"
+" GitHub account."
+msgstr ""
+
+msgid "Navigate to the GitHub App URL provided by 2i2c."
+msgstr ""
+
+msgid "Click on the grey *Configure* button to install the GitHub app."
+msgstr ""
+
+msgid ""
+"Select the GitHub Organization/personal account that you would like to "
+"enable `gh-scoped-creds` for."
+msgstr ""
+
+msgid ""
+"Screenshot of the page to install a GitHub App showing how you can select"
+" the organisation to enable `gh-scoped-creds` for."
+msgstr ""
+
+msgid ""
+"We highly recommend allowing access only to selected repositories for "
+"fine-grained access control. This can be re-configured again later if you"
+" wish."
+msgstr ""
+
+msgid ""
+"Choose whether to enable `gh-scoped-creds` for all repositories or for "
+"only specific repositories and check that `Read and write access to code`"
+" is enabled."
+msgstr ""
+
+msgid ""
+"Screenshot of the page to install a GitHub App showing where to select "
+"the repositories you want to enable `gh-scoped-creds` for and check for "
+"which read-write permissions there are."
+msgstr ""
+
+msgid "Click the green button labelled *Install*."
+msgstr ""
+
+msgid ""
+"Check that the `gh-scoped-creds` package is installed in your image on "
+"the hub."
+msgstr ""
+
+msgid "Launch a server with your desired image."
+msgstr ""
+
+msgid ""
+"Continue with {ref}`Using gh-scoped-creds<episode-data:using-gh-scoped-"
+"creds>` as normal."
+msgstr ""
+
+msgid ""
+"If you see `bash: gh-scoped-creds: command not found`, then the `gh-"
+"scoped-creds` package is not installed in the image selected for your "
+"server. See the [Hub Service Guide - Add packages to a community-"
+"maintained upstream image](https://docs.2i2c.org/how-to-guides/add-"
+"packages-to-image/) to  add packages to a community-maintained upstream "
+"image."
+msgstr ""
+
+msgid "Exercise: Push GitHub code"
+msgstr ""
+
+msgid ""
+"You use the Git JupyterLab extension to push code to a remote repository "
+"on GitHub and the following box opens:"
+msgstr ""
+
+msgid ""
+"Information box asking for GitHub credentials such as username and "
+"Personal Access Token."
+msgstr ""
+
+msgid "What should you do?"
+msgstr ""
+
+msgid ""
+"Enter your GitHub username and Personal Access Token as requested, then "
+"click *Save my login temporarily*"
+msgstr ""
+
+msgid ""
+"Click *Cancel*, open a Terminal, enter the command `gh-scoped-creds` and "
+"follow the prompt"
+msgstr ""
+
+msgid ""
+"The correct answer is 2 – never enter your GitHub credentials (GitHub "
+"password, personal access tokens or otherwise) on any kind of shared "
+"infrastructure (e.g. private and public cloud, HPC, any remote machine) "
+"as this information will be at risk."
+msgstr ""
+
+msgid "🔑 KEY POINTS"
+msgstr ""
+
+msgid ""
+"Users can store small files and datasets in their home directory that "
+"will persist between sessions."
+msgstr ""
+
+msgid ""
+"Hub Champions can distribute large datasets in a read-only *shared* "
+"directory."
+msgstr ""
+
+msgid "Use `gh-scoped-creds` to push and pull code to GitHub."
+msgstr ""
+
+msgid ""
+"Please prepare for the Part Two of the workshop by completing Exercise 1 "
+"of the next episode *before* the synchronous session."
+msgstr ""
+
+msgid ""
+"Fun fact: `jovyan` is a play on the word \"Jovian\", which is the "
+"adjective form of the planet Jupiter 🪐. The word `jovyan` is used to "
+"describe members of the [Project Jupyter](https://jupyter.org/) community"
+" at large."
+msgstr ""
+

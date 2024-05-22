@@ -1,0 +1,397 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-22 10:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.0\n"
+
+msgid ""
+"Selecting the optimal server resources for your computational work "
+"responsibly"
+msgstr ""
+
+msgid "🔍 OVERVIEW"
+msgstr ""
+
+msgid "**Questions**"
+msgstr ""
+
+msgid "What's happening in the cloud when I run a server?"
+msgstr ""
+
+msgid "How many CPU cores and RAM do I need?"
+msgstr ""
+
+msgid "How can I reinstate the default environment of a user's server?"
+msgstr ""
+
+msgid "How can I gain control of a user's server for troubleshooting purposes?"
+msgstr ""
+
+msgid "**Objectives**"
+msgstr ""
+
+msgid "Select the most appropriate server resources for computational work"
+msgstr ""
+
+msgid "Stop and restart a user's server"
+msgstr ""
+
+msgid "Support a hub user by gaining control of their server"
+msgstr ""
+
+msgid "JupyterHub server options"
+msgstr ""
+
+msgid ""
+"A hub provides interactive computing in the cloud to support research and"
+" education workflows for your community. Computational resources, such as"
+" the number of {ref}`CPU<glossary:cpu>` cores and "
+"{ref}`RAM<glossary:ram>`, can be provisioned on-demand to allow users to "
+"scale up or scale down their work as needed."
+msgstr ""
+
+msgid ""
+"Once a user is logged into the hub, they can launch a server configured "
+"with a set number of CPU cores and RAM."
+msgstr ""
+
+msgid ""
+"In this example, we will look at the server options available on the "
+"[Community Showcase Hub](https://showcase.2i2c.cloud)."
+msgstr ""
+
+msgid ""
+"Server options presented can vary for different hubs. Nevertheless, the "
+"number of CPU cores and RAM available is always clearly stated and the "
+"principles for selecting the optimal server resources for your "
+"computational work described in this section can still be applied."
+msgstr ""
+
+msgid ""
+"Screenshot showing a list of server options available on the Community "
+"Showcase Hub."
+msgstr ""
+
+msgid "Here, there are four server options presented"
+msgstr ""
+
+msgid "Shared Small: 1–4 CPU, 8–32 GB RAM"
+msgstr ""
+
+msgid "Small: 4 CPU, 32 GB RAM"
+msgstr ""
+
+msgid "Medium: 16 CPU, 128 GB RAM"
+msgstr ""
+
+msgid "Large: 64 CPU, 512 GB RAM."
+msgstr ""
+
+msgid ""
+"We shall explore the *Image* dropdown box further in the next episode, "
+"{ref}`episode-images`."
+msgstr ""
+
+msgid "Exercise: Local versus Cloud computing – What's the difference?"
+msgstr ""
+
+msgid ""
+"How does the number of CPUs and RAM available on the hub compare with "
+"your personal computer? What impact does access to these cloud resources "
+"have on your user's work?"
+msgstr ""
+
+msgid "Solution"
+msgstr ""
+
+msgid ""
+"In general, more CPU cores available in the cloud allow for more work to "
+"be done in *parallel* and reduce time to solution (a CPU-bound program). "
+"Parallel computing is where multiple CPU cores can be used simultaneously"
+" to solve a computational problem, e.g. running the same processing task "
+"on several different datasets."
+msgstr ""
+
+msgid ""
+"However, using more CPU cores does not automatically improve performance "
+"since the rate at which information is accessed in RAM can become a "
+"limiting factor (a memory-bound program), or simply the program is "
+"designed to be executed in *serial* and not in parallel."
+msgstr ""
+
+msgid "Using cloud resources responsibly"
+msgstr ""
+
+msgid ""
+"By selecting a server option, a user is remotely launching a server that "
+"is provided by a commercial vendor, such as Google Cloud, AWS or "
+"Microsoft Azure. Selecting a larger server incurs a larger financial "
+"cost, as well as an environmental cost! Therefore it is important to use "
+"cloud resources responsibly to maximize efficiency and minimize carbon "
+"emissions."
+msgstr ""
+
+msgid "Best practices for using cloud resources responsibly include"
+msgstr ""
+
+msgid ""
+"{ref}`shutting down<episode-server:shutdown-server>` a cloud server as "
+"soon as you are finished with your work"
+msgstr ""
+
+msgid ""
+"selecting the server option with the minimum number of CPU cores and RAM "
+"needed to carry out your work"
+msgstr ""
+
+msgid ""
+"running code efficiently and developing sustainable research software "
+"where possible, e.g. test your program first before scaling to a larger "
+"job."
+msgstr ""
+
+msgid "Exercise: Optimize server resources for your work"
+msgstr ""
+
+msgid ""
+"In each scenario, select the option that makes the best use of the "
+"following server resources: *Shared Small: 1–4 CPU, 8–32 GB RAM, Small: 4"
+" CPU, 32 GB RAM, Medium: 16 CPU, 128 GB RAM, Large: 64 CPU, 512 GB RAM*."
+msgstr ""
+
+msgid ""
+"a. Run a software pipeline where each task requires 2GB of RAM and 60 "
+"tasks in total."
+msgstr ""
+
+msgid "b. Create documentation and edit text files."
+msgstr ""
+
+msgid ""
+"c. Preprocess a dataset consisting of 10,000 images, where each image is "
+"16 MB in size."
+msgstr ""
+
+msgid ""
+"a. *Medium: 16 CPU, 128 GB RAM* – the memory required is $ 60 \\times 2 "
+"\\, \\mathrm{GB} = 120 \\, \\mathrm{GB}$, therefore the RAM on a *Medium*"
+" machine is sufficient."
+msgstr ""
+
+msgid ""
+"b. *Shared Small: 1–4 CPU, 8–32 GB RAM* – this is not a computationally "
+"intensive task so a machine shared with other users is sufficient."
+msgstr ""
+
+msgid ""
+"c. *Large: 64 CPU, 512 GB RAM* – the total dataset size is $10000 \\times"
+" 16 \\, \\mathrm{MB} = 160 000 \\, \\mathrm{MB} = 160 \\, \\mathrm{GB}$, "
+"which is too large for the *Medium* machine to hold in memory at once. "
+"Alternatively, you could chunk up your dataset and preprocess each batch "
+"on a smaller machine, which would be slower. Image preprocessing is often"
+" a CPU-bound process in deep learning workflows, so a *Large* machine "
+"with more CPU cores is best for performance."
+msgstr ""
+
+msgid "**Challenge**"
+msgstr ""
+
+msgid ""
+"Sofía wants to run a new program but does not know its maximum memory "
+"requirement. She tried compiling it on a Shared Small machine, where it "
+"was initially built but then ran out of memory and failed on execution. "
+"Which server configuration should Sofía choose to try to run the program "
+"again?"
+msgstr ""
+
+msgid ""
+"*Small: 4 CPU, 32 GB RAM* – the task failed on a *Shared Small* machine "
+"and we recommend sizing up incrementally if you are unsure of the server "
+"resources you need."
+msgstr ""
+
+msgid "Automatic server culling"
+msgstr ""
+
+msgid ""
+"Hubs automatically cull servers after a period of inactivity to improve "
+"resource utilization and safeguard against excessive cloud costs. This "
+"occurs after **1 hour** of user inactivity."
+msgstr ""
+
+msgid ""
+"Executing a piece of long-running code with a running kernel is not "
+"recognised as user activity on the server and so the process is killed "
+"after 1 hour. This is a rare use case of interactive computing on a hub, "
+"but this limit can be reconfigured for a particular hub upon request by "
+"contacting [2i2c support](https://docs.2i2c.org/support)."
+msgstr ""
+
+msgid "Shutting down a server as a user"
+msgstr ""
+
+msgid ""
+"A user should shut down their server on the hub once they are finished "
+"with their work. This can be done manually by applying the following "
+"steps."
+msgstr ""
+
+msgid ""
+"(JupyterLab) Navigate to *File > Hub Control Panel*, or alternatively "
+"(JupyterLab and RStudio) navigate to the URL `https://<your-hub-"
+"url>.2i2c.cloud/hub/home`"
+msgstr ""
+
+msgid ""
+"In the Hub Control Panel, click on the ![Stop My "
+"Server](../media/episodes/server_resources/shutdown-2.png) button"
+msgstr ""
+
+msgid "Stop My Server"
+msgstr ""
+
+msgid ""
+"Screenshot showing the File > Hub Control Panel menu option in the "
+"JupyterLab user interface."
+msgstr ""
+
+msgid "Managing another user's server as a Hub Champion"
+msgstr ""
+
+msgid ""
+"Hub Champions have access to an Admin panel from the Hub Control Panel "
+"(or the URL `https://<your-hub-url>.2i2c.cloud/hub/admin`)."
+msgstr ""
+
+msgid "Screenshot showing the Admin panel available to Hub Champions."
+msgstr ""
+
+msgid "With great power comes great responsibility."
+msgstr ""
+
+msgid "Spiderman"
+msgstr ""
+
+msgid ""
+"Performing administrative actions as a Hub Champion should be done with "
+"great care. Respect the privacy of others and think before you act."
+msgstr ""
+
+msgid ""
+"A user's server may sometimes become unresponsive, e.g. issues stemming "
+"from self-installed software via `pip` and/or `conda`. Hub Champions can "
+"restore user servers to their default environment by stopping and "
+"restarting their server by clicking the ![Stop "
+"Server](../media/episodes/server_resources/manage-2.png) followed by the "
+"![Start Server](../media/episodes/server_resources/manage-3.png) button "
+"next to the user's name from the Admin panel."
+msgstr ""
+
+msgid "Stop Server"
+msgstr ""
+
+msgid "Start Server"
+msgstr ""
+
+msgid ""
+"Self-installed software packages on the hub are *temporary* and are "
+"removed each time a server is shut down to maintain a clean default "
+"software environment. Software is provided between sessions by {ref"
+"}`episode-images`, which is covered in the next episode."
+msgstr ""
+
+msgid "Access a user's server"
+msgstr ""
+
+msgid ""
+"Hub Champions can gain control of a user's server that is currently "
+"running by clicking the ![Access "
+"Server](../media/episodes/server_resources/manage-4.png) button next to "
+"the user's name from the Admin panel."
+msgstr ""
+
+msgid "Access Server"
+msgstr ""
+
+msgid ""
+"From here a Hub Champion can navigate the server *as if they are the user"
+" themselves*, which is useful for reproducing and debugging issues."
+msgstr ""
+
+msgid "Exercise: User server management"
+msgstr ""
+
+msgid "Are the following statements *True* or *False*?"
+msgstr ""
+
+msgid "a. Closing the browser window is enough to stop a server."
+msgstr ""
+
+msgid ""
+"b. Stopping a server when a user is finished with their work reduces "
+"costs and carbon emissions."
+msgstr ""
+
+msgid ""
+"c. Stopping and restarting a server removes `pip` and `conda` user-"
+"installed packages and restores a clean state."
+msgstr ""
+
+msgid "d. A user server will continue to run indefinitely unless stopped."
+msgstr ""
+
+msgid ""
+"a. *False* – the server will continue to run unless the *Stop my Server* "
+"button is clicked or will be automatically culled after 1 hour of "
+"inactivity by default."
+msgstr ""
+
+msgid ""
+"b. *True* – running a server utilises computational resources that are "
+"billed by the cloud provider and consumes energy."
+msgstr ""
+
+msgid ""
+"c. *True* – sometimes user-installed packages can introduce software "
+"dependency conflicts that can be removed by restarting the server."
+msgstr ""
+
+msgid ""
+"d. *False* – servers are culled after 1 hour of inactivity by default. If"
+" a user requires a long-running process exceeding this period, then they "
+"should request an extension to this limit through their Hub Champion."
+msgstr ""
+
+msgid "🔑 KEY POINTS"
+msgstr ""
+
+msgid ""
+"Users can launch servers with a variety of resources available, namely "
+"the number of CPU cores and RAM."
+msgstr ""
+
+msgid ""
+"It is important to use cloud resources responsibly to maximize efficiency"
+" and minimize carbon emissions."
+msgstr ""
+
+msgid ""
+"Hub Champions can stop, restart and gain control of a user's server for "
+"troubleshooting purposes."
+msgstr ""
+

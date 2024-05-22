@@ -1,0 +1,394 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-22 10:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.0\n"
+
+msgid "Managing Software Images"
+msgstr ""
+
+msgid "🔍 OVERVIEW"
+msgstr ""
+
+msgid "**Questions**"
+msgstr ""
+
+msgid "What software environments are available on the hub?"
+msgstr ""
+
+msgid "How is containerization helpful for my work?"
+msgstr ""
+
+msgid "Is there a way to customise my software environment?"
+msgstr ""
+
+msgid "**Objectives**"
+msgstr ""
+
+msgid ""
+"Explain the value of reproducibility with containerized software "
+"environments"
+msgstr ""
+
+msgid "Select pre-configured JupyterLab or RStudio containers for their hub"
+msgstr ""
+
+msgid "Pull a custom container for their hub"
+msgstr ""
+
+msgid "Software for research and education"
+msgstr ""
+
+msgid ""
+"Hub users usually require specific software packages to carry out their "
+"work. Installing software on a laptop significantly differs from "
+"installing software on a shared resource such as a hub in the cloud, "
+"largely because of different"
+msgstr ""
+
+msgid "operating systems, e.g. Linux, macOS, Windows"
+msgstr ""
+
+msgid "system libraries"
+msgstr ""
+
+msgid "filesystems"
+msgstr ""
+
+msgid "hardware."
+msgstr ""
+
+msgid ""
+"Due to these factors, a software installation on a user's local machine "
+"is difficult to reproduce and the installation process is often poorly "
+"documented and out of date."
+msgstr ""
+
+msgid "Exercise: Software Challenges"
+msgstr ""
+
+msgid ""
+"Think about the challenges that you may have faced with using software "
+"for your work."
+msgstr ""
+
+msgid ""
+"Is there a tool that you wanted to use that was not compatible with your "
+"operating system?"
+msgstr ""
+
+msgid "Have you ever struggled to install a piece of software?"
+msgstr ""
+
+msgid ""
+"Did you and your collaborators fail to reproduce results using the same "
+"software application?"
+msgstr ""
+
+msgid "Write up your thoughts in our shared collaborative document."
+msgstr ""
+
+msgid "Reproduce software environments with containers"
+msgstr ""
+
+msgid ""
+"Containers are a useful technology for overcoming software challenges in "
+"reproducibility, portability and scalability. A container bundles up the "
+"software application and its dependencies into a lightweight and "
+"standalone package that can be run on any infrastructure."
+msgstr ""
+
+msgid ""
+"Diagram of how a layer of many user software container environments "
+"shares the hub's underlying operating system and server infrastructure."
+msgstr ""
+
+msgid "Reproducibility"
+msgstr ""
+
+msgid ""
+"An *image* is a reusable and shareable file that outlines the \"recipe\" "
+"needed to create a container. This is useful for reproducing a software "
+"environment since you can tag and keep track of the different versions of"
+" the image."
+msgstr ""
+
+msgid "Portability"
+msgstr ""
+
+msgid ""
+"A container can run on different target systems, such as a laptop, "
+"supercomputer or cloud server."
+msgstr ""
+
+msgid "Scalability"
+msgstr ""
+
+msgid ""
+"Containers can be scaled up or down to take advantage of the system "
+"resources available (i.e. CPUs and RAM)."
+msgstr ""
+
+msgid "Exercise: Reasons to use containers"
+msgstr ""
+
+msgid "Which of the following statements are *True* or *False*?"
+msgstr ""
+
+msgid ""
+"Containers are lightweight, portable and isolated units of software that "
+"can be used on any computer and operating system."
+msgstr ""
+
+msgid ""
+"An image is a runnable, self-contained software environment created from "
+"a container. A container is a shareable \"recipe\" used to create images."
+msgstr ""
+
+msgid ""
+"A container enables reproducible modelling or analyses to be carried out "
+"on your laptop or in the cloud."
+msgstr ""
+
+msgid ""
+"Containers are easily scalable and can be deployed on many machines to "
+"distribute work."
+msgstr ""
+
+msgid "Solution"
+msgstr ""
+
+msgid "*True*"
+msgstr ""
+
+msgid ""
+"*False* – A *container* is a runnable, self-contained software "
+"environment or service created from an *image*. An *image* is a shareable"
+" \"recipe\" used to create *containers*."
+msgstr ""
+
+msgid ""
+"For further resources on containerisation, please see {ref}`Further "
+"Resources<ref:resources>`."
+msgstr ""
+
+msgid "Selecting pre-configured containers on the hub"
+msgstr ""
+
+msgid ""
+"As seen in the previous episode, [](episode-server), a user is presented "
+"with a list of server options once logged into a hub and each option has "
+"an *Image* dropdown box."
+msgstr ""
+
+msgid ""
+"Screenshot showing a list of server options available on the Community "
+"Showcase Hub."
+msgstr ""
+
+msgid ""
+"On the [Community Showcase Hub](https://showcase.2i2c.cloud), the default"
+" list of images available include"
+msgstr ""
+
+msgid ""
+"[Jupyter DataScience](https://jupyter-docker-"
+"stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-datascience-"
+"notebook) - launches a JupyterLab interface with various Python[^ds-"
+"python], R[^ds-r] and Julia[^ds-julia] packages installed"
+msgstr ""
+
+msgid ""
+"[Rocker Geospatial](https://rocker-"
+"project.org/images/versioned/binder.html) – launches an RStudio interface"
+" with R packages[^ds-r] and geospatial toolkits installed"
+msgstr ""
+
+msgid ""
+"[Handbook Authoring](https://github.com/2i2c-org/community-"
+"showcase/tree/main/images/handbook-authoring-image) – a 2i2c-maintained "
+"image containing Python packages[^ha-python] for authoring documentation "
+"in Jupyter Book and MystMD"
+msgstr ""
+
+msgid ""
+"[Other...](episode-images:other) – allows a user to self-serve a "
+"JupyterHub-compatible custom image (see section below)."
+msgstr ""
+
+msgid ""
+"The list of image options presented can vary for different hubs. Hub "
+"Champions can build their own non-default environment and open a support "
+"ticket with 2i2c to modify this list to include non-default options – "
+"this is beyond the scope of this training although further details can be"
+" found in the [Hub Service "
+"Guide](https://docs.2i2c.org/admin/howto/environment/)."
+msgstr ""
+
+msgid "Choosing a custom image with the \"Other...\" option"
+msgstr ""
+
+msgid ""
+"The *Other...* option allows a user to specify a custom image container "
+"to pull into the hub. There are many container registries online that "
+"host containerized applications, such as Docker Hub, GitHub, Azure, "
+"Amazon and Google Container Registries, Red Hat Quay, etc."
+msgstr ""
+
+msgid ""
+"**Only containers that are compatible with JupyterHub can be pulled into "
+"a hub**. To find JupyterHub-compatible containers you can, e.g."
+msgstr ""
+
+msgid ""
+"browse the list of 2i2c-maintained hub images on [Red Hat "
+"Quay](https://quay.io/organization/2i2c)"
+msgstr ""
+
+msgid ""
+"take a look at [Jupyter Docker Stacks](https://jupyter-docker-"
+"stacks.readthedocs.io/en/latest/using/selecting.html)"
+msgstr ""
+
+msgid ""
+"take a look at the [Rocker Project](https://rocker-project.org/images/) "
+"for R Docker containers (note only the `binder` image is JupyterHub-"
+"compatible)"
+msgstr ""
+
+msgid "search Docker Hub for the term \"jupyter\"."
+msgstr ""
+
+msgid ""
+"Anyone can create a container and publicly share it online, therefore it "
+"is important to be cautious about downloading this software onto your "
+"machine. A few good indicators to look for are"
+msgstr ""
+
+msgid "the image is updated regularly"
+msgstr ""
+
+msgid "the image is authored and maintained by a well-known company or community"
+msgstr ""
+
+msgid "the container is used by many people"
+msgstr ""
+
+msgid ""
+"there is an image file provided or metadata listing the exact contents of"
+" the container"
+msgstr ""
+
+msgid "documentation is provided on how to use the image."
+msgstr ""
+
+msgid ""
+"An image listed on a container registry may have many different versions "
+"associated with it. A `TAG` is used to distinguish these different "
+"versions. The name of the container image can also include the `OWNER`. "
+"The general format for specifying an image is"
+msgstr ""
+
+msgid "OWNER/IMAGE_NAME:TAG\n"
+msgstr ""
+
+msgid ""
+"For example, if a user wanted to pull the [Jupyter PyTorch "
+"notebook](https://jupyter-docker-"
+"stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-pytorch-"
+"notebook) container, then they would enter `quay.io/jupyter/pytorch-"
+"notebook:x86_64-pytorch-2.2.0` into the *Custom image* field."
+msgstr ""
+
+msgid ""
+"Screenshot showing where to specify a custom image quay.io/jupyter"
+"/pytorch-notebook:x86_64-pytorch-2.2.0 in the server options page on a "
+"hub."
+msgstr ""
+
+msgid ""
+"We recommend always explicitly specifying a version number in the `TAG` "
+"field rather than using the generic `latest` tag. Providing the version "
+"number in the tag is useful for producing informative server logs for "
+"debugging purposes and allows you to check whether the correct version of"
+" the image is loaded into the hub by running the command"
+msgstr ""
+
+msgid "jovyan@user:~$ echo $JUPYTER_IMAGE\n"
+msgstr ""
+
+msgid "Exercise: Specifying a custom image tag"
+msgstr ""
+
+msgid ""
+"Which of the following would you paste into the _Custom Image_ field to "
+"pull the latest version of the `handbook-authoring-image` from the list "
+"of 2i2c-maintained hub images on [Red Hat "
+"Quay](https://quay.io/organization/2i2c) to your hub?"
+msgstr ""
+
+msgid "quay.io/2i2c/handbook-authoring-image:bbe4225a7940"
+msgstr ""
+
+msgid "quay.io/2i2c/handbook-authoring-image"
+msgstr ""
+
+msgid "docker pull quay.io/2i2c/handbook-authoring-image:LATEST"
+msgstr ""
+
+msgid "quay.io/2i2c/handbook-authoring-image:LATEST"
+msgstr ""
+
+msgid "Notes on the other answers:"
+msgstr ""
+
+msgid "This is using an older version tag and not the latest version available."
+msgstr ""
+
+msgid "This is missing the version tag."
+msgstr ""
+
+msgid "Here you would need to remove the 'docker pull' part."
+msgstr ""
+
+msgid "🔑 KEY POINTS"
+msgstr ""
+
+msgid "Images are useful for reproducing software environments across platforms"
+msgstr ""
+
+msgid "Default containers are available on the hub"
+msgstr ""
+
+msgid "Additional custom containers can be pulled to the hub if required"
+msgstr ""
+
+msgid "such as `dask, h5py, matplotlib, pandas, scikit-learn, scipy, sympy`"
+msgstr ""
+
+msgid ""
+"such as `caret, forecast, randomforest, rmarkdown, shiny, tidymodels, "
+"tidyverse`"
+msgstr ""
+
+msgid "such as `pluto` and `HDF5`"
+msgstr ""
+
+msgid "such as `jupyter-book` and `sphinx-intl`"
+msgstr ""
+
