@@ -168,7 +168,7 @@ Authorisation to pull and push to GitHub is handled with [`gh-scoped-creds`](htt
 1. Open a Terminal.
 1. Run the command `gh-scoped-creds`.
 ```{margin}
-If the prompt does not appear and you see `bash: gh-scoped-creds: command not found` instead, then gh-scoped-creds is not installed in the image selected for your server. See the [Hub Service Guide - Add packages to a community-maintained upstream image](https://docs.2i2c.org/how-to-guides/add-packages-to-image/) to  add packages to a community-maintained upstream image.
+If the prompt does not appear and you see `bash: gh-scoped-creds: command not found` instead, then gh-scoped-creds is not installed in the image selected for your server. See the [Hub Service Guide - Customize a community-maintained upstream image](https://docs.2i2c.org/admin/howto/environment/customize-image/) to  add packages to a community-maintained upstream image.
 ```
 
 1. The following prompt will appear
