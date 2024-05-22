@@ -18,12 +18,12 @@ preserve_hierarchy: true
 # Files configuration
 #
 files:
-  - source: /locale/en/index.po
+  - source: /locale/en/LC_MESSAGES/index.po
     dest: /hub-champion-training/%original_file_name%
     type: po
-    translation: /locale/%locale_with_underscore%/%original_file_name%
-  - source: /locale/en/**/*.po
+    translation: /locale/%locale_with_underscore%/LC_MESSAGES/%original_file_name%
+  - source: /locale/en/LC_MESSAGES/**/*.po
     dest: /hub-champion-training/**/%original_file_name%
     type: po
-    translation: /locale/%locale_with_underscore%/**/%original_file_name%
+    translation: /locale/%locale_with_underscore%/LC_MESSAGES/**/%original_file_name%
 
