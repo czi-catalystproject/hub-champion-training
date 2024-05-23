@@ -241,7 +241,7 @@ If this is not already enabled for your hub, then there are some extra steps for
    - Open a Terminal.
    - Run the command `gh-scoped-creds`.
      - Continue with {ref}`Using gh-scoped-creds<episode-data:using-gh-scoped-creds>` as normal.
-     - If you see `bash: gh-scoped-creds: command not found`, then the `gh-scoped-creds` package is not installed in the image selected for your server. See the [Hub Service Guide - Add packages to a community-maintained upstream image](https://docs.2i2c.org/how-to-guides/add-packages-to-image/) to  add packages to a community-maintained upstream image.
+     - If you see `bash: gh-scoped-creds: command not found`, then the `gh-scoped-creds` package is not installed in the image selected for your server. See the [Hub Service Guide - Customize a community-maintained upstream image](https://docs.2i2c.org/admin/howto/environment/customize-image/) to  add packages to a community-maintained upstream image.
 
 ::::{admonition} Exercise: Push GitHub code
 :class: exercise
