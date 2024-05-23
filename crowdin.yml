@@ -24,4 +24,5 @@ files:
   - source: /locale/en/LC_MESSAGES/**/*.po
     dest: /hub-champion-training/**/%original_file_name%
     translation: /locale/%locale_with_underscore%/LC_MESSAGES/**/%original_file_name%
+  - excluded_target_languages: "es"
 
