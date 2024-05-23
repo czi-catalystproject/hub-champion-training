@@ -1,0 +1,460 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-23 14:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.0\n"
+
+msgid "Recognising the benefits your hub can provide for your user community"
+msgstr ""
+
+msgid "🔍 OVERVIEW"
+msgstr ""
+
+msgid "**Questions**"
+msgstr ""
+
+msgid "What is interactive computing in the cloud?"
+msgstr ""
+
+msgid ""
+"How can interactive computing in the cloud serve hub communities in "
+"research and/or education?"
+msgstr ""
+
+msgid "What is the role of a Hub Champion?"
+msgstr ""
+
+msgid "**Objectives**"
+msgstr ""
+
+msgid "Identify the benefits provided by a hub for interactive cloud computing"
+msgstr ""
+
+msgid ""
+"Recognise use cases for interactive cloud computing in a Hub Champion's "
+"user community"
+msgstr ""
+
+msgid ""
+"Describe their role and capacity as a Hub Champion to administer and "
+"support their hub"
+msgstr ""
+
+msgid "Introduction"
+msgstr ""
+
+msgid ""
+"This episode introduces the concept of a hub for interactive cloud "
+"computing and how a hub in the cloud can benefit the user communities a "
+"hub champion supports."
+msgstr ""
+
+msgid "How can interactive computing in the cloud benefit my community?"
+msgstr ""
+
+msgid ""
+"Interactive computing is a fundamental way in which researchers and "
+"educators use a computer program to perform tasks that include (but are "
+"not limited to)"
+msgstr ""
+
+msgid ""
+"generating data from experiments or simulations, or gathering data from "
+"secondary sources"
+msgstr ""
+
+msgid "processing and analysing data using statistical techniques and algorithms"
+msgstr ""
+
+msgid "developing data-driven and/or mechanistic predictive models"
+msgstr ""
+
+msgid "visualising results to graphically reveal insights."
+msgstr ""
+
+msgid ""
+"Real-time interactivity helps information flow back and forth between the"
+" user and their work, creating a dynamic and productive environment for "
+"research and educational activity. Project Jupyter is an ecosystem of "
+"open-source tools that can provide a web-based interactive computational "
+"environment, in the form of \"notebooks\", for several languages, namely "
+"**Ju**lia, **Py**thon and **R** (hence the name Project **Jupy**te**r**)."
+msgstr ""
+
+msgid ""
+"Cartoon depicting common interactive computing use cases such as data "
+"collection, data processing and analysis, predictive modelling and data "
+"visualization."
+msgstr ""
+
+msgid ""
+"With the advent of \"big data\", many researchers and educators encounter"
+" limitations with using traditional methods for handling data on a local "
+"machine or laptop. The size and number of datasets prevalent in "
+"disciplines such as genomics, meteorology, healthcare, and environmental "
+"sciences, to name a few, are growing at an exponential rate, and "
+"consequently, the need for large-scale infrastructure to support "
+"continually intensive computational workflows also grows."
+msgstr ""
+
+msgid "Cloud computing icon."
+msgstr ""
+
+msgid ""
+"Cloud computing is one way of provisioning the system resources needed to"
+" meet this demand. This relies on the sharing of on-demand services "
+"usually provided by commercial entities such as AWS, Google Cloud and "
+"Microsoft Azure. Academics in research and education are often limited in"
+" their capacity to sustainably administrate cloud infrastructure at scale"
+" and may also wish to support open-source tools and vendor-agnostic "
+"infrastructure to protect scientific reproducibility and encourage "
+"effective collaboration."
+msgstr ""
+
+msgid ""
+"This is where a non-profit initiative such as [2i2c](https://2i2c.org/) "
+"can help. 2i2c specialises in managing open Jupyter architecture in the "
+"cloud specially designed for communities of practice in research and "
+"education using open-source tools that allow them to reproduce "
+"environments, code and data on different machines. Users can access "
+"large-scale compute and storage as needed and workflows are entirely "
+"reproducible and supported by using community-driven, open-source "
+"technologies."
+msgstr ""
+
+msgid "JupyterHubs in the Cloud"
+msgstr ""
+
+msgid ""
+"In this lesson, our definition of the word *hub* refers to a "
+"{ref}`JupyterHub <glossary:jupyterhub>` that is hosted on cloud "
+"infrastructure and managed by [2i2c](https://2i2c.org/)."
+msgstr ""
+
+msgid ""
+"Diagram showing an overview of a 2i2c hub, including authentication, "
+"online content, custom environments, the community hub, cloud "
+"infrastructure, support and services."
+msgstr ""
+
+msgid "Community Hub"
+msgstr ""
+
+msgid ""
+"A hub provides an access point to interactive computing in the cloud for "
+"a user community. Access to the hub is via a URL of the following form"
+msgstr ""
+
+msgid "<hub-name>.<community-name>.2i2c.cloud\n"
+msgstr ""
+
+msgid ""
+"and the landing page contains a *Log in to continue* button (see example "
+"screenshot)"
+msgstr ""
+
+msgid "Screenshot of a hub landing page with a 'Log in to continue' button."
+msgstr ""
+
+msgid "Authentication"
+msgstr ""
+
+msgid ""
+"Access to the hub is controlled by Hub Champions and granted by adding a "
+"user's GitHub account to a special GitHub Team associated with the hub. A"
+" permitted user enters their GitHub credentials to log into the hub (see "
+"example screenshot)"
+msgstr ""
+
+msgid "Screenshot of the authentication page using GitHub credentials"
+msgstr ""
+
+msgid "Custom environments"
+msgstr ""
+
+msgid ""
+"Users can choose from several machine types with varying numbers of CPU "
+"cores and RAM available, and select their desired software environment "
+"using images."
+msgstr ""
+
+msgid ""
+"Screenshot of server options available include Shared Small 1-4 CPU, 8-32"
+" GB RAM, Small 4 CPU, 32 GB RAM, Medium 16 CPU, 128 GB RAM and Large 64 "
+"CPU, 512 GB RAM."
+msgstr ""
+
+msgid "Images available by default include"
+msgstr ""
+
+msgid ""
+"Handbook Authoring (JupyterLab user interface) – installed Python "
+"packages include `jupyter-book, jupyterlab_myst, ghp-import, numpy, "
+"matplotlib`"
+msgstr ""
+
+msgid ""
+"[Jupyter DataScience](https://jupyter-docker-"
+"stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-datascience-"
+"notebook) (JupyterLab user interface) – installed Python packages include"
+" `dask, h5py, pandas, scikit-learn, scipy, sympy`"
+msgstr ""
+
+msgid ""
+"[Rocker Geospatial](https://rocker-"
+"project.org/images/versioned/rstudio.html) (RStudio user interface) – "
+"installed R packages include `ncdf4, proj4, raster, rgdal, rgeos, sf, sp`"
+msgstr ""
+
+msgid "Other... – specify a custom JupyterLab/RStudio image"
+msgstr ""
+
+msgid "Online Content"
+msgstr ""
+
+msgid "There are many ways to manage online content on the hub. For example"
+msgstr ""
+
+msgid ""
+"users have access to their own filesystem and a home directory of up to "
+"10 GB"
+msgstr ""
+
+msgid "Hub Champions can distribute data to all hub users in a shared directory"
+msgstr ""
+
+msgid "users can securely pull and push code to and from the hub using GitHub."
+msgstr ""
+
+msgid "Cloud infrastructure"
+msgstr ""
+
+msgid ""
+"Hubs are deployed on AWS, Google Cloud or Microsoft Azure commercial "
+"cloud providers. Code for 2i2c hub configuration and deployment follows "
+"best practices and is open and transparent to all. 2i2c hubs are designed"
+" with the [Right to Replicate](https://2i2c.org/right-to-replicate/) by "
+"anybody on their own cloud infrastructure."
+msgstr ""
+
+msgid "Support and Services"
+msgstr ""
+
+msgid "2i2c provides dedicated operations support for the hub, such as"
+msgstr ""
+
+msgid "continuously monitoring the infrastructure"
+msgstr ""
+
+msgid "responding to incidents"
+msgstr ""
+
+msgid "deploying hub environments"
+msgstr ""
+
+msgid "upstreaming open-source developments"
+msgstr ""
+
+msgid "operating Kubernetes clusters."
+msgstr ""
+
+msgid ""
+"Hub Champions are the first point of contact for their user community to "
+"provide support and guide users to make the best use of the hub. Hub "
+"Champions may then represent and escalate support requests to 2i2c for "
+"more technical issues."
+msgstr ""
+
+msgid "Which of the following statements are True/False?"
+msgstr ""
+
+msgid ""
+"a. 2i2c-managed hubs are only available via a single cloud provider.   b."
+" A hub can be accessed and used by anyone who knows its URL.   c. "
+"Software environments are inflexible and irreproducible.   d. 2i2c "
+"provides operations support for your hub."
+msgstr ""
+
+msgid "Solution"
+msgstr ""
+
+msgid ""
+"a. False – Hubs are built entirely with open-source and community-driven "
+"tooling. The Right to Replicate gives communities the right to replicate "
+"their infrastructure in its entirety elsewhere.   b. False – Hub "
+"Champions can control who can access the hub through GitHub or other "
+"authentication methods.   c. False – Software environments are managed by"
+" Hub Champions and automatically deployed with containerisation, allowing"
+" for scalability across the cloud and reproducible user environments.   "
+"d. True – 2i2c engineers maintain service availability, uptime and "
+"operational upgrades. Hub Champions are responsible for hub configuration"
+" and management to support their user community."
+msgstr ""
+
+msgid "Define success for your user community"
+msgstr ""
+
+msgid ""
+"As a Hub Champion, your main goal is to empower your community to make "
+"the best use of the Hub service. You represent the interests of your "
+"community and are familiar with their computational workflows and data "
+"needs."
+msgstr ""
+
+msgid ""
+"To ensure that the hub serves the interests of your community, Hub "
+"Champions may perform common administrative tasks such as"
+msgstr ""
+
+msgid "controlling user access policy to the hub"
+msgstr ""
+
+msgid "stopping and restarting servers for users"
+msgstr ""
+
+msgid ""
+"guiding users to selecting the appropriate server options and images for "
+"their use case"
+msgstr ""
+
+msgid "transferring and distributing data on the hub"
+msgstr ""
+
+msgid "representing and escalating support requests to 2i2c for technical issues"
+msgstr ""
+
+msgid ""
+"facilitate knowledge transfer within the community, e.g. training events,"
+" documentation, and communication channels"
+msgstr ""
+
+msgid "Exercise: What are the needs of your user community?"
+msgstr ""
+
+msgid ""
+"Let us take some time to reflect and assess the needs of your user "
+"community."
+msgstr ""
+
+msgid "In pairs, discuss and share the following points:"
+msgstr ""
+
+msgid "What domain of expertise does your community have?"
+msgstr ""
+
+msgid ""
+"How large is your community? Do they work alone or do they need to "
+"collaborate together?"
+msgstr ""
+
+msgid "Does your community work with large datasets?"
+msgstr ""
+
+msgid "Does your community need access to intensive computational power?"
+msgstr ""
+
+msgid ""
+"Where applicable, are the needs for collaboration, large datasets, and/or"
+" computational power consistent across your whole community?"
+msgstr ""
+
+msgid ""
+"What are the main software applications your community uses to conduct "
+"their work?"
+msgstr ""
+
+msgid "How familiar is your user community with version control using git/GitHub?"
+msgstr ""
+
+msgid "How can a hub address the challenges your community faces?"
+msgstr ""
+
+msgid "Prepare to summarise and share with the rest of the workshop."
+msgstr ""
+
+msgid ""
+"Exercise: In which of the following ways should a Hub Champion support "
+"their users?"
+msgstr ""
+
+msgid ""
+"a. Providing community guidance on best research software practices for "
+"users of your hub.   b. Troubleshooting and supporting common user "
+"issues.   c. Communicating infrastructure level requests and incidents to"
+" 2i2c.   d. Overseeing user access policy to the hub."
+msgstr ""
+
+msgid ""
+"All of the above are things a Hub Champion should do to enable their "
+"community to make the best use of a hub."
+msgstr ""
+
+msgid "Next Steps"
+msgstr ""
+
+msgid ""
+"The next part of the training is a self-guided study of the following "
+"episodes"
+msgstr ""
+
+msgid "{ref}`episode-access`"
+msgstr ""
+
+msgid "{ref}`episode-server`"
+msgstr ""
+
+msgid "{ref}`episode-images`"
+msgstr ""
+
+msgid "{ref}`episode-data`."
+msgstr ""
+
+msgid ""
+"and concludes with a synchronous session covering the episode {ref"
+"}`episode-troubleshoot`."
+msgstr ""
+
+msgid ""
+"To complete the self-study portion of the workshop, you will need to be "
+"able to access the [2i2c Community Showcase "
+"Hub](https://showcase.2i2c.cloud). When working through the self-study "
+"sections of the workshop, write your answers to the exercises in our "
+"collaborative note-taking document."
+msgstr ""
+
+msgid "If you cannot access the hub, please contact the training instructor."
+msgstr ""
+
+msgid "🔑 KEY POINTS"
+msgstr ""
+
+msgid ""
+"A hub is a 2i2c-managed JupyterHub in the cloud that provides an "
+"interactive computing service to users"
+msgstr ""
+
+msgid ""
+"Hub Champions empower hub users to make the best use of the service and "
+"are the first point of contact for user support"
+msgstr ""
+
+msgid ""
+"Hub Champions may perform common administrative tasks and configure the "
+"hub to set their community up for success"
+msgstr ""
+

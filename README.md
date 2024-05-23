@@ -98,7 +98,7 @@ The following are instructions for localising the Jupyter Book to Spanish, adapt
    
    The generated `.po` files are the files that will contain the actual translations in the `msgstr` lines.
    
-1. Translate the `.po` files located inside the `locale/es_AR/LC_MESSAGES` folder as required, e.g. with human translation services, machine translation with [Crowdin](https://crowdin.com/).
+1. Translate the `.po` files located inside the `locale/es_LA/LC_MESSAGES` folder as required, e.g. with human translation services, machine translation with [Crowdin](https://crowdin.com/).
 
 1. Build the HTML files in English (the source language)
 

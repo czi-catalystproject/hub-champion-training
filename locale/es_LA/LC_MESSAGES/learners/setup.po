@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2024
+# This file is distributed under the same license as the Python package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Python \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-05-23 14:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es_LA\n"
+"Language-Team: es_LA <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.13.0\n"
+
+msgid "Setup"
+msgstr ""
+
+msgid "Before joining the training, participants should be able to:"
+msgstr ""
+
+msgid ""
+"Access the 2i2c [Community Showcase Hub](https://showcase.2i2c.cloud) "
+"using their GitHub account"
+msgstr ""
+
+msgid "Know basic Git, such as pushing and pulling to a remote GitHub repository"
+msgstr ""
+
+msgid "Find the shared collaborative note-taking document"
+msgstr ""
+
+msgid "Access the Slack Channel for asynchronous support"
+msgstr ""
+
+msgid "Use a web browser and video conferencing, e.g. Zoom"
+msgstr ""
+
+msgid ""
+"Read the [2i2c Code of Conduct](https://compass.2i2c.org/code-of-"
+"conduct/)."
+msgstr ""
+
+msgid ""
+"If you have trouble with any of these steps, please contact the training "
+"instructor."
+msgstr ""
+
+msgid "If you need a refresher on the fundamentals of Git, then check out:"
+msgstr ""
+
+msgid ""
+"[The Software Carpentry – Version Control with "
+"Git](https://swcarpentry.github.io/git-novice/)"
+msgstr ""
+
+msgid ""
+"[CodeRefinery – Introduction to version control with "
+"Git](https://coderefinery.github.io/git-intro/)"
+msgstr ""
+
+msgid ""
+"[GitHub Docs – Getting started with Git](https://docs.github.com/en/get-"
+"started/getting-started-with-git)"
+msgstr ""
+
+msgid "Communication channels"
+msgstr ""
+
+msgid ""
+"We will primarily use Slack for communications with learners to encourage"
+" a \"cohort\" effect and capture discussions that would otherwise "
+"disappear from Zoom/Google Meet chat. However, we recognise that learners"
+" may join the synchronous sessions on their phones and therefore the "
+"Zoom/Google Meet chat is useful in this case."
+msgstr ""
+
