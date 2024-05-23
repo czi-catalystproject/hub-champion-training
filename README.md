@@ -93,7 +93,7 @@ The following are instructions for localising the Jupyter Book to Spanish, adapt
 1. Create `.po` files in the `locale` folder in the `es_AR` target language (ensure that `locale` matches the `locale_dirs` setting in `_config.yml`)
 
    ```bash
-   sphinx-intl update -p _build/gettext -d locale -l es_AR
+   sphinx-intl update -p _build/gettext -d locale -l en -l es_AR
    ```
    
    The generated `.po` files are the files that will contain the actual translations in the `msgstr` lines.
