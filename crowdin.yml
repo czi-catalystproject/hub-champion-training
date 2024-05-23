@@ -22,8 +22,10 @@ files:
     dest: /hub-champion-training/%original_file_name%
     translation: /locale/%locale_with_underscore%/LC_MESSAGES/%original_file_name%
     excluded_target_languages: ["es-ES"]
+    export_only_approved: true
   - source: /locale/**/LC_MESSAGES/**/*.po
     dest: /hub-champion-training/**/%original_file_name%
     translation: /locale/%locale_with_underscore%/LC_MESSAGES/**/%original_file_name%
     excluded_target_languages: ["es-ES"]
+    export_only_approved: true
 
