@@ -1,10 +1,9 @@
-name: Upload sources to Crowdin
+name: Download sources from Crowdin
 
 on:
-  push:
-    paths:
-      - locale/es_LA/**  
-    branches: [ main ]
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
     
 permissions:
   contents: write
@@ -18,15 +17,18 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Crowdin upload action
+      - name: Crowdin download action
         uses: crowdin/github-action@v1
         with:
-          upload_sources: true
+          upload_sources: false
           upload_translations: false
-          download_translations: false
+          download_translations: true
           localization_branch_name: l10n
           crowdin_branch_name: l10n
-          config: ./crowdin.yml
+          create_pull_request: false
+          skip_untranslated_files: true
+          export_only_approved: true
+          config: ./crowdin.yml          
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
