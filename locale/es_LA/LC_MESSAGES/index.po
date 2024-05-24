@@ -1,162 +1,142 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2024
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: catalyst-project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-24 09:49+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es_LA\n"
-"Language-Team: es_LA <LL@li.org>\n"
+"PO-Revision-Date: 2024-05-24 10:20\n"
+"Last-Translator: \n"
+"Language: es_419\n"
+"Language-Team: Spanish, Latin America\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: catalyst-project\n"
+"X-Crowdin-Project-ID: 624564\n"
+"X-Crowdin-Language: es-419\n"
+"X-Crowdin-File: /l10n/hub-champion-training/locale/es_LA/LC_MESSAGES/index.po\n"
+"X-Crowdin-File-ID: 114\n"
 
 msgid "About"
-msgstr ""
+msgstr "Acerca de"
 
 msgid "Episodes"
-msgstr ""
+msgstr "Episodios"
 
 msgid "JupyterHub Administration to Empower Research Communities"
-msgstr ""
+msgstr "Administración de JupyterHub para Empoderar Comunidades de Investigación"
 
 msgid "Catalyst Project logo"
-msgstr ""
+msgstr "Logo del proyecto Catalyst"
 
-msgid ""
-"This lesson is aimed at Hub Champions in charge of 2i2c managed "
-"JupyterHubs in the cloud. Learn the fundamentals of administering your "
-"hub and providing user support to your research and education "
-"communities."
-msgstr ""
+msgid "This lesson is aimed at Hub Champions in charge of 2i2c managed JupyterHubs in the cloud. Learn the fundamentals of administering your hub and providing user support to your research and education communities."
+msgstr "Esta lección está dirigida a Hub Champions a cargo de 2i2c administró JupyterHubs en la nube. Aprenda los fundamentos de la administración de su centro y preste apoyo al usuario a sus comunidades de investigación y educación."
 
-msgid ""
-"Training is delivered over two synchronous workshops, each one hour in "
-"length a week apart. The week in between is dedicated to self-guided "
-"study with asynchronous support provided by the instructors, which we "
-"estimate at least four hours of work."
-msgstr ""
+msgid "Training is delivered over two synchronous workshops, each one hour in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors, which we estimate at least four hours of work."
+msgstr "La formación se imparte en dos talleres sincrónicos cada una de una hora de duración a la semana. La semana intermedia está dedicada al estudio autoguiado con apoyo asincrónico proporcionado por los instructores, que estimamos al menos cuatro horas de trabajo."
 
 msgid "{bdg-danger}`alpha` This lesson is under active development."
-msgstr ""
+msgstr "{bdg-danger}`alpha` Esta lección está en desarrollo activo."
 
-msgid ""
-"[Versión en español](https://czi-catalystproject.github.io/hub-champion-"
-"training/es/)"
-msgstr ""
+msgid "[Versión en español](https://czi-catalystproject.github.io/hub-champion-training/es/)"
+msgstr "[Versión en español](https://czi-catalystproject.github.io/hub-champion-training/es/)"
 
 msgid "Lesson objectives"
-msgstr ""
+msgstr "Objetivos de la lección"
 
 msgid "After attending this training, Hub Champions will be able to:"
-msgstr ""
+msgstr "Después de asistir a este entrenamiento, los campeones de Hub serán:"
 
 msgid "explain how interactive cloud computing can empower their user community"
-msgstr ""
+msgstr "explicar cómo la computación en la nube interactiva puede capacitar a su comunidad de usuarios"
 
 msgid "control user authentication and access to their hub"
-msgstr ""
+msgstr "controlar la autenticación de usuario y el acceso a su Hub"
 
-msgid ""
-"promote the use of cloud resources responsibly to maximize efficiency and"
-" minimize carbon emissions"
-msgstr ""
+msgid "promote the use of cloud resources responsibly to maximize efficiency and minimize carbon emissions"
+msgstr "promover el uso responsable de los recursos en la nube para maximizar la eficiencia y minimizar las emisiones de carbono"
 
 msgid "apply software environments through containerization"
-msgstr ""
+msgstr "aplicar entornos de software a través de contenedores"
 
 msgid "navigate the filesystem and transfer data and code to and from the hub"
-msgstr ""
+msgstr "navega el sistema de archivos y transfiere datos y código desde y hacia el hub"
 
 msgid "provide user support and troubleshoot common issues"
-msgstr ""
+msgstr "proporcionar soporte al usuario y solucionar problemas comunes"
 
 msgid "Episode 1"
-msgstr ""
+msgstr "Episodio 1"
 
 msgid "⭐ {ref}`episode-intro`"
-msgstr ""
+msgstr "⭐ {ref}`episode-intro`"
 
 msgid "Episode 2"
-msgstr ""
+msgstr "Episodio 2"
 
 msgid "{ref}`episode-access`"
 msgstr ""
 
 msgid "Episode 3"
-msgstr ""
+msgstr "Episodio 3"
 
 msgid "{ref}`episode-server`"
 msgstr ""
 
 msgid "Episode 4"
-msgstr ""
+msgstr "Episodio 4"
 
 msgid "{ref}`episode-images`"
 msgstr ""
 
 msgid "Episode 5"
-msgstr ""
+msgstr "Episodio 5"
 
 msgid "{ref}`episode-data`"
 msgstr ""
 
 msgid "Episode 6"
-msgstr ""
+msgstr "Episodio 6"
 
 msgid "⭐ {ref}`episode-troubleshoot`"
 msgstr ""
 
 msgid "( ⭐ indicates this episode is delivered via a synchronous workshop)"
-msgstr ""
+msgstr "( ⭐ indica que este episodio se entrega a través de un taller sincrónico)"
 
 msgid "Acknowledgements and Funding"
-msgstr ""
+msgstr "Reconocimientos y financiación"
 
-msgid ""
-"We would like to acknowledge Chan Zuckerberg Initiative funding for The "
-"Catalyst Project \"A Collaborative Interactive Computing Service Model "
-"for Global Communities\" and our partner organisations:"
-msgstr ""
+msgid "We would like to acknowledge Chan Zuckerberg Initiative funding for The Catalyst Project \"A Collaborative Interactive Computing Service Model for Global Communities\" and our partner organisations:"
+msgstr "Nos gustaría reconocer la financiación de la Iniciativa Chan Zuckerberg para el Proyecto Catalyst \"Un modelo de servicio de cálculo interactivo colaborativo para las comunidades globales\" y nuestras organizaciones asociadas:"
 
 msgid "[2i2c](https://2i2c.org/)"
-msgstr ""
+msgstr "[2i2c](https://2i2c.org/)"
 
 msgid "[The Carpentries](https://carpentries.org/about/)"
-msgstr ""
+msgstr "[Las Carpinterías](https://carpentries.org/about/)"
 
 msgid "[Centro de Computación de Alto Desempeño](https://ccad.unc.edu.ar/)"
-msgstr ""
+msgstr "[Centro de Computación de Alto Desempeño](https://ccad.unc.edu.ar/)"
 
-msgid ""
-"[Center for Scientific Collaboration and Community "
-"Engagement](https://www.cscce.org/)"
-msgstr ""
+msgid "[Center for Scientific Collaboration and Community Engagement](https://www.cscce.org/)"
+msgstr "[Centro de Colaboración Científica y Participación en la Comunidad](https://www.cscce.org/)"
 
 msgid "[Invest in Open Infrastructure](https://investinopen.org/)"
-msgstr ""
+msgstr "[Invertir en infraestructura abierta](https://investinopen.org/)"
 
 msgid "[MetaDocencia](https://www.metadocencia.org/)"
-msgstr ""
+msgstr "[MetaDocencia](https://www.metadocencia.org/)"
 
 msgid "[Open Life Science](https://openlifesci.org/)"
-msgstr ""
+msgstr "[Open Life Science](https://openlifesci.org/)"
 
 msgid "Contacting us"
-msgstr ""
+msgstr "Contactándonos"
 
-msgid ""
-"If you would like to get in touch with us, then please open an "
-"[issue](https://github.com/czi-catalystproject/hub-champion-"
-"training/issues) or email [support@2i2c.org](mailto:support@2i2c.org)."
-msgstr ""
+msgid "If you would like to get in touch with us, then please open an [issue](https://github.com/czi-catalystproject/hub-champion-training/issues) or email [support@2i2c.org](mailto:support@2i2c.org)."
+msgstr "Si desea ponerse en contacto con nosotros, abra una [issue](https://github.com/czi-catalystproject/hub-champion-training/issues) o envíe un correo electrónico a [support@2i2c.org](mailto:support@2i2c.org)."
 
 #~ msgid ""
 #~ "Training is delivered over two "
