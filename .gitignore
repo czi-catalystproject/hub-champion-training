@@ -3,4 +3,4 @@ _build
 .Rproj.user
 .Rproj
 .env
-.mo
+*.mo
