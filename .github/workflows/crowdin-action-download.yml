@@ -1,6 +1,9 @@
 name: Download sources from Crowdin
 
-on: workflow_dispatch
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
     
 permissions:
   contents: write
