@@ -1,7 +1,5 @@
 # JupyterHub Administration to Empower Research Communities
 
-<!-- word count: 346 -->
-
 :::::{grid} 2
 :reverse:
 
@@ -20,7 +18,7 @@
 
 This lesson is aimed at Hub Champions in charge of 2i2c managed JupyterHubs in the cloud. Learn the fundamentals of administering your hub and providing user support to your research and education communities.  
 
-Training is delivered over two synchronous workshops, each one hour in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors.
+Training is delivered over two synchronous workshops, each one hour in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors, which we estimate at least four hours of work.
 ::::
 
 :::::
