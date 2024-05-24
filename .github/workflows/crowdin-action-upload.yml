@@ -1,7 +1,9 @@
-name: Crowdin Action
+name: Upload sources to Crowdin
 
 on:
   push:
+    paths:
+      - locale/es_LA/**  
     branches: [ main ]
     
 permissions:
@@ -16,16 +18,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: crowdin action
+      - name: Crowdin upload action
         uses: crowdin/github-action@v1
         with:
           upload_sources: true
           upload_translations: false
-          download_translations: true
-          localization_branch_name: l10n
-          create_pull_request: false
-          skip_untranslated_files: true
-          export_only_approved: true
+          download_translations: false
+          localization_branch_name: &branch l10n
+          crowdin_branch_name: *branch
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
