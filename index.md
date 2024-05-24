@@ -86,7 +86,7 @@ Episode 6
 
 ::::
 
-( ⭐ indicates this episode is delivered via a synchronous workshop)
+( ⭐ indicates this episode is delivered via a one hour synchronous workshop)
 
 ## Acknowledgements and Funding
 
