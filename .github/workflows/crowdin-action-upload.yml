@@ -24,8 +24,8 @@ jobs:
           upload_sources: true
           upload_translations: false
           download_translations: false
-          localization_branch_name: &branch l10n
-          crowdin_branch_name: *branch
+          localization_branch_name: l10n
+          crowdin_branch_name: l10n
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
