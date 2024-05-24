@@ -1,17 +1,15 @@
 # JupyterHub Administration to Empower Research Communities
 
-<!-- word count: 926 -->
-
 This repo contains the Jupyter Book source files for the Hub Champion Training.
 
 ## About
 
 This lesson is aimed at Hub Champions in charge of 2i2c managed JupyterHubs in the cloud. Learn the fundamentals of administering your hub and providing user support to your research and education communities.  
 
-Training is delivered over two synchronous workshops, each one hour in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors.
+Training is delivered over two synchronous workshops, each one hour in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors, which we estimate at least four hours of work.
 
 > [!WARNING]
-> This lesson is a first draft and under iterative development.
+> This lesson is a under active development.
 
 > [!NOTE]
 > [Versión en español](https://czi-catalystproject.github.io/hub-champion-training/es/)
@@ -90,15 +88,15 @@ The following are instructions for localising the Jupyter Book to Spanish, adapt
    
    The generated `.pot` files will be placed in the `_build/gettext` directory. The `.pot` files are empty template files and need to be updated if the source content changes. The `msgid` line contains the source text. The empty `msgstr` line will eventually contain the actual translation in the `.po` file.
 
-1. Create `.po` files in the `locale` folder in the `es_AR` target language (ensure that `locale` matches the `locale_dirs` setting in `_config.yml`)
+1. Create `.po` files in the `locale` folder in the `es_LA` target language (ensure that the `locale` folder matches the `locale_dirs` setting in `_config.yml`)
 
    ```bash
    sphinx-intl update -p _build/gettext -d locale -l es_LA
    ```
    
-   The generated `.po` files are the files that will contain the actual translations in the `msgstr` lines.
+   The generated `.po` files are the files that will contain the actual translations in the `msgstr` lines that are created in the next step.
    
-1. Translate the `.po` files located inside the `locale/es_LA/LC_MESSAGES` folder as required, e.g. with human translation services, machine translation with [Crowdin](https://crowdin.com/).
+1. Translate the `.po` files located inside the `locale/es_LA/LC_MESSAGES` folder as required, e.g. with human translation services, machine translation or professional translation services with [Crowdin](https://crowdin.com/).
 
 1. Build the HTML files in English (the source language)
 
@@ -110,7 +108,7 @@ The following are instructions for localising the Jupyter Book to Spanish, adapt
 
    ```bash
    jupyter-book config sphinx .
-   sphinx-build -b html -D language=es_AR . _build/html/es
+   sphinx-build -b html -D language=es_LA . _build/html/es
    ```
    
 1. Open a **new** Terminal and navigate to the HTML folder using the command
@@ -142,7 +140,16 @@ The following are instructions for localising the Jupyter Book to Spanish, adapt
 
 ## Deployment
 
-On push to main, the Hub Champion Training website will be deployed at [https://czi-catalystproject.github.io/hub-champion-training/](https://czi-catalystproject.github.io/hub-champion-training/) via the GitHub actions defined in `.github/workflows`.
+On push to main:
+
+- The Hub Champion Training website will be deployed at [https://czi-catalystproject.github.io/hub-champion-training/](https://czi-catalystproject.github.io/hub-champion-training/) via the GitHub actions defined in `.github/workflows/deploy_website.yml`.
+- Changes to the `locale` directory are uploaded to the `l10n` branch on Crowdin via the GitHub actions defined in `.github/workflows/crowdin-action-upload.yml`.
+
+On cron schedule and manual trigger:
+
+- Approved Crowdin translations will be pushed to the `l10n` branch on GitHub and an automatic PR is opened.
+- If `l10n` branch already exists on GitHub, then Crowdin translations will be force pushed to the `l10n` branch on GitHub to the existing PR.
+- GitHub action is defined in `.github/workflows/crowdin-action-download.yml`.
 
 ## Authors
 
