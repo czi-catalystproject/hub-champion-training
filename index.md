@@ -25,7 +25,7 @@ Training is delivered over two synchronous workshops, each one hour in length a 
 
 :::{attention}
 {bdg-danger}`alpha`
-This lesson is a first draft and under iterative development.  
+This lesson is under active development.  
 :::
 
 :::{seealso}
