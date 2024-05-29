@@ -75,3 +75,4 @@ sphinx:
     gettext_additional_targets: ['literal-block']
     gettext_location: false
     mermaid_version: "10.9.1"
+    linkcheck_ignore: ['/es/']
