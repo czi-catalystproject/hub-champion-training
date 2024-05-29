@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Python \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-24 10:28+0000\n"
+"POT-Creation-Date: 2024-05-29 17:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es_LA\n"
@@ -25,6 +25,9 @@ msgid "Episodes"
 msgstr ""
 
 msgid "JupyterHub Administration to Empower Research Communities"
+msgstr ""
+
+msgid "{bdg-danger}`alpha` Lesson is under active development."
 msgstr ""
 
 msgid "Catalyst Project logo"
@@ -44,12 +47,10 @@ msgid ""
 "estimate at least four hours of work."
 msgstr ""
 
-msgid "{bdg-danger}`alpha` This lesson is under active development."
+msgid "English version"
 msgstr ""
 
-msgid ""
-"[Versión en español](https://czi-catalystproject.github.io/hub-champion-"
-"training/es/)"
+msgid "Versión en español"
 msgstr ""
 
 msgid "Lesson objectives"
@@ -176,5 +177,13 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "( ⭐ indicates this episode is delivered via a synchronous workshop)"
+#~ msgstr ""
+
+#~ msgid "{bdg-danger}`alpha` This lesson is under active development."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Versión en español](https://czi-"
+#~ "catalystproject.github.io/hub-champion-training/es/)"
 #~ msgstr ""
 
