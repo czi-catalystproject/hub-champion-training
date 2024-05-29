@@ -1,5 +1,8 @@
 # JupyterHub Administration to Empower Research Communities
 
+{bdg-danger}`alpha`
+Lesson is under active development.
+
 :::::{grid} 2
 :reverse:
 
@@ -23,14 +26,26 @@ Training is delivered over two synchronous workshops, each one hour in length a 
 
 :::::
 
-:::{attention}
-{bdg-danger}`alpha`
-This lesson is under active development.  
-:::
+:::::{grid} 2
 
-:::{seealso}
-[Versión en español](https://czi-catalystproject.github.io/hub-champion-training/es/)
+::::{grid-item}
+<!-- <a href="/">English version</a> -->
+:::{button-link} /
+:color: primary
+:expand:
+English version
 :::
+::::
+
+::::{grid-item}
+<!-- <a href="/es/">Versión en español</a> -->
+:::{button-link} /es/
+:color: secondary
+:expand:
+Versión en español
+:::
+::::
+:::::
 
 ## Lesson objectives
 
