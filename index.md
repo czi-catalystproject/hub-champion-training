@@ -30,7 +30,7 @@ Training is delivered over two synchronous workshops, each one hour in length a 
 
 ::::{grid-item}
 <!-- <a href="/">English version</a> -->
-:::{button-link} /
+:::{button-link} /hub-champion-training/
 :color: primary
 :expand:
 English version
@@ -39,7 +39,7 @@ English version
 
 ::::{grid-item}
 <!-- <a href="/es/">Versión en español</a> -->
-:::{button-link} /es/
+:::{button-link} /hub-champion-training/es/
 :color: secondary
 :expand:
 Versión en español
