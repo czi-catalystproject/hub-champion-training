@@ -26,6 +26,7 @@ html_theme_options = {'search_bar_text': 'Search this book...', 'launch_buttons'
 html_title = 'Hub Champion Training'
 language = 'en'
 latex_engine = 'pdflatex'
+linkcheck_ignore = ['/hub-champion-training/', '/hub-champion-training/es/']
 locale_dirs = ['locale/']
 mermaid_version = '10.9.1'
 myst_enable_extensions = ['amsmath', 'colon_fence', 'deflist', 'dollarmath', 'html_admonition', 'html_image', 'linkify', 'replacements', 'smartquotes', 'substitution', 'tasklist']
