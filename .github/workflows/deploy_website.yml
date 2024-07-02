@@ -58,7 +58,7 @@ jobs:
     # Build the book in Spanish
     - name: Build the book in Spanish
       run: |
-        sphinx-build -b html -D language=es_AR . _build/html/es    
+        sphinx-build -b html -D language=es_LA . _build/html/es    
 
     # Check external links
     - name: Check external links
