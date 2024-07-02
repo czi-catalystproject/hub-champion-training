@@ -27,7 +27,7 @@ word count: 1504 -->
 
 - Recognise and locate your home directory in the JupyterLab and RStudio user interface
 - Distribute read-only datasets to all hub users in a shared directory
-- Push and pull GitHub repositories with `gh-scoped-creds`
+- Push and pull GitHub repositories to and from the hub with `gh-scoped-creds`
 :::
 
 :::::
@@ -60,7 +60,11 @@ The file explorer (highlighted with a blue box) in the JupyterLab user interface
 The file explorer (highlighted with a blue box) in the RStudio user interface.
 :::
 
-The storage quota for home directories is **limited to 10 GB** per user, therefore this space is suitable for small files and datasets and not suitable for storing large datasets. 
+The storage quota for home directories is **not capped and storage costs are charged per gigabyte**. Therefore we strongly suggest this space is used for small files and datasets and **is not suitable for storing large datasets.** 
+
+:::{tip}
+Hub champions are responsible for costs incurred from data storage and ensuring their communities understand the potential expenses incurred.
+:::
 
 ::::{admonition} Exercise: What can you store in your home directory?
 :class: exercise
@@ -121,6 +125,18 @@ Download files from the hub by
 - (RStudio) checking the box next to the target file/folder, clicking the ![*settings*](../media/episodes/transfer_data/rstudio-cog.png) button, choosing the *Export...* option and confirming the filename in the following dialog box.
 
 :::
+
+## The /tmp directory
+
+The `/tmp` directory is used to temporarily store short-lived files. Any file placed in this directory will last for the duration of your session and will be deleted after you log out. 
+
+This directory is a SSD drive with fast read-write access and up to 50 – 100 GBs of disk space. Ideal use cases for `/tmp` are for processing large datasets that do not need to be stored permanently.
+
+## Cloud Object Storage
+
+Your hub lives in the cloud, therefore another way to store data is using object storage such as Amazon S3 or Google Cloud Storage. This type of storage is ideally suited for persistent, large datasets that would be otherwise expensive to store on a traditional filesystem (i.e. your home, shared or `/tmp` folder) long-term.
+
+This is an advanced topic beyond the scope of the current Hub Champion Training curriculum. More information can be found at the [2i2c Hub Service Guide](https://docs.2i2c.org/user/topics/data/object-storage/).
 
 :::{admonition} Exercise: Data requirements
 :class: exercise
