@@ -18,9 +18,12 @@ preserve_hierarchy: true
 # Files configuration
 #
 files:
-  - source: /locale/**/LC_MESSAGES/index.po
-    dest: /hub-champion-training/%original_file_name%
-    translation: /locale/%locale_with_underscore%/LC_MESSAGES/%original_file_name%
   - source: /locale/**/LC_MESSAGES/**/*.po
     dest: /hub-champion-training/**/%original_file_name%
     translation: /locale/%locale_with_underscore%/LC_MESSAGES/**/%original_file_name%
+  - source: /media/episodes/introduction/interactive-computing.png
+    dest: /hub-champion-training/**/%original_file_name%
+    translation: /locale/%locale_with_underscore%/LC_MESSAGES/**/%original_file_name%
+  - source: /media/episodes/introduction/hub-overview.png
+    dest: /hub-champion-training/**/%original_file_name%
+    translation: /locale/%locale_with_underscore%/LC_MESSAGES/**/%original_file_name%    
