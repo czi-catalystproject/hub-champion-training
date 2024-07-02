@@ -3,7 +3,8 @@ name: Upload sources to Crowdin
 on:
   push:
     paths:
-      - locale/es_LA/**  
+      - locale/es_LA/**
+      - media/**
     branches: [ main ]
     
 permissions:
