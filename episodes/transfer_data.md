@@ -34,7 +34,7 @@ word count: 1504 -->
 
 ## Home directory
 
-A hub server comes with its own filesystem that is private to the user and not shared with other hub users. Every user on the hub is given the username `jovyan`[^jovyan] and the file path where their home directory is located at
+A hub server comes with its own filesystem that is private to the user and not shared with other hub users. Every user on the hub is given the username `jovyan`[^jovyan] and their home directory is located at
 
 ```shell
 /home/jovyan
@@ -109,22 +109,37 @@ All hub users have access to a common *shared* directory from their home directo
 
 Hub Champions can populate the *shared directory* by placing files in the *shared-readwrite* directory that appears only in their home directory.
 
-:::{tip}
+:::::{tip}
 **Upload data to the hub**
 
 Upload files to the hub by
 
-- (JupyterLab) clicking the ![*upload*](../media/episodes/transfer_data/jlab-upload.png) button at the top of the file explorer
-- (RStudio) clicking the ![*upload*](../media/episodes/transfer_data/rstudio-upload.png) button at the top of the file explorer.
+::::{tab-set}
+:::{tab-item} JupyterLab
+:sync: jlab
+Clicking the ![*upload*](../media/episodes/transfer_data/jlab-upload.png) button at the top of the file explorer.
+:::
+:::{tab-item} RStudio
+:sync: rstudio
+Clicking the ![*upload*](../media/episodes/transfer_data/rstudio-upload.png) button at the top of the file explorer.
+:::
+::::
 
 **Download data from the hub**
 
 Download files from the hub by
 
-- (JupyterLab) right-clicking on the target file/folder and clicking the ![*download*](../media/episodes/transfer_data/jlab-download.png) button
-- (RStudio) checking the box next to the target file/folder, clicking the ![*settings*](../media/episodes/transfer_data/rstudio-cog.png) button, choosing the *Export...* option and confirming the filename in the following dialog box.
-
+::::{tab-set}
+:::{tab-item} JupyterLab
+:sync: jlab
+Right-clicking on the target file/folder and clicking the ![*download*](../media/episodes/transfer_data/jlab-download.png) button.
 :::
+:::{tab-item} RStudio
+:sync: rstudio
+Checking the box next to the target file/folder, clicking the ![*settings*](../media/episodes/transfer_data/rstudio-cog.png) button, choosing the *Export...* option and confirming the filename in the following dialog box.
+:::
+::::
+:::::
 
 ## The /tmp directory
 
