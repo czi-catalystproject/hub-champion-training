@@ -34,7 +34,7 @@ word count: 1504 -->
 
 ## Home directory
 
-A hub server comes with its own filesystem that is private to the user and not shared with other hub users. Every user on the hub is given the username `jovyan`[^jovyan] and the file path where their home directory is located at
+A hub server comes with its own filesystem that is private to the user and not shared with other hub users. Every user on the hub is given the username `jovyan`[^jovyan] and their home directory is located at
 
 ```shell
 /home/jovyan
@@ -109,22 +109,37 @@ All hub users have access to a common *shared* directory from their home directo
 
 Hub Champions can populate the *shared directory* by placing files in the *shared-readwrite* directory that appears only in their home directory.
 
-:::{tip}
+:::::{tip}
 **Upload data to the hub**
 
 Upload files to the hub by
 
-- (JupyterLab) clicking the ![*upload*](../media/episodes/transfer_data/jlab-upload.png) button at the top of the file explorer
-- (RStudio) clicking the ![*upload*](../media/episodes/transfer_data/rstudio-upload.png) button at the top of the file explorer.
+::::{tab-set}
+:::{tab-item} JupyterLab
+:sync: jlab
+Clicking the ![*upload*](../media/episodes/transfer_data/jlab-upload.png) button at the top of the file explorer.
+:::
+:::{tab-item} RStudio
+:sync: rstudio
+Clicking the ![*upload*](../media/episodes/transfer_data/rstudio-upload.png) button at the top of the file explorer.
+:::
+::::
 
 **Download data from the hub**
 
 Download files from the hub by
 
-- (JupyterLab) right-clicking on the target file/folder and clicking the ![*download*](../media/episodes/transfer_data/jlab-download.png) button
-- (RStudio) checking the box next to the target file/folder, clicking the ![*settings*](../media/episodes/transfer_data/rstudio-cog.png) button, choosing the *Export...* option and confirming the filename in the following dialog box.
-
+::::{tab-set}
+:::{tab-item} JupyterLab
+:sync: jlab
+Right-clicking on the target file/folder and clicking the ![*download*](../media/episodes/transfer_data/jlab-download.png) button.
 :::
+:::{tab-item} RStudio
+:sync: rstudio
+Checking the box next to the target file/folder, clicking the ![*settings*](../media/episodes/transfer_data/rstudio-cog.png) button, choosing the *Export...* option and confirming the filename in the following dialog box.
+:::
+::::
+:::::
 
 ## The /tmp directory
 
@@ -201,7 +216,7 @@ Authorisation will automatically expire after 8 hours (or when your JupyterHub s
 to renew.
 
 :::{hint}
-If you receive a `Permission denied` error after following these steps, then `gh-scoped-creds` has not been enabled for your hub. Please contact your Hub Champion to request this feature and refer them to the steps in {ref}`Enabling gh-scoped-creds for your hub<episode-data:enable-gh-scoped-creds>`.
+If you receive a `Permission denied` error after following these steps, then `gh-scoped-creds` has not been enabled for your hub. Hub Champions should refer to the steps in {ref}`Enabling gh-scoped-creds for your hub<episode-data:enable-gh-scoped-creds>`.
 :::
 
 (episode-data:enable-gh-scoped-creds)=
@@ -293,7 +308,9 @@ The correct answer is 2 – never enter your GitHub credentials (GitHub password
 🔑 KEY POINTS
 ^^^
 - Users can store small files and datasets in their home directory that will persist between sessions.
-- Hub Champions can distribute large datasets in a read-only *shared* directory.
+- Hub Champions can distribute datasets in a read-only *shared* directory.
+- Temporary data for intermediate files can be stored in the `/tmp` directory.
+- Cloud object storage can be used to store large datasets.
 - Use `gh-scoped-creds` to push and pull code to GitHub.
 :::
 
