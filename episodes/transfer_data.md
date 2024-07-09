@@ -216,7 +216,7 @@ Authorisation will automatically expire after 8 hours (or when your JupyterHub s
 to renew.
 
 :::{hint}
-If you receive a `Permission denied` error after following these steps, then `gh-scoped-creds` has not been enabled for your hub. Please contact your Hub Champion to request this feature and refer them to the steps in {ref}`Enabling gh-scoped-creds for your hub<episode-data:enable-gh-scoped-creds>`.
+If you receive a `Permission denied` error after following these steps, then `gh-scoped-creds` has not been enabled for your hub. Hub Champions should refer to the steps in {ref}`Enabling gh-scoped-creds for your hub<episode-data:enable-gh-scoped-creds>`.
 :::
 
 (episode-data:enable-gh-scoped-creds)=
@@ -308,7 +308,9 @@ The correct answer is 2 – never enter your GitHub credentials (GitHub password
 🔑 KEY POINTS
 ^^^
 - Users can store small files and datasets in their home directory that will persist between sessions.
-- Hub Champions can distribute large datasets in a read-only *shared* directory.
+- Hub Champions can distribute datasets in a read-only *shared* directory.
+- Temporary data for intermediate files can be stored in the `/tmp` directory.
+- Cloud object storage can be used to store large datasets.
 - Use `gh-scoped-creds` to push and pull code to GitHub.
 :::
 
