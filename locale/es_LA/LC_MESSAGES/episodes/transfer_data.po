@@ -607,6 +607,7 @@ msgstr ""
 #~ "home directory is located at"
 #~ msgstr ""
 
+#~ msgid ""
 #~ "The storage quota for home directories"
 #~ " is **limited to 10 GB** per "
 #~ "user, therefore this space is suitable"
