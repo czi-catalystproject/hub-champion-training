@@ -129,7 +129,8 @@ Sofía wants to run a new program but does not know its maximum memory requireme
 Hubs automatically cull servers after a period of inactivity to improve resource utilization and safeguard against excessive cloud costs. This occurs after **1 hour** of user inactivity.
 
 :::{tip}
-Executing a piece of long-running code with a running kernel is not recognised as user activity on the server and so the process is killed after 1 hour. This is a rare use case of interactive computing on a hub, but this limit can be reconfigured for a particular hub upon request by contacting [2i2c support](https://docs.2i2c.org/support). 
+Executing a piece of long-running code with a running kernel is not recognised as user activity on the server and so the process is killed after 1 hour. This is a rare use case of interactive computing on a hub, but this limit can be reconfigured for a particular hub upon request by contacting [2i2c support](https://docs.2i2c.org/support).
+:::
 
 (episode-server:shutdown-server)=
 ## Shutting down a server as a user
