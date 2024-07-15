@@ -62,7 +62,7 @@ Template [Google Slides](https://docs.google.com/presentation/d/1hrI70StR2ghGAIj
 
 (For internal use by the Catalyst Project team) A folder containing template feedback forms and a workshop folder for each training event can be found in the team [Google Drive](https://drive.google.com/drive/folders/1cElP_O-FdkM1-BbH6jO111M4mUVvU7H0?usp=drive_link).
 
-## Pre-workshop tasks
+## Pre-workshop Tasks
 
 You may use the following email template to communicate with learners 1 week before the workshop.
 
@@ -80,7 +80,7 @@ Participants should be able to:
 
 - Access the 2i2c [Community Showcase Hub](https://showcase.2i2c.cloud) using their GitHub account
 - Know basic Git, such as pushing and pulling to a remote GitHub repository
-- Find the shared collaborative note-taking document (shared in the calendar invite)
+- Find the shared collaborative note-taking document, e.g. CodiMD (shared in the calendar invite)
 - Access the 2i2c Slack #hub-champion-training channel for asynchronous support (Slack invite to be shared in the calendar invitate)
 - Use a web browser and video conferencing, e.g. Zoom
 - Read the [2i2c Code of Conduct](https://compass.2i2c.org/code-of-conduct/).
@@ -98,22 +98,22 @@ Best wishes,
 *<insert instructor names here>*
 
 :::
-    
+
 After sending the email, create the videoconferencing call for Part One and Part Two of the training, then share a calendar invitation with the connection details and a link to the CodiMD document.
-   
+
 :::{figure} ../media/instructor-notes/codimd.png
 :alt: Screenshot of setting editing rights on CodiMD to "Freely".
 :width: 100%
-:figclass: margin    
-    
+:figclass: margin
+
 :::
-    
+
 ::::{admonition} Set editing rights on CodiMD to "Freely"
 :class: tip
 Allow anyone to edit the CodiMD document without signing in by clicking the dropdown in the top-right of the document in *Read Mode* and selecting "Freely".
-    
+
 ::::
-    
+
 ## Feedback collection
 
 :::{figure}  ../media/instructor-notes/google-form.png
@@ -140,7 +140,7 @@ For each Google Form that you copy from the template, make sure that *Settings >
 - [ ] Episode 3: Minute Card Feedback
 - [ ] Episode 4: Minute Card Feedback
 - [ ] Episode 5: Minute Card Feedback
-- [ ] Episode 6: Minute Card Feedback    
+- [ ] Episode 6: Minute Card Feedback
 
 (community-showcase-hub-setup)=
 ## Community Showcase Hub setup
@@ -148,17 +148,17 @@ For each Google Form that you copy from the template, make sure that *Settings >
 Hub Champions will need access to the 2i2c [Community Showcase Hub](https://showcase.2i2c.cloud) and hub administrator privileges to complete this training.
 
 To grant access to this hub, instructors will need to add learners to this [GitHub Team](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase) and grant them Owner status. Adding members to this team requires Owner/Maintainer permissions – if you have trouble then please send an email to [support@2i2c.org](mailto:support@2i2c.org).
-    
+
 To grant administrator privileges on the hub, go to the [Community Showcase Hub home](https://showcase.2i2c.cloud/hub/home) and click the *Admin* sub-menu in the navbar. You will see a table of users who have access to the hub. Click *Edit User* of the user you would like to grant admin access to. In the next screen, check the *Admin* box and click *Apply* to grant administrator privileges.
 
 During the lesson, [](episode-access), Hub Champions will be asked to invite the user `jnywong-test` to the [GitHub Organization](https://github.com/2i2c-community-showcase). Please ensure this account is removed from the organization prior to the workshop. Similarly, Hub Champions will be asked to add and remove `jmunroe-testuser` from the [GitHub Team](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase).
 
-## Post-workshop tasks
-    
+## Post-workshop Tasks
+
 Follow up with an email two days after the workshop to thank learners for their time and encourage them to complete the post-training survey. You may use the follow email template.
-   
+
 :::{dropdown} Post-workshop email template
-    
+
 Dear all,
 
 Thank you for attending the recent Hub Champion Training workshop. We hope you left your workshop with skills and knowledge needed to empower your communities to make best use out of the hub. We would like to capture your thoughts about what was covered and your perception of the workshop overall. Please complete the post-workshop survey as soon as possible.
@@ -166,13 +166,13 @@ Thank you for attending the recent Hub Champion Training workshop. We hope you l
 If you have any questions and would like to contact us, feel free to email us at [support@2i2c.org](mailto:support@2i2c.org). We are excited about your continued involvement with our community!
 
 Best wishes,
-    
+
 *<insert instructor names here>*
-    
+
 :::
 
 Restore the Community Showcase Hub by removing the user `jnywong-test` from the [GitHub Organization](https://github.com/2i2c-community-showcase) and removing `jmunroe-testuser` from the [GitHub Team](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase). Adjust the permissions of learners from *Owner* to *Member*.
-    
+
 Remove administrator privileges on the hub by opening a [2i2c support ticket](https://docs.2i2c.org/support/) to provide the Community Showcase Hub URL (`https://showcase.2i2c.cloud`) and a list of Hub Champion GitHub usernames that require administrator status removing.
 
 ## Tasklist
@@ -203,7 +203,7 @@ Remove administrator privileges on the hub by opening a [2i2c support ticket](ht
 - [ ] Host Part Two of the workshop
   - [ ] Remember to record the workshop so that learners can refer back to this for later viewing
 
-### After Part Two**
+### After Part Two
 
 - [ ] Email learners two days after the workshop to complete feedback and follow-up on micro-grant status (if applicable)
 - [ ] Restore the Community Showcase Hub
