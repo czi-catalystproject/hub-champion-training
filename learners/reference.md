@@ -25,7 +25,6 @@
 (glossary)=
 ## Glossary
 
-
 (glossary:cpu)=
 CPU
 : Central Processing Unit – executes computational work. The number of CPU cores needed for a job depends on how scalable the computational work is, the type and amount of work to be processed.
@@ -48,4 +47,3 @@ JupyterHub
 (glossary:ram)=
 RAM
 : Random Access Memory – a computer's "short-term memory". The amount of RAM needed for a job depends on the size of the data structures to be processed.
-
