@@ -177,28 +177,35 @@ Remove administrator privileges on the hub by opening a [2i2c support ticket](ht
 
 ## Tasklist
 
-**One week before the workshop**
-    
+### One week before the workshop
+
 - [ ] Copy the CodiMD template, remove the episode section content and set editing rights to *Freely*
 - [ ] Copy feedback form templates and check access permissions
 - [ ] Set up a Slack channel, or equivalent
 - [ ] Schedule the videoconferencing calls for Part One and Part Two
 - [ ] Email learners one week before the workshop
-- [ ] Share a calendar invitation for Part One and Part Two with links to the videoconference call, CodiMD document and Slack channel
+  - [ ] Share a calendar invitation for Part One and Part Two with links to the videoconference call, CodiMD document and Slack channel
 - [ ] Prepare the Community Showcase Hub
   - [ ] Add learners to GitHub team **and** grant them Owner status
   - [ ] Grant *Admin* privileges to learners on the Community Showcase Hub
 
-**During the workshop**
-- [ ] Consider recording your workshop so that learners can refer back to this for later viewing
-    
-**After Part One**
-    
-- [ ] Populate the CodiMD for the self-guided study
-    
-**After Part Two**
+### Deliver Part One
 
-- [ ] Email learners two days after the workshop to complete feedback
+- [ ] Host Part One of the workshop
+  - [ ] Remember to record the workshop so that learners can refer back to this for later viewing
+
+### After Part One
+
+- [ ] Populate the CodiMD for the self-guided study
+
+### Deliver Part Two
+
+- [ ] Host Part Two of the workshop
+  - [ ] Remember to record the workshop so that learners can refer back to this for later viewing
+
+### After Part Two**
+
+- [ ] Email learners two days after the workshop to complete feedback and follow-up on micro-grant status (if applicable)
 - [ ] Restore the Community Showcase Hub
   - [ ] Remove Owner status from the GitHub team
   - [ ] Remove *Admin* privileges from learners on the Community Showcase Hub
