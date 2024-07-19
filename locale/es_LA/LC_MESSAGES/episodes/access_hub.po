@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: catalyst-project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-08 09:11+0000\n"
-"PO-Revision-Date: 2024-07-18 02:18\n"
+"PO-Revision-Date: 2024-07-19 02:18\n"
 "Last-Translator: \n"
 "Language: es_419\n"
 "Language-Team: Spanish, Latin America\n"
@@ -82,7 +82,7 @@ msgid "Screenshot showing an example list of GitHub Organizations on [https://gi
 msgstr "Captura de pantalla donde se muestra una lista de ejemplos de GitHub Organizations en [https://github.com/settings/organizations](https://github.com/settings/organizations)."
 
 msgid "Click on the link to the [2i2c-community-showcase](https://github.com/2i2c-community-showcase) GitHub Organization (if you cannot access the page at this link then please contact your instructor for access)."
-msgstr "Haz clic en el enlace a la GitHub Organization [2i2c-community-showcase](https://github. om/2i2c-community-showcase) (si no puedes acceder a la página mediante este enlace, por favor contacta a tu instructor para obtener acceso)."
+msgstr "Haz clic en el enlace a la GitHub Organization [2i2c-community-showcase](https://github.com/2i2c-community-showcase) (si no puedes acceder a la página mediante este enlace, por favor contacta a tu instructor para obtener acceso)."
 
 msgid "Click on the *People* menu tab to view a list of current Organization members."
 msgstr "Haz clic en la pestaña del menú *People* (Personas) para ver una lista de los miembros actuales de la GitHub Organization."
@@ -190,7 +190,7 @@ msgid "Screenshot showing how to remove a member from the [access-2i2c-showcase]
 msgstr "Captura de pantalla donde se muestra cómo eliminar a un miembro del GitHub Team [access-2i2c-showcase](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase)."
 
 msgid "From the [access-2i2c-showcase](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase) teams page, check the box next to the member account you wish to remove (in this case, `jmunroe-testuser` for the purposes of this training)."
-msgstr "Desde la página del GitHub Team [access-2i2c-showcase](https://github. om/orgs/2i2c-community-showcase/teams/access-2i2c-showcase), marca la casilla que se encuentra junto a la cuenta del miembro que deseas eliminar (en este caso, `jmunroe-testuser` como práctica en este entrenamiento)."
+msgstr "Desde la página del GitHub Team [access-2i2c-showcase](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase), marca la casilla que se encuentra junto a la cuenta del miembro que deseas eliminar (en este caso, `jmunroe-testuser` como práctica en este entrenamiento)."
 
 msgid "Click the tab at the top of the list labelled *1 member selected*."
 msgstr "Haz clic en la pestaña que se encuentra en la parte superior de la lista etiquetada *1 member selected* (1 miembro seleccionado)."
