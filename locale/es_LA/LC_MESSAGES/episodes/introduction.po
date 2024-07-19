@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: catalyst-project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 14:31+0000\n"
-"PO-Revision-Date: 2024-07-18 02:18\n"
+"PO-Revision-Date: 2024-07-19 02:18\n"
 "Last-Translator: \n"
 "Language: es_419\n"
 "Language-Team: Spanish, Latin America\n"
@@ -94,7 +94,7 @@ msgid "JupyterHubs in the Cloud"
 msgstr "JupyterHubs en la nube"
 
 msgid "In this lesson, our definition of the word *hub* refers to a {ref}`JupyterHub <glossary:jupyterhub>` that is hosted on cloud infrastructure and managed by [2i2c](https://2i2c.org/)."
-msgstr "En esta lección, nuestra definición de la palabra *hub* se refiere a un {ref}`JupyterHub <glossary:jupyterhub>` que está alojado en la infraestructura en la nube y administrado por [2i2c](https://2i2c. rg/)."
+msgstr "En esta lección, nuestra definición de la palabra *hub* se refiere a un {ref}`JupyterHub <glossary:jupyterhub>` que está alojado en la infraestructura en la nube y administrado por [2i2c](https://2i2c.org/)."
 
 msgid "Diagram showing an overview of a 2i2c hub, including authentication, online content, custom environments, the community hub, cloud infrastructure, support and services."
 msgstr "Diagrama que muestra una visión general de un hub de 2i2c, el cual incluye autenticación, contenido en línea, entornos personalizados, el hub de la comunidad, infraestructura en la nube, soporte y servicios."
@@ -106,7 +106,7 @@ msgid "A hub provides an access point to interactive computing in the cloud for 
 msgstr "Un hub proporciona un punto de acceso a la computación interactiva en la nube para una comunidad de usuarios. El acceso al hub es mediante una URL del siguiente formulario"
 
 msgid "<hub-name>.<community-name>.2i2c.cloud\n"
-msgstr "<nombre-del-hub>.<nombre-de-la-comunidad>.2i2c.cloud\n"
+msgstr ""
 
 msgid "and the landing page contains a *Log in to continue* button (see example screenshot)"
 msgstr "y la página de destino incluye el botón *Iniciar sesión para continuar* (ver la captura de pantalla)"
