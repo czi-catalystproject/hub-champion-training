@@ -113,7 +113,7 @@ We would like to acknowledge Chan Zuckerberg Initiative funding for The Catalyst
 - [Center for Scientific Collaboration and Community Engagement](https://www.cscce.org/)
 - [Invest in Open Infrastructure](https://investinopen.org/)
 - [MetaDocencia](https://www.metadocencia.org/)
-- [Open Life Science](https://openlifesci.org/)
+- [Open Life Science](https://we-are-ols.org/)
 
 ## Contacting us
 
