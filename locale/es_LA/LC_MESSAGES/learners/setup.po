@@ -1,84 +1,67 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2024
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: catalyst-project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-15 10:30+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es_LA\n"
-"Language-Team: es_LA <LL@li.org>\n"
+"PO-Revision-Date: 2024-07-29 10:06\n"
+"Last-Translator: \n"
+"Language: es_419\n"
+"Language-Team: Spanish, Latin America\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.15.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: catalyst-project\n"
+"X-Crowdin-Project-ID: 624564\n"
+"X-Crowdin-Language: es-419\n"
+"X-Crowdin-File: /l10n/hub-champion-training/locale/es_LA/LC_MESSAGES/learners/setup.po\n"
+"X-Crowdin-File-ID: 130\n"
 
 msgid "Setup"
-msgstr ""
+msgstr "Configuración"
 
 msgid "Before joining the training, participants should be able to:"
-msgstr ""
+msgstr "Antes de unirse al entrenamiento, los participantes deben ser capaces de:"
 
-msgid ""
-"Access the 2i2c [Community Showcase Hub](https://showcase.2i2c.cloud) "
-"using their GitHub account (or use their own community hub)"
-msgstr ""
+msgid "Access the 2i2c [Community Showcase Hub](https://showcase.2i2c.cloud) using their GitHub account (or use their own community hub)"
+msgstr "Acceder al [Community Showcase Hub]de 2i2c(https://showcase.2i2c.cloud) (Hub de muestra comunitario) utilizando su cuenta de GitHub (o su propio hub)"
 
 msgid "Know basic Git, such as pushing and pulling to a remote GitHub repository"
-msgstr ""
+msgstr "Conocer el Git básico, como insertar y extraer en un repositorio remoto de GitHub"
 
 msgid "Find the shared collaborative note-taking document, e.g. CodiMD"
-msgstr ""
+msgstr "Encuentra el documento compartido para tomar notas colaborativas, por ejemplo, CodiMD"
 
 msgid "Access the Slack Channel for asynchronous support"
-msgstr ""
+msgstr "Acceder al canal de Slack para soporte asíncrono"
 
 msgid "Use a web browser and video conferencing, e.g. Zoom"
-msgstr ""
+msgstr "Utilizar un navegador web y para videoconferencias, por ejemplo, Zoom"
 
-msgid ""
-"Read the [2i2c Code of Conduct](https://compass.2i2c.org/code-of-"
-"conduct/)."
-msgstr ""
+msgid "Read the [2i2c Code of Conduct](https://compass.2i2c.org/code-of-conduct/)."
+msgstr "Lee el [2i2c Code of Conduct](https://compass.2i2c.org/code-of-conduct/) (Código de conducta de 2i2c)."
 
-msgid ""
-"If you have trouble with any of these steps, please contact the training "
-"instructor."
-msgstr ""
+msgid "If you have trouble with any of these steps, please contact the training instructor."
+msgstr "Si tienes problemas con alguno de estos pasos, comunícate con el instructor de la formación."
 
 msgid "If you need a refresher on the fundamentals of Git, then check out:"
+msgstr "Si necesitas recordar las bases de Git, entonces dale un vistazo a:"
+
+msgid "[The Software Carpentry – Version Control with Git](https://swcarpentry.github.io/git-novice/)"
+msgstr "[The Software Carpentry – Control de versiones con Git] (https://swcarpentry.github.io/git-novice-es/)"
+
+msgid "[CodeRefinery – Introduction to version control with Git](https://coderefinery.github.io/git-intro/)"
 msgstr ""
 
-msgid ""
-"[The Software Carpentry – Version Control with "
-"Git](https://swcarpentry.github.io/git-novice/)"
-msgstr ""
-
-msgid ""
-"[CodeRefinery – Introduction to version control with "
-"Git](https://coderefinery.github.io/git-intro/)"
-msgstr ""
-
-msgid ""
-"[GitHub Docs – Getting started with Git](https://docs.github.com/en/get-"
-"started/getting-started-with-git)"
-msgstr ""
+msgid "[GitHub Docs – Getting started with Git](https://docs.github.com/en/get-started/getting-started-with-git)"
+msgstr "[Documentación de GitHub – Comenzar con Git](https://docs.github.com/es/get-started/getting-started-with-git)"
 
 msgid "Communication channels"
-msgstr ""
+msgstr "Canales de comunicación"
 
-msgid ""
-"We will primarily use Slack for communications with learners to encourage"
-" a \"cohort\" effect and capture discussions that would otherwise "
-"disappear from Zoom/Google Meet chat. However, we recognise that learners"
-" may join the synchronous sessions on their phones and therefore the "
-"Zoom/Google Meet chat is useful in this case."
-msgstr ""
+msgid "We will primarily use Slack for communications with learners to encourage a \"cohort\" effect and capture discussions that would otherwise disappear from Zoom/Google Meet chat. However, we recognise that learners may join the synchronous sessions on their phones and therefore the Zoom/Google Meet chat is useful in this case."
+msgstr "Utilizaremos principalmente Slack para las comunicaciones con los estudiantes para promover un efecto de \"cohorte\" y capturar discusiones que de otro modo desaparecerían del chat de Zoom/Google Meet. Sin embargo, reconocemos que los estudiantes pueden unirse a las sesiones sincrónicas en sus teléfonos y, por lo tanto, el chat de Zoom/Google Meet es útil en este caso."
 
 #~ msgid ""
 #~ "Access the 2i2c [Community Showcase "

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: catalyst-project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 14:31+0000\n"
-"PO-Revision-Date: 2024-07-23 02:18\n"
+"PO-Revision-Date: 2024-07-29 10:06\n"
 "Last-Translator: \n"
 "Language: es_419\n"
 "Language-Team: Spanish, Latin America\n"
@@ -79,7 +79,7 @@ msgid "Cartoon depicting common interactive computing use cases such as data col
 msgstr "Dibujo que representa casos comunes de computación interactiva como la recopilación de datos, el procesamiento y análisis de datos, los modelos predictivos y la visualización de datos."
 
 msgid "With the advent of \"big data\", many researchers and educators encounter limitations with using traditional methods for handling data on a local machine or laptop. The size and number of datasets prevalent in disciplines such as genomics, meteorology, healthcare, and environmental sciences, to name a few, are growing at an exponential rate, and consequently, the need for large-scale infrastructure to support continually intensive computational workflows also grows."
-msgstr "Con la llegada del \"big data\", muchos quienes investigan y educan se enfrentan a limitaciones en el uso de métodos tradicionales para manejar datos en una computadora portátil o máquina local. El tamaño y el número de los conjuntos de datos prevalentes en disciplinas como genómica, meteorología, salud y ciencias ambientales, por mencionar algunas, están creciendo a un ritmo exponencial y, por lo tanto, también aumenta la necesidad de tener una infraestructura a gran escala para apoyar los flujos de trabajo computacionales continuamente intensivos."
+msgstr "Con la llegada del \"big data\", muchas personas que investigan y educan se enfrentan a limitaciones en el uso de métodos tradicionales para manejar datos en una computadora portátil o máquina local. El tamaño y el número de los conjuntos de datos prevalentes en disciplinas como genómica, meteorología, salud y ciencias ambientales, por mencionar algunas, están creciendo a un ritmo exponencial y, por lo tanto, también aumenta la necesidad de tener una infraestructura a gran escala para apoyar los flujos de trabajo computacionales continuamente intensivos."
 
 msgid "Cloud computing icon."
 msgstr "Icono de computación en la nube."
@@ -202,16 +202,16 @@ msgid "Solution"
 msgstr "Solución"
 
 msgid "a. False – Hubs are built entirely with open-source and community-driven tooling. The Right to Replicate gives communities the right to replicate their infrastructure in its entirety elsewhere.   b. False – Hub Champions can control who can access the hub through GitHub or other authentication methods.   c. False – Software environments are managed by Hub Champions and automatically deployed with containerisation, allowing for scalability across the cloud and reproducible user environments.   d. True – 2i2c engineers maintain service availability, uptime and operational upgrades. Hub Champions are responsible for hub configuration and management to support their user community."
-msgstr "a. Falso - Los hubs se construyen enteramente con herramientas de código abierto e impulsadas por comunidades. El \"derecho a replicar\" (Right to Replicate), concede a las comunidades el derecho a replicar completamente su infraestructura en cualquier otra parte   b. Falso - Los Campeones y Campeonas del Hub puede controlar quién puede acceder al hub mediante GitHub u otros métodos de autenticación.   c. Falso - Los entornos de software son administrados por los Campeones y Campeonas del Hub y se despliegan automáticamente mediante contenedores, permitiendo la escalabilidad en la nube y entornos de usuario reproducibles.   d. Verdadero - Los ingenieros de 2i2c mantienen la disponibilidad del servicio y las mejoras operativas. Los Campeones y Campeonas del Hub son responsables de la configuración y administración del hub para apoyar a su comunidad."
+msgstr "a. Falso - Los hubs se construyen totalmente con herramientas de código abierto e impulsadas por comunidades. El \"derecho a replicar\" (Right to Replicate), concede a las comunidades el derecho a replicar completamente su infraestructura en cualquier otra parte   b. Falso - Los Campeones y Campeonas del Hub pueden controlar quién puede acceder al hub mediante GitHub u otros métodos de autenticación.   c. Falso - Los entornos de software son administrados por los Campeones y Campeonas del Hub y se despliegan automáticamente mediante contenedores, permitiendo la escalabilidad en la nube y entornos de usuario reproducibles.   d. Verdadero - Los ingenieros de 2i2c mantienen la disponibilidad del servicio y las mejoras operativas. Los Campeones y Campeonas del Hub son responsables de la configuración y administración del hub para apoyar a su comunidad."
 
 msgid "Define success for your user community"
 msgstr "Define el éxito para tu comunidad"
 
 msgid "As a Hub Champion, your main goal is to empower your community to make the best use of the Hub service. You represent the interests of your community and are familiar with their computational workflows and data needs."
-msgstr "Como Campeones y Campeonas del Hub, su objetivo principal es capacitar a su comunidad para que utilicen mejor los servicios del hub. Usted representa los intereses de su comunidad y está familiarizado con sus flujos de trabajo computacionales y necesidades de datos."
+msgstr "Como Campeón o Campeona del Hub, tu objetivo principal es capacitar a tu comunidad para que utilice mejor los servicios del hub. Tú representas los intereses de tu comunidad y estás familiarizado con sus flujos de trabajo computacionales y necesidades de datos."
 
 msgid "To ensure that the hub serves the interests of your community, Hub Champions may perform common administrative tasks such as"
-msgstr "Para garantizar que el hub sirva a los intereses de su comunidad, Campeones y Campeonas del Hub pueden llevar a cabo tareas administrativas comunes como:"
+msgstr "Para garantizar que el hub sirva a los intereses de su comunidad, los Campeones y Campeonas del Hub pueden llevar a cabo tareas administrativas comunes como:"
 
 msgid "controlling user access policy to the hub"
 msgstr "controlar la política de acceso al hub"
@@ -265,7 +265,7 @@ msgid "How can a hub address the challenges your community faces?"
 msgstr "¿Cómo puede un hub resolver los desafíos que enfrenta tu comunidad?"
 
 msgid "Prepare to summarise and share with the rest of the workshop."
-msgstr "Prepárese para hacer un resumen y compartirlo con el resto del taller."
+msgstr "Prepárate para hacer un resumen y compartirlo con el resto del taller."
 
 msgid "Exercise: In which of the following ways should a Hub Champion support their users?"
 msgstr "Ejercicio: ¿En cuál de las siguientes formas debe un Campeón o Campeona del Hub apoyar a su comunidad?"
@@ -301,7 +301,7 @@ msgid "To complete the self-study portion of the workshop, you will need to be a
 msgstr "Para completar la parte autoguiada del taller, debes ser capaz de acceder al [Hub de muestra comunitario de 2i2c](https://showcase.2i2c.cloud). Cuando trabajes en las secciones autoguiadas del taller, escribe tus respuestas a los ejercicios en nuestro documento de notas colaborativas."
 
 msgid "If you cannot access the hub, please contact the training instructor."
-msgstr "Si no puedes acceder al hub, por favor contacta al instructor de la capacitación."
+msgstr "Si no puedes acceder al hub, comunícate con el instructor de la formación."
 
 msgid "🔑 KEY POINTS"
 msgstr "🔑 PUNTOS CLAVE"

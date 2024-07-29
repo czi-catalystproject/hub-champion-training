@@ -1,58 +1,58 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2024
-# This file is distributed under the same license as the Python package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Python \n"
+"Project-Id-Version: catalyst-project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 14:31+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: es_LA\n"
-"Language-Team: es_LA <LL@li.org>\n"
+"PO-Revision-Date: 2024-07-29 10:06\n"
+"Last-Translator: \n"
+"Language: es_419\n"
+"Language-Team: Spanish, Latin America\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.13.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: catalyst-project\n"
+"X-Crowdin-Project-ID: 624564\n"
+"X-Crowdin-Language: es-419\n"
+"X-Crowdin-File: /l10n/hub-champion-training/locale/es_LA/LC_MESSAGES/episodes/troubleshooting.po\n"
+"X-Crowdin-File-ID: 126\n"
 
 msgid "Troubleshooting and providing user support"
-msgstr ""
+msgstr "Solución de problemas y soporte al usuario"
 
 msgid "🔍 OVERVIEW"
-msgstr ""
+msgstr "🔍 RESUMEN"
 
 msgid "**Questions**"
-msgstr ""
+msgstr "**Preguntas**"
 
 msgid "What feedback do you have about the training?"
-msgstr ""
+msgstr "¿Qué comentarios tienes sobre la formación?"
 
 msgid "Where can you look for further help?"
-msgstr ""
+msgstr "¿Dónde puedes buscar más ayuda?"
 
 msgid "How can you prepare to support your community after this training?"
-msgstr ""
+msgstr "¿Cómo puedes prepararte para apoyar a tu comunidad después de esta formación?"
 
 msgid "**Objectives**"
-msgstr ""
+msgstr "**Objetivos**"
 
 msgid "Share learning experiences from their self-guided study"
-msgstr ""
+msgstr "Compartir las experiencias de aprendizaje sobre tu estudio autoguiado"
 
 msgid "Triage common problems and know where to look for help"
-msgstr ""
+msgstr "Evaluar problemas comunes y saber dónde buscar ayuda"
 
 msgid "Plan a sustainable support strategy for their community"
-msgstr ""
+msgstr "Planificar una estrategia de apoyo sostenible para tu comunidad"
 
 msgid "Looking back"
-msgstr ""
+msgstr "Retrospectiva"
 
 msgid "Congratulations! You have completed the training on"
-msgstr ""
+msgstr "¡Felicidades! Completaste la formación el"
 
 msgid "{ref}`episode-intro`"
 msgstr ""
@@ -69,262 +69,201 @@ msgstr ""
 msgid "{ref}`episode-data`"
 msgstr ""
 
-msgid ""
-"and you now possess the skills and knowledge to successfully serve the "
-"needs of your community as a Hub Champion 🎉"
-msgstr ""
+msgid "and you now possess the skills and knowledge to successfully serve the needs of your community as a Hub Champion 🎉"
+msgstr "y ahora posees las habilidades y conocimientos para resolver con éxito las necesidades de tu comunidad como un Campeón o Campeona del Hub 🎉"
 
 msgid "Exercise: How did it go?"
-msgstr ""
+msgstr "Ejercicio: ¿Cómo te fue?"
 
-msgid ""
-"Take a few minutes to reflect on your experience following the training "
-"on your own then, in pairs, discuss the following points:"
-msgstr ""
+msgid "Take a few minutes to reflect on your experience following the training on your own then, in pairs, discuss the following points:"
+msgstr "Dedica unos minutos para reflexionar sobre tu experiencia después de la formación y luego, en parejas, discutan los siguientes puntos:"
 
 msgid "What did you learn that was new to you?"
-msgstr ""
+msgstr "¿Qué aprendizaje fue nuevo para ti?"
 
 msgid "What was confusing about the training?"
-msgstr ""
+msgstr "¿Qué te pareció confuso durante la formación?"
 
 msgid "What questions do you have about hub management?"
-msgstr ""
+msgstr "¿Qué dudas tienes sobre la administración del hub?"
 
 msgid "Which areas would you like to explore further?"
-msgstr ""
+msgstr "¿Qué áreas te gustaría explorar más?"
 
 msgid "Do you think your users would benefit from this lesson?"
-msgstr ""
+msgstr "¿Crees que tus usuarios se beneficiarán con esta lección?"
 
-msgid ""
-"Please write your answers in the collaborative note-taking document "
-"*before* the synchronous session for Part Two of the workshop."
-msgstr ""
+msgid "Please write your answers in the collaborative note-taking document *before* the synchronous session for Part Two of the workshop."
+msgstr "Escribe tus respuestas en el documento colaborativo para la toma de notas *antes* de la sesión sincrónica para la Parte 2 del taller."
 
-msgid ""
-"Your self-guided study ends here. The following will be covered in the "
-"synchronous session for Part Two of the workshop."
-msgstr ""
+msgid "Your self-guided study ends here. The following will be covered in the synchronous session for Part Two of the workshop."
+msgstr "Tu estudio autoguiado termina aquí. La siguiente parte se cubrirá en la sesión sincrónica para la Parte 2 del taller."
 
-msgid ""
-"The workshop instructor will now take some time to address a few of the "
-"common points that emerged from the discussion in the above exercise. "
-"During this time, note down how the instructor is troubleshooting and "
-"providing support to resolve an issue. Pay attention to"
-msgstr ""
+msgid "The workshop instructor will now take some time to address a few of the common points that emerged from the discussion in the above exercise. During this time, note down how the instructor is troubleshooting and providing support to resolve an issue. Pay attention to"
+msgstr "Ahora, el instructor del taller dedicará algún tiempo para tratar algunos de los puntos comunes que surgieron en la discusión del ejercicio anterior. Durante ese tiempo, observa cómo el instructor resuelve problemas y proporciona ayuda para resolver dificultades. Pon atención a"
 
 msgid "whether the issue was already covered in the Hub Champion Training"
-msgstr ""
+msgstr "si el problema ya fue resuelto durante la formación de los Campeones y Campeonas del Hub"
 
 msgid "any further resources that were referenced"
-msgstr ""
+msgstr "cualquier recurso adicional al que se haga referencia"
 
 msgid "the level of detail in the response"
-msgstr ""
+msgstr "el nivel de detalle en la respuesta"
 
 msgid "their use of language and communication skills."
-msgstr ""
+msgstr "su uso del lenguaje y sus habilidades de comunicación."
 
-msgid ""
-"Nobody is perfect – there is no perfect way for troubleshooting and "
-"providing user support! Prior skills and support requirements can vary "
-"significantly and part of your role as Hub Champion is helping users to "
-"help each other, as well as representing and escalating support requests "
-"to 2i2c for more technical issues."
-msgstr ""
+msgid "Nobody is perfect – there is no perfect way for troubleshooting and providing user support! Prior skills and support requirements can vary significantly and part of your role as Hub Champion is helping users to help each other, as well as representing and escalating support requests to 2i2c for more technical issues."
+msgstr "Nadie es perfecto.¡No hay forma perfecta de solucionar problemas y proporcionar soporte al usuario! Las habilidades previas y los requisitos de apoyo pueden variar significativamente, y parte de tu papel como Campeón o Campeona del Hub es ayudar a que los usuarios se ayuden entre sí, al igual que dar seguimiento y escalar las solicitudes de soporte a 2i2c para resolver problemas más técnicos."
 
 msgid "Here are some tips for success:"
-msgstr ""
+msgstr "Estos son algunos consejos para lograr el éxito:"
 
-msgid ""
-"avoid dismissive language (\"you *just* need to do this...\", "
-"\"*obviously* you have to...\")"
-msgstr ""
+msgid "avoid dismissive language (\"you *just* need to do this...\", \"*obviously* you have to...\")"
+msgstr "evitar el uso de un lenguaje desproporcionado (\"*solo* necesitas hacer esto...\", \"*obviamente* tienes que...\")"
 
-msgid ""
-"admit what you don't know – it's also useful for learners to watch a Hub "
-"Champion use problem-solving skills and seek out [](ref:resources) to "
-"find the answer"
-msgstr ""
+msgid "admit what you don't know – it's also useful for learners to watch a Hub Champion use problem-solving skills and seek out [](ref:resources) to find the answer"
+msgstr "admitir lo que no sabes, también es útil para los estudiantes ver cómo un Campeón o Campeona del Hub utiliza sus habilidades para resolver problemas y busca [](ref:resources) para encontrar la respuesta"
 
-msgid ""
-"if you need to request technical support from 2i2c, then follow the "
-"support process and open a ticket [here](https://docs.2i2c.org/support/)."
-msgstr ""
+msgid "if you need to request technical support from 2i2c, then follow the support process and open a ticket [here](https://docs.2i2c.org/support/)."
+msgstr "si necesitas soporte técnico de 2i2c, sigue el proceso de soporte y abre un ticket [aquí](https://docs.2i2c.org/support/)."
 
 msgid "Exercise: Where to go for help?"
-msgstr ""
+msgstr "Ejercicio: ¿Dónde puedo obtener ayuda?"
 
-msgid ""
-"A user wants to use a software application that is not currently "
-"available on the hub. Rearrange the following statements in the order of "
-"action you would escalate support for this person:"
-msgstr ""
+msgid "A user wants to use a software application that is not currently available on the hub. Rearrange the following statements in the order of action you would escalate support for this person:"
+msgstr "Un usuario quiere utilizar una aplicación de software que no está disponible actualmente en el hub. Reorganiza las siguientes afirmaciones en el orden de acción que escalaría el apoyo para esta persona:"
 
 msgid "Contact the 2i2c technical support desk for assistance"
-msgstr ""
+msgstr "Ponerse en contacto con el servicio de soporte técnico 2i2c para obtener asistencia"
 
 msgid "Direct the user to the relevant documentation in the 2i2c Service Guide"
-msgstr ""
+msgstr "Enviar al usuario a la documentación relevante en la Guía de servicio 2i2c"
 
-msgid ""
-"Provide one-to-one support to guide the user through the process of "
-"pulling a custom container to the hub"
-msgstr ""
+msgid "Provide one-to-one support to guide the user through the process of pulling a custom container to the hub"
+msgstr "Proporcionar soporte uno a uno para guiar al usuario durante el proceso de extracción de un contenedor personalizado hacia el hub"
 
-msgid ""
-"Find a custom container that includes the requested software application "
-"and provide the information needed to pull this container to the hub to "
-"the user"
-msgstr ""
+msgid "Find a custom container that includes the requested software application and provide the information needed to pull this container to the hub to the user"
+msgstr "Encontrar un contenedor personalizado que incluya el software solicitado y proporcionar la información necesaria para extraer dicho contenedor hacia el hub del usuario"
 
 msgid "Solution"
-msgstr ""
+msgstr "Solución"
 
-msgid ""
-"There are different ways in which you can approach this support request "
-"depending on your technical capacity and your own judgment. However, we "
-"recommend that you *Contact the 2i2c technical support desk for "
-"assistance* as a last resort, since there are plenty of [further "
-"resources](ref:resources) to help you before you get to this point."
-msgstr ""
+msgid "There are different ways in which you can approach this support request depending on your technical capacity and your own judgment. However, we recommend that you *Contact the 2i2c technical support desk for assistance* as a last resort, since there are plenty of [further resources](ref:resources) to help you before you get to this point."
+msgstr "Hay diferentes maneras de enfocar esta solicitud de soporte según tu capacidad técnica y tu propio juicio. Sin embargo, te recomendamos *Pónerte en contacto con el servicio de soporte técnico 2i2c como último recurso, ya que hay muchos [recursos adicionales](ref:resources) que te pueden ayudar antes de llegar a este punto."
 
 msgid "Looking forward"
-msgstr ""
+msgstr "Una visión hacia el futuro"
 
-msgid ""
-"Let's take the time to prepare a strategy for how you would like to guide"
-" and support your community after this training. Writing a plan will help"
-" provide clarity in your approach. Use the **SMART** method to write your"
-" objectives and keep your goals realistic and achievable:"
-msgstr ""
+msgid "Let's take the time to prepare a strategy for how you would like to guide and support your community after this training. Writing a plan will help provide clarity in your approach. Use the **SMART** method to write your objectives and keep your goals realistic and achievable:"
+msgstr "Dedica un tiempo para preparar una estrategia sobre cómo te gustaría guiar y apoyar a tu comunidad después de esta formación. Escribir un plan ayudará a mantener claro tu enfoque. Usa el método **SMART** para escribir tus objetivos y mantener tus metas en un nivel realista y alcanzable:"
 
 msgid "Specific"
-msgstr ""
+msgstr "Específico (Specific)"
 
 msgid "Clearly describe what needs to be done"
-msgstr ""
+msgstr "Describe claramente lo que debe hacerse"
 
 msgid "Measurable"
-msgstr ""
+msgstr "Medible"
 
-msgid ""
-"It should be possible to determine whether the specified goal has been "
-"achieved"
-msgstr ""
+msgid "It should be possible to determine whether the specified goal has been achieved"
+msgstr "Debe ser posible determinar si se alcanzó el objetivo especificado"
 
 msgid "Attainable"
-msgstr ""
+msgstr "Alcanzable"
 
 msgid "What are you realistically capable of?"
-msgstr ""
+msgstr "¿De qué eres capaz de forma realista?"
 
 msgid "Relevant"
-msgstr ""
+msgstr "Relevante (Relevant)"
 
 msgid "Make sure that what you commit to is within the scope of your role"
-msgstr ""
+msgstr "Asegúrate de que te comprometes para cumplir objetivos que estén dentro del alcance de tu rol"
 
 msgid "Time-bound"
-msgstr ""
+msgstr "Tiempo límite (Time-bound)"
 
 msgid "Set a timeframe for your goal to be reached"
-msgstr ""
+msgstr "Establece un plazo para alcanzar tu objetivo"
 
 msgid "Exercise: Plan your support process"
-msgstr ""
+msgstr "Ejercicio: Planifica tu proceso de soporte"
 
-msgid ""
-"Build a plan for how you will support the use of your hub amongst your "
-"community. Begin by trying to answer the following questions:"
-msgstr ""
+msgid "Build a plan for how you will support the use of your hub amongst your community. Begin by trying to answer the following questions:"
+msgstr "Construye un plan sobre cómo apoyarás el uso de tu hub entre tu comunidad. Comienza tratando de responder las siguientes preguntas:"
 
 msgid "How will you communicate with your users?"
-msgstr ""
+msgstr "¿Cómo te comunicarás con tus usuarios?"
 
 msgid "Where will your users report issues?"
-msgstr ""
+msgstr "¿Dónde reportarán los problemas tus usuarios?"
 
-msgid ""
-"What needs do you anticipate from your users? How can you set them up for"
-" success?"
-msgstr ""
+msgid "What needs do you anticipate from your users? How can you set them up for success?"
+msgstr "¿Qué necesitas anticipar de tus usuarios? ¿Cómo puedes ayudarlos con la configuración para lograr el éxito?"
 
 msgid "How will you track whether an issue gets resolved promptly?"
-msgstr ""
+msgstr "¿Cómo darás seguimiento si un problema se resuelve rápidamente?"
 
 msgid "What resources are available to help you when you need help?"
-msgstr ""
+msgstr "¿Qué recursos están disponibles para ayudarte cuando lo necesites?"
 
 msgid "When should you ask for technical assistance from 2i2c?"
-msgstr ""
+msgstr "¿Cuándo deberías pedir soporte técnico a 2i2c?"
 
 msgid "How much time can you commit to support activities?"
-msgstr ""
+msgstr "¿Cuánto tiempo puedes comprometerte para apoyar las actividades?"
 
 msgid "Will you set expectations of users' conduct and interactions?"
-msgstr ""
+msgstr "¿Establecerás expectativas de conducta e interacción con los usuarios?"
 
 msgid "How will you gather feedback to improve your support process?"
-msgstr ""
+msgstr "¿Cómo recopilarás los comentarios para mejorar tu proceso de soporte?"
 
-msgid ""
-"Considering your responses to the prompts above, identify which of the "
-"following resources you already have access to and which you would need "
-"to create/obtain:"
-msgstr ""
+msgid "Considering your responses to the prompts above, identify which of the following resources you already have access to and which you would need to create/obtain:"
+msgstr "Tomando en cuenta tus respuestas a los pompts anteriores, identifica a cuáles de los siguientes recursos ya tienes acceso y cuáles necesitarías crear/obtener:"
 
 msgid "communications platforms and channels"
-msgstr ""
+msgstr "plataformas y canales de comunicación"
 
 msgid "tools for tracking issues/support requests"
-msgstr ""
+msgstr "herramientas para dar seguimiento a problemas/solicitudes de soporte"
 
 msgid "documentation"
-msgstr ""
+msgstr "documentación"
 
 msgid "training"
-msgstr ""
+msgstr "formación"
 
 msgid "Is there anything else you need to support hub users?"
-msgstr ""
+msgstr "¿Hay algo más que necesites para apoyar a los usuarios del hub?"
 
 msgid "Wrap-up"
-msgstr ""
+msgstr "Finalizar"
 
 msgid "Thank you for following the Hub Champion Training! 🏅"
-msgstr ""
+msgstr "¡Gracias por completar la formación para los Campeones y Campeonas del Hub! 🏅"
 
-msgid ""
-"We hope you found it useful for building your skills and confidence as a "
-"Hub Champion to empower your community to make the best use of the hub "
-"service."
-msgstr ""
+msgid "We hope you found it useful for building your skills and confidence as a Hub Champion to empower your community to make the best use of the hub service."
+msgstr "Esperamos que la encuentres útil para construir tus habilidades y confianza como un Campeón o Campeona del Hub, y te ayude a capacitar a tu comunidad para que hagan un mejor uso del Hub."
 
 msgid "We're always looking to improve our lesson and welcome your feedback."
-msgstr ""
+msgstr "Siempre buscamos mejorar nuestras lecciones y agradecemos tus comentarios."
 
 msgid "🔑 KEY POINTS"
-msgstr ""
+msgstr "🔑 PUNTOS CLAVE"
 
-msgid ""
-"Part of your role as Hub Champion is to adapt and respond to the specific"
-" needs of your community"
-msgstr ""
+msgid "Part of your role as Hub Champion is to adapt and respond to the specific needs of your community"
+msgstr "Parte de tu rol como Campeón o Campeona del Hub es adaptarse y responder a las necesidades específicas de tu comunidad"
 
-msgid ""
-"Consulting [further resources](ref:resources) may help you troubleshoot "
-"some common issues"
-msgstr ""
+msgid "Consulting [further resources](ref:resources) may help you troubleshoot some common issues"
+msgstr "Buscar [recursos adicionales](ref:resources) puede ayudarte a resolver problemas comunes"
 
-msgid ""
-"If you are stuck and require technical help on behalf of your users, then"
-" you can contact 2i2c through their support desk"
-msgstr ""
+msgid "If you are stuck and require technical help on behalf of your users, then you can contact 2i2c through their support desk"
+msgstr "Si no sabes qué hacer y necesitas ayuda técnica para tus usuarios, entonces puedes comunícate con 2i2c mediante tu escritorio de soporte"
 
-msgid ""
-"Make a plan for your support process to set yourself up for success as a "
-"Hub Champion"
-msgstr ""
+msgid "Make a plan for your support process to set yourself up for success as a Hub Champion"
+msgstr "Crea un plan para tu proceso de soporte que te permita lograr el éxito como un Campeón o Campeona del Hub"
 
