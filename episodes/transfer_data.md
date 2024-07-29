@@ -71,26 +71,26 @@ Hub champions are responsible for costs incurred from data storage and ensuring 
 
 Select all that apply:
 
-- [ ] Notebooks
-- [ ] Code
-- [ ] Large and/or shared datasets with read-write permissions
-- [ ] Text files
-- [ ] Small datasets
-- [ ] Configuration files
-- [ ] Read-only datasets, e.g for teaching
-- [ ] Temporary data, e.g. intermediate results from a calculation
+- Notebooks
+- Code
+- Large and/or shared datasets with read-write permissions
+- Text files
+- Small datasets
+- Configuration files
+- Read-only datasets, e.g for teaching
+- Temporary data, e.g. intermediate results from a calculation
 
 :::{admonition} Solution
 :class: solution, dropdown
 
-- [x] Notebooks
-- [x] Code
-- [ ] Large and/or shared datasets with read-write permissions – *consider using Cloud Object Storage or other cloud-native storage solutions*
-- [x] Text files
-- [x] Small datasets
-- [x] Configuration files
-- [ ] Read-only datasets, e.g for teaching – *consider placing these files in the `~/shared` directory*
-- [ ] Temporary data, e.g. intermediate results from a calculation – *consider using the `/tmp` directory*
+- ✅ Notebooks
+- ✅ Code
+- ❌ Large and/or shared datasets with read-write permissions – *consider using Cloud Object Storage or other cloud-native storage solutions*
+- ✅ Text files
+- ✅ Small datasets
+- ✅ Configuration files
+- ❌ Read-only datasets, e.g for teaching – *consider placing these files in the `~/shared` directory*
+- ❌ Temporary data, e.g. intermediate results from a calculation – *consider using the `/tmp` directory*
 
 :::
 
