@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: catalyst-project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 14:31+0000\n"
-"PO-Revision-Date: 2024-07-29 10:06\n"
+"PO-Revision-Date: 2024-07-29 11:02\n"
 "Last-Translator: \n"
 "Language: es_419\n"
 "Language-Team: Spanish, Latin America\n"
@@ -151,7 +151,7 @@ msgid "Solution"
 msgstr "Solución"
 
 msgid "There are different ways in which you can approach this support request depending on your technical capacity and your own judgment. However, we recommend that you *Contact the 2i2c technical support desk for assistance* as a last resort, since there are plenty of [further resources](ref:resources) to help you before you get to this point."
-msgstr "Hay diferentes maneras de enfocar esta solicitud de soporte según tu capacidad técnica y tu propio juicio. Sin embargo, te recomendamos *Pónerte en contacto con el servicio de soporte técnico 2i2c como último recurso, ya que hay muchos [recursos adicionales](ref:resources) que te pueden ayudar antes de llegar a este punto."
+msgstr "Hay diferentes maneras de enfocar esta solicitud de soporte según tu capacidad técnica y tu propio juicio. Sin embargo, te recomendamos *Pónerte en contacto con el servicio de soporte técnico 2i2c* como último recurso, ya que hay muchos [recursos adicionales](ref:resources) que te pueden ayudar antes de llegar a este punto."
 
 msgid "Looking forward"
 msgstr "Una visión hacia el futuro"
@@ -166,13 +166,13 @@ msgid "Clearly describe what needs to be done"
 msgstr "Describe claramente lo que debe hacerse"
 
 msgid "Measurable"
-msgstr "Medible"
+msgstr "Medible (Measurable)"
 
 msgid "It should be possible to determine whether the specified goal has been achieved"
 msgstr "Debe ser posible determinar si se alcanzó el objetivo especificado"
 
 msgid "Attainable"
-msgstr "Alcanzable"
+msgstr "Alcanzable (Attainable)"
 
 msgid "What are you realistically capable of?"
 msgstr "¿De qué eres capaz de forma realista?"

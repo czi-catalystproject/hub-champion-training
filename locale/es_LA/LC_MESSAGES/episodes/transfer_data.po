@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: catalyst-project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-09 13:03+0000\n"
-"PO-Revision-Date: 2024-07-29 10:06\n"
+"PO-Revision-Date: 2024-07-29 11:02\n"
 "Last-Translator: \n"
 "Language: es_419\n"
 "Language-Team: Spanish, Latin America\n"
@@ -142,7 +142,7 @@ msgid "JupyterLab"
 msgstr ""
 
 msgid "Clicking the ![*upload*](../media/episodes/transfer_data/jlab-upload.png) button at the top of the file explorer."
-msgstr "Haciendo clic en el botón ![*upload*](subir)(../media/episodes/transfer_data/jlab-upload.png) que se encuentra en la parte superior del explorador de archivos."
+msgstr "Haciendo clic en el botón ![*upload*](../media/episodes/transfer_data/jlab-upload.png) (subir) que se encuentra en la parte superior del explorador de archivos."
 
 msgid "upload"
 msgstr "subir"
@@ -151,7 +151,7 @@ msgid "RStudio"
 msgstr "RStudio"
 
 msgid "Clicking the ![*upload*](../media/episodes/transfer_data/rstudio-upload.png) button at the top of the file explorer."
-msgstr "Haciendo clic en el botón ![*upload*](subir)(../media/episodes/transfer_data/rstudio-upload.png) que se encuentra en la parte superior del explorador de archivos."
+msgstr "Haciendo clic en el botón ![*upload*](../media/episodes/transfer_data/rstudio-upload.png) (subir) que se encuentra en la parte superior del explorador de archivos."
 
 msgid "**Download data from the hub**"
 msgstr "**Descargar datos del hub**"
@@ -160,13 +160,13 @@ msgid "Download files from the hub by"
 msgstr "Descargar archivos del hub"
 
 msgid "Right-clicking on the target file/folder and clicking the ![*download*](../media/episodes/transfer_data/jlab-download.png) button."
-msgstr "Haciendo clic derecho en el archivo/carpeta de destino y en el botón ![*download*](descargar)(../media/episodes/transfer_data/jlab-download.png)."
+msgstr "Haciendo clic derecho en el archivo/carpeta de destino y en el botón ![*download*](../media/episodes/transfer_data/jlab-download.png) (descargar)."
 
 msgid "download"
 msgstr "descargar"
 
 msgid "Checking the box next to the target file/folder, clicking the ![*settings*](../media/episodes/transfer_data/rstudio-cog.png) button, choosing the *Export...* option and confirming the filename in the following dialog box."
-msgstr "Marcando la casilla que se encuentra junto al archivo/carpeta de destino, haciendo clic en el botón ![*settings*](ajustes)(../media/episodes/transfer_data/rstudio-cog.png), eligiendo la opción *Export...* (Exportar...) y confirmando el nombre del archivo en el cuadro de diálogo siguiente."
+msgstr "Marcando la casilla que se encuentra junto al archivo/carpeta de destino, haciendo clic en el botón ![*settings*](../media/episodes/transfer_data/rstudio-cog.png) (ajustes), eligiendo la opción *Export...* (Exportar...) y confirmando el nombre del archivo en el cuadro de diálogo siguiente."
 
 msgid "settings"
 msgstr "ajustes"
@@ -475,3 +475,4 @@ msgstr "Hecho curioso: `jovyan` es un juego en la palabra \"Jovian\", que es la 
 #~ "datasets in a read-only *shared* "
 #~ "directory."
 #~ msgstr ""
+

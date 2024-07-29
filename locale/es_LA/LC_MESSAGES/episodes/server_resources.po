@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: catalyst-project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 14:31+0000\n"
-"PO-Revision-Date: 2024-07-29 10:06\n"
+"PO-Revision-Date: 2024-07-29 11:02\n"
 "Last-Translator: \n"
 "Language: es_419\n"
 "Language-Team: Spanish, Latin America\n"
@@ -142,7 +142,7 @@ msgid "b. *Shared Small: 1–4 CPU, 8–32 GB RAM* – this is not a computation
 msgstr "b. *Pequeño compartido: 1-4 CPU, 8-32 GB RAM* - Esta no es una tarea de computación intensiva, de modo que una máquina compartida con otros usuarios es suficiente."
 
 msgid "c. *Large: 64 CPU, 512 GB RAM* – the total dataset size is $10000 \\times 16 \\, \\mathrm{MB} = 160 000 \\, \\mathrm{MB} = 160 \\, \\mathrm{GB}$, which is too large for the *Medium* machine to hold in memory at once. Alternatively, you could chunk up your dataset and preprocess each batch on a smaller machine, which would be slower. Image preprocessing is often a CPU-bound process in deep learning workflows, so a *Large* machine with more CPU cores is best for performance."
-msgstr "c. *Grande: 64 CPU, 512 GB RAM* - El tamaño total del conjunto de datos es de $10000 \\veces 16 \\, \\mathrm{MB} = 160 000 \\, \\mathrm{MB} = 160 \\, \\mathrm{GB}$, lo cual es demasiado grande para que la máquina *Mediana*  mantenga en la memoria a la vez. De manera alternativa, podrías dividir el conjunto de datos y preprocesar cada lote en una máquina más pequeña, lo que sería más lento. A menudo, el preprocesamiento de imágenes es un proceso limitado por CPU en flujos de trabajo con aprendizaje profundo, de modo que una máquina *Grande* con más núcleos CPU es mejor para el rendimiento."
+msgstr "c. *Grande: 64 CPU, 512 GB RAM* - El tamaño total del conjunto de datos es de $10000 \\times 16 \\, \\mathrm{MB} = 160 000 \\, \\mathrm{MB} = 160 \\, \\mathrm{GB}$, lo cual es demasiado grande para que la máquina *Mediana* mantenga en la memoria a la vez. De manera alternativa, podrías dividir el conjunto de datos y preprocesar cada lote en una máquina más pequeña, lo que sería más lento. A menudo, el preprocesamiento de imágenes es un proceso limitado por CPU en flujos de trabajo con aprendizaje profundo, de modo que una máquina *Grande* con más núcleos CPU es mejor para el rendimiento."
 
 msgid "**Challenge**"
 msgstr "**Desafío**"
