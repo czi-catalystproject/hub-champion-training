@@ -83,14 +83,14 @@ Select all that apply:
 :::{admonition} Solution
 :class: solution, dropdown
 
-- ✅ Notebooks
-- ✅ Code
-- ❌ Large and/or shared datasets with read-write permissions – *consider using Cloud Object Storage or other cloud-native storage solutions*
-- ✅ Text files
-- ✅ Small datasets
-- ✅ Configuration files
-- ❌ Read-only datasets, e.g for teaching – *consider placing these files in the `~/shared` directory*
-- ❌ Temporary data, e.g. intermediate results from a calculation – *consider using the `/tmp` directory*
+- Yes: Notebooks
+- Yes: Code
+- No: Large and/or shared datasets with read-write permissions – *consider using Cloud Object Storage or other cloud-native storage solutions*
+- Yes: Text files
+- Yes: Small datasets
+- Yes: Configuration files
+- No: Read-only datasets, e.g for teaching – *consider placing these files in the `~/shared` directory*
+- No: Temporary data, e.g. intermediate results from a calculation – *consider using the `/tmp` directory*
 
 :::
 
