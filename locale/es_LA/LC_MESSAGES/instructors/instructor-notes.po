@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: catalyst-project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-15 10:30+0100\n"
-"PO-Revision-Date: 2024-07-29 10:06\n"
+"PO-Revision-Date: 2024-07-29 11:02\n"
 "Last-Translator: \n"
 "Language: es_419\n"
 "Language-Team: Spanish, Latin America\n"
@@ -118,7 +118,7 @@ msgid "Template [Google Slides](https://docs.google.com/presentation/d/1hrI70StR
 msgstr "Las plantillas [Google Slides](https://docs.google.com/presentation/d/1hrI70StR2ghGAIj-qxk06bxttWX7ff3yNQOM25HcBnQ/edit?usp=sharing) (Diapositivas de Google) para complementar el Episodio 1 están disponibles."
 
 msgid "(For internal use by the Catalyst Project team) A folder containing template feedback forms and a workshop folder for each training event can be found in the team [Google Drive](https://drive.google.com/drive/folders/1cElP_O-FdkM1-BbH6jO111M4mUVvU7H0?usp=drive_link)."
-msgstr "(Para uso interno del equipo del Proyecto Catalyst) En el equipo [Google Drive](https://drive, se puede encontrar una carpeta con plantillas y una carpeta de taller para cada evento de capacitación. oogle.com/drive/folders/1cElP_O-FdkM1-BbH6jO111M4mUVvU7H0?usp=drive_link)."
+msgstr "(Para uso interno del equipo del Proyecto Catalyst) En el equipo [Google Drive](https://drive.google.com/drive/folders/1cElP_O-FdkM1-BbH6jO111M4mUVvU7H0?usp=drive_link), se puede encontrar una carpeta con plantillas y una carpeta de taller para cada evento de capacitación."
 
 msgid "Pre-workshop Tasks"
 msgstr "Tareas previas al taller"
@@ -145,7 +145,7 @@ msgid "Participants should be able to:"
 msgstr "Los participantes deben ser capaces de:"
 
 msgid "Access the 2i2c [Community Showcase Hub](https://showcase.2i2c.cloud) using their GitHub account"
-msgstr "Acceder al [Community Showcase Hub] de 2i2c(https://showcase.2i2c.cloud) (Hub de muestra comunitario) usando su cuenta de GitHub"
+msgstr "Acceder al [Community Showcase Hub de 2i2c](https://showcase.2i2c.cloud) (Hub de muestra comunitario) usando su cuenta de GitHub"
 
 msgid "Know basic Git, such as pushing and pulling to a remote GitHub repository"
 msgstr "Conocer el Git básico, como insertar y extraer en un repositorio remoto de GitHub"
@@ -205,7 +205,7 @@ msgid "Allow access outside of your organisation"
 msgstr "Permitir el acceso fuera de tu organización"
 
 msgid "For each Google Form that you copy from the template, make sure that *Settings > Responses > Restrict to users in `2i2c.org` and its trusted organisations* is switched to *Off* (click the screenshot in the margin). This enables respondants to access to the form from outside of your organisation."
-msgstr "Por cada formulario de Google que copies de la plantilla, asegúrate de que la opción *Configuración > Respuestas > Restringir a los usuarios en `2i2c. rg` y sus organizaciones de confianza* cambien a *Apagado* (haz clic en la captura de pantalla que se muestra en el margen). Esto permitirá a los encuestados acceder al formulario desde fuera de su organización."
+msgstr "Por cada formulario de Google que copies de la plantilla, asegúrate de que la opción *Configuración > Respuestas > Restringir a los usuarios en `2i2c.org` y sus organizaciones de confianza* cambien a *Apagado* (haz clic en la captura de pantalla que se muestra en el margen). Esto permitirá a los encuestados acceder al formulario desde fuera de su organización."
 
 msgid "**Template forms**"
 msgstr "**Formularios de plantilla**"
@@ -241,7 +241,7 @@ msgid "Community Showcase Hub setup"
 msgstr "Configuración del Hub de muestra comunitario"
 
 msgid "Hub Champions will need access to the 2i2c [Community Showcase Hub](https://showcase.2i2c.cloud) and hub administrator privileges to complete this training."
-msgstr "Los Campeones y Campeonas del Hub necesitarán acceso al [Community Showcase Hub] de 2i2c(https://showcase.2i2c.cloud) (Hub de muestra comunitario) y tener privilegios de administrador del hub para completar esta formación."
+msgstr "Los Campeones y Campeonas del Hub necesitarán acceso al [Community Showcase Hub de 2i2c](https://showcase.2i2c.cloud) (Hub de muestra comunitario) y tener privilegios de administrador del hub para completar esta formación."
 
 msgid "To grant access to this hub, instructors will need to add learners to this [GitHub Team](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase) and grant them Owner status. Adding members to this team requires Owner/Maintainer permissions – if you have trouble then please send an email to [support@2i2c.org](mailto:support@2i2c.org)."
 msgstr "Para conceder acceso a este hub, los instructores tendrán que agregar estudiantes a este [GitHub Team](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase) (Equipo de GitHub) y concederles el estado de propietario. Agregar miembros a este equipo requiere permisos de Propietario/Mantenedor. Si tienes problemas, envía un correo electrónico a [support@2i2c.org](mailto:support@2i2c.org)."
@@ -250,7 +250,7 @@ msgid "To grant administrator privileges on the hub, go to the [Community Showca
 msgstr "Para conceder privilegios de administrador en el hub, ve al [Community Showcase Hub home](https://showcase.2i2c.cloud/hub/home) (inicio del Hub de muestra comunitario) y haz clic en el submenú *Administrador* en la barra de navegación. Verás una tabla de usuarios que tienen acceso al hub. Haz clic en *Editar usuario* en el usuario al que deseas conceder acceso de administrador. En la siguiente pantalla, marca la casilla *Administrador* y haz clic en *Aplicar* para conceder privilegios de administrador."
 
 msgid "During the lesson, [](episode-access), Hub Champions will be asked to invite the user `jnywong-test` to the [GitHub Organization](https://github.com/2i2c-community-showcase). Please ensure this account is removed from the organization prior to the workshop. Similarly, Hub Champions will be asked to add and remove `jmunroe-testuser` from the [GitHub Team](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase)."
-msgstr "Durante la lección [](episode-access), se le pedirá a los Campeones y Campeonas del Hub que inviten al usuario `jnywong-test` a la [GitHub Organization](https://github. om/2i2c-community-showcase). Asegúrate de remover esta cuenta de la organización antes del taller. Del mismo modo, se le pedirá a los Campeones y Campeonas del Hub que agreguen y eliminen a `jmunroe-testuser` del [GitHub Team](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase) (Equipo de GitHub)."
+msgstr "Durante la lección [](episode-access), se le pedirá a los Campeones y Campeonas del Hub que inviten al usuario `jnywong-test` a la [GitHub Organization](https://github.com/2i2c-community-showcase). Asegúrate de remover esta cuenta de la organización antes del taller. Del mismo modo, se le pedirá a los Campeones y Campeonas del Hub que agreguen y eliminen a `jmunroe-testuser` del [GitHub Team](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase) (Equipo de GitHub)."
 
 msgid "Post-workshop Tasks"
 msgstr "Tareas posteriores al taller"
@@ -265,10 +265,10 @@ msgid "Thank you for attending the recent Hub Champion Training workshop. We hop
 msgstr "Gracias por asistir al reciente taller de formación para los Campeones y Campeonas del Hub. Esperamos que finalices el taller con las habilidades y conocimientos necesarios para formar a tus comunidades y ayudarles a que hagan un mejor uso del hub. Nos gustaría conocer tus pensamientos sobre los temas que se abordaron y tu percepción sobre el taller en general. Te pedimos que completes la encuesta posterior al taller tan pronto como sea posible."
 
 msgid "If you have any questions and would like to contact us, feel free to email us at [support@2i2c.org](mailto:support@2i2c.org). We are excited about your continued involvement with our community!"
-msgstr "Si tienes alguna duda y deseas comunicarte con nosotros, envíanos un correo electrónico a [support@2i2c. rg](mailto:support@2i2c.org). ¡Estamos emocionados por tu participación continua con nuestra comunidad!"
+msgstr "Si tienes alguna duda y deseas comunicarte con nosotros, envíanos un correo electrónico a [support@2i2c.org](mailto:support@2i2c.org). ¡Estamos emocionados por tu participación continua con nuestra comunidad!"
 
 msgid "Restore the Community Showcase Hub by removing the user `jnywong-test` from the [GitHub Organization](https://github.com/2i2c-community-showcase) and removing `jmunroe-testuser` from the [GitHub Team](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase). Adjust the permissions of learners from *Owner* to *Member*."
-msgstr "Restaura el Hub de muestra comunitario eliminando el usuario `jnywong-test` de la [GitHub Organization](https://github.com/2i2c-community-showcase) y eliminando a `jmunroe-testuser` del [GitHub Team](https://github. om/orgs/2i2c-community-showcase/teams/access-2i2c-showcase) (Equipo de GitHub). Ajusta los permisos de los estudiantes de *Propietario* a *Miembro*."
+msgstr "Restaura el Hub de muestra comunitario eliminando el usuario `jnywong-test` de la [GitHub Organization](https://github.com/2i2c-community-showcase) y eliminando a `jmunroe-testuser` del [GitHub Team](https://github.com/orgs/2i2c-community-showcase/teams/access-2i2c-showcase) (Equipo de GitHub). Ajusta los permisos de los estudiantes de *Propietario* a *Miembro*."
 
 msgid "Remove administrator privileges on the hub by opening a [2i2c support ticket](https://docs.2i2c.org/support/) to provide the Community Showcase Hub URL (`https://showcase.2i2c.cloud`) and a list of Hub Champion GitHub usernames that require administrator status removing."
 msgstr "Elimina los privilegios de administrador en el hub abriendo un [2i2c support ticket](https://docs.2i2c.org/support/) (ticket de soporte en 2i2c) para proporcionar la URL del Hub de muestra comunitario (`https://showcase. i2c.cloud`) y una lista de nombres de usuarios de los Campeones y Campeonas del Hub en GitHub que requieren que se elimine el estado de administrador."
