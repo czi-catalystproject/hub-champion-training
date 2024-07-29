@@ -26,7 +26,7 @@ jobs:
           localization_branch_name: l10n
           crowdin_branch_name: l10n
           skip_untranslated_files: true
-          export_only_approved: true
+          export_only_approved: false
           config: ./crowdin.yml          
           create_pull_request: true
           pull_request_title: 'New Crowdin translations'
