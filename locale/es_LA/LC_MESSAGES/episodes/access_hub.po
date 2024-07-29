@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: catalyst-project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-08 09:11+0000\n"
-"PO-Revision-Date: 2024-07-23 02:18\n"
+"PO-Revision-Date: 2024-07-29 10:06\n"
 "Last-Translator: \n"
 "Language: es_419\n"
 "Language-Team: Spanish, Latin America\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Crowdin-File-ID: 134\n"
 
 msgid "Controlling access to your hub"
-msgstr "Controlando el acceso a tu hub"
+msgstr "Control del acceso a tu hub"
 
 msgid "🔍 OVERVIEW"
 msgstr "🔍 RESUMEN"
@@ -55,7 +55,7 @@ msgid "Hub Champions can control access to the hub by adding users to their {ref
 msgstr "Los Campeones y Campeonas del Hub pueden controlar el acceso al hub al agregar usuarios a su {ref}`GitHub Organization <glossary:github-org>`. Los Campeones y Campeonas del Hub pueden agregar usuarios a un {ref}`GitHub Team<glossary:github-team>` dentro de una GitHub Organization para obtener un control más detallado sobre el acceso. Cada usuario/a del hub debe [registrarse](https://github.com/signup) para obtener una cuenta individual en GitHub. Un Campeón o Campeona del Hub debe tener permisos de propietario para su organización de GitHub para poder invitar a personas que no sean miembros."
 
 msgid "Your GitHub Organization or Team used to authorize access to the hub was defined when the hub was initially deployed. This information should be known to Hub Champions and can also be found in the [2i2c Infrastructure repo](https://github.com/2i2c-org/infrastructure) (e.g. see the key value for `allowed_organizations` in the [`values.yaml` file of the BHKI hub](https://github.com/2i2c-org/infrastructure/blob/main/config/clusters/catalystproject-africa/bhki.values.yaml)). If not, please contact your community representative who deployed the hub."
-msgstr "La GitHub Organization o GitHub Team que se utilizan para autorizar el acceso al hub fue definido cuando el hub se implementó. Esta información debe ser conocida por los Campeones y Campeonas del Hub, y también puede encontrarse en el [Repositorio de la infraestructura de 2i2c](https://github.com/2i2c-org/infrastructure) (por ejemplo, revisa el valor clave para `allowed_organizations` en el archivo [`values.yaml` del hub BHKI](https://github.com/2i2c-org/infrastructure/blob/main/config/clusters/catalystproject-africa/bhki.values.yaml)). De lo contrario, por favor contactate con el representante de comunidad que implementó tu hub."
+msgstr "La GitHub Organization o el GitHub Team que se utilizan para autorizar el acceso al hub fue definido cuando el hub se implementó. Esta información debe ser conocida por los Campeones y Campeonas del Hub, y también puede encontrarse en el [Repositorio de la infraestructura de 2i2c](https://github.com/2i2c-org/infrastructure) (por ejemplo, revisa el valor clave para `allowed_organizations` en el archivo [`values.yaml` del hub BHKI](https://github.com/2i2c-org/infrastructure/blob/main/config/clusters/catalystproject-africa/bhki.values.yaml)). De lo contrario, comunícate con el representante de la comunidad que implementó tu hub."
 
 msgid "Follow the guidance below to practise granting user access to the [Community Showcase Hub](https://showcase.2i2c.cloud/), specifically"
 msgstr "Consulta la siguiente guía para practicar cómo conceder acceso al [Hub de muestra comunitario](https://showcase.2i2c.cloud/), específicamente"
@@ -70,7 +70,7 @@ msgid "Please refrain from removing other users from the GitHub Organization dur
 msgstr "¡Por favor, evita eliminar a otros usuarios de la organización de GitHub durante la formación! Los pasos que se encuentran en {ref}`Quitar miembros de la organización <org-remove>` son para completarse cuando se trata de administrar tu propio hub, fuera de la formación."
 
 msgid "Managing your GitHub Organization"
-msgstr "Administrando tu GitHub Organization"
+msgstr "Administración de tu GitHub Organization"
 
 msgid "View a list of all of the GitHub Organizations that you are a member of by visiting [https://github.com/settings/organizations](https://github.com/settings/organizations)."
 msgstr "Ve una lista de todas las GitHub Organization de las que eres miembro en el enlace [https://github.com/settings/organizations](https://github.com/settings/organizations)."
@@ -82,7 +82,7 @@ msgid "Screenshot showing an example list of GitHub Organizations on [https://gi
 msgstr "Captura de pantalla donde se muestra una lista de ejemplos de GitHub Organizations en [https://github.com/settings/organizations](https://github.com/settings/organizations)."
 
 msgid "Click on the link to the [2i2c-community-showcase](https://github.com/2i2c-community-showcase) GitHub Organization (if you cannot access the page at this link then please contact your instructor for access)."
-msgstr "Haz clic en el enlace a la GitHub Organization [2i2c-community-showcase](https://github.com/2i2c-community-showcase) (si no puedes acceder a la página mediante este enlace, por favor contacta a tu instructor para obtener acceso)."
+msgstr "Haz clic en el enlace a la GitHub Organization [2i2c-community-showcase](https://github.com/2i2c-community-showcase) (si no puedes acceder a la página mediante este enlace, comunícate con tu instructor para obtener acceso)."
 
 msgid "Click on the *People* menu tab to view a list of current Organization members."
 msgstr "Haz clic en la pestaña del menú *People* (Personas) para ver una lista de los miembros actuales de la GitHub Organization."
@@ -100,13 +100,13 @@ msgid "Exercise: Invite non-members to the organization"
 msgstr "Ejercicio: Invitar a la GitHub Organization a personas que no son miembros"
 
 msgid "Check that you have *Owner* permissions for this organization to invite non-members to it. If not, contact an owner of the organization who can give you *Owner* permissions."
-msgstr "Comprueba que tienes *Owner permissions* (permisos de propietario) para que esta organización pueda invitar a personas que no son miembros. De lo contrario, contancta a un propietario de la GitHub Organization que pueda darte permisos de propietario."
+msgstr "Comprueba que tienes *Owner permissions* (permisos de propietario) para que esta organización pueda invitar a personas que no son miembros. De lo contrario, comunícate con un propietario de la GitHub Organization que pueda darte permisos de propietario."
 
 msgid "Invite a non-member to the organization by clicking the green *Invite member* button and searching by username, full name or email address."
 msgstr "Invita a la GitHub Organization a una persona que no sea miembro haciendo clic en el botón verde *Invite member* (Invitar miembro) y búscala por nombre de usuario, nombre completo o dirección de correo electrónico."
 
 msgid "We recommend searching for and adding the `jnywong-test` username for the purposes of this training. Since this account may receive multiple invitations during this workshop, you can click a green **Update invitation** button instead."
-msgstr "Recomendamos que busques y agreguea el nombre de usuario `jnywong-test` como práctica en este entrenamiento. Dado que esta cuenta puede recibir varias invitaciones durante este taller, también puedes hacer clic en el botón verde **Update invitation** (Actualizar invitación)."
+msgstr "Recomendamos que busques y agregues el nombre de usuario `jnywong-test` como práctica en este entrenamiento. Dado que esta cuenta puede recibir varias invitaciones durante este taller, también puedes hacer clic en el botón verde **Update invitation** (Actualizar invitación)."
 
 msgid "The invited user will receive an email and GitHub notification inviting them to join the GitHub Organization."
 msgstr "Las personas invitadas recibirán un correo electrónico y notificaciones de GitHub en las que se le invita a unirse a la GitHub Organization."
@@ -118,10 +118,10 @@ msgid "Once the user has accepted, they will become visible in the list of Organ
 msgstr "Una vez que la persona haya aceptado, será visible en la lista de miembros de la GitHub Organization, en la pestaña del menú *People* (Personas)."
 
 msgid "Removing members from the organization"
-msgstr "Eliminando miembros de la GitHub Organization"
+msgstr "Eliminar miembros de la GitHub Organization"
 
 msgid "Please refrain from removing other users from the GitHub Organization during the training! The steps in this section are for completeness when it comes to administering your own hub outside of the training."
-msgstr "¡Por favor, evita eliminar a otros usuarios de la GitHub Organization durante la formación! Los pasos que se encuentran en esta sección son por completitud, para cuando se trata de administrar tu propio hub fuera de la formación."
+msgstr "¡Evita eliminar a otras personas de la GitHub Organization durante la formación! Los pasos que se encuentran en esta sección son para completarse cuando se trata de administrar tu propio hub fuera de la formación."
 
 msgid "Members can be removed from the organization by going to the *People* menu tab (see {ref}`screenshot <gh-org-people>`)."
 msgstr "Los miembros pueden ser eliminados de la organización en la pestaña del menú *Personas* (ver la {ref}`captura de pantalla <gh-org-people>`)."
@@ -142,7 +142,7 @@ msgid "Screenshot showing the confirmation to *Remove members*."
 msgstr "Captura de pantalla donde se muestra la confirmación de la opción *Remove members* (Eliminar miembros)."
 
 msgid "Managing your GitHub Team"
-msgstr "Administrando tu GitHub Team"
+msgstr "Administrar tu GitHub Team"
 
 msgid "Add members to the GitHub Team associated with the hub so that users can log into the hub with their GitHub credentials."
 msgstr "Agrega miembros al GitHub Team asociado con el hub para que los usuarios puedan iniciar sesión en el hub con sus credenciales de GitHub."
@@ -178,7 +178,7 @@ msgid "The user can now log into the [Community Showcase Hub](https://showcase.2
 msgstr "Ahora el usuario puede iniciar sesión en el [Hub de muestra comunitario de 2i2c](https://showcase.2i2c.cloud) utilizando sus credenciales de GitHub 🎉"
 
 msgid "Removing members from the team"
-msgstr "Eliminando miembros del GitHub Team"
+msgstr "Eliminar miembros del GitHub Team"
 
 msgid "Hub Champions can remove user access to a hub by removing their account from the GitHub Team."
 msgstr "Los Campeones y Campeonas del Hub pueden eliminar el acceso de un usuario del hub si eliminan su cuenta del GitHub Team."
