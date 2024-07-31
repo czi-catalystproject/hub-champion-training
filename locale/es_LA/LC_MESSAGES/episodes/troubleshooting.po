@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: catalyst-project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 14:31+0000\n"
-"PO-Revision-Date: 2024-07-29 11:18\n"
+"PO-Revision-Date: 2024-07-31 02:06\n"
 "Last-Translator: \n"
 "Language: es_419\n"
 "Language-Team: Spanish, Latin America\n"
@@ -52,7 +52,7 @@ msgid "Looking back"
 msgstr "Retrospectiva"
 
 msgid "Congratulations! You have completed the training on"
-msgstr "¡Felicidades! Completaste la formación el"
+msgstr "¡Felicidades! Completaste la formación"
 
 msgid "{ref}`episode-intro`"
 msgstr ""
@@ -94,7 +94,7 @@ msgid "Do you think your users would benefit from this lesson?"
 msgstr "¿Crees que tus usuarios se beneficiarán con esta lección?"
 
 msgid "Please write your answers in the collaborative note-taking document *before* the synchronous session for Part Two of the workshop."
-msgstr "Escribe tus respuestas en el documento colaborativo para la toma de notas *antes* de la sesión sincrónica para la Parte 2 del taller."
+msgstr "Por favor, escribe tus respuestas en el documento colaborativo para la toma de notas *antes* de la sesión sincrónica para la Parte 2 del taller."
 
 msgid "Your self-guided study ends here. The following will be covered in the synchronous session for Part Two of the workshop."
 msgstr "Tu estudio autoguiado termina aquí. La siguiente parte se cubrirá en la sesión sincrónica para la Parte 2 del taller."
@@ -121,7 +121,7 @@ msgid "Here are some tips for success:"
 msgstr "Estos son algunos consejos para lograr el éxito:"
 
 msgid "avoid dismissive language (\"you *just* need to do this...\", \"*obviously* you have to...\")"
-msgstr "evitar el uso de un lenguaje desproporcionado (\"*solo* necesitas hacer esto...\", \"*obviamente* tienes que...\")"
+msgstr "evitar el uso de un lenguaje despectivo (\"*solo* necesitas hacer esto...\", \"*obviamente* tienes que...\")"
 
 msgid "admit what you don't know – it's also useful for learners to watch a Hub Champion use problem-solving skills and seek out [](ref:resources) to find the answer"
 msgstr "admitir lo que no sabes, también es útil para los estudiantes ver cómo un Campeón o Campeona del Hub utiliza sus habilidades para resolver problemas y busca [](ref:resources) para encontrar la respuesta"
@@ -133,13 +133,13 @@ msgid "Exercise: Where to go for help?"
 msgstr "Ejercicio: ¿Dónde puedo obtener ayuda?"
 
 msgid "A user wants to use a software application that is not currently available on the hub. Rearrange the following statements in the order of action you would escalate support for this person:"
-msgstr "Un usuario quiere utilizar una aplicación de software que no está disponible actualmente en el hub. Reorganiza las siguientes afirmaciones en el orden de acción que escalaría el apoyo para esta persona:"
+msgstr "Un usuario quiere utilizar una aplicación de software que no está disponible actualmente en el hub. Reorganiza las siguientes afirmaciones en el orden de acción que escalarías el apoyo para esta persona:"
 
 msgid "Contact the 2i2c technical support desk for assistance"
-msgstr "Ponerse en contacto con el servicio de soporte técnico 2i2c para obtener asistencia"
+msgstr "Ponerse en contacto con el servicio de soporte técnico de 2i2c para obtener asistencia"
 
 msgid "Direct the user to the relevant documentation in the 2i2c Service Guide"
-msgstr "Enviar al usuario a la documentación relevante en la Guía de servicio 2i2c"
+msgstr "Enviar al usuario a la documentación relevante en la Guía de servicio de 2i2c"
 
 msgid "Provide one-to-one support to guide the user through the process of pulling a custom container to the hub"
 msgstr "Proporcionar soporte uno a uno para guiar al usuario durante el proceso de extracción de un contenedor personalizado hacia el hub"
@@ -151,7 +151,7 @@ msgid "Solution"
 msgstr "Solución"
 
 msgid "There are different ways in which you can approach this support request depending on your technical capacity and your own judgment. However, we recommend that you *Contact the 2i2c technical support desk for assistance* as a last resort, since there are plenty of [further resources](ref:resources) to help you before you get to this point."
-msgstr "Hay diferentes maneras de enfocar esta solicitud de soporte según tu capacidad técnica y tu propio juicio. Sin embargo, te recomendamos *Pónerte en contacto con el servicio de soporte técnico 2i2c* como último recurso, ya que hay muchos [recursos adicionales](ref:resources) que te pueden ayudar antes de llegar a este punto."
+msgstr "Hay diferentes maneras de enfocar esta solicitud de soporte según tu capacidad técnica y tu propio juicio. Sin embargo, te recomendamos *Pónerte en contacto con el servicio de soporte técnico de 2i2c* como último recurso, ya que hay muchos [recursos adicionales](ref:resources) que te pueden ayudar antes de llegar a este punto."
 
 msgid "Looking forward"
 msgstr "Una visión hacia el futuro"
@@ -184,7 +184,7 @@ msgid "Make sure that what you commit to is within the scope of your role"
 msgstr "Asegúrate de que te comprometes para cumplir objetivos que estén dentro del alcance de tu rol"
 
 msgid "Time-bound"
-msgstr "Tiempo límite (Time-bound)"
+msgstr "De duración limitada (Time-bound)"
 
 msgid "Set a timeframe for your goal to be reached"
 msgstr "Establece un plazo para alcanzar tu objetivo"
@@ -202,10 +202,10 @@ msgid "Where will your users report issues?"
 msgstr "¿Dónde reportarán los problemas tus usuarios?"
 
 msgid "What needs do you anticipate from your users? How can you set them up for success?"
-msgstr "¿Qué necesitas anticipar de tus usuarios? ¿Cómo puedes ayudarlos con la configuración para lograr el éxito?"
+msgstr "¿Qué necesidades anticipas de tus usuarios? ¿Cómo puedes ayudarlos para lograr el éxito?"
 
 msgid "How will you track whether an issue gets resolved promptly?"
-msgstr "¿Cómo darás seguimiento si un problema se resuelve rápidamente?"
+msgstr "¿Cómo controlarás si un problema se resuelve rápidamente?"
 
 msgid "What resources are available to help you when you need help?"
 msgstr "¿Qué recursos están disponibles para ayudarte cuando lo necesites?"
@@ -223,7 +223,7 @@ msgid "How will you gather feedback to improve your support process?"
 msgstr "¿Cómo recopilarás los comentarios para mejorar tu proceso de soporte?"
 
 msgid "Considering your responses to the prompts above, identify which of the following resources you already have access to and which you would need to create/obtain:"
-msgstr "Tomando en cuenta tus respuestas a los pompts anteriores, identifica a cuáles de los siguientes recursos ya tienes acceso y cuáles necesitarías crear/obtener:"
+msgstr "Considerando tus respuestas a las preguntas anteriores, identifica a cuáles de los siguientes recursos ya tienes acceso y cuáles necesitarías crear/obtener:"
 
 msgid "communications platforms and channels"
 msgstr "plataformas y canales de comunicación"
@@ -241,7 +241,7 @@ msgid "Is there anything else you need to support hub users?"
 msgstr "¿Hay algo más que necesites para apoyar a los usuarios del hub?"
 
 msgid "Wrap-up"
-msgstr "Finalizar"
+msgstr "Para finalizar"
 
 msgid "Thank you for following the Hub Champion Training! 🏅"
 msgstr "¡Gracias por completar la formación para los Campeones y Campeonas del Hub! 🏅"
@@ -262,7 +262,7 @@ msgid "Consulting [further resources](ref:resources) may help you troubleshoot s
 msgstr "Buscar [recursos adicionales](ref:resources) puede ayudarte a resolver problemas comunes"
 
 msgid "If you are stuck and require technical help on behalf of your users, then you can contact 2i2c through their support desk"
-msgstr "Si no sabes qué hacer y necesitas ayuda técnica para tus usuarios, entonces puedes comunícate con 2i2c mediante tu escritorio de soporte"
+msgstr "Si no sabes qué hacer y necesitas ayuda técnica para tus usuarios, entonces puedes comunicarte con 2i2c mediante su servicio de asistencia"
 
 msgid "Make a plan for your support process to set yourself up for success as a Hub Champion"
 msgstr "Crea un plan para tu proceso de soporte que te permita lograr el éxito como un Campeón o Campeona del Hub"

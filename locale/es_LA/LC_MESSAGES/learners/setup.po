@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: catalyst-project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-15 10:30+0100\n"
-"PO-Revision-Date: 2024-07-29 11:18\n"
+"PO-Revision-Date: 2024-07-31 02:06\n"
 "Last-Translator: \n"
 "Language: es_419\n"
 "Language-Team: Spanish, Latin America\n"
@@ -28,7 +28,7 @@ msgid "Access the 2i2c [Community Showcase Hub](https://showcase.2i2c.cloud) usi
 msgstr "Acceder al [Community Showcase Hub de 2i2c](https://showcase.2i2c.cloud) (Hub de muestra comunitario) utilizando su cuenta de GitHub (o su propio hub)"
 
 msgid "Know basic Git, such as pushing and pulling to a remote GitHub repository"
-msgstr "Conocer el Git básico, como insertar y extraer en un repositorio remoto de GitHub"
+msgstr "Conocer comandos básicos de Git, como hacer push y pull en un repositorio remoto de GitHub"
 
 msgid "Find the shared collaborative note-taking document, e.g. CodiMD"
 msgstr "Encuentra el documento compartido para tomar notas colaborativas, por ejemplo, CodiMD"
@@ -40,10 +40,10 @@ msgid "Use a web browser and video conferencing, e.g. Zoom"
 msgstr "Utilizar un navegador web y para videoconferencias, por ejemplo, Zoom"
 
 msgid "Read the [2i2c Code of Conduct](https://compass.2i2c.org/code-of-conduct/)."
-msgstr "Lee el [2i2c Code of Conduct](https://compass.2i2c.org/code-of-conduct/) (Código de conducta de 2i2c)."
+msgstr "Leer el [Código de conducta de 2i2c](https://compass.2i2c.org/code-of-conduct/)."
 
 msgid "If you have trouble with any of these steps, please contact the training instructor."
-msgstr "Si tienes problemas con alguno de estos pasos, comunícate con el instructor de la formación."
+msgstr "Si tienes problemas con alguno de estos pasos, por favor comunícate con el instructor de la formación."
 
 msgid "If you need a refresher on the fundamentals of Git, then check out:"
 msgstr "Si necesitas recordar las bases de Git, entonces dale un vistazo a:"

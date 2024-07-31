@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: catalyst-project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 14:31+0000\n"
-"PO-Revision-Date: 2024-07-29 11:02\n"
+"PO-Revision-Date: 2024-07-31 02:06\n"
 "Last-Translator: \n"
 "Language: es_419\n"
 "Language-Team: Spanish, Latin America\n"
@@ -31,22 +31,22 @@ msgid "[Hub Service Guide](https://docs.2i2c.org/) – comprehensive documentati
 msgstr "[Hub Service Guide](https://docs.2i2c.org/) (Guía de servicio del Hub) - Documentación completa para los Campeones y Campeonas del Hub"
 
 msgid "[Infrastructure Guide](https://infrastructure.2i2c.org/) – technical guide for 2i2c engineers"
-msgstr "[Infrastructure Guide](https://infrastructure.2i2c.org/) (Guía sobre la infraestructura) - Guía técnica para ingenieros 2i2c"
+msgstr "[Infrastructure Guide](https://infrastructure.2i2c.org/) (Guía sobre la infraestructura) - Guía técnica para ingenieros de 2i2c"
 
 msgid "[Code of Conduct](https://compass.2i2c.org/code-of-conduct/) – expected behavior and guidelines for 2i2c communities"
-msgstr "[Code of Conduct](https://compass.2i2c.org/code-of-conduct/) (Código de conducta) - Comportamiento que se espera y lineamientos para las comunidades 2i2c"
+msgstr "[Code of Conduct](https://compass.2i2c.org/code-of-conduct/) (Código de conducta) - Comportamiento esperado y lineamientos para las comunidades de 2i2c"
 
 msgid "[Technical Support](https://docs.2i2c.org/support/) – request technical support"
 msgstr "[Technical Support](https://docs.2i2c.org/support/) (Soporte técnico) - Solicitar soporte técnico"
 
 msgid "[GitHub Organization](https://github.com/2i2c-org) – all of 2i2c's work is open source and there are many insightful discussions found in repository issues"
-msgstr "[GitHub Organization](https://github.com/2i2c-org) - Todo el trabajo de 2i2c's es de código abierto y pueden encontrarse muchas discusiones interesantes en el repositorio de problemas"
+msgstr "[GitHub Organization](https://github.com/2i2c-org) - Todo el trabajo de 2i2c's es de código abierto y pueden encontrarse muchas discusiones interesantes en el repositorio de GitHub"
 
 msgid "Slack channel – contact the workshop instructor for access"
-msgstr "Canal Slack - Sirve para comunicarse con el instructor del taller para pedir acceso"
+msgstr "Canal de Slack - Comunicarse con el instructor del taller para pedir acceso"
 
 msgid "[Managing Software Images](episode-images)"
-msgstr "[Managing Software Images](episode-images) (Administración de las imágenes del software)"
+msgstr "[Managing Software Images](episode-images) (Administración de imágenes de software)"
 
 msgid "[Guide for Reproducible Research – Containers](https://book.the-turing-way.org/reproducible-research/renv/renv-containers) – guidance on reproducible research environments using containers by The Turing Way"
 msgstr "[Guide for Reproducible Research - Contenedores](https://book.the-turing-way.org/reproducible-research/renv/renv-containers) (Guía de investigación reproducible - Contenedores) - Guía sobre entornos de investigación reproducibles utilizando contenedores de The Turing Way"
@@ -55,10 +55,10 @@ msgid "[Reproducible Computational Environments Using Containers: Introduction t
 msgstr "[Reproducible Computational Environments Using Containers: Introduction to Docker](https://carpentries-incubator.github.io/docker-introduction/) (Entornos computacionales reproducibles usando contenedores: Introducción a Docker) - Una lección desarrollada por la comunidad de The Carpentries"
 
 msgid "[Red Hat Quay](https://quay.io/organization/2i2c) – browse the list of 2i2c-maintained hub images"
-msgstr "[Red Hat Quay](https://quay.io/organization/2i2c) - Navega por la lista de imágenes de concentradores mantenidas en 2i2c"
+msgstr "[Red Hat Quay](https://quay.io/organization/2i2c) - Navega por la lista de imágenes de hub mantenidas en 2i2c"
 
 msgid "[Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html) – JupyterHub compatible Docker images"
-msgstr "[Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html) (Pilas de Jupyter Docker) ‑ Imágenes Docker compatibles con JupyterHub"
+msgstr "[Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html) (Stacks de Jupyter Docker) ‑ Imágenes de Docker compatibles con JupyterHub"
 
 msgid "[Rocker Project](https://rocker-project.org/images/) – for R Docker containers (note only the `binder` image is JupyterHub-compatible)"
 msgstr "[Proyecto Rocker](https://rocker-project.org/images/) – para contenedores R Docker (ten en cuenta que solo la imagen `binder` es compatible con JupyterHub)"
@@ -70,7 +70,7 @@ msgid "CPU"
 msgstr "CPU"
 
 msgid "Central Processing Unit – executes computational work. The number of CPU cores needed for a job depends on how scalable the computational work is, the type and amount of work to be processed."
-msgstr "Unidad central de procesamiento - Ejecuta el trabajo computacional. El número de núcleos de CPU necesarios para hacer un trabajo depende de la escalabilidad del trabajo computacional, el tipo y la cantidad de trabajo a procesar."
+msgstr "Central Processing Unit (Unidad Central de Procesamiento) - Ejecuta el trabajo computacional. El número de núcleos de CPU necesarios para hacer un trabajo depende de la escalabilidad del trabajo computacional, el tipo y la cantidad de trabajo a procesar."
 
 msgid "[GitHub Organization](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/about-organizations)"
 msgstr ""
@@ -100,5 +100,5 @@ msgid "RAM"
 msgstr "RAM"
 
 msgid "Random Access Memory – a computer's \"short-term memory\". The amount of RAM needed for a job depends on the size of the data structures to be processed."
-msgstr "Random Access Memory - Es la \"memoria a corto plazo\" de una computadora. La cantidad de RAM necesaria para hacer un trabajo depende del tamaño de las estructuras de datos que se van a procesar."
+msgstr "Random Access Memory (Memoria de Acceso Aleatorio) - Es la \"memoria a corto plazo\" de una computadora. La cantidad de RAM necesaria para hacer un trabajo depende del tamaño de las estructuras de datos que se van a procesar."
 
