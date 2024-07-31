@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: catalyst-project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 14:31+0000\n"
-"PO-Revision-Date: 2024-07-29 11:02\n"
+"PO-Revision-Date: 2024-07-31 02:06\n"
 "Last-Translator: \n"
 "Language: es_419\n"
 "Language-Team: Spanish, Latin America\n"
@@ -28,7 +28,7 @@ msgid "She graduated in Computer Science recently and has a support staff positi
 msgstr "Recientemente se graduó en Ciencias de la Computación y trabaja en un puesto de soporte para el programa de Doctorado en Ingeniería Biomédica en el departamento de Ciencias de la Vida para una universidad pública de tamaño mediano en Ecuador."
 
 msgid "María has to assist around 25 students and their advisors in struggling with hardware that is not necessarily old but does not hold the capacity to process the required “big data” for their projects promptly. Also, the projects are very different, so there isn’t a clear one-size-fits-all solution."
-msgstr "María debe ayudar a cerca de 25 estudiantes y a sus asesores a lidiar con hardware que no necesariamente es obsoleto, pero no tiene la capacidad de procesar rápidamente el “big data” necesario para sus proyectos. Además, los proyectos son muy diferentes, así que no hay una solución clara para todos."
+msgstr "María debe ayudar a cerca de 25 estudiantes y a sus asesores a lidiar con hardware que no necesariamente es obsoleto, pero no tiene la capacidad de procesar rápidamente el “big data” necesario para sus proyectos. Además, los proyectos son muy diferentes, así que no hay una solución clara que sirva al mismo tiempo para todos."
 
 msgid "The Hub Champion training will enable María to select and recommend the best software environments and computation resources for the students' project needs."
 msgstr "La formación para los Campeones y Campeonas del Hub le permitirá a María seleccionar y recomendar los mejores recursos de software y computación para cubrir las necesidades de los estudiantes para sus proyectos."
