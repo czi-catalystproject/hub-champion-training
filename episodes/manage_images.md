@@ -68,14 +68,14 @@ Containers are a useful technology for overcoming software challenges in reprodu
 
 block-beta
   columns 3
-  id0{{"Containerized Software Applications"}}:3
+  id0{{"Containerized Software Applications/Entornos de contenedores de software"}}:3
   block:apps:3
     %% columns auto (default)
     A["App A"] B["App B"] C["App C"] D["App D"] E["App E"] F["App F"]
   end
   id1["Container Host"]:3
-  id2["Operating System"]:3
-  id3["Infrastructure"]:3
+  id2["Operating System/Sistema Operativo"]:3
+  id3["Infrastructure/Infraestructura"]:3
 
 :::
 
