@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: catalyst-project\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-05-23 14:31+0000\n"
-"PO-Revision-Date: 2024-07-31 02:06\n"
+"PO-Revision-Date: 2024-08-01 02:22\n"
 "Last-Translator: \n"
 "Language: es_419\n"
 "Language-Team: Spanish, Latin America\n"
@@ -31,7 +31,7 @@ msgid "What software environments are available on the hub?"
 msgstr "¿Qué entornos de software están disponibles en el hub?"
 
 msgid "How is containerization helpful for my work?"
-msgstr "¿En qué forma es útil el contenedor para mi trabajo?"
+msgstr "¿En qué forma es útil utilizar containers para mi trabajo?"
 
 msgid "Is there a way to customise my software environment?"
 msgstr "¿Hay alguna forma de personalizar mi entorno de software?"
@@ -40,13 +40,13 @@ msgid "**Objectives**"
 msgstr "**Objetivos**"
 
 msgid "Explain the value of reproducibility with containerized software environments"
-msgstr "Explicar el valor de reproducibilidad con entornos de software contenedores"
+msgstr "Explicar el valor de reproducibilidad al usar containers"
 
 msgid "Select pre-configured JupyterLab or RStudio containers for their hub"
-msgstr "Selección de contenedores JupyterLab o RStudio preconfigurados para sus hubs"
+msgstr "Selección de containers de JupyterLab o RStudio preconfigurados para sus hubs"
 
 msgid "Pull a custom container for their hub"
-msgstr "Extracción de un contenedor personalizado para sus hubs"
+msgstr "Usar un container personalizado para sus hubs"
 
 msgid "Software for research and education"
 msgstr "Software para investigación y educación"
@@ -70,13 +70,13 @@ msgid "Due to these factors, a software installation on a user's local machine i
 msgstr "Debido a estos factores, la instalación de software en una máquina local de un usuario es difícil de reproducir y el proceso de instalación a menudo está mal documentado y desactualizado."
 
 msgid "Exercise: Software Challenges"
-msgstr "Ejercicio: Desafíos en el software"
+msgstr "Ejercicio: Desafíos de software"
 
 msgid "Think about the challenges that you may have faced with using software for your work."
-msgstr "Piensa en los desafíos que afrontaste con el uso de software para tu trabajo."
+msgstr "Piensa en los desafíos que tal vez afrontaste con el uso de software para tu trabajo."
 
 msgid "Is there a tool that you wanted to use that was not compatible with your operating system?"
-msgstr "¿Hay alguna herramienta que quisieras utilizar pero no es compatible con tu sistema operativo?"
+msgstr "¿Hay alguna herramienta que quisiste utilizar pero no era compatible con tu sistema operativo?"
 
 msgid "Have you ever struggled to install a piece of software?"
 msgstr "¿Alguna vez has tenido problemas para instalar un software?"
@@ -88,46 +88,46 @@ msgid "Write up your thoughts in our shared collaborative document."
 msgstr "Escribe tus ideas en nuestro documento de colaboración compartido."
 
 msgid "Reproduce software environments with containers"
-msgstr "Reproducción de entornos de software con contenedores"
+msgstr "Reproducción de entornos de software con containers"
 
 msgid "Containers are a useful technology for overcoming software challenges in reproducibility, portability and scalability. A container bundles up the software application and its dependencies into a lightweight and standalone package that can be run on any infrastructure."
-msgstr "Los contenedores son una tecnología útil para superar los desafíos que plantea el software con respecto a reproducibilidad, portabilidad y escalabilidad. Un contenedor agrupa la aplicación de software y sus dependencias en un paquete ligero y autónomo que puede ejecutarse en cualquier infraestructura."
+msgstr "Los containers son una tecnología útil para superar los desafíos que plantea el software con respecto a la reproducibilidad, portabilidad y escalabilidad. Un container agrupa la aplicación de software y sus dependencias en un paquete ligero y autónomo que puede ejecutarse en cualquier infraestructura."
 
 msgid "Diagram of how a layer of many user software container environments shares the hub's underlying operating system and server infrastructure."
-msgstr "Diagrama sobre cómo una capa con muchos entornos de contenedores de software del usuario comparte el sistema operativo subyacente y la infraestructura del servidor."
+msgstr "Diagrama sobre cómo una capa con muchos containers del usuario comparte el sistema operativo subyacente del hub y la infraestructura del servidor."
 
 msgid "Reproducibility"
 msgstr "Reproducibilidad"
 
 msgid "An *image* is a reusable and shareable file that outlines the \"recipe\" needed to create a container. This is useful for reproducing a software environment since you can tag and keep track of the different versions of the image."
-msgstr "Una *imagen* es un archivo que se puede reutilizar y volver a compartir, y que describe la \"receta\" necesaria para crear un contenedor. Esto es útil para reproducir un entorno de software ya que se puede etiquetar y hacer un seguimiento de las diferentes versiones de la imagen."
+msgstr "Una *imagen* es un archivo que se puede reutilizar y volver a compartir, y que describe la \"receta\" necesaria para crear un container. Esto es útil para reproducir un entorno de software ya que se puede etiquetar y hacer un seguimiento de las diferentes versiones de la imagen."
 
 msgid "Portability"
 msgstr "Portabilidad"
 
 msgid "A container can run on different target systems, such as a laptop, supercomputer or cloud server."
-msgstr "Un contenedor puede ejecutarse en diferentes sistemas de destino, como una laptop, un súperordenador o un servidor en la nube."
+msgstr "Un container puede ejecutarse en diferentes sistemas de destino, como una laptop, una supercomputadora o un servidor en la nube."
 
 msgid "Scalability"
-msgstr "Capacidad de ampliación"
+msgstr "Escalabilidad"
 
 msgid "Containers can be scaled up or down to take advantage of the system resources available (i.e. CPUs and RAM)."
-msgstr "Los contenedores pueden ampliarse o reducirse para aprovechar los recursos del sistema disponibles (es decir, CPU y RAM)."
+msgstr "Los containers pueden ampliarse o reducirse para aprovechar los recursos del sistema disponibles (es decir, CPU y RAM)."
 
 msgid "Exercise: Reasons to use containers"
-msgstr "Ejercicio: Razones para usar contenedores"
+msgstr "Ejercicio: Razones para usar containers"
 
 msgid "Which of the following statements are *True* or *False*?"
 msgstr "¿Cuál de las siguientes afirmaciones son *verdaderas* o *falsas*?"
 
 msgid "Containers are lightweight, portable and isolated units of software that can be used on any computer and operating system."
-msgstr "Los contenedores son unidades de software ligeras, portátiles y aisladas que pueden utilizarse en cualquier computadora y sistema operativo."
+msgstr "Los containers son unidades de software ligeras, portátiles y aisladas que pueden utilizarse en cualquier computadora y sistema operativo."
 
 msgid "An image is a runnable, self-contained software environment created from a container. A container is a shareable \"recipe\" used to create images."
-msgstr "Una imagen es un entorno de software ejecutable y autónomo que se crea a partir de un contenedor. Un contenedor es una \"receta\" que se puede compartir y se utiliza para crear imágenes."
+msgstr "Una imagen es un entorno de software ejecutable y autónomo que se crea a partir de un container. Un container es una \"receta\" que se puede compartir y se utiliza para crear imágenes."
 
 msgid "A container enables reproducible modelling or analyses to be carried out on your laptop or in the cloud."
-msgstr "Un contenedor permite crear modelos o análisis que se pueden reproducir en tu laptop o en la nube."
+msgstr "Un container permite crear modelos o análisis que se pueden reproducir en tu laptop o en la nube."
 
 msgid "Containers are easily scalable and can be deployed on many machines to distribute work."
 msgstr "Los contenedores pueden escalarse fácilmente y desplegarse en muchas máquinas para distribuir el trabajo."
@@ -139,34 +139,34 @@ msgid "*True*"
 msgstr "*Verdadero*"
 
 msgid "*False* – A *container* is a runnable, self-contained software environment or service created from an *image*. An *image* is a shareable \"recipe\" used to create *containers*."
-msgstr "*Falso* - Un *contenedor* es un entorno de software o servicio ejecutable y autónomo que se crea a partir de una *imagen*. Una *imagen* es una \"receta\" que se puede compartir y se utiliza para crear *contenedores*."
+msgstr "*Falso* - Un *container* es un entorno de software o servicio ejecutable y autónomo que se crea a partir de una *imagen*. Una *imagen* es una \"receta\" que se puede compartir y se utiliza para crear *containers*."
 
 msgid "For further resources on containerisation, please see {ref}`Further Resources<ref:resources>`."
-msgstr "Para ver más recursos sobre los contenedores, consulta {ref}`Recursos adicionales<ref:resources>`."
+msgstr "Para ver más recursos sobre los containers, consulta {ref}`Recursos adicionales<ref:resources>`."
 
 msgid "Selecting pre-configured containers on the hub"
-msgstr "Selección de contenedores preconfigurados en el Hub"
+msgstr "Selección de containers preconfigurados en el hub"
 
 msgid "As seen in the previous episode, [](episode-server), a user is presented with a list of server options once logged into a hub and each option has an *Image* dropdown box."
 msgstr "Tal como se vio en el episodio anterior, [](episode-server), a un usuario se le presenta una lista de opciones del servidor una vez que se conecta a un hub y cada opción tiene un menú desplegable de *Imagen*."
 
 msgid "Screenshot showing a list of server options available on the Community Showcase Hub."
-msgstr "Captura de pantalla donde se muestra una lista de opciones de servidor disponibles en el Hub."
+msgstr "Captura de pantalla donde se muestra una lista de opciones de servidor disponibles en el Hub de muestra comunitario."
 
 msgid "On the [Community Showcase Hub](https://showcase.2i2c.cloud), the default list of images available include"
 msgstr "En el [Hub de muestra comunitario de 2i2c](https://showcase.2i2c.cloud), la lista predeterminada de imágenes disponibles incluye"
 
 msgid "[Jupyter DataScience](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-datascience-notebook) - launches a JupyterLab interface with various Python[^ds-python], R[^ds-r] and Julia[^ds-julia] packages installed"
-msgstr "[Jupyter DataScience](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-datascience-notebook) - lanza una interfaz de JupyterLab con varios paquetes instalados de Python[^ds-python], R[^ds-r] y Julia[^ds-ulevia]"
+msgstr "[Jupyter DataScience](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-datascience-notebook) - inicia una interfaz de JupyterLab con varios paquetes instalados de Python[^ds-python], R[^ds-r] y Julia[^ds-ulevia]"
 
 msgid "[Rocker Geospatial](https://rocker-project.org/images/versioned/binder.html) – launches an RStudio interface with R packages[^ds-r] and geospatial toolkits installed"
-msgstr "[Rocker Geospatial](https://rocker-project.org/images/versioned/binder.html) - Lanza una interfaz RStudio con paquetes R [^ds-r] y paquetes de herramientas geoespaciales instaladas"
+msgstr "[Rocker Geospatial](https://rocker-project.org/images/versioned/binder.html) - inicia una interfaz RStudio con paquetes R [^ds-r] y herramientas geoespaciales instaladas"
 
 msgid "[Handbook Authoring](https://github.com/2i2c-org/community-showcase/tree/main/images/handbook-authoring-image) – a 2i2c-maintained image containing Python packages[^ha-python] for authoring documentation in Jupyter Book and MystMD"
-msgstr "[Creación del manual](https://github.com/2i2c-org/community-showcase/tree/main/images/handbook-authoring-image) - Una imagen de 2i2c mantenida que contiene paquetes de Python[^ha-python] para crear documentación en Jupyter Book y MystMD"
+msgstr "[Creación de manual](https://github.com/2i2c-org/community-showcase/tree/main/images/handbook-authoring-image) - Una imagen mantenida por 2i2c que contiene paquetes de Python[^ha-python] para crear documentación en Jupyter Book y MystMD"
 
 msgid "[Other...](episode-images:other) – allows a user to self-serve a JupyterHub-compatible custom image (see section below)."
-msgstr "[Otro...](episode-images:other) - Permite a un usuario autoservir una imagen personalizada compatible con JupyterHub-(consulta la siguiente sección)."
+msgstr "[Otro...](episode-images:other) - Permite a un usuario elegir una imagen personalizada compatible con JupyterHub (consulta la siguiente sección)."
 
 msgid "The list of image options presented can vary for different hubs. Hub Champions can build their own non-default environment and open a support ticket with 2i2c to modify this list to include non-default options – this is beyond the scope of this training although further details can be found in the [Hub Service Guide](https://docs.2i2c.org/admin/howto/environment/)."
 msgstr "La lista de opciones de imagen presentadas puede variar en diferentes hubs. Los Campeones y Campeonas del Hub pueden construir su propio entorno no predeterminado y abrir un ticket de soporte en 2i2c para modificar esta lista para incluir opciones no predeterminadas. Esto está fuera del alcance de esta formación, aunque se pueden encontrar más detalles en la [Guía de servicio del Hub](https://docs.2i2c.org/admin/howto/environment/)."
@@ -175,64 +175,64 @@ msgid "Choosing a custom image with the \"Other...\" option"
 msgstr "Elegir una imagen personalizada con la opción \"Otro...\""
 
 msgid "The *Other...* option allows a user to specify a custom image container to pull into the hub. There are many container registries online that host containerized applications, such as Docker Hub, GitHub, Azure, Amazon and Google Container Registries, Red Hat Quay, etc."
-msgstr "La opción *Otro...* permite que un usuario especifique una imagen de contenedor personalizada para introducir en el hub. Hay muchos registros de contenedores en línea que alojan aplicaciones contenedoras como Docker Hub, GitHub, Azure, Amazon y Google Container Registries, Red Hat Quay, etc."
+msgstr "La opción *Otro...* permite que un usuario especifique una imagen de un container personalizada para introducir en el hub. Hay muchos registros de contenedores en línea que alojan aplicaciones en containers como Docker Hub, GitHub, Azure, Amazon y Google Container Registries, Red Hat Quay, etc."
 
 msgid "**Only containers that are compatible with JupyterHub can be pulled into a hub**. To find JupyterHub-compatible containers you can, e.g."
-msgstr "**Solo los contenedores compatibles con JupyterHub pueden ser arrastrados a un hub**. Para encontrar contenedores compatibles con JupyterHub puedes, por ejemplo,"
+msgstr "**Solo los containers compatibles con JupyterHub pueden ser usados en el hub**. Para encontrar contenedores compatibles con JupyterHub puedes, por ejemplo:"
 
 msgid "browse the list of 2i2c-maintained hub images on [Red Hat Quay](https://quay.io/organization/2i2c)"
-msgstr "navegar por la lista de imágenes de concentradores mantenidas en 2i2c en [Red Hat Quay](https://quay.io/organization/2i2c)"
+msgstr "navegar por la lista de imágenes de containers mantenidas por 2i2c en [Red Hat Quay](https://quay.io/organization/2i2c)"
 
 msgid "take a look at [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)"
-msgstr "darle un vistazo a los [Módulos Docker Jupyter](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)"
+msgstr "darle un vistazo a los [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html)"
 
 msgid "take a look at the [Rocker Project](https://rocker-project.org/images/) for R Docker containers (note only the `binder` image is JupyterHub-compatible)"
-msgstr "darle un vistazo al [Proyecto Rocker](https://rocker-project.org/images/) para contenedores R Docker (ten en cuenta que solo la imagen `binder` es compatible con JupyterHub)"
+msgstr "darle un vistazo al [Proyecto Rocker](https://rocker-project.org/images/) para containers de R Docker (ten en cuenta que solo la imagen `binder` es compatible con JupyterHub)"
 
 msgid "search Docker Hub for the term \"jupyter\"."
-msgstr "buscar un Docker Hub para el término \"jupyter\"."
+msgstr "buscar en Docker Hub el término \"jupyter\"."
 
 msgid "Anyone can create a container and publicly share it online, therefore it is important to be cautious about downloading this software onto your machine. A few good indicators to look for are"
-msgstr "Cualquier persona puede crear un contenedor y compartirlo públicamente en línea, así que es importante tener cuidado cuando descargues este software en tu máquina. Algunos buenos indicadores al buscar son"
+msgstr "Cualquier persona puede crear un container y compartirlo públicamente en línea, así que es importante tener cuidado cuando descargues este software en tu máquina. Algunos buenos indicadores al buscar son"
 
 msgid "the image is updated regularly"
 msgstr "la imagen se actualiza regularmente"
 
 msgid "the image is authored and maintained by a well-known company or community"
-msgstr "la imagen es escrita y mantenida por una empresa o comunidad bien conocida"
+msgstr "la imagen es creada y mantenida por una empresa o comunidad bien conocida"
 
 msgid "the container is used by many people"
-msgstr "el contenedor es usado por mucha gente"
+msgstr "el container es usado por mucha gente"
 
 msgid "there is an image file provided or metadata listing the exact contents of the container"
-msgstr "hay un archivo de imagen proporcionado o metadatos que describen el contenido exacto del contenedor"
+msgstr "hay un archivo de la imagen o metadatos que describen el contenido exacto del contenedor"
 
 msgid "documentation is provided on how to use the image."
 msgstr "se proporciona documentación sobre cómo utilizar la imagen."
 
 msgid "An image listed on a container registry may have many different versions associated with it. A `TAG` is used to distinguish these different versions. The name of the container image can also include the `OWNER`. The general format for specifying an image is"
-msgstr "Una imagen listada en un registro de contenedores puede tener muchas versiones diferentes asociadas a ella. Se utiliza un `TAG` para distinguir estas diferentes versiones. El nombre de la imagen del contenedor también puede incluir el `OWNER`. El formato general para especificar una imagen es"
+msgstr "Una imagen listada en un registro de containers puede tener muchas versiones diferentes asociadas a ella. Se utiliza un `TAG` (etiqueta) para distinguir estas diferentes versiones. El nombre de la imagen del contenedor también puede incluir el `OWNER` (propietario). El formato general para especificar una imagen es"
 
 msgid "OWNER/IMAGE_NAME:TAG\n"
-msgstr "OWNER/IMAGE_NAME:TAG\n"
+msgstr "OWNER/NOMBRE_DE_LA_IMAGEN:TAG\n"
 
 msgid "For example, if a user wanted to pull the [Jupyter PyTorch notebook](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-pytorch-notebook) container, then they would enter `quay.io/jupyter/pytorch-notebook:x86_64-pytorch-2.2.0` into the *Custom image* field."
-msgstr "Por ejemplo, si un usuario quiere extraer el contenedor [Jupyter PyTorch](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-pytorch-notebook), entonces debe introducir `quay.io/jupyter/pytorch-notebook:x86_64-pytorch-2.2.0` en el campo *Imagen personalizada*."
+msgstr "Por ejemplo, si un usuario quiere extraer el container [Jupyter PyTorch](https://jupyter-docker-stacks.readthedocs.io/en/latest/using/selecting.html#jupyter-pytorch-notebook), entonces debe introducir `quay.io/jupyter/pytorch-notebook:x86_64-pytorch-2.2.0` en el campo *Custom image* (Imagen personalizada)."
 
 msgid "Screenshot showing where to specify a custom image quay.io/jupyter/pytorch-notebook:x86_64-pytorch-2.2.0 in the server options page on a hub."
 msgstr "Captura de pantalla donde se muestra dónde especificar una imagen personalizada quay.io/jupyter/pytorch-notebook:x86_64-pytorch-2.2.0 en la página de opciones del servidor en un hub."
 
 msgid "We recommend always explicitly specifying a version number in the `TAG` field rather than using the generic `latest` tag. Providing the version number in the tag is useful for producing informative server logs for debugging purposes and allows you to check whether the correct version of the image is loaded into the hub by running the command"
-msgstr "Recomendamos especificar siempre explícitamente un número de versión en el campo `TAG` en vez de usar la etiqueta genérica `latest`. Proporcionar el número de versión en la etiqueta es útil para generar registros informativos del servidor con fines de depuración y te permite comprobar si la versión correcta de la imagen se carga en el hub ejecutando el comando"
+msgstr "Recomendamos especificar siempre explícitamente un número de versión en el campo `TAG` en vez de usar la etiqueta genérica `latest` (último). Proporcionar el número de versión en la etiqueta es útil para generar registros informativos del servidor con fines de depuración de errores y te permite comprobar si la versión correcta de la imagen se carga en el hub ejecutando el comando"
 
 msgid "jovyan@user:~$ echo $JUPYTER_IMAGE\n"
 msgstr ""
 
 msgid "Exercise: Specifying a custom image tag"
-msgstr "Ejercicio: Especifica una etiqueta de imagen personalizada"
+msgstr "Ejercicio: Especifica una imagen personalizada"
 
 msgid "Which of the following would you paste into the _Custom Image_ field to pull the latest version of the `handbook-authoring-image` from the list of 2i2c-maintained hub images on [Red Hat Quay](https://quay.io/organization/2i2c) to your hub?"
-msgstr "¿Cuál de las siguientes opciones pegarías en el campo _Custom Image_ para extraer la última versión de `handbook-authoring-image` de la lista de imágenes de concentradores mantenidas por 2i2c en [Red Hat Quay](https://quay.io/organization/2i2c) a tu hub?"
+msgstr "¿Cuál de las siguientes opciones pegarías en el campo _Custom Image_ para usar la última versión de `handbook-authoring-image` de la lista de imágenes de containers mantenidas por 2i2c en [Red Hat Quay](https://quay.io/organization/2i2c) a tu hub?"
 
 msgid "quay.io/2i2c/handbook-authoring-image:bbe4225a7940"
 msgstr ""
@@ -250,10 +250,10 @@ msgid "Notes on the other answers:"
 msgstr "Notas sobre las otras respuestas:"
 
 msgid "This is using an older version tag and not the latest version available."
-msgstr "Esto está utilizando una etiqueta de una versión anterior y no la última versión disponible."
+msgstr "Esta está utilizando un TAG de una versión anterior y no la última versión disponible."
 
 msgid "This is missing the version tag."
-msgstr "A esto le falta la etiqueta de la versión."
+msgstr "A esta le falta el TAG de la versión."
 
 msgid "Here you would need to remove the 'docker pull' part."
 msgstr "Aquí necesitarías eliminar la parte 'docker pull'."
@@ -265,10 +265,10 @@ msgid "Images are useful for reproducing software environments across platforms"
 msgstr "Las imágenes son útiles para reproducir entornos de software entre plataformas"
 
 msgid "Default containers are available on the hub"
-msgstr "Los contenedores predeterminados están disponibles en el hub"
+msgstr "Hay containers predeterminados disponibles en el hub"
 
 msgid "Additional custom containers can be pulled to the hub if required"
-msgstr "Los contenedores personalizados adicionales pueden arrastrarse al hub si es necesario"
+msgstr "Containers personalizados adicionales pueden usarse en el hub si es necesario"
 
 msgid "such as `dask, h5py, matplotlib, pandas, scikit-learn, scipy, sympy`"
 msgstr "tales como `dask, h5py, matplotlib, pandas, scikit-learn, scipy, sympy`"
