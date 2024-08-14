@@ -1,8 +1,5 @@
 # JupyterHub Administration to Empower Research Communities
 
-{bdg-danger}`alpha`
-Lesson is under active development.
-
 :::::{grid} 2
 :reverse:
 
