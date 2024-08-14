@@ -8,9 +8,6 @@ This lesson is aimed at Hub Champions in charge of 2i2c managed JupyterHubs in t
 
 Training is delivered over two synchronous workshops, each one hour in length a week apart. The week in between is dedicated to self-guided study with asynchronous support provided by the instructors, which we estimate at least four hours of work.
 
-> [!WARNING]
-> This lesson is a under active development.
-
 > [!NOTE]
 > [Versión en español](https://czi-catalystproject.github.io/hub-champion-training/es/)
 
