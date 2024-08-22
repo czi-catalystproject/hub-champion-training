@@ -27,7 +27,7 @@ All content is publicly available under the [Creative Commons Attribution Licens
 
 ## About This CodiMD
 
-We will use this CodiMD to take notes, share links, exercises, feedback, etc. with participants throughout the training.
+We will use this CodiMD to take notes, share links, exercises, feedback, etc. with participants throughout the training. The lesson curriculum is available at [https://catalystproject.cloud/hub-champion-training/](https://catalystproject.cloud/hub-champion-training/).
 
 Participants are encouraged to take shared notes on this page. The Instructors will show you how to use CodiMD at the beginning of the workshop.
 
