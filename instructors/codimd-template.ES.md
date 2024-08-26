@@ -26,7 +26,7 @@ Licencia de copyright: [Creative Commons Attribution License](https://creativeco
 
 ## Acerca de CodiMD
 
-Utilizaremos un documento para tomar notas de manera colaborativa y compartir las respuestas de los ejercicios durante este taller.
+Utilizaremos un documento para tomar notas de manera colaborativa y compartir las respuestas de los ejercicios durante este taller. El programa de lecciones está disponible en [https://catalystproject.cloud/hub-champion-training/](https://catalystproject.cloud/hub-champion-training/).
 
 ## El Formulario Pre-Training Survey
 
