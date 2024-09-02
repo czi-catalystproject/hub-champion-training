@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13628346.svg)](https://doi.org/10.5281/zenodo.13628346)
+
 # JupyterHub Administration to Empower Research Communities
 
 This repo contains the Jupyter Book source files for the Hub Champion Training.
